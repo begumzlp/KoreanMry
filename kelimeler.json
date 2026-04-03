@@ -1,0 +1,729 @@
+{
+
+"🍕YEMEKLER & ÖĞÜNLER": [
+  
+    { "korece": "밥 🍚", "turkce": "yemek, pirinç" },
+    { "korece": "식사 🍴", "turkce": "öğün, yemek" },
+    { "korece": "저녁 🌆🍽️", "turkce": "akşam yemeği" },
+    { "korece": "떡볶이 🌶️🍢", "turkce": "tteokbokki" },
+    { "korece": "라면 🍜", "turkce": "ramyeon" },
+    { "korece": "계란 🥚", "turkce": "yumurta" },
+    { "korece": "파스타 🍝", "turkce": "makarna" },
+    { "korece": "고기 🥩", "turkce": "et" },
+    { "korece": "두부 🍥", "turkce": "tofu" },
+    { "korece": "김치 🥬", "turkce": "kimchi" },
+    { "korece": "음식 🍲", "turkce": "yemek" }
+],
+
+"🥨TATLI & ATIŞTIRMALIKLAR": [
+
+    { "korece": "케이크 🍰", "turkce": "kek, pasta" },
+    { "korece": "사탕 🍬", "turkce": "şeker" },
+    { "korece": "초콜릿 🍫", "turkce": "çikolata" },
+    { "korece": "아이스크림 🍦", "turkce": "dondurma" },
+    { "korece": "과자 🍪", "turkce": "atıştırmalık" },
+    { "korece": "간식 🍩", "turkce": "atıştırmalık" },
+    { "korece": "팝콘 🍿", "turkce": "popcorn" }
+
+],
+
+"🍇MEYVE & SEBZELER": [
+
+  { "korece": "과일", "turkce": "meyve" },
+  { "korece": "딸기 🍓", "turkce": "çilek" },
+  { "korece": "사과 🍎", "turkce": "elma" },
+  { "korece": "귤 🍊", "turkce": "mandalina" },
+  { "korece": "복숭아 🍑", "turkce": "şeftali" },
+  { "korece": "바나나 🍌", "turkce": "muz" },
+  { "korece": "포도 🍇", "turkce": "üzüm" },
+  { "korece": "수박 🍉", "turkce": "karpuz" },
+  { "korece": "오렌지 🍊", "turkce": "portakal" },
+  { "korece": "레몬 🍋", "turkce": "limon" },
+  { "korece": "야채", "turkce": "sebze" },
+  { "korece": "당근 🥕", "turkce": "havuç" },
+  { "korece": "오이 🥒", "turkce": "salatalık" },
+  { "korece": "양파 🧅", "turkce": "soğan" },
+  { "korece": "마늘 🧄", "turkce": "sarımsak" },
+  { "korece": "감자 🥔", "turkce": "patates" },
+  { "korece": "고구마 🍠", "turkce": "tatlı patates" },
+  { "korece": "브로콜리 🥦", "turkce": "brokoli" },
+  { "korece": "상추 🥬", "turkce": "marul" },
+  { "korece": "토마토 🍅", "turkce": "domates" },
+  { "korece": "버섯 🍄", "turkce": "mantar" }
+],
+
+"🍹İÇECEKLER": [
+
+    { "korece": "물 🫗", "turkce": "su" },
+    { "korece": "차 🍵", "turkce": "çay" },
+    { "korece": "커피 ☕️", "turkce": "kahve" },
+    { "korece": "주스 🧃", "turkce": "meyve suyu" },
+    { "korece": "우유 🥛", "turkce": "süt" },
+    { "korece": "술 🍷", "turkce": "içki" },
+    { "korece": "소주 🍶", "turkce": "soju" },
+    { "korece": "맥주 🍺", "turkce": "bira" },
+    { "korece": "콜라 🥤", "turkce": "kola" },
+    { "korece": "사이다 🫧", "turkce": "gazoz" },
+    { "korece": "밀크티 🧋", "turkce": "milk tea" },
+    { "korece": "핫초코 🍫☕️", "turkce": "sıcak çikolata" },
+    { "korece": "스무디 🍓🥤", "turkce": "smoothie" },
+    { "korece": "탄산음료 🥤", "turkce": "gazlı içecek" },
+    { "korece": "요구르트", "turkce": "yoğurt içeceği" }
+],
+
+"🍽️MUTFAK EŞYALARI": [
+  { "korece": "잔 🥛", "turkce": "bardak" },
+  { "korece": "접시 🍽️", "turkce": "tabak" },
+  { "korece": "컵", "turkce": "kupa, bardak" },
+  { "korece": "수저 🍴🥄", "turkce": "kaşık & çubuklar" },
+  { "korece": "냄비", "turkce": "tencere" },
+  { "korece": "포크 🍴", "turkce": "çatal" },
+  { "korece": "냄비 🍲", "turkce": "tencere" },
+  { "korece": "프라이팬 🍳", "turkce": "tava" },
+  { "korece": "칼 🔪", "turkce": "bıçak" },
+  { "korece": "도마 ⬜️🔪", "turkce": "kesme tahtası" },
+  { "korece": "전자레인지 ⚡️", "turkce": "mikrodalga fırın" },
+  { "korece": "밥솥 🍚", "turkce": "pilav pişirici" },
+  { "korece": "믹서기 ⚙️", "turkce": "blender" },
+  { "korece": "냉장고 🧊❄️", "turkce": "buzdolabı" },
+  { "korece": "오븐 🔥", "turkce": "fırın" },
+  { "korece": "그릇 🥣", "turkce": "kâse, çorba kasesi" },
+  { "korece": "식탁 🍽️🪑", "turkce": "yemek masası" },
+  { "korece": "행주 🧻", "turkce": "mutfak bezi" },
+  { "korece": "병 🍾", "turkce": "şişe" },
+  { "korece": "뚜껑 🛑", "turkce": "kapak" },
+  { "korece": "약 💊", "turkce": "ilaç" }
+],
+
+"🦜HAYVAN": [
+  { "korece": "동물 🐾", "turkce": "hayvan" },
+  { "korece": "게 🦀", "turkce": "yengeç" },
+  { "korece": "말 🐎", "turkce": "at" },
+  { "korece": "벌 🐝", "turkce": "arı" },
+  { "korece": "곰 🐻", "turkce": "ayı" },
+  { "korece": "새 🐦", "turkce": "kuş" },
+  { "korece": "개 🐕", "turkce": "köpek" },
+  { "korece": "돼지 🐷", "turkce": "domuz" },
+  { "korece": "고양이 🐱", "turkce": "kedi" },
+  { "korece": "야옹 😺", "turkce": "miyav" },
+  { "korece": "강아지 🐶", "turkce": "yavru köpek" },
+  { "korece": "모기 🦟", "turkce": "sivrisinek" },
+  { "korece": "나비 🦋", "turkce": "kelebek" },
+  { "korece": "사자 🦁", "turkce": "aslan" },
+  { "korece": "호랑이 🐯", "turkce": "kaplan" },
+  { "korece": "코끼리 🐘", "turkce": "fil" },
+  { "korece": "토끼 🐰", "turkce": "tavşan" },
+  { "korece": "물고기 🐟", "turkce": "balık" },
+  { "korece": "거북이 🐢", "turkce": "kaplumbağa" },
+  { "korece": "양 🐑", "turkce": "koyun" },
+  { "korece": "염소 🐐", "turkce": "keçi" },
+  { "korece": "닭 🐔", "turkce": "tavuk" },
+  { "korece": "병아리 🐥", "turkce": "civciv" },
+  { "korece": "쥐 🐭", "turkce": "fare" },
+  { "korece": "여우 🦊", "turkce": "tilki" },
+  { "korece": "늑대 🐺", "turkce": "kurt" },
+  { "korece": "캥거루 🦘", "turkce": "kanguru" },
+  { "korece": "판다 🐼", "turkce": "panda" },
+  { "korece": "하마 🦛", "turkce": "su aygırı" },
+  { "korece": "악어 🐊", "turkce": "timsah" },
+  { "korece": "독수리 🦅", "turkce": "kartal" }
+],
+
+"🧍‍♀️VÜCUT": [
+  { "korece": "손 🖐️", "turkce": "el" },
+  { "korece": "손가락 👆", "turkce": "parmak" },
+  { "korece": "팔 💪", "turkce": "kol" },
+  { "korece": "다리 🦵", "turkce": "bacak" },
+  { "korece": "발 🦶", "turkce": "ayak" },
+  { "korece": "발가락 🦶🏻", "turkce": "ayak parmağı" },
+  { "korece": "어깨 🤸‍♂️", "turkce": "omuz" },
+  { "korece": "허리 🦵", "turkce": "bel" },
+  { "korece": "등 🦴", "turkce": "sırt" },
+  { "korece": "가슴 💓", "turkce": "göğüs" },
+  { "korece": "배 🤰", "turkce": "karın" },
+  { "korece": "심장 🫀", "turkce": "kalp" },
+  { "korece": "목 🦒", "turkce": "boyun" },
+  { "korece": "무릎 🦵🏻", "turkce": "diz" },
+  { "korece": "발뒤꿈치 👣", "turkce": "topuk" },
+  { "korece": "손목 ⌚", "turkce": "bilek" },
+  { "korece": "허벅지 💪", "turkce": "uyluk" },
+  { "korece": "팔꿈치 🤚", "turkce": "dirsek" },
+  { "korece": "손톱 💅", "turkce": "tırnak" }
+],
+
+"💁‍♀️BAŞ VE YÜZ": [
+  { "korece": "머리 🤯", "turkce": "kafa, baş" },
+  { "korece": "얼굴 🙂", "turkce": "yüz" },
+  { "korece": "눈 👀", "turkce": "göz" },
+  { "korece": "코 👃", "turkce": "burun" },
+  { "korece": "입 👄", "turkce": "ağız" },
+  { "korece": "귀 👂", "turkce": "kulak" },
+  { "korece": "이 🦷", "turkce": "diş" },
+  { "korece": "혀 👅", "turkce": "dil" },
+  { "korece": "머리카락 💇‍♀️", "turkce": "saç" },
+  { "korece": "미소 😊", "turkce": "gülümseme" },
+  { "korece": "목소리 🗣️", "turkce": "ses (konuşma sesi)" },
+  { "korece": "눈썹 👁️‍🗨️", "turkce": "kaş" },
+  { "korece": "속눈썹 👁️", "turkce": "kirpik" },
+  { "korece": "턱 👤", "turkce": "çene" },
+  { "korece": "뺨 😊", "turkce": "yanak" }
+],
+
+"🚌ULAŞIM VE GENEL YERLER": [
+    { "korece": "버스 정류장 🚏", "turkce": "otobüs durağı" },
+    { "korece": "전철역 🚉", "turkce": "metro istasyonu" },
+    { "korece": "고속터미널 🚌", "turkce": "otobüs terminali" },
+    { "korece": "기차역 🚆", "turkce": "tren istasyonu" },
+    { "korece": "공항 🛫", "turkce": "havaalanı" },
+    { "korece": "주차장 🅿️", "turkce": "otopark" },
+    { "korece": "택시 정류장 🚖", "turkce": "taksi durağı" },
+    { "korece": "지하철 🚇", "turkce": "metro" },
+    { "korece": "도로 🛣️", "turkce": "yol" },
+    { "korece": "길 🛤️", "turkce": "sokak, cadde" },
+    { "korece": "광장 ⛲", "turkce": "meydan" },
+    { "korece": "시장 🛒", "turkce": "pazar" },
+    { "korece": "입구 🚪⬅️", "turkce": "giriş" },
+    { "korece": "출구 🚪➡️", "turkce": "çıkış" }
+],
+
+"🏳️‍🌈RENKLER": [
+    { "korece": "색", "turkce": "renk" },
+    { "korece": "빨간색❤️", "turkce": "kırmızı" },
+    { "korece": "파란색💙", "turkce": "mavi" },
+    { "korece": "노랑색💛", "turkce": "sarı" },
+    { "korece": "초록색💚", "turkce": "yeşil" },
+    { "korece": "검은색🖤", "turkce": "siyah" },
+    { "korece": "분홍색🩷", "turkce": "pembe" },
+    { "korece": "보라색💜", "turkce": "mor" },
+    { "korece": "하얀색🤍", "turkce": "beyaz" },
+    { "korece": "주황색🧡", "turkce": "turuncu" },
+    { "korece": "갈색🤎", "turkce": "kahverengi" },
+    { "korece": "회색🩶", "turkce": "gri" },
+    { "korece": "연한", "turkce": "açık" },
+    { "korece": "짙은", "turkce": "koyu" },
+    { "korece": "연한 파란색🩵", "turkce": "açık mavi" },
+    { "korece": "짙은 빨간색", "turkce": "koyu kırmızı" }
+],
+
+"🦺KIYAFET": [
+  { "korece": "티셔츠 👚", "turkce": "tişört" },
+  { "korece": "신발 👞", "turkce": "ayakkabı" },
+  { "korece": "운동화 👟", "turkce": "spor ayakkabı" },
+  { "korece": "바지 👖", "turkce": "pantolon" },
+  { "korece": "치마 👗", "turkce": "etek" },
+  { "korece": "셔츠 👔", "turkce": "gömlek" },
+  { "korece": "재킷 🧥", "turkce": "ceket" },
+  { "korece": "코트 🧥", "turkce": "palto, kaban" },
+  { "korece": "원피스 👗", "turkce": "elbise" },
+  { "korece": "양말 🧦", "turkce": "çorap" },
+  { "korece": "모자 🧢", "turkce": "şapka" },
+  { "korece": "장갑 🧤", "turkce": "eldiven" },
+  { "korece": "넥타이 👔", "turkce": "kravat" },
+  { "korece": "잠옷 🛌", "turkce": "pijama" },
+  { "korece": "수영복 🩱", "turkce": "mayo" },
+  { "korece": "청바지 👖", "turkce": "kot pantolon" }
+],
+
+"🖼️GENEL VE DOĞA":[
+  { "korece": "세상🌍", "turkce": "dünya" },
+  { "korece": "하늘☁️", "turkce": "gökyüzü" },
+  { "korece": "바다🌊", "turkce": "okyanus, deniz" },
+  { "korece": "산⛰️", "turkce": "dağ" },
+  { "korece": "나무🌳", "turkce": "ağaç" },
+  { "korece": "꽃🌼", "turkce": "çiçek" },
+  { "korece": "호수🏞️", "turkce": "göl" },
+  { "korece": "빛💡", "turkce": "ışık" },
+  { "korece": "얼음🧊", "turkce": "buz" },
+  { "korece": "무지개🌈", "turkce": "gökkuşağı" }
+],
+
+"🌅GÜNEŞ, AY, GÖKYÜZÜ": [
+  { "korece": "해 🌞", "turkce": "güneş" },
+  { "korece": "달 🌙", "turkce": "ay" },
+  { "korece": "별 ⭐", "turkce": "yıldız" },
+  { "korece": "우주 🌌", "turkce": "uzay" }
+],
+
+"🌤️HAVA DURUMU & MEVSİMLER": [
+  { "korece": "날씨 🌦️", "turkce": "hava durumu" },
+  { "korece": "계절 🕰️", "turkce": "mevsim" },
+  { "korece": "비 🌧️", "turkce": "yağmur" },
+  { "korece": "눈 🌨️", "turkce": "kar" },
+  { "korece": "바람 🌬️", "turkce": "rüzgar" },
+  { "korece": "기온 🌡️", "turkce": "sıcaklık" },
+  { "korece": "여름 ⛱️", "turkce": "yaz" },
+  { "korece": "겨울 ☃️", "turkce": "kış" },
+  { "korece": "봄 🍃", "turkce": "ilkbahar" },
+  { "korece": "가을 🍂", "turkce": "sonbahar" }
+],
+
+"🌡️SICAKLIK & ZITLIKLAR": [
+  { "korece": "춥다 🥶", "turkce": "soğuk, üşümek" },
+  { "korece": "뜨거운 🔥", "turkce": "sıcak" },
+  { "korece": "시원하다 🍃", "turkce": "serin" },
+  { "korece": "따뜻하다 🌞", "turkce": "ılık, sıcak" },
+  { "korece": "어두워 🌑", "turkce": "karanlık" },
+  { "korece": "밝다 💡", "turkce": "aydınlık" }
+],
+
+"⌛ZAMAN & DOĞA OLAYLARI": [
+  { "korece": "밤 🌙", "turkce": "gece" },
+  { "korece": "아침 🌅", "turkce": "sabah" },
+  { "korece": "낮 🌞", "turkce": "gündüz" },
+  { "korece": "번개 🌩️", "turkce": "şimşek" },
+  { "korece": "천둥 ⚡", "turkce": "gök gürültüsü" }
+],
+
+"✂️EŞYA & NESNE": [
+  { "korece": "돈 💵", "turkce": "para" },
+  { "korece": "빚 📉", "turkce": "borç" },
+  { "korece": "차 🚗", "turkce": "araba" },
+  { "korece": "가방 🎒", "turkce": "çanta" },
+  { "korece": "장난감 🧸", "turkce": "oyuncak" },
+  { "korece": "책 📖", "turkce": "kitap" },
+  { "korece": "수첩 📓", "turkce": "defter" },
+  { "korece": "반지 💍", "turkce": "yüzük" },
+  { "korece": "목걸이 📿", "turkce": "kolye" },
+  { "korece": "엽서 💌", "turkce": "kartpostal" },
+  { "korece": "선물 🎁", "turkce": "hediye" },
+  { "korece": "지도 🗺️", "turkce": "harita" },
+  { "korece": "지갑 👛", "turkce": "cüzdan" },
+  { "korece": "쓰레기 🚮", "turkce": "çöp" },
+  { "korece": "시계 ⌚", "turkce": "saat" },
+  { "korece": "가격 💰", "turkce": "fiyat" }
+],
+
+"🖥️TEKNOLOJİK_ALETLER": [
+  { "korece": "컴퓨터 💻", "turkce": "bilgisayar" },
+  { "korece": "노트북 💻", "turkce": "dizüstü bilgisayar" },
+  { "korece": "모니터 🖥️", "turkce": "monitor" },
+  { "korece": "키보드 ⌨️", "turkce": "klavye" },
+  { "korece": "마우스 🖱️", "turkce": "mouse" },
+  { "korece": "인터넷 🌐", "turkce": "internet" },
+  { "korece": "프린터 🖨️", "turkce": "yazıcı" },
+  { "korece": "스피커 🔊", "turkce": "hoparlör" },
+  { "korece": "스마트폰 📱", "turkce": "akıllı telefon" },  
+  { "korece": "전화 ☎️", "turkce": "telefon" },
+  { "korece": "핸드폰 📲", "turkce": "telefon" },
+  { "korece": "개임 🎮", "turkce": "game" },
+  { "korece": "태블릿 📱", "turkce": "tablet" },
+  { "korece": "충전기 🔌", "turkce": "şarj cihazı" },
+  { "korece": "이어폰 🎧", "turkce": "kulaklık" },
+  { "korece": "헤드폰 🎧", "turkce": "kulak üstü kulaklık" },
+  { "korece": "USB 💾", "turkce": "USB bellek" },
+  { "korece": "하드디스크 🖴", "turkce": "harici disk" },
+  { "korece": "카메라 📷", "turkce": "kamera" },
+  { "korece": "웹캠 🎥", "turkce": "web kamerası" },
+  { "korece": "리모컨 🎛️", "turkce": "uzaktan kumanda" },
+  { "korece": "게임기 🎮", "turkce": "oyun konsolu" },
+  { "korece": "드론 🛸", "turkce": "drone" },
+  { "korece": "스마트워치 ⌚", "turkce": "akıllı saat" },
+  { "korece": "프로젝터 📽️", "turkce": "projeksiyon cihazı" },
+  { "korece": "네트워크 🌐", "turkce": "ağ (network)" },  
+  { "korece": "와이파이 📶", "turkce": "Wi-Fi" },
+  { "korece": "로봇 🤖", "turkce": "robot" }
+],
+
+"🏡EV": [
+  { "korece": "집 🏠", "turkce": "ev" },
+  { "korece": "방 🚪", "turkce": "oda" },
+  { "korece": "크기 📏", "turkce": "boyut" },
+  { "korece": "부엌 🍳", "turkce": "mutfak" },
+  { "korece": "냉장고 🧊🧯", "turkce": "buzdolabı" },
+  { "korece": "침실 🛏️", "turkce": "yatak odası" },
+  { "korece": "침대 🛏️", "turkce": "yatak" },
+  { "korece": "거실 🛋️", "turkce": "oturma odası" },
+  { "korece": "소파 🛋️", "turkce": "kanepe" },
+  { "korece": "텔레비전 📺", "turkce": "televizyon" },
+  { "korece": "에어컨 ❄️", "turkce": "air conditioner" },
+  { "korece": "책상 🧑‍💻📚", "turkce": "çalışma masası" },
+  { "korece": "의자 🪑", "turkce": "sandalye" },
+  { "korece": "화장실 🚽", "turkce": "tuvalet" },
+  { "korece": "샤워기 🚿", "turkce": "duş başlığı" },
+  { "korece": "쓰레기통 🗑️", "turkce": "çöp kutusu" },
+  { "korece": "수건 🧻", "turkce": "havlu" },
+  { "korece": "창문 🪟", "turkce": "pencere" },
+  { "korece": "커튼 🪟🩵", "turkce": "perde" },
+  { "korece": "전등 💡", "turkce": "lamba, ışık" },
+  { "korece": "벽 🧱", "turkce": "duvar" },
+  { "korece": "바닥 🪨", "turkce": "zemin, yer" },
+  { "korece": "아파트 🏢", "turkce": "apartman" },
+  { "korece": "마당 🪴", "turkce": "bahçe" },
+  { "korece": "베란다 🌇", "turkce": "balkon" },
+  { "korece": "동네 🏘️", "turkce": "mahalle" }
+],
+
+"🎡HOBİ": [
+  { "korece": "취미", "turkce": "hobi" },
+  { "korece": "운동 🏋️‍♀️", "turkce": "egzersiz, spor" },
+  { "korece": "청소 🧹", "turkce": "temizlik" },
+  { "korece": "예매 📅", "turkce": "rezervasyon" },
+  { "korece": "장난 🎭", "turkce": "şaka, oyun" },
+  { "korece": "소개팅 💘", "turkce": "görücü usulü randevu" },
+  { "korece": "여행 ✈️", "turkce": "seyahat" },
+  { "korece": "독서 📖", "turkce": "kitap okumak" },
+  { "korece": "요리 👩‍🍳", "turkce": "yemek pişirme" },
+  { "korece": "영화 보기 📽️", "turkce": "film izlemek" },
+  { "korece": "게임하기 🎮", "turkce": "oyun oynamak" }
+],
+
+"🎭SANAT & MÜZİK": [
+  { "korece": "피아노 🎹", "turkce": "piyano" },
+  { "korece": "노래하기 🎶", "turkce": "şarkı söylemek" },
+  { "korece": "그림 그리기 🖼️", "turkce": "resim çizmek" },
+  { "korece": "사진 찍기 📸", "turkce": "fotoğraf çekmek" },
+  { "korece": "악기 🪇", "turkce": "müzik aleti" },
+  { "korece": "기타 🎸", "turkce": "gitar" },
+  { "korece": "드럼 🥁", "turkce": "davul" },
+  { "korece": "바이올린 🎻", "turkce": "keman" },
+  { "korece": "댄스 💃", "turkce": "dans" },
+  { "korece": "작곡 🎼", "turkce": "beste yapmak" },
+  { "korece": "콘서트 🎤", "turkce": "konser" }
+],
+
+"🥎SPOR & TAKIM AKTİVİTELERİ": [
+  { "korece": "축구 ⚽", "turkce": "futbol" },
+  { "korece": "야구 ⚾", "turkce": "beyzbol" },
+  { "korece": "태권도 🥋", "turkce": "taekwondo" },
+  { "korece": "수영 🏊‍♀️", "turkce": "yüzme" },
+  { "korece": "팀 👥", "turkce": "takım" },
+  { "korece": "조깅 🏃‍♀️‍➡️", "turkce": "koşu, jogging" },
+  { "korece": "헬스 🏋️‍♀️", "turkce": "spor salonu / fitness" },
+  { "korece": "농구 🏀", "turkce": "basketbol" },
+  { "korece": "배구 🏐", "turkce": "voleybol" },
+  { "korece": "골프 ⛳", "turkce": "golf" },
+  { "korece": "테니스 🎾", "turkce": "tenis" },
+  { "korece": "탁구 🏓", "turkce": "masa tenisi" }
+],
+
+"🚩ÜLKELER & ŞEHİRLER": [
+  { "korece": "나라 🗺️", "turkce": "ülke" },
+  { "korece": "도시 🌆", "turkce": "şehir" },
+  { "korece": "시내 🏙️", "turkce": "şehir merkezi" },
+  { "korece": "한국 🇰🇷", "turkce": "Güney Kore" },
+  { "korece": "터키 🇹🇷", "turkce": "Türkiye" },
+  { "korece": "미국 🇺🇸", "turkce": "Amerika" },
+  { "korece": "일본 🇯🇵", "turkce": "Japonya" },
+  { "korece": "중국 🇨🇳", "turkce": "Çin" },
+  { "korece": "독일 🇩🇪", "turkce": "Almanya" },
+  { "korece": "프랑스 🇫🇷", "turkce": "Fransa" },
+  { "korece": "영국 🇬🇧", "turkce": "İngiltere" },
+  { "korece": "이탈리아 🇮🇹", "turkce": "İtalya" },
+  { "korece": "러시아 🇷🇺", "turkce": "Rusya" },
+  { "korece": "스페인 🇪🇸", "turkce": "İspanya" },
+  { "korece": "제주도 🌴", "turkce": "Jeju Adası" },
+  { "korece": "서울 🏢", "turkce": "Seul" },
+  { "korece": "인천 🌉", "turkce": "Incheon" },
+  { "korece": "부산 🌊", "turkce": "Busan" },
+  { "korece": "고향 🏡", "turkce": "memleket" }
+],
+
+"🏦KAMU VE EĞİTİM KURUMLARI": [
+  { "korece": "학교 🏫", "turkce": "okul" },
+  { "korece": "병원 🏥", "turkce": "hastane" },
+  { "korece": "응급실 🚑", "turkce": "acil servis" },
+  { "korece": "경찰서 🚓", "turkce": "karakol" },
+  { "korece": "우체국 🏤", "turkce": "postane" },
+  { "korece": "도서관 📚", "turkce": "kütüphane" },
+  { "korece": "약국 💊", "turkce": "eczane" },
+  { "korece": "은행 🏦", "turkce": "banka" },
+  { "korece": "사무실 🏢", "turkce": "ofis" },
+  { "korece": "건물 🏬", "turkce": "bina" }
+],
+
+"👩‍👧‍👦AİLE ÜYELERİ": [
+  { "korece": "가족 👪", "turkce": "aile" },
+  { "korece": "부모님 👨‍👩‍👧‍👦", "turkce": "ebeveynler" },
+  { "korece": "엄마 👩‍🦰", "turkce": "anne" },
+  { "korece": "어머니 👵", "turkce": "anne (resmi)" },
+  { "korece": "아빠 👨‍🦱", "turkce": "baba" },
+  { "korece": "아버지 👴", "turkce": "baba (resmi)" },
+  { "korece": "딸 👧", "turkce": "kız evlat" },
+  { "korece": "아들 👦", "turkce": "erkek evlat" },
+  { "korece": "여동생 👧", "turkce": "kız kardeş" },
+  { "korece": "동생 👶", "turkce": "küçük kardeş" },
+  { "korece": "오빠 👱‍♂️", "turkce": "oppa" },
+  { "korece": "언니 👱‍♀️", "turkce": "unni" },
+  { "korece": "형 👨", "turkce": "hyung" },
+  { "korece": "누나 👩", "turkce": "noona" },
+  { "korece": "삼촌 👴", "turkce": "amca" },
+  { "korece": "이모 👩‍🦳", "turkce": "teyze" },
+  { "korece": "사촌 👨‍👩‍👧‍👦", "turkce": "kuzen" },
+  { "korece": "새끼 🧒", "turkce": "çocuk, genç" },
+  { "korece": "할아버지 👴", "turkce": "dede" },
+  { "korece": "할머니 👵", "turkce": "babaanne" }
+],
+
+"👥GENEL KİŞİLER": [
+  { "korece": "사람 🧍", "turkce": "insan" },
+  { "korece": "분 🙇‍♂️", "turkce": "kişi (saygılı biçim)" },
+  { "korece": "남자 👨", "turkce": "erkek" },
+  { "korece": "여자 👩", "turkce": "kadın" },
+  { "korece": "친구 🧑‍🤝‍🧑", "turkce": "arkadaş" },
+  { "korece": "친한 친구 🤗", "turkce": "yakın arkadaş" },
+  { "korece": "아줌마 👩‍🦳", "turkce": "teyze (orta yaşlı kadın)" },
+  { "korece": "아저씨 👨‍🦳", "turkce": "amca, orta yaşlı adam" },
+  { "korece": "외국인 🌍", "turkce": "yabancı" }
+],
+
+"💞EŞ & PARTNER": [
+  { "korece": "여보 ❤️", "turkce": "canım, hayatım" },
+  { "korece": "자기 💕", "turkce": "sevgilim, tatlım" },
+  { "korece": "결혼 💍", "turkce": "evlilik" },
+  { "korece": "남편 🤵‍♂️", "turkce": "koca" },
+  { "korece": "아내 👰‍♀️", "turkce": "karı" },
+  { "korece": "연인 💑", "turkce": "sevgili partner" },
+  { "korece": "애인 💘", "turkce": "sevgili" },
+  { "korece": "커플 👩‍❤️‍👨", "turkce": "couple" },
+  { "korece": "데이트 👫", "turkce": "date" },
+  { "korece": "약혼 💒", "turkce": "nişan" },
+  { "korece": "첫사랑 💓", "turkce": "first love" }
+],
+
+"☪️DİNİ YERLER": [
+  { "korece": "사원 🕌", "turkce": "camii" },
+  { "korece": "교회 ⛪", "turkce": "kilise" },
+  { "korece": "절 🛕", "turkce": "budist tapınağı" },
+  { "korece": "성당 ⛪", "turkce": "katedral" }
+],
+
+"🪂EĞLENCE SEKTÖRÜ": [
+  { "korece": "갓수 🎤", "turkce": "şarkıcı" },
+  { "korece": "콘서트 🕺", "turkce": "konser" },
+  { "korece": "무대 👯‍♀️", "turkce": "sahne" },
+  { "korece": "재즈 🎷", "turkce": "jazz" },
+  { "korece": "노래 🎼", "turkce": "şarkı" },
+  { "korece": "랩 🎤", "turkce": "rap" },
+  { "korece": "팬 🙌", "turkce": "fan, hayran" },
+  { "korece": "영화 🎬", "turkce": "film" },
+  { "korece": "영화관 🎥", "turkce": "sinema" },
+  { "korece": "표 🎟️", "turkce": "bilet" },
+  { "korece": "티켓 🎫", "turkce": "bilet" },
+  { "korece": "액션 💥", "turkce": "aksiyon" },
+  { "korece": "드라마 📺", "turkce": "dizi" },
+  { "korece": "아이돌 🌟", "turkce": "idol" },
+  { "korece": "오디션 🎙️", "turkce": "seçme, audition" },
+  { "korece": "무용 💃", "turkce": "dans (sanatsal)" },
+  { "korece": "연기 🎭", "turkce": "oyunculuk, rol yapma" },
+  { "korece": "녹음 🎙️", "turkce": "kayıt (ses)" },
+  { "korece": "녹화 📹", "turkce": "çekim (video, TV)" },
+  { "korece": "촬영 🎥", "turkce": "çekim (film/fotoğraf)" },
+  { "korece": "방송 📻", "turkce": "yayın (TV, radyo)" },
+  { "korece": "예능 🎉", "turkce": "eğlence programı" },
+  { "korece": "무대의상 👗", "turkce": "sahne kostümü" },
+  { "korece": "마이크 🎤", "turkce": "mikrofon" },
+  { "korece": "음반 💿", "turkce": "albüm, plak" },
+  { "korece": "팬클럽 👥", "turkce": "fan club" },
+  { "korece": "팬미팅 🤝", "turkce": "fan meeting" },
+  { "korece": "엔터테인먼트 🎬", "turkce": "entertainment" },
+  { "korece": "라이브 공연 🎙️", "turkce": "canlı performans" },
+  { "korece": "코미디 😂", "turkce": "komedi" },
+  { "korece": "뮤지컬 🎭", "turkce": "müzikal" },
+  { "korece": "스타 🌟", "turkce": "yıldız" },
+  { "korece": "카메라 📷", "turkce": "kamera" },
+  { "korece": "조명 💡", "turkce": "ışık" }
+],
+
+"🕵️‍♂️MESLEK": [
+  { "korece": "학생 👩‍🎓", "turkce": "öğrenci" },
+  { "korece": "유명한 ⭐", "turkce": "ünlü, bilinen" },
+  { "korece": "회사원 👩‍💼", "turkce": "ofis çalışanı" },
+  { "korece": "선수 🏃‍♂️", "turkce": "atlet, sporcu" },
+  { "korece": "배우 🎭", "turkce": "aktör" },
+  { "korece": "의사 👩‍⚕️🩺", "turkce": "doktor" },
+  { "korece": "경찰 👮‍♀️", "turkce": "polis" },
+  { "korece": "변호사 ⚖️", "turkce": "avukat" },
+  { "korece": "손님 🛍️", "turkce": "müşteri" },
+  { "korece": "교수 👨‍🏫", "turkce": "profesör" },
+  { "korece": "선생님 👩‍🏫", "turkce": "öğretmen" },
+  { "korece": "작가 ✍️", "turkce": "yazar" },
+  { "korece": "사장님 👔", "turkce": "patron, müdür" },
+  { "korece": "간호사 👩‍⚕️", "turkce": "hemşire" },
+  { "korece": "요리사 👩‍🍳", "turkce": "aşçı" },
+  { "korece": "미용사 💇‍♀️", "turkce": "kuaför" },
+  { "korece": "기사 🚗", "turkce": "şoför, teknisyen" },
+  { "korece": "엔지니어 👷‍♀️", "turkce": "mühendis" },
+  { "korece": "디자이너 🎨", "turkce": "tasarımcı" },
+  { "korece": "번역가 📜", "turkce": "çevirmen" },
+  { "korece": "통역사 🎙️", "turkce": "tercüman" },
+  { "korece": "프로그래머 👩‍💻", "turkce": "yazılımcı" },
+  { "korece": "회계사 📊", "turkce": "muhasebeci" },
+  { "korece": "약사 💊", "turkce": "eczacı" }
+],
+
+"🥓YEME-İÇME & ALIŞVERİŞ": [
+  { "korece": "식당 🍽️", "turkce": "restoran" },
+  { "korece": "맛집 😋", "turkce": "lezzetli mekan" },
+  { "korece": "시장 🛒", "turkce": "pazar / market" },
+  { "korece": "서점 📚", "turkce": "kitapçı" },
+  { "korece": "편의점 🏪", "turkce": "market / bakkal" },
+  { "korece": "백화점 🏬", "turkce": "alışveriş merkezi" },
+  { "korece": "쇼핑몰 🛍️", "turkce": "AVM" },
+  { "korece": "빵집 🍩", "turkce": "pastane" },
+  { "korece": "커피숍 / 카페 ☕", "turkce": "kafe" }
+],
+
+"🏟️SOSYAL ALANLAR": [
+  { "korece": "노래방 🎤", "turkce": "karaoke salonu" },
+  { "korece": "파티 🥳", "turkce": "parti" },
+  { "korece": "공원 🌳", "turkce": "park" },
+  { "korece": "놀이터 🛝", "turkce": "oyun parkı" },
+  { "korece": "체육관 🏋️‍♂️", "turkce": "spor salonu" },
+  { "korece": "수영장 🏊‍♀️", "turkce": "yüzme havuzu" },
+  { "korece": "PC방 💻", "turkce": "internet kafe" },
+  { "korece": "찜질방 ♨️", "turkce": "Kore saunası" }
+],
+
+"⏰ZAMAN": [
+  { "korece": "어제", "turkce": "dün" },
+  { "korece": "오늘", "turkce": "bugün" },
+  { "korece": "내일", "turkce": "yarın" },
+  { "korece": "아침", "turkce": "sabah" },
+  { "korece": "밤", "turkce": "gece" },
+  { "korece": "시간", "turkce": "zaman" },
+  { "korece": "지금", "turkce": "şimdi" },
+  { "korece": "매주", "turkce": "her hafta" },
+  { "korece": "시간이", "turkce": "zaman" },
+  { "korece": "가끔", "turkce": "bazen" },
+  { "korece": "자주", "turkce": "sık sık" },
+  { "korece": "다시", "turkce": "tekrar" },
+  { "korece": "다음", "turkce": "sonraki" },
+  { "korece": "아직", "turkce": "henüz" }
+],
+
+"〽️MİKTAR": [
+  { "korece": "조금", "turkce": "biraz" },
+  { "korece": "엄청", "turkce": "çok fazla" },
+  { "korece": "많이", "turkce": "çok" },
+  { "korece": "작은", "turkce": "az" }
+],
+
+"🎀SIFATLAR": [
+  { "korece": "웃긴 😄", "turkce": "komik" },
+  { "korece": "괜찮다 🙂", "turkce": "iyi, hoş" },
+  { "korece": "아름다운 🌸", "turkce": "güzel" },
+  { "korece": "혼자 😔", "turkce": "yalnız" },
+  { "korece": "새 🆕", "turkce": "yeni" },
+  { "korece": "싼 💸", "turkce": "ucuz" },
+  { "korece": "좋은 👍", "turkce": "iyi" },
+  { "korece": "비싼 💰", "turkce": "pahalı" },
+  { "korece": "크다 🏠", "turkce": "büyük" },
+  { "korece": "작아 🐜", "turkce": "küçük" },
+  { "korece": "멀다 🌍", "turkce": "uzak" },
+  { "korece": "넓은 / 넓다 🏞️", "turkce": "geniş, ferah" },
+  { "korece": "화려한 🎨", "turkce": "renkli, gösterişli" },
+  { "korece": "맑다 ☀️", "turkce": "açık, berrak" },
+  { "korece": "높다 🗼", "turkce": "uzun, yüksek" },
+  { "korece": "낮다 📉", "turkce": "kısa, alçak" },
+  { "korece": "천천히 🐢", "turkce": "yavaşça" },
+  { "korece": "예쁘다 💐", "turkce": "güzel, hoş" },
+  { "korece": "친한 👯", "turkce": "yakın" },
+  { "korece": "웃긴 😂", "turkce": "komik" },
+  { "korece": "이상하다 🤨", "turkce": "garip" },
+  { "korece": "똑똑하다 🧠", "turkce": "akıllı" },
+  { "korece": "특별한 🌟", "turkce": "özel" },
+  { "korece": "귀여운 🧸", "turkce": "sevimli" },
+  { "korece": "부지런한 🏃‍♀️", "turkce": "çalışkan" },
+  { "korece": "유명한 🌠", "turkce": "ünlü" },
+  { "korece": "친절한 🤝", "turkce": "kibar" },
+  { "korece": "한가 🕰️", "turkce": "boş, müsait" },
+  { "korece": "멋있다 😎", "turkce": "şık, havalı" },
+  { "korece": "재미있다 🎉", "turkce": "eğlenceli" },
+  { "korece": "가까워요 📍", "turkce": "yakın" },
+  { "korece": "어려운 🧩", "turkce": "zor" },
+  { "korece": "열심히 🏋️", "turkce": "gayretle, yoğun" },
+  { "korece": "소개 📢", "turkce": "tanıtım" },
+  { "korece": "다른 🔀", "turkce": "farklı" },
+  { "korece": "편한 🛋️", "turkce": "rahat" },
+  { "korece": "못생인 😖", "turkce": "çirkin" },
+  { "korece": "쓰다 🍋", "turkce": "acı (tat)" },
+  { "korece": "피곤한 😴", "turkce": "yorgun" },
+  { "korece": "무서운 👻", "turkce": "korkunç" }
+],
+
+"🙆‍♀️TEMEL / ZİHİNSEL FİİLLER ": [
+    { "korece": "하다", "turkce": "yapmak" },
+    { "korece": "알다", "turkce": "bilmek" },
+    { "korece": "모르다", "turkce": "bilmemek" },
+    { "korece": "기억하다", "turkce": "hatırlamak" },
+    { "korece": "잊다", "turkce": "unutmak" },
+    { "korece": "이해하다", "turkce": "anlamak" }
+],
+
+"🧍‍♂️GÜNLÜK HAYAT / BEDEN EYLEMLERİ": [
+    { "korece": "자다", "turkce": "uyumak" },
+    { "korece": "일어나다", "turkce": "uyanmak, kalkmak" },
+    { "korece": "걷다", "turkce": "yürümek" },
+    { "korece": "달리다", "turkce": "koşmak" },
+    { "korece": "씻다", "turkce": "yıkanmak" },
+    { "korece": "샤워하다", "turkce": "duş almak" },
+    { "korece": "씻기다", "turkce": "yıkamak" }
+],
+
+"🍽️YEMEK / EV EYLEMLERİ": [
+    { "korece": "먹다", "turkce": "yemek" },
+    { "korece": "마시다", "turkce": "içmek" },
+    { "korece": "요리하다", "turkce": "yemek pişirmek" },
+    { "korece": "식사하다", "turkce": "öğün yemek" },
+    { "korece": "설거지하다", "turkce": "bulaşık yıkamak" },
+    { "korece": "빨래하다", "turkce": "çamaşır yıkamak" },
+    { "korece": "정리하다", "turkce": "düzenlemek, toparlamak" },
+    { "korece": "청소하다", "turkce": "temizlik yapmak" }
+],
+
+"📖EĞİTİM / BİLGİ FİİLLERİ": [
+    { "korece": "공부하다", "turkce": "ders çalışmak" },
+    { "korece": "독서하다", "turkce": "kitap okumak" },
+    { "korece": "읽다", "turkce": "okumak" },
+    { "korece": "쓰다", "turkce": "yazmak / kullanmak" }
+],
+
+"🗣️KONUŞMA / SOSYAL FİİLLER": [
+    { "korece": "말하다", "turkce": "konuşmak, söylemek" },
+    { "korece": "듣다", "turkce": "dinlemek, duymak" },
+    { "korece": "대화하다", "turkce": "sohbet etmek" },
+    { "korece": "인사하다", "turkce": "selam vermek" },
+    { "korece": "사과하다", "turkce": "özür dilemek" },
+    { "korece": "사랑하다", "turkce": "sevmek" },
+    { "korece": "싫어하다", "turkce": "sevmemek" },
+    { "korece": "무서워하다", "turkce": "korkmak" },
+    { "korece": "조심하다", "turkce": "dikkat etmek" }
+],
+
+"🛍️ALIŞVERİŞ / TİCARET FİİLLERİ": [
+    { "korece": "사다", "turkce": "satın almak" },
+    { "korece": "팔다", "turkce": "satmak" },
+    { "korece": "판매하다", "turkce": "satışını yapmak" },
+    { "korece": "주문하다", "turkce": "sipariş vermek" },
+    { "korece": "구경하다", "turkce": "göz atmak, gezmek" },
+    { "korece": "검사하다", "turkce": "incelemek" }
+],
+
+"🧭YER / YÖN FİİLLERİ": [
+    { "korece": "가다", "turkce": "gitmek" },
+    { "korece": "오다", "turkce": "gelmek" },
+    { "korece": "들어가다", "turkce": "içeri girmek" },
+    { "korece": "나오다", "turkce": "dışarı çıkmak" },
+    { "korece": "사라지다", "turkce": "kaybolmak / yok olmak" }
+],
+
+"⏳ZAMAN / BEKLEME FİİLLERİ": [
+    { "korece": "기다리다", "turkce": "beklemek" },
+    { "korece": "갔어요", "turkce": "gittim (geçmiş zaman)" }
+],
+
+"🧠DİĞER FİİLLER": [
+    { "korece": "만나다", "turkce": "tanışmak, buluşmak" },
+    { "korece": "냄새가 나다", "turkce": "kokmak" },
+    { "korece": "산책하다", "turkce": "yürüyüşe çıkmak" },
+    { "korece": "조심해", "turkce": "dikkatli ol" },
+    { "korece": "잘하다", "turkce": "iyi yapmak" },
+    { "korece": "실수하다", "turkce": "hata yapmak" },
+    { "korece": "정리하다", "turkce": "toparlamak, düzenlemek" }
+]
+
+}
+
+
+
+

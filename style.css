@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.5;
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+select {
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Liste kutusu */
+#kelimeListesi {
+  max-width: 500px;
+}
+
+/* Her kelime kart gibi */
+#kelimeListesi > div {
+  background: white;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  font-size: 1.1rem;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+/* Hover efekti */
+#kelimeListesi > div:hover {
+  background-color: #f0f8ff;
+  transform: scale(1.02);
+}
