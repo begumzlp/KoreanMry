@@ -1,6 +1,6 @@
 {
 
-"🍕YEMEKLER & ÖĞÜNLER": [
+"🍕 YEMEKLER & ÖĞÜNLER": [
   
     { "korece": "밥 🍚", "turkce": "yemek, pirinç" },
     { "korece": "식사 🍴", "turkce": "öğün, yemek" },
@@ -15,7 +15,7 @@
     { "korece": "음식 🍲", "turkce": "yemek" }
 ],
 
-"🥨TATLI & ATIŞTIRMALIKLAR": [
+"🥨 TATLI & ATIŞTIRMALIKLAR": [
 
     { "korece": "케이크 🍰", "turkce": "kek, pasta" },
     { "korece": "사탕 🍬", "turkce": "şeker" },
@@ -27,7 +27,7 @@
 
 ],
 
-"🍇MEYVE & SEBZELER": [
+"🍇 MEYVE & SEBZELER": [
 
   { "korece": "과일", "turkce": "meyve" },
   { "korece": "딸기 🍓", "turkce": "çilek" },
@@ -52,7 +52,7 @@
   { "korece": "버섯 🍄", "turkce": "mantar" }
 ],
 
-"🍹İÇECEKLER": [
+"🍹 İÇECEKLER": [
 
     { "korece": "물 🫗", "turkce": "su" },
     { "korece": "차 🍵", "turkce": "çay" },
@@ -71,7 +71,7 @@
     { "korece": "요구르트", "turkce": "yoğurt içeceği" }
 ],
 
-"🍽️MUTFAK EŞYALARI": [
+"🍽️ MUTFAK EŞYALARI": [
   { "korece": "잔 🥛", "turkce": "bardak" },
   { "korece": "접시 🍽️", "turkce": "tabak" },
   { "korece": "컵", "turkce": "kupa, bardak" },
@@ -95,7 +95,7 @@
   { "korece": "약 💊", "turkce": "ilaç" }
 ],
 
-"🦜HAYVAN": [
+"🦜 HAYVAN": [
   { "korece": "동물 🐾", "turkce": "hayvan" },
   { "korece": "게 🦀", "turkce": "yengeç" },
   { "korece": "말 🐎", "turkce": "at" },
@@ -129,7 +129,7 @@
   { "korece": "독수리 🦅", "turkce": "kartal" }
 ],
 
-"🧍‍♀️VÜCUT": [
+"🧍‍♀️ VÜCUT": [
   { "korece": "손 🖐️", "turkce": "el" },
   { "korece": "손가락 👆", "turkce": "parmak" },
   { "korece": "팔 💪", "turkce": "kol" },
@@ -151,7 +151,7 @@
   { "korece": "손톱 💅", "turkce": "tırnak" }
 ],
 
-"💁‍♀️BAŞ VE YÜZ": [
+"💁‍♀️ BAŞ VE YÜZ": [
   { "korece": "머리 🤯", "turkce": "kafa, baş" },
   { "korece": "얼굴 🙂", "turkce": "yüz" },
   { "korece": "눈 👀", "turkce": "göz" },
@@ -169,7 +169,7 @@
   { "korece": "뺨 😊", "turkce": "yanak" }
 ],
 
-"🚌ULAŞIM VE GENEL YERLER": [
+"🚌 ULAŞIM VE GENEL YERLER": [
     { "korece": "버스 정류장 🚏", "turkce": "otobüs durağı" },
     { "korece": "전철역 🚉", "turkce": "metro istasyonu" },
     { "korece": "고속터미널 🚌", "turkce": "otobüs terminali" },
@@ -186,7 +186,7 @@
     { "korece": "출구 🚪➡️", "turkce": "çıkış" }
 ],
 
-"🏳️‍🌈RENKLER": [
+"🏳️‍🌈 RENKLER": [
     { "korece": "색", "turkce": "renk" },
     { "korece": "빨간색❤️", "turkce": "kırmızı" },
     { "korece": "파란색💙", "turkce": "mavi" },
@@ -205,7 +205,7 @@
     { "korece": "짙은 빨간색", "turkce": "koyu kırmızı" }
 ],
 
-"🦺KIYAFET": [
+"🦺 KIYAFET": [
   { "korece": "티셔츠 👚", "turkce": "tişört" },
   { "korece": "신발 👞", "turkce": "ayakkabı" },
   { "korece": "운동화 👟", "turkce": "spor ayakkabı" },
@@ -224,7 +224,7 @@
   { "korece": "청바지 👖", "turkce": "kot pantolon" }
 ],
 
-"🖼️GENEL VE DOĞA":[
+"🖼️ GENEL VE DOĞA":[
   { "korece": "세상🌍", "turkce": "dünya" },
   { "korece": "하늘☁️", "turkce": "gökyüzü" },
   { "korece": "바다🌊", "turkce": "okyanus, deniz" },
@@ -237,14 +237,14 @@
   { "korece": "무지개🌈", "turkce": "gökkuşağı" }
 ],
 
-"🌅GÜNEŞ, AY, GÖKYÜZÜ": [
+"🌅 GÜNEŞ, AY, GÖKYÜZÜ": [
   { "korece": "해 🌞", "turkce": "güneş" },
   { "korece": "달 🌙", "turkce": "ay" },
   { "korece": "별 ⭐", "turkce": "yıldız" },
   { "korece": "우주 🌌", "turkce": "uzay" }
 ],
 
-"🌤️HAVA DURUMU & MEVSİMLER": [
+"🌤️ HAVA DURUMU & MEVSİMLER": [
   { "korece": "날씨 🌦️", "turkce": "hava durumu" },
   { "korece": "계절 🕰️", "turkce": "mevsim" },
   { "korece": "비 🌧️", "turkce": "yağmur" },
@@ -257,7 +257,7 @@
   { "korece": "가을 🍂", "turkce": "sonbahar" }
 ],
 
-"🌡️SICAKLIK & ZITLIKLAR": [
+"🌡️ SICAKLIK & ZITLIKLAR": [
   { "korece": "춥다 🥶", "turkce": "soğuk, üşümek" },
   { "korece": "뜨거운 🔥", "turkce": "sıcak" },
   { "korece": "시원하다 🍃", "turkce": "serin" },
@@ -266,7 +266,7 @@
   { "korece": "밝다 💡", "turkce": "aydınlık" }
 ],
 
-"⌛ZAMAN & DOĞA OLAYLARI": [
+"⌛ ZAMAN & DOĞA OLAYLARI": [
   { "korece": "밤 🌙", "turkce": "gece" },
   { "korece": "아침 🌅", "turkce": "sabah" },
   { "korece": "낮 🌞", "turkce": "gündüz" },
@@ -274,7 +274,7 @@
   { "korece": "천둥 ⚡", "turkce": "gök gürültüsü" }
 ],
 
-"✂️EŞYA & NESNE": [
+"✂️ EŞYA & NESNE": [
   { "korece": "돈 💵", "turkce": "para" },
   { "korece": "빚 📉", "turkce": "borç" },
   { "korece": "차 🚗", "turkce": "araba" },
@@ -293,7 +293,7 @@
   { "korece": "가격 💰", "turkce": "fiyat" }
 ],
 
-"🖥️TEKNOLOJİK_ALETLER": [
+"🖥️ TEKNOLOJİK ALETLER": [
   { "korece": "컴퓨터 💻", "turkce": "bilgisayar" },
   { "korece": "노트북 💻", "turkce": "dizüstü bilgisayar" },
   { "korece": "모니터 🖥️", "turkce": "monitor" },
@@ -324,7 +324,7 @@
   { "korece": "로봇 🤖", "turkce": "robot" }
 ],
 
-"🏡EV": [
+"🏡 EV": [
   { "korece": "집 🏠", "turkce": "ev" },
   { "korece": "방 🚪", "turkce": "oda" },
   { "korece": "크기 📏", "turkce": "boyut" },
@@ -353,7 +353,7 @@
   { "korece": "동네 🏘️", "turkce": "mahalle" }
 ],
 
-"🎡HOBİ": [
+"🎡 HOBİ": [
   { "korece": "취미", "turkce": "hobi" },
   { "korece": "운동 🏋️‍♀️", "turkce": "egzersiz, spor" },
   { "korece": "청소 🧹", "turkce": "temizlik" },
@@ -367,7 +367,7 @@
   { "korece": "게임하기 🎮", "turkce": "oyun oynamak" }
 ],
 
-"🎭SANAT & MÜZİK": [
+"🎭 SANAT & MÜZİK": [
   { "korece": "피아노 🎹", "turkce": "piyano" },
   { "korece": "노래하기 🎶", "turkce": "şarkı söylemek" },
   { "korece": "그림 그리기 🖼️", "turkce": "resim çizmek" },
@@ -381,7 +381,7 @@
   { "korece": "콘서트 🎤", "turkce": "konser" }
 ],
 
-"🥎SPOR & TAKIM AKTİVİTELERİ": [
+"🥎 SPOR & TAKIM AKTİVİTELERİ": [
   { "korece": "축구 ⚽", "turkce": "futbol" },
   { "korece": "야구 ⚾", "turkce": "beyzbol" },
   { "korece": "태권도 🥋", "turkce": "taekwondo" },
@@ -396,7 +396,7 @@
   { "korece": "탁구 🏓", "turkce": "masa tenisi" }
 ],
 
-"🚩ÜLKELER & ŞEHİRLER": [
+"🚩 ÜLKELER & ŞEHİRLER": [
   { "korece": "나라 🗺️", "turkce": "ülke" },
   { "korece": "도시 🌆", "turkce": "şehir" },
   { "korece": "시내 🏙️", "turkce": "şehir merkezi" },
@@ -418,7 +418,7 @@
   { "korece": "고향 🏡", "turkce": "memleket" }
 ],
 
-"🏦KAMU VE EĞİTİM KURUMLARI": [
+"🏦 KAMU VE EĞİTİM KURUMLARI": [
   { "korece": "학교 🏫", "turkce": "okul" },
   { "korece": "병원 🏥", "turkce": "hastane" },
   { "korece": "응급실 🚑", "turkce": "acil servis" },
@@ -431,7 +431,7 @@
   { "korece": "건물 🏬", "turkce": "bina" }
 ],
 
-"👩‍👧‍👦AİLE ÜYELERİ": [
+"👩‍👧‍👦 AİLE ÜYELERİ": [
   { "korece": "가족 👪", "turkce": "aile" },
   { "korece": "부모님 👨‍👩‍👧‍👦", "turkce": "ebeveynler" },
   { "korece": "엄마 👩‍🦰", "turkce": "anne" },
@@ -454,7 +454,7 @@
   { "korece": "할머니 👵", "turkce": "babaanne" }
 ],
 
-"👥GENEL KİŞİLER": [
+"👥 GENEL KİŞİLER": [
   { "korece": "사람 🧍", "turkce": "insan" },
   { "korece": "분 🙇‍♂️", "turkce": "kişi (saygılı biçim)" },
   { "korece": "남자 👨", "turkce": "erkek" },
@@ -466,7 +466,7 @@
   { "korece": "외국인 🌍", "turkce": "yabancı" }
 ],
 
-"💞EŞ & PARTNER": [
+"💞 EŞ & PARTNER": [
   { "korece": "여보 ❤️", "turkce": "canım, hayatım" },
   { "korece": "자기 💕", "turkce": "sevgilim, tatlım" },
   { "korece": "결혼 💍", "turkce": "evlilik" },
@@ -480,14 +480,14 @@
   { "korece": "첫사랑 💓", "turkce": "first love" }
 ],
 
-"☪️DİNİ YERLER": [
+"☪️ DİNİ YERLER": [
   { "korece": "사원 🕌", "turkce": "camii" },
   { "korece": "교회 ⛪", "turkce": "kilise" },
   { "korece": "절 🛕", "turkce": "budist tapınağı" },
   { "korece": "성당 ⛪", "turkce": "katedral" }
 ],
 
-"🪂EĞLENCE SEKTÖRÜ": [
+"🪂 EĞLENCE SEKTÖRÜ": [
   { "korece": "갓수 🎤", "turkce": "şarkıcı" },
   { "korece": "콘서트 🕺", "turkce": "konser" },
   { "korece": "무대 👯‍♀️", "turkce": "sahne" },
@@ -524,7 +524,7 @@
   { "korece": "조명 💡", "turkce": "ışık" }
 ],
 
-"🕵️‍♂️MESLEK": [
+"🕵️‍♂️ MESLEK": [
   { "korece": "학생 👩‍🎓", "turkce": "öğrenci" },
   { "korece": "유명한 ⭐", "turkce": "ünlü, bilinen" },
   { "korece": "회사원 👩‍💼", "turkce": "ofis çalışanı" },
@@ -551,7 +551,7 @@
   { "korece": "약사 💊", "turkce": "eczacı" }
 ],
 
-"🥓YEME-İÇME & ALIŞVERİŞ": [
+"🥓 YEME-İÇME & ALIŞVERİŞ": [
   { "korece": "식당 🍽️", "turkce": "restoran" },
   { "korece": "맛집 😋", "turkce": "lezzetli mekan" },
   { "korece": "시장 🛒", "turkce": "pazar / market" },
@@ -563,7 +563,7 @@
   { "korece": "커피숍 / 카페 ☕", "turkce": "kafe" }
 ],
 
-"🏟️SOSYAL ALANLAR": [
+"🏟️ SOSYAL ALANLAR": [
   { "korece": "노래방 🎤", "turkce": "karaoke salonu" },
   { "korece": "파티 🥳", "turkce": "parti" },
   { "korece": "공원 🌳", "turkce": "park" },
@@ -574,7 +574,7 @@
   { "korece": "찜질방 ♨️", "turkce": "Kore saunası" }
 ],
 
-"⏰ZAMAN": [
+"⏰ ZAMAN": [
   { "korece": "어제", "turkce": "dün" },
   { "korece": "오늘", "turkce": "bugün" },
   { "korece": "내일", "turkce": "yarın" },
@@ -591,14 +591,14 @@
   { "korece": "아직", "turkce": "henüz" }
 ],
 
-"〽️MİKTAR": [
+"〽️ MİKTAR": [
   { "korece": "조금", "turkce": "biraz" },
   { "korece": "엄청", "turkce": "çok fazla" },
   { "korece": "많이", "turkce": "çok" },
   { "korece": "작은", "turkce": "az" }
 ],
 
-"🎀SIFATLAR": [
+"🎀 SIFATLAR": [
   { "korece": "웃긴 😄", "turkce": "komik" },
   { "korece": "괜찮다 🙂", "turkce": "iyi, hoş" },
   { "korece": "아름다운 🌸", "turkce": "güzel" },
@@ -641,7 +641,7 @@
   { "korece": "무서운 👻", "turkce": "korkunç" }
 ],
 
-"🙆‍♀️TEMEL / ZİHİNSEL FİİLLER ": [
+"🙆‍♀️ TEMEL / ZİHİNSEL FİİLLER ": [
     { "korece": "하다", "turkce": "yapmak" },
     { "korece": "알다", "turkce": "bilmek" },
     { "korece": "모르다", "turkce": "bilmemek" },
@@ -650,7 +650,7 @@
     { "korece": "이해하다", "turkce": "anlamak" }
 ],
 
-"🧍‍♂️GÜNLÜK HAYAT / BEDEN EYLEMLERİ": [
+"🧍‍♂️ GÜNLÜK HAYAT / BEDEN EYLEMLERİ": [
     { "korece": "자다", "turkce": "uyumak" },
     { "korece": "일어나다", "turkce": "uyanmak, kalkmak" },
     { "korece": "걷다", "turkce": "yürümek" },
@@ -660,7 +660,7 @@
     { "korece": "씻기다", "turkce": "yıkamak" }
 ],
 
-"🍽️YEMEK / EV EYLEMLERİ": [
+"🍽️ YEMEK / EV EYLEMLERİ": [
     { "korece": "먹다", "turkce": "yemek" },
     { "korece": "마시다", "turkce": "içmek" },
     { "korece": "요리하다", "turkce": "yemek pişirmek" },
@@ -671,14 +671,14 @@
     { "korece": "청소하다", "turkce": "temizlik yapmak" }
 ],
 
-"📖EĞİTİM / BİLGİ FİİLLERİ": [
+"📖 EĞİTİM / BİLGİ FİİLLERİ": [
     { "korece": "공부하다", "turkce": "ders çalışmak" },
     { "korece": "독서하다", "turkce": "kitap okumak" },
     { "korece": "읽다", "turkce": "okumak" },
     { "korece": "쓰다", "turkce": "yazmak / kullanmak" }
 ],
 
-"🗣️KONUŞMA / SOSYAL FİİLLER": [
+"🗣️ KONUŞMA / SOSYAL FİİLLER": [
     { "korece": "말하다", "turkce": "konuşmak, söylemek" },
     { "korece": "듣다", "turkce": "dinlemek, duymak" },
     { "korece": "대화하다", "turkce": "sohbet etmek" },
@@ -690,7 +690,7 @@
     { "korece": "조심하다", "turkce": "dikkat etmek" }
 ],
 
-"🛍️ALIŞVERİŞ / TİCARET FİİLLERİ": [
+"🛍️ ALIŞVERİŞ / TİCARET FİİLLERİ": [
     { "korece": "사다", "turkce": "satın almak" },
     { "korece": "팔다", "turkce": "satmak" },
     { "korece": "판매하다", "turkce": "satışını yapmak" },
@@ -699,7 +699,7 @@
     { "korece": "검사하다", "turkce": "incelemek" }
 ],
 
-"🧭YER / YÖN FİİLLERİ": [
+"🧭 YER / YÖN FİİLLERİ": [
     { "korece": "가다", "turkce": "gitmek" },
     { "korece": "오다", "turkce": "gelmek" },
     { "korece": "들어가다", "turkce": "içeri girmek" },
@@ -707,12 +707,12 @@
     { "korece": "사라지다", "turkce": "kaybolmak / yok olmak" }
 ],
 
-"⏳ZAMAN / BEKLEME FİİLLERİ": [
+"⏳ ZAMAN / BEKLEME FİİLLERİ": [
     { "korece": "기다리다", "turkce": "beklemek" },
     { "korece": "갔어요", "turkce": "gittim (geçmiş zaman)" }
 ],
 
-"🧠DİĞER FİİLLER": [
+"🧠 DİĞER FİİLLER": [
     { "korece": "만나다", "turkce": "tanışmak, buluşmak" },
     { "korece": "냄새가 나다", "turkce": "kokmak" },
     { "korece": "산책하다", "turkce": "yürüyüşe çıkmak" },
@@ -720,6 +720,22 @@
     { "korece": "잘하다", "turkce": "iyi yapmak" },
     { "korece": "실수하다", "turkce": "hata yapmak" },
     { "korece": "정리하다", "turkce": "toparlamak, düzenlemek" }
+],
+"🔢 SAYILAR (SİNO & ÖZ)": [
+    { "korece": "일 / 하나 ☝️", "turkce": "bir" },
+    { "korece": "이 / 둘 ✌️", "turkce": "iki" },
+    { "korece": "삼 / 셋 👌", "turkce": "üç" },
+    { "korece": "사 / 넷 🍀", "turkce": "dört" },
+    { "korece": "오 / 다섯 🖐️", "turkce": "beş" },
+    { "korece": "육 / 여섯 👍", "turkce": "altı" },
+    { "korece": "칠 / 일곱 ✋✌️", "turkce": "yedi" },
+    { "korece": "팔 / 여덟 ✋👌", "turkce": "sekiz" },
+    { "korece": "구 / 아홉 🖐️🍀", "turkce": "dokuz" },
+    { "korece": "십 / 열 🔟", "turkce": "on" },
+    { "korece": "백 💯", "turkce": "yüz (Sino)" },
+    { "korece": "천 🔢", "turkce": "bin (Sino)" },
+    { "korece": "만 💰", "turkce": "on bin (Sino)" },
+    { "korece": "영 / 공 ⚪", "turkce": "sıfır" }
 ]
 
 }
