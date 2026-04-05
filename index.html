@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Kategoriye Göre Kelime Listesi</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiriySuuu - Slay Korean Edition ✨</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Kelime Sözlüğü</h1>
 
-  <label for="kategoriSelect">Kategori Seç:</label>
-  <select id="kategoriSelect"></select>
+    <header>
+        <h1>💖 MiriySuuu 💖</h1>
+        <p>Korece Öğren be Ask! ✨</p>
+    </header>
 
-  <div id="kelimeListesi"></div>
+    <main>
+        <section class="search-container">
+            <div class="search-wrapper" style="position: relative; width: 100%; max-width: 600px; margin: 0 auto;">
+                <input type="text" id="searchInput" placeholder="Kelime ara... ✨">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </section>
 
-  <script src="script.js"></script>
+        <section id="categoryButtons" class="category-filters"></section>
+
+        <section class="word-grid" id="wordGrid"></section>
+    </main>
+
+    <footer>
+        <p>Slayy All Day with Miriy 👑</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
-
