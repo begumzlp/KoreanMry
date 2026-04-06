@@ -17,39 +17,39 @@ const allWords = {
 
 "🥨 TATLI & ATIŞTIRMALIKLAR": [
 
-    { "korece": "케이크 🍰", "turkce": "kek, pasta" },
-    { "korece": "사탕 🍬", "turkce": "şeker" },
-    { "korece": "초콜릿 🍫", "turkce": "çikolata" },
-    { "korece": "아이스크림 🍦", "turkce": "dondurma" },
-    { "korece": "과자 🍪", "turkce": "atıştırmalık" },
-    { "korece": "간식 🍩", "turkce": "atıştırmalık" },
-    { "korece": "팝콘 🍿", "turkce": "popcorn" }
+    { "korece": "케이크 🍰","okunus": "ke-i-kı", "turkce": "kek, pasta" },
+    { "korece": "사탕 🍬", "okunus": "sa-tang","turkce": "şeker" },
+    { "korece": "초콜릿 🍫", "okunus": "ço-ko-lid","turkce": "çikolata" },
+    { "korece": "아이스크림 🍦","okunus": "a-i-sı-kı-rim", "turkce": "dondurma" },
+    { "korece": "과자 🍪", "okunus": "gwa-ca","turkce": "atıştırmalık" },
+    { "korece": "간식 🍩", "okunus": "kan-şik","turkce": "atıştırmalık" },
+    { "korece": "팝콘 🍿", "okunus": "pab-kon","turkce": "popcorn" }
 
 ],
 
 "🍇 MEYVE & SEBZELER": [
 
-  { "korece": "과일", "turkce": "meyve" },
-  { "korece": "딸기 🍓", "turkce": "çilek" },
-  { "korece": "사과 🍎", "turkce": "elma" },
-  { "korece": "귤 🍊", "turkce": "mandalina" },
-  { "korece": "복숭아 🍑", "turkce": "şeftali" },
-  { "korece": "바나나 🍌", "turkce": "muz" },
-  { "korece": "포도 🍇", "turkce": "üzüm" },
-  { "korece": "수박 🍉", "turkce": "karpuz" },
-  { "korece": "오렌지 🍊", "turkce": "portakal" },
-  { "korece": "레몬 🍋", "turkce": "limon" },
-  { "korece": "야채", "turkce": "sebze" },
-  { "korece": "당근 🥕", "turkce": "havuç" },
-  { "korece": "오이 🥒", "turkce": "salatalık" },
-  { "korece": "양파 🧅", "turkce": "soğan" },
-  { "korece": "마늘 🧄", "turkce": "sarımsak" },
-  { "korece": "감자 🥔", "turkce": "patates" },
-  { "korece": "고구마 🍠", "turkce": "tatlı patates" },
-  { "korece": "브로콜리 🥦", "turkce": "brokoli" },
-  { "korece": "상추 🥬", "turkce": "marul" },
-  { "korece": "토마토 🍅", "turkce": "domates" },
-  { "korece": "버섯 🍄", "turkce": "mantar" }
+  { "korece": "과일", "okunus": "gwa-il,"turkce": "meyve" },
+  { "korece": "딸기 🍓", "okunus": "dal-gi","turkce": "çilek" },
+  { "korece": "사과 🍎", "okunus": "sa-gwa","turkce": "elma" },
+  { "korece": "귤 🍊", "okunus": "gyul","turkce": "mandalina" },
+  { "korece": "복숭아 🍑", "okunus": "pok-sung-a","turkce": "şeftali" },
+  { "korece": "바나나 🍌", "okunus": "ba-na-na","turkce": "muz" },
+  { "korece": "포도 🍇", "okunus": "po-do","turkce": "üzüm" },
+  { "korece": "수박 🍉", "okunus": "su-bak","turkce": "karpuz" },
+  { "korece": "오렌지 🍊", "okunus": "o-ren-ci","turkce": "portakal" },
+  { "korece": "레몬 🍋", "okunus": "le-mon", "turkce": "limon" },
+  { "korece": "야채", "okunus": "ya-çe","turkce": "sebze" },
+  { "korece": "당근 🥕", "okunus": "dang-kım","turkce": "havuç" },
+  { "korece": "오이 🥒", "okunus": "o-i","turkce": "salatalık" },
+  { "korece": "양파 🧅", "okunus": "yang-pa","turkce": "soğan" },
+  { "korece": "마늘 🧄", "okunus": "ma-nıl","turkce": "sarımsak" },
+  { "korece": "감자 🥔", "okunus": "kam-ja","turkce": "patates" },
+  { "korece": "고구마 🍠", "okunus": "mo-gu-ma","turkce": "tatlı patates" },
+  { "korece": "브로콜리 🥦", "okunus": "bı-ro-kol-li","turkce": "brokoli" },
+  { "korece": "상추 🥬", "okunus": "sang-çu","turkce": "marul" },
+  { "korece": "토마토 🍅", "okunus": "to-ma-to","turkce": "domates" },
+  { "korece": "버섯 🍄", "okunus": "bo-sot","turkce": "mantar" }
 ],
 
 "🍹 İÇECEKLER": [
