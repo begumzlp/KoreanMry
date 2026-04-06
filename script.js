@@ -2,17 +2,17 @@ const allWords = {
 
 "🍕 YEMEKLER & ÖĞÜNLER": [
   
-    { "korece": "밥 🍚", "turkce": "yemek, pirinç" },
-    { "korece": "식사 🍴", "turkce": "öğün, yemek" },
-    { "korece": "저녁 🌆🍽️", "turkce": "akşam yemeği" },
-    { "korece": "떡볶이 🌶️🍢", "turkce": "tteokbokki" },
-    { "korece": "라면 🍜", "turkce": "ramyeon" },
-    { "korece": "계란 🥚", "turkce": "yumurta" },
-    { "korece": "파스타 🍝", "turkce": "makarna" },
-    { "korece": "고기 🥩", "turkce": "et" },
-    { "korece": "두부 🍥", "turkce": "tofu" },
-    { "korece": "김치 🥬", "turkce": "kimchi" },
-    { "korece": "음식 🍲", "turkce": "yemek" }
+    { "korece": "밥 🍚", "okunus": "pab", "turkce": "yemek, pirinç" },
+    { "korece": "식사 🍴", "okunus": "şik-sa","turkce": "öğün, yemek" },
+    { "korece": "저녁 🌆🍽️", "okunus": "ço-nyok","turkce": "akşam yemeği" },
+    { "korece": "떡볶이 🌶️🍢", "okunus": "dok-bokk-i","turkce": "tteokbokki" },
+    { "korece": "라면 🍜", "okunus": "ra-myon","turkce": "ramyeon" },
+    { "korece": "계란 🥚","okunus": "ke-ran", "turkce": "yumurta" },
+    { "korece": "파스타 🍝", "okunus": "pa-sı-ta","turkce": "makarna" },
+    { "korece": "고기 🥩","okunus": "ko-gi", "turkce": "et" },
+    { "korece": "두부 🍥", "okunus": "tu-bu","turkce": "tofu" },
+    { "korece": "김치 🥬","okunus": "kim-çi", "turkce": "kimchi" },
+    { "korece": "음식 🍲","okunus": "ım-şik", "turkce": "yemek" }
 ],
 
 "🥨 TATLI & ATIŞTIRMALIKLAR": [
