@@ -29,7 +29,7 @@ const allWords = {
 
 "🍇 MEYVE & SEBZELER": [
 
-  { "korece": "과일", "okunus": "gwa-il,"turkce": "meyve" },
+  { "korece": "과일", "okunus": "gwa-il","turkce": "meyve" },
   { "korece": "딸기 🍓", "okunus": "dal-gi","turkce": "çilek" },
   { "korece": "사과 🍎", "okunus": "sa-gwa","turkce": "elma" },
   { "korece": "귤 🍊", "okunus": "gyul","turkce": "mandalina" },
