@@ -740,7 +740,7 @@ const allWords = {
     { "korece": "영 / 공 ⚪", "turkce": "sıfır" }
 ],
 
-};
+};// ... (allWords objesi aynı kalıyor, sadece Yemekler kısmına okunuşları eklediğinden emin ol)
 
 document.addEventListener('DOMContentLoaded', () => {
     const wordGrid = document.getElementById('wordGrid');
@@ -750,7 +750,6 @@ document.addEventListener('DOMContentLoaded', () => {
     
     let currentCategory = "all";
 
-    // ✨ 1. KATEGORİLERİ GÖSTER (Ana Sayfa)
     function displayCategories() {
         currentCategory = "all";
         wordGrid.innerHTML = ""; 
@@ -777,13 +776,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // ✨ 2. KELİMELERİ GÖSTER
     function displayWords(searchTerm = "", selectedCategory) {
         currentCategory = selectedCategory;
         wordGrid.innerHTML = "";
         if (autocompleteList) autocompleteList.innerHTML = "";
         
-        // Üst Paneli Düzenle
         if (selectedCategory !== "Global Arama") {
             categoryButtons.innerHTML = `
                 <div style="width:100%; text-align:center;">
@@ -803,7 +800,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const term = searchTerm.toLowerCase().trim();
         
-        // Veri Kaynağını Hazırla
         let sourceWords = [];
         if (selectedCategory === "Global Arama") {
             for (const cat in allWords) {
@@ -813,12 +809,10 @@ document.addEventListener('DOMContentLoaded', () => {
             sourceWords = allWords[selectedCategory] || [];
         }
 
-        // Filtrele ve Ekrana Bas
         sourceWords.forEach(item => {
             const kor = item.korece.toLowerCase();
             const tr = item.turkce.toLowerCase();
             
-            // Akıllı Kelime Başlangıç Kontrolü 🚀
             const trWords = tr.split(' ');
             const korWords = kor.split(' ');
             
@@ -831,16 +825,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 const badge = item.originCat ? `<div class="category-badge">${item.originCat.split(' ')[0]}</div>` : '';
                 
-                card.innerHTML = `${badge}
-    <h3>${item.korece}</h3>
-    <div class="pronunciation">[ ${item.okunus || ''} ]</div> 
-    <span>${item.turkce}</span>
-`;
+                // OKUNUŞ KISMI BURADA:
+                card.innerHTML = `
+                    ${badge}
+                    <h3>${item.korece}</h3>
+                    <div class="pronunciation" style="font-style: italic; color: var(--secondary-color); margin-bottom: 5px;">
+                        ${item.okunus ? '[' + item.okunus + ']' : ''}
+                    </div> 
+                    <span>${item.turkce}</span>
+                `;
+                
+                // ✨ KRİTİK DÜZELTME: Kartı ekrana ekliyoruz
+                wordGrid.appendChild(card);
             }
         });
     }
 
-    // 🔥 3. AKILLI ARAMA TETİKLEYİCİSİ
     searchInput.addEventListener('input', function() {
         const val = this.value.toLowerCase().trim();
         if (autocompleteList) autocompleteList.innerHTML = "";
@@ -861,11 +861,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Dışarı tıklayınca önerileri kapat
     document.addEventListener("click", (e) => { 
         if (autocompleteList && e.target !== searchInput) autocompleteList.innerHTML = ""; 
     });
 
-    // 🚀 SİTEYİ BAŞLAT
     displayCategories();
 });
+
+
+
