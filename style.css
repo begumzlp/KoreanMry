@@ -147,3 +147,17 @@ footer {
     padding: 40px; 
     color: var(--primary-color); 
     font-weight: 600; }
+.pronunciation {
+    font-size: 0.9rem;
+    color: #ffb7ce; /* O sevdiğin açık pembe tonu */
+    font-style: italic;
+    margin: 5px 0 10px 0;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.word-card h3 {
+    margin-bottom: 2px; /* Okunuşla arayı biraz kapatır */
+    font-size: 2.2rem;
+}
+
