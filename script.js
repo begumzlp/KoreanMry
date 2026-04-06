@@ -831,8 +831,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 const badge = item.originCat ? `<div class="category-badge">${item.originCat.split(' ')[0]}</div>` : '';
                 
-                card.innerHTML = `${badge}<h3>${item.korece}</h3><span>${item.turkce}</span>`;
-                wordGrid.appendChild(card);
+                card.innerHTML = `${badge}
+    <h3>${item.korece}</h3>
+    <div class="pronunciation">[ ${item.okunus || ''} ]</div> 
+    <span>${item.turkce}</span>
+`;
             }
         });
     }
