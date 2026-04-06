@@ -740,9 +740,7 @@ const allWords = {
     { "korece": "영 / 공 ⚪", "turkce": "sıfır" }
 ],
 
-};// ... (allWords objesi aynı kalıyor, sadece Yemekler kısmına okunuşları eklediğinden emin ol)
-
-document.addEventListener('DOMContentLoaded', () => {
+};document.addEventListener('DOMContentLoaded', () => { // Küçük 'd' harfine dikkat! ✨
     const wordGrid = document.getElementById('wordGrid');
     const searchInput = document.getElementById('searchInput');
     const categoryButtons = document.getElementById('categoryButtons');
@@ -762,8 +760,8 @@ document.addEventListener('DOMContentLoaded', () => {
             catCard.className = 'category-main-card animate-in';
             
             const firstSpaceIndex = categoryName.indexOf(' ');
-            const emoji = categoryName.substring(0, firstSpaceIndex); 
-            const title = categoryName.substring(firstSpaceIndex).trim(); 
+            const emoji = firstSpaceIndex !== -1 ? categoryName.substring(0, firstSpaceIndex) : "✨"; 
+            const title = firstSpaceIndex !== -1 ? categoryName.substring(firstSpaceIndex).trim() : categoryName; 
 
             catCard.innerHTML = `
                 <div class="category-emoji-center">${emoji}</div>
@@ -781,26 +779,17 @@ document.addEventListener('DOMContentLoaded', () => {
         wordGrid.innerHTML = "";
         if (autocompleteList) autocompleteList.innerHTML = "";
         
-        if (selectedCategory !== "Global Arama") {
-            categoryButtons.innerHTML = `
-                <div style="width:100%; text-align:center;">
-                    <button class="cat-btn" id="backBtn">⬅️ Kategorilere Dön</button>
-                    <h2 style="color: var(--text-deep-pink); margin-bottom: 20px;">${selectedCategory}</h2>
-                </div>
-            `;
-        } else {
-            categoryButtons.innerHTML = `
-                <div style="width:100%; text-align:center;">
-                    <button class="cat-btn" id="backBtn">⬅️ Kategorilere Dön</button>
-                    <h2 style="color: var(--primary-color); margin-bottom: 20px;">🔍 Arama Sonuçları</h2>
-                </div>
-            `;
-        }
+        categoryButtons.innerHTML = `
+            <div style="width:100%; text-align:center;">
+                <button class="cat-btn" id="backBtn">⬅️ Kategorilere Dön</button>
+                <h2 style="color: var(--text-deep-pink); margin-bottom: 20px;">${selectedCategory === "Global Arama" ? "🔍 Arama Sonuçları" : selectedCategory}</h2>
+            </div>
+        `;
         document.getElementById('backBtn').onclick = displayCategories;
 
         const term = searchTerm.toLowerCase().trim();
-        
         let sourceWords = [];
+
         if (selectedCategory === "Global Arama") {
             for (const cat in allWords) {
                 allWords[cat].forEach(item => sourceWords.push({ ...item, originCat: cat }));
@@ -813,29 +802,23 @@ document.addEventListener('DOMContentLoaded', () => {
             const kor = item.korece.toLowerCase();
             const tr = item.turkce.toLowerCase();
             
-            const trWords = tr.split(' ');
-            const korWords = kor.split(' ');
-            
-            const isMatch = trWords.some(word => word.startsWith(term)) || 
-                          korWords.some(word => word.startsWith(term));
+            const isMatch = tr.includes(term) || kor.includes(term);
 
             if (term === "" || isMatch) {
                 const card = document.createElement('div');
                 card.className = 'word-card animate-in';
-                
                 const badge = item.originCat ? `<div class="category-badge">${item.originCat.split(' ')[0]}</div>` : '';
                 
-                // OKUNUŞ KISMI BURADA:
+                // OKUNUŞ KONTROLÜ ✨
+                // item.okunus verisinin objede olduğundan emin ol!
                 card.innerHTML = `
                     ${badge}
                     <h3>${item.korece}</h3>
-                    <div class="pronunciation" style="font-style: italic; color: var(--secondary-color); margin-bottom: 5px;">
+                    <div class="pronunciation">
                         ${item.okunus ? '[' + item.okunus + ']' : ''}
                     </div> 
                     <span>${item.turkce}</span>
                 `;
-                
-                // ✨ KRİTİK DÜZELTME: Kartı ekrana ekliyoruz
                 wordGrid.appendChild(card);
             }
         });
@@ -843,30 +826,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     searchInput.addEventListener('input', function() {
         const val = this.value.toLowerCase().trim();
-        if (autocompleteList) autocompleteList.innerHTML = "";
-
         if (val === "") {
-            if (currentCategory === "all" || currentCategory === "Global Arama") {
-                displayCategories();
-            } else {
-                displayWords("", currentCategory);
-            }
+            if (currentCategory === "all") displayCategories();
+            else displayWords("", currentCategory);
             return;
         }
-
-        if (currentCategory === "all") {
-            displayWords(val, "Global Arama");
-        } else {
-            displayWords(val, currentCategory);
-        }
-    });
-
-    document.addEventListener("click", (e) => { 
-        if (autocompleteList && e.target !== searchInput) autocompleteList.innerHTML = ""; 
+        if (currentCategory === "all") displayWords(val, "Global Arama");
+        else displayWords(val, currentCategory);
     });
 
     displayCategories();
 });
-
 
 
