@@ -528,8 +528,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function displayCategories() {
         currentCategory = "all";
-        wordGrid.innerHTML = ""; 
-        categoryButtons.innerHTML = ""; 
+        if (wordGrid) wordGrid.innerHTML = ""; 
+        if (categoryButtons) categoryButtons.innerHTML = ""; 
         searchInput.value = "";
         if (autocompleteList) autocompleteList.innerHTML = "";
 
@@ -537,7 +537,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const catCard = document.createElement('div');
             catCard.className = 'category-main-card animate-in';
             
-            // Emoji ve Başlık Ayıklama (Daha güvenli yöntem ✨)
             const parts = categoryName.split(' ');
             const emoji = parts[0] || "✨"; 
             const title = parts.slice(1).join(' ') || categoryName; 
@@ -555,26 +554,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function displayWords(searchTerm = "", selectedCategory) {
         currentCategory = selectedCategory;
-        wordGrid.innerHTML = "";
+        if (wordGrid) wordGrid.innerHTML = "";
         if (autocompleteList) autocompleteList.innerHTML = "";
         
-        // Geri Dön butonu ve Başlık
         const cleanTitle = selectedCategory.includes(' ') ? selectedCategory.split(' ').slice(1).join(' ') : selectedCategory;
 
-        categoryButtons.innerHTML = `
-            <div style="width:100%; text-align:center;">
-                <button class="cat-btn" id="backBtn">⬅️ Kategorilere Dön</button>
-                <h2 style="color: var(--text-deep-pink); margin-bottom: 20px;">
-                    ${selectedCategory === "Global Arama" ? "🔍 Arama Sonuçları" : cleanTitle}
-                </h2>
-            </div>
-        `;
-        document.getElementById('backBtn').onclick = displayCategories;
+        if (categoryButtons) {
+            categoryButtons.innerHTML = `
+                <div style="width:100%; text-align:center;">
+                    <button class="cat-btn" id="backBtn">⬅️ Kategorilere Dön</button>
+                    <h2 style="color: var(--text-deep-pink); margin-bottom: 20px;">
+                        ${selectedCategory === "Global Arama" ? "🔍 Arama Sonuçları" : cleanTitle}
+                    </h2>
+                </div>
+            `;
+            document.getElementById('backBtn').onclick = displayCategories;
+        }
 
         const term = searchTerm.toLowerCase().trim();
         let sourceWords = [];
 
-        // Veri Kaynağını Belirle
         if (selectedCategory === "Global Arama") {
             for (const cat in allWords) {
                 allWords[cat].forEach(item => {
@@ -585,69 +584,59 @@ document.addEventListener('DOMContentLoaded', () => {
             sourceWords = allWords[selectedCategory] || [];
         }
 
-        // Kelimeleri Filtrele ve Yazdır
         sourceWords.forEach(item => {
             const kor = item.korece.toLowerCase();
             const tr = item.turkce.toLowerCase();
             const okunu = item.okunus ? item.okunus.toLowerCase() : "";
             
-            // YENİ MANTIK: Sadece kelimenin BAŞINDA varsa veya TAM eşleşiyorsa ✨
-            // Bu sayede "su" yazınca "çöp kutusu" (sonunda olduğu için) çıkmaz.
+            // StartsWith mantığı "çöp kutusu" problemini çözer, harika! ✨
             const isMatch = 
-                tr.split(', ').some(word => word.trim().startsWith(term)) || // Türkçe anlamların başındaysa
-                kor.startsWith(term) || // Korece kelimenin başındaysa
-                okunu.startsWith(term); // Okunuşun başındaysa
+                tr.split(', ').some(word => word.trim().startsWith(term)) || 
+                kor.startsWith(term) || 
+                okunu.startsWith(term);
 
             if (term === "" || isMatch) {
                 const card = document.createElement('div');
                 card.className = 'word-card animate-in';
                 
-                // Kategori Rozeti (Sadece Global Aramada görünür)
                 const badgeEmoji = item.originCat ? item.originCat.split(' ')[0] : '';
                 const badge = item.originCat ? `<div class="category-badge">${badgeEmoji}</div>` : '';
                 
-                  card.innerHTML = `
-    <div class="card-inner">
-        <div class="card-front">
-            ${badge}
-            <h3>${item.korece}</h3>
-            <div class="pronunciation">[${item.okunus}]</div> 
-            <span>${item.turkce}</span>
-        </div>
-        <div class="card-back">
-            <p style="font-weight:bold; color:#fff;">${item.ornek}</p>
-            <p style="font-style:italic; font-size:0.8rem; opacity:0.9;">[${item.ornekOkunus}]</p>
-            <p style="margin-top:8px; border-top:1px solid rgba(255,255,255,0.3); padding-top:5px;">${item.ornekTr}</p>
-        </div>
-    </div>
-`;
+                card.innerHTML = `
+                    <div class="card-inner">
+                        <div class="card-front">
+                            ${badge}
+                            <h3>${item.korece}</h3>
+                            <div class="pronunciation">[${item.okunus}]</div> 
+                            <span>${item.turkce}</span>
+                        </div>
+                        <div class="card-back">
+                            <p>${item.ornek}</p>
+                            <p>[${item.ornekOkunus}]</p>
+                            <p>${item.ornekTr}</p>
+                        </div>
+                    </div>
+                `;
 
-// Tıklayınca 'is-flipped' sınıfını ekle/çıkar 🔄
-card.onclick = () => card.classList.toggle('is-flipped');
+                card.onclick = () => card.classList.toggle('is-flipped');
                 wordGrid.appendChild(card);
             }
         });
 
-        // Eğer sonuç yoksa kullanıcıyı üzme 🌸
         if (wordGrid.innerHTML === "" && term !== "") {
             wordGrid.innerHTML = `<p style="text-align:center; width:100%; color:var(--secondary-color);">Kelime bulunamadı... ✨</p>`;
         }
     }
 
-    // Arama Input Dinleyicisi
     searchInput.addEventListener('input', function() {
         const val = this.value.toLowerCase().trim();
         if (val === "") {
             if (currentCategory === "all") displayCategories();
             else displayWords("", currentCategory);
-            return;
-        }
-        
-        // Arama yaparken kategori bilgisini koru veya Global'e geç
-        if (currentCategory === "all" || currentCategory === "Global Arama") {
-            displayWords(val, "Global Arama");
         } else {
-            displayWords(val, currentCategory);
+            // "all" durumundaysak Global Arama'ya zorla ✨
+            const searchCat = (currentCategory === "all") ? "Global Arama" : currentCategory;
+            displayWords(val, searchCat);
         }
     });
 
