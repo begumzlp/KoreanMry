@@ -1,235 +1,214 @@
-/* --- PEMBE CENNETİ AYARLARI --- */
+/* --- 1. DEĞİŞKENLER VE TEMA SİSTEMİ ✨ --- */
 :root {
-    --primary-color: #ff85a1;    /* Ana Pembe */
-    --secondary-color: #fca3cc;  /* Orta Pembe */
-    --accent-color: #ffb7ce;     /* Açık Pembe */
-    --bg-color: #fff0f5;         /* Arka Plan */
-    --text-deep-pink: #d81b60;   /* Koyu Pembe */
-    --shadow: 0 12px 40px rgba(255, 133, 161, 0.3); 
+    --primary-color: #ff85a1;
+    --secondary-color: #fca3cc;
+    --accent-color: #ffb7ce;
+    --bg-color: #fff0f5;
+    --text-deep-pink: #d81b60;
     --card-bg: #ffffff;
+    --shadow: 0 12px 40px rgba(255, 133, 161, 0.3);
 }
 
+[data-theme="dark"] {
+    --bg-color: #0f0c29;       /* Derin Uzay Mavisi */
+    --card-bg: #1b1b3a;        /* Koyu Gece Moru */
+    --text-deep-pink: #ffb7ce; /* Yazılar neon pembe */
+    --secondary-color: #7158e2; /* Gece moduna özel mor vurgu */
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+/* --- 2. TEMEL AYARLAR --- */
 * { 
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box; 
+    margin: 0; padding: 0; box-sizing: border-box; 
+    font-style: normal !important; 
 }
 
-body {
+body { 
     font-family: 'Poppins', sans-serif; 
-    background-color: var(--bg-color);
-    color: var(--text-deep-pink);
-    line-height: 1.6;
+    background-color: var(--bg-color); 
+    color: var(--text-deep-pink); 
     overflow-x: hidden;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+[data-theme="dark"] body {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
 }
 
 header {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    color: white;
-    text-align: center;
-    padding: 60px 20px;
+    color: white; text-align: center; padding: 40px 20px; 
     border-bottom: 5px solid var(--accent-color);
-}
-
-header h1 { 
-    font-size: 3.5rem; 
-    text-shadow: 2px 2px var(--text-deep-pink); 
-}
-
-/* --- ARAMA KUTUSU --- */
-.search-container { 
-    text-align: center; 
-    margin: -35px 0 45px 0; 
-    z-index: 100; 
-    position: relative; 
-}
-
-#searchInput {
-    width: 90%; 
-    max-width: 650px; 
-    padding: 22px 35px; 
-    font-size: 1.3rem;
-    border: 3px solid var(--secondary-color); 
-    border-radius: 60px; 
-    color: var(--text-deep-pink); 
-    outline: none; 
-    box-shadow: var(--shadow);
-    transition: 0.3s;
-}
-
-#searchInput:focus {
-    border-color: var(--primary-color);
-    transform: scale(1.02);
-}
-
-/* --- IZGARA SİSTEMİ --- */
-.word-grid {
-    display: grid; 
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
-    gap: 15px; 
-    padding: 25px; 
-    max-width: 1300px; 
-    margin: 0 auto;
-}
-
-/* --- KATEGORİ KARTLARI --- */
-.category-main-card {
-    background: white; 
-    border: 3px dashed var(--secondary-color);
-    min-height: 180px; 
-    border-radius: 20px; 
-    padding: 15px;
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center;
-    text-align: center; 
-    cursor: pointer; 
-    transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.category-main-card:hover { 
-    transform: translateY(-12px); 
-    background: #fffbff; 
-    box-shadow: var(--shadow);
-}
-
-.category-emoji-center { 
-    font-size: 5rem; 
-    margin-bottom: 15px; 
-}
-
-.category-title-center { 
-    font-size: 1.4rem; 
-    color: var(--text-deep-pink); 
-    font-weight: 800; 
-    text-transform: uppercase; 
-    letter-spacing: 1px;
-}
-
-/* --- KELİME KARTLARI (FLIP) --- */
-.word-card {
-    perspective: 1500px; 
-    height: 320px; /* Yazılar büyüdüğü için yüksekliği artırdım ✨ */
-    cursor: pointer;
-    background: transparent !important;
-}
-
-.card-inner {
     position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
-    transform-style: preserve-3d;
 }
 
-.word-card.is-flipped .card-inner {
-    transform: rotateY(180deg);
+[data-theme="dark"] header {
+    background: linear-gradient(135deg, #302b63, #24243e);
+    border-bottom: 5px solid var(--secondary-color);
 }
+
+/* --- 3. ANA MENÜ VE KATEGORİ SEÇİMİ ✨ --- */
+.menu-grid { text-align: center; padding: 40px 20px; }
+.menu-welcome { font-size: 2rem; margin-bottom: 30px; font-weight: 800; }
+.menu-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px; max-width: 1000px; margin: 0 auto; }
+
+.menu-card, .category-item-card {
+    background: var(--card-bg); border-radius: 30px; padding: 25px; cursor: pointer;
+    transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); box-shadow: var(--shadow);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-card:hover, .category-item-card:hover { 
+    transform: translateY(-12px) scale(1.03); border: 2px solid var(--primary-color);
+}
+
+.category-grid-layout {
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Kartlar sığması için genişletildi */
+    gap: 25px; padding: 20px; max-width: 1200px; margin: 0 auto;
+}
+
+/* --- 4. ARAMA ÇUBUĞU 🔍 --- */
+.search-container { display: flex; justify-content: center; align-items: center; margin: 20px 0 40px 0; padding: 0 20px; width: 100%; }
+#searchInput {
+    width: 100%; max-width: 550px; padding: 16px 30px; font-size: 1.1rem;
+    border: 2px solid var(--accent-color); border-radius: 50px;
+    box-shadow: var(--shadow); outline: none; transition: 0.3s ease;
+}
+#searchInput:focus { border-color: var(--primary-color); transform: scale(1.02); }
+
+[data-theme="dark"] #searchInput { background: #24243e; color: white; border-color: var(--secondary-color); }
+
+/* --- 5. KART TASARIMI (FLIP) 🃏 --- */
+.word-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; padding: 20px; }
+.word-card { perspective: 1500px; height: 320px; cursor: pointer; background: transparent !important; }
+.card-inner { position: relative; width: 100%; height: 100%; transition: transform 0.6s; transform-style: preserve-3d; }
+.word-card.is-flipped .card-inner { transform: rotateY(180deg); }
 
 .card-front, .card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 30px;
-    padding: 25px;
-    box-shadow: var(--shadow);
+    position: absolute; width: 100%; height: 100%; backface-visibility: hidden;
+    border-radius: 25px; padding: 25px; display: flex; flex-direction: column; 
+    justify-content: center; align-items: center; text-align: center;
 }
 
-.card-front {
-    background: white;
+.card-front { background: var(--card-bg); box-shadow: var(--shadow); }
+[data-theme="dark"] .card-front { color: white !important; }
+
+.card-back { 
+    background: linear-gradient(135deg, var(--secondary-color), var(--primary-color)); 
+    transform: rotateY(180deg); color: white !important; justify-content: space-evenly;
 }
 
-.card-back {
-    background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
-    color: white;
-    transform: rotateY(180deg);
-    padding: 15px; /* İç boşluğu biraz azalttık ✨ */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 8px; /* Yazılar arası mesafeyi daralttık */
+[data-theme="dark"] .card-back {
+    background: linear-gradient(135deg, #1b1b3a, #0f0c29) !important;
 }
 
-/* ARKA YÜZ: Korece Cümle */
-.card-back p:nth-child(1) {
-    font-size: 1.4rem !important; /* 2rem'den 1.4'e çektik, kutuya tam sığar 🚀 */
-    font-weight: 700;
-    line-height: 1.2;
+/* --- 6. VURGULAMALAR VE YAZI HİZALAMA 📏 --- */
+#categoryButtons { display: flex; flex-direction: column; align-items: center; text-align: center; margin: 20px 0; }
+#categoryButtons h2 {
+    font-size: 2.5rem; font-weight: 800; text-align: center; width: 100%;
+    margin: 10px auto; text-transform: uppercase;
 }
 
-/* ARKA YÜZ: Cümle Okunuşu */
-.card-back p:nth-child(2) {
-    font-size: 1.1rem !important; /* Daha zarif bir okunuş */
-    font-style: italic;
-    background: rgba(255, 255, 255, 0.2);
-    padding: 3px 10px;
-    border-radius: 8px;
+.highlight-white, .highlight-pink-soft { 
+    color: #df1aae !important; font-weight: 900; background: none !important; 
 }
 
-/* ARKA YÜZ: Türkçe Anlam */
-.card-back p:nth-child(3) {
-    font-size: 1.2rem !important; /* Anlam net ama yer kaplamıyor 🇹🇷 */
-    font-weight: 600;
+/* Gece modunda parlayan vurgular ✨ */
+[data-theme="dark"] .highlight-white, 
+[data-theme="dark"] .highlight-pink-soft { 
+    color: #ff85a1 !important; 
+    text-shadow: 0 0 10px rgba(255, 133, 161, 0.6);
+}
+
+.sentence-tr {
     border-top: 1px solid rgba(255, 255, 255, 0.3);
-    padding-top: 8px;
+    padding-top: 10px; font-size: 1.1rem; width: 100%; color: #fff0f5;
 }
 
-/* --- KART ÖN YÜZ DETAYLARI --- */
-.word-card h3 { 
-    font-size: 2.5rem; /* Korece ana kelime büyüdü */
-    color: var(--primary-color); 
-    margin-bottom: 5px; 
+[data-theme="dark"] .sentence-tr {
+    border-top: 1px solid rgba(113, 88, 226, 0.4) !important;
+    color: #e0e0e0 !important;
 }
 
-.pronunciation {
-    font-size: 1.3rem; /* Okunuş büyüdü (Virgül hatası düzeltildi: 1.2rem) */
-    color: var(--secondary-color);
-    font-style: italic;
-    margin-bottom: 15px;
-    font-weight: 500;
-}
-
-.card-front span { 
-    font-size: 1.7rem; /* Türkçe ana anlam büyüdü */
-    color: var(--text-deep-pink); 
-    font-weight: 700; 
-    border-top: 2px dashed var(--accent-color); 
-    padding-top: 12px; 
-    width: 85%;
-}
-
-/* --- DİĞER --- */
-.cat-btn { 
-    background: var(--primary-color); 
-    color: white; 
-    border: none; 
-    padding: 15px 40px; 
-    border-radius: 55px; 
-    font-weight: 700; 
-    font-size: 1.1rem;
-    cursor: pointer; 
-    margin: 25px 0;
-    transition: 0.3s;
+/* --- 7. KDRAMA ÖZEL KART AYARLARI 🎬 --- */
+.category-item-card {
+    .category-item-card {
+    width: 100%; 
+    min-height: 1000px; /* Kartın toplam boyunu biraz daralttık */
+    padding: 0; 
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: var(--card-bg);
     box-shadow: var(--shadow);
 }
+}
 
-.cat-btn:hover {
-    background: var(--text-deep-pink);
+.category-item-card img {
+    width: 100%;
+    height: 600px; /* Afiş alanı */
+    object-fit: contain; /* ASLA KESME YAPMAZ, RESMİ SIĞDIRIR 📏 */
+    background-color: rgba(255, 255, 255, 0.05); /* Boşluklar için hafif gölge */
+    padding: 0px;
+    transition: transform 0.3s ease;
+}
+
+.category-item-card div {
+    padding: 10px 15px !important; /* İç boşlukları daralttık */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1; /* Kalan alanı kapla */
+}
+
+[data-theme="dark"] .category-item-card img {
+    background-color: rgba(255,255,255,0.02);
+    border-bottom: 1px solid var(--secondary-color);
+    filter: brightness(0.9);
+}
+
+.category-item-card h3 {
+    padding: 0 !important;
+    margin-bottom: 2px !important;
+    font-size: 1rem !important; /* Yazı boyutunu küçülttük */
+    line-height: 1.2;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Çok uzun başlıkları 2 satırda keser */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.category-item-card p {
+    padding: 0 !important;
+    font-size: 0.8rem !important; /* Yıl ve oyuncu bilgisini küçülttük */
+    opacity: 0.8;
+    margin-top: 2px;
+}
+
+.category-item-card:hover img {
     transform: scale(1.05);
 }
 
-footer { 
-    text-align: center; 
-    padding: 50px; 
-    color: var(--primary-color); 
-    font-weight: 600;
-    font-size: 1.1rem;
+/* --- 8. BUTONLAR VE TEMA GEÇİŞİ 🌙 --- */
+.cat-btn { 
+    background: var(--primary-color); color: white; border: none; padding: 12px 30px; 
+    border-radius: 50px; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); 
 }
+
+.theme-btn {
+    position: absolute; right: 20px; top: 20px;
+    background: #030b5b; border: 2px solid #ff85a1; color: #ff85a1;
+    cursor: pointer; padding: 10px; border-radius: 50%; z-index: 1000;
+    transition: all 0.4s ease; box-shadow: 0 4px 15px rgba(255, 133, 161, 0.2);
+}
+
+[data-theme="dark"] .theme-btn {
+    background: #ffffff; border: 1px solid #ffb7ce; color: #1a1a2e;
+    box-shadow: 0 0 15px rgba(255, 220, 19, 0.5);
+}
+
+.theme-btn:hover { transform: scale(1.1) rotate(15deg); filter: brightness(1.2); }
