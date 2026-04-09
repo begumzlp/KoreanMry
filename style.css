@@ -10,10 +10,10 @@
 }
 
 [data-theme="dark"] {
-    --bg-color: #0f0c29;       /* Derin Uzay Mavisi */
-    --card-bg: #1b1b3a;        /* Koyu Gece Moru */
-    --text-deep-pink: #ffb7ce; /* Yazılar neon pembe */
-    --secondary-color: #7158e2; /* Gece moduna özel mor vurgu */
+    --bg-color: #0f0c29;
+    --card-bg: #1b1b3a;
+    --text-deep-pink: #ffb7ce;
+    --secondary-color: #7158e2;
     --shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
 }
 
@@ -47,27 +47,19 @@ header {
     border-bottom: 5px solid var(--secondary-color);
 }
 
-/* --- 3. ANA MENÜ VE KATEGORİ SEÇİMİ ✨ --- */
+/* --- 3. ANA MENÜ VE IZGARA YAPISI ✨ --- */
 .menu-grid { text-align: center; padding: 40px 20px; }
 .menu-welcome { font-size: 2rem; margin-bottom: 30px; font-weight: 800; }
 .menu-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px; max-width: 1000px; margin: 0 auto; }
 
-.menu-card, .category-item-card {
-    background: var(--card-bg); border-radius: 30px; padding: 25px; cursor: pointer;
+.menu-card {
+    background: var(--card-bg); border-radius: 30px; padding: 30px; cursor: pointer;
     transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); box-shadow: var(--shadow);
     text-align: center;
-    display: flex;
-    flex-direction: column;
 }
 
-.menu-card:hover, .category-item-card:hover { 
+.menu-card:hover { 
     transform: translateY(-12px) scale(1.03); border: 2px solid var(--primary-color);
-}
-
-.category-grid-layout {
-    display: grid; 
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Kartlar sığması için genişletildi */
-    gap: 25px; padding: 20px; max-width: 1200px; margin: 0 auto;
 }
 
 /* --- 4. ARAMA ÇUBUĞU 🔍 --- */
@@ -81,7 +73,7 @@ header {
 
 [data-theme="dark"] #searchInput { background: #24243e; color: white; border-color: var(--secondary-color); }
 
-/* --- 5. KART TASARIMI (FLIP) 🃏 --- */
+/* --- 5. KELİME KARTI (FLIP) 🃏 --- */
 .word-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; padding: 20px; }
 .word-card { perspective: 1500px; height: 320px; cursor: pointer; background: transparent !important; }
 .card-inner { position: relative; width: 100%; height: 100%; transition: transform 0.6s; transform-style: preserve-3d; }
@@ -105,18 +97,94 @@ header {
     background: linear-gradient(135deg, #1b1b3a, #0f0c29) !important;
 }
 
-/* --- 6. VURGULAMALAR VE YAZI HİZALAMA 📏 --- */
+/* --- 6. KDRAMA ÖZEL KART VE POSTER AYARLARI 🎬 --- */
+.category-item-card {
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--card-bg);
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.category-item-card:hover {
+    transform: translateY(-10px);
+    border: 2px solid var(--primary-color);
+}
+
+.poster-container {
+    position: relative;
+    width: 100%;
+}
+
+.category-item-card img {
+    width: 100%;
+    aspect-ratio: 2 / 3; 
+    object-fit: contain;
+    background-color: #000; /* Sinematik görünüm için siyah */
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.episode-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: var(--primary-color);
+    color: white;
+    padding: 4px 10px;
+    border-radius: 50px;
+    font-size: 0.7rem;
+    font-weight: 800;
+    z-index: 5;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.card-info {
+    padding: 15px !important;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-info h3 {
+    font-size: 1.1rem;
+    line-height: 1.3;
+    color: var(--primary-color);
+    margin-bottom: 5px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card-info p {
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+/* --- 7. VURGULAMALAR VE IZGARA DÜZENLERİ 📏 --- */
+.category-grid-layout {
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 25px; padding: 20px; max-width: 1250px; margin: 0 auto;
+    align-items: stretch;
+}
+
 #categoryButtons { display: flex; flex-direction: column; align-items: center; text-align: center; margin: 20px 0; }
 #categoryButtons h2 {
     font-size: 2.5rem; font-weight: 800; text-align: center; width: 100%;
     margin: 10px auto; text-transform: uppercase;
 }
 
-.highlight-white, .highlight-pink-soft { 
-    color: #df1aae !important; font-weight: 900; background: none !important; 
-}
+.highlight-white, .highlight-pink-soft { color: #df1aae !important; font-weight: 900; }
 
-/* Gece modunda parlayan vurgular ✨ */
 [data-theme="dark"] .highlight-white, 
 [data-theme="dark"] .highlight-pink-soft { 
     color: #ff85a1 !important; 
@@ -126,71 +194,6 @@ header {
 .sentence-tr {
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     padding-top: 10px; font-size: 1.1rem; width: 100%; color: #fff0f5;
-}
-
-[data-theme="dark"] .sentence-tr {
-    border-top: 1px solid rgba(113, 88, 226, 0.4) !important;
-    color: #e0e0e0 !important;
-}
-
-/* --- 7. KDRAMA ÖZEL KART AYARLARI 🎬 --- */
-.category-item-card {
-    .category-item-card {
-    width: 100%; 
-    min-height: 1000px; /* Kartın toplam boyunu biraz daralttık */
-    padding: 0; 
-    border-radius: 20px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    background: var(--card-bg);
-    box-shadow: var(--shadow);
-}
-}
-
-.category-item-card img {
-    width: 100%;
-    height: 600px; /* Afiş alanı */
-    object-fit: contain; /* ASLA KESME YAPMAZ, RESMİ SIĞDIRIR 📏 */
-    background-color: rgba(255, 255, 255, 0.05); /* Boşluklar için hafif gölge */
-    padding: 0px;
-    transition: transform 0.3s ease;
-}
-
-.category-item-card div {
-    padding: 10px 15px !important; /* İç boşlukları daralttık */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-grow: 1; /* Kalan alanı kapla */
-}
-
-[data-theme="dark"] .category-item-card img {
-    background-color: rgba(255,255,255,0.02);
-    border-bottom: 1px solid var(--secondary-color);
-    filter: brightness(0.9);
-}
-
-.category-item-card h3 {
-    padding: 0 !important;
-    margin-bottom: 2px !important;
-    font-size: 1rem !important; /* Yazı boyutunu küçülttük */
-    line-height: 1.2;
-    display: -webkit-box;
-    -webkit-line-clamp: 2; /* Çok uzun başlıkları 2 satırda keser */
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-}
-
-.category-item-card p {
-    padding: 0 !important;
-    font-size: 0.8rem !important; /* Yıl ve oyuncu bilgisini küçülttük */
-    opacity: 0.8;
-    margin-top: 2px;
-}
-
-.category-item-card:hover img {
-    transform: scale(1.05);
 }
 
 /* --- 8. BUTONLAR VE TEMA GEÇİŞİ 🌙 --- */
@@ -203,12 +206,97 @@ header {
     position: absolute; right: 20px; top: 20px;
     background: #030b5b; border: 2px solid #ff85a1; color: #ff85a1;
     cursor: pointer; padding: 10px; border-radius: 50%; z-index: 1000;
-    transition: all 0.4s ease; box-shadow: 0 4px 15px rgba(255, 133, 161, 0.2);
+    transition: all 0.4s ease;
 }
 
 [data-theme="dark"] .theme-btn {
     background: #ffffff; border: 1px solid #ffb7ce; color: #1a1a2e;
     box-shadow: 0 0 15px rgba(255, 220, 19, 0.5);
 }
+.stats-bar {
+    background: var(--card-bg);
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin: 15px auto;
+    display: inline-block;
+    font-size: 0.9rem;
+    box-shadow: var(--shadow);
+    color: var(--text-deep-pink);
+    border: 1px solid var(--accent-color);
+}
 
-.theme-btn:hover { transform: scale(1.1) rotate(15deg); filter: brightness(1.2); }
+.fav-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(255,255,255,0.8);
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    z-index: 10;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fav-btn.active { background: white; }
+.fav-btn:hover { transform: scale(1.2); }
+
+
+
+/* Oyuncu Profil Kartı ✨ */
+.actor-profile-card {
+    display: flex;
+    align-items: center;
+    background: var(--card-bg);
+    padding: 25px;
+    border-radius: 30px;
+    box-shadow: var(--shadow);
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+    gap: 30px;
+    border: 2px solid var(--accent-color);
+}
+
+.actor-profile-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--primary-color);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.actor-info-text h2 {
+    font-size: 1.8rem !important;
+    margin: 0 0 10px 0 !important;
+    text-align: left !important;
+    color: var(--primary-color);
+}
+
+.actor-info-text p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    opacity: 0.9;
+    margin-bottom: 10px;
+}
+
+.insta-tag {
+    font-weight: 800;
+    color: var(--secondary-color);
+    font-size: 0.85rem;
+}
+
+/* Mobil uyum */
+@media (max-width: 600px) {
+    .actor-profile-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .actor-info-text h2 { text-align: center !important; }
+}
+
