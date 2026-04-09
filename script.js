@@ -569,340 +569,361 @@ const allWords = {
 };
 
 const kdramaData = [
-
-    { title: "100 Days My Prince", year: "2018", cast: "Doh Kyung Soo, Kim Seon Ho", afis: "https://i.pinimg.com/1200x/05/a1/fc/05a1fce7ed90507db5e5424d3e097b3d.jpg" },
-    { title: "109 Strange Things", year: "2017", cast: "Choi Tae Joon", afis: "https://i.pinimg.com/736x/d7/ba/50/d7ba50712112f84c62045828b5435e2f.jpg" },
-    { title: "28 Moons", year: "2016", cast: "Kim Kyu Jong", afis: "https://i.pinimg.com/1200x/ce/b4/ae/ceb4ae0591d5e93d61d0c99202c36f41.jpg" },
-    { title: "7 Days Of Romance", year: "2019", cast: "Shin Joon Seop", afis: "https://i.pinimg.com/736x/f4/3d/8b/f43d8b0cc3857fd7f3b704607d4845e3.jpg" },
-    { title: "A Good Day to Be a Dog", year: "2023", cast: "Cha Eun Woo, Lee Hyun Woo", afis: "https://i.pinimg.com/736x/24/f6/8d/24f68d6f2d211ab0009e73c05630f2dd.jpg" },
-    { title: "A Korean Odyssey", year: "2017", cast: "Lee Seung Gi", afis: "https://i.pinimg.com/736x/c0/20/b8/c020b8ac24cd70404dd5a895e3331747.jpg" },
-    { title: "A Love so Beautiful", year: "2020", cast: "Kim Yohan", afis: "https://i.pinimg.com/736x/76/5b/c6/765bc6a0e983b4331feb59e5c2e7db50.jpg" },
-    { title: "A Poem A Day", year: "2018", cast: "Lee Joon Hyuk, Jang Dong Yoon", afis: "https://i.pinimg.com/736x/24/a2/7a/24a27a4e290e85f245f988db08348719.jpg" },
-    { title: "Abyss", year: "2019", cast: "Ahn Yeo Seop", afis: "https://i.pinimg.com/736x/b3/6e/0b/b36e0b0559728fc22c56e62b19a8f891.jpg" },
-    { title: "Adult Trainee", year: "2021", cast: "Ryeo Un", afis: "https://i.pinimg.com/736x/ba/b9/3a/bab93a3e4b7aff227f41546a0280b3bf.jpg" },
-    { title: "All That We Loved", year: "2023", cast: "Oh Sehun", afis: "https://i.pinimg.com/1200x/a4/23/95/a4239590bb405ed5300b37ad3123f022.jpg" },
-    { title: "Angels Last Mission Love", year: "2019", cast: "Kim Myung Soo", afis: "https://i.pinimg.com/736x/18/86/f0/1886f0fbc4722969372413622fb918ec.jpg" },
-    { title: "Another Miss Oh", year: "2016", cast: "Eric Nam", afis: "https://i.pinimg.com/736x/c6/cc/1c/c6cc1c61f3e2af0686ed03e24c5f4c96.jpg" },
-    { title: "Are You Human Too?", year: "2018", cast: "Seo Kang Joon, Leen Jun Hyuk", afis: "https://i.pinimg.com/1200x/3b/90/dd/3b90ddba3ff755a7b343e499a1840dc0.jpg" },
-    { title: "At a Distance, Spring is Green", year: "2021", cast: "Park Ji Hoon, Bae In Hyuk", afis: "https://i.pinimg.com/736x/fa/af/3a/faaf3ab6c3b3c21d599f5d3651997957.jpg" },
-    { title: "Backstreet Rookie", year: "2020", cast: "Ji Chang Wook", afis: "https://i.pinimg.com/1200x/68/6a/0d/686a0dce54a538fcac5c910ba46357af.jpg" },
-    { title: "Bad and Crazy", year: "2021", cast: "Lee Dong Wook, Wi Ha Joon", afis: "https://i.pinimg.com/736x/4c/75/16/4c751678407ba4d0685ed1b0b0d01ea1.jpg" },
-    { title: "Bad Guys", year: "2014", cast: "Park Hae Jin", afis: "https://i.pinimg.com/1200x/4f/0d/09/4f0d095d2a9d11dec602d6ed93cef9e0.jpg" },
-    { title: "Be My Boyfriend", year: "2021", cast: "Shin Hyun Seung", afis: "https://i.pinimg.com/1200x/de/95/66/de95668952dd46fcc32805ebb2c1ca74.jpg" },
-    { title: "Be Positive", year: "2016", cast: "Doh Kyung Soo", afis: "https://i.pinimg.com/736x/ae/90/b4/ae90b481846bf79ebf9279568577b410.jpg" },
-    { title: "Beating Again", year: "2015", cast: "Jung Kyung Ho", afis: "https://i.pinimg.com/736x/75/50/6e/75506e76a4b88c6ce64ecb2c1512ffb8.jpg" },
-    { title: "Beautiful Gong Shim", year: "2016", cast: "Namkoong Min", afis: "https://i.pinimg.com/736x/4c/db/44/4cdb44e59aefec0d8f7fb820711b9bee.jpg" },
-    { title: "Beautiology 101", year: "2016", cast: "Kim Jae Young", afis: "https://i.pinimg.com/736x/5f/a8/29/5fa8298f393a4f140c9f6806f8bf681c.jpg" },
-    { title: "Because This is My First Life", year: "2017", cast: "Lee Min Ki, Kim Min Gyu", afis: "" },
-    { title: "Behind Your Touch", year: "2023", cast: "Kim Jun Myeon, Lee Min Ki", afis: "https://i.pinimg.com/736x/21/65/dc/2165dcfc520354add7d4cce5a43938aa.jpg" },
-    { title: "Black Knight: The Man Who Guards Me", year: "2018", cast: "Kim Rae Won", afis: "" },
-    { title: "Blood", year: "2015", cast: "Ahn Jae Hyun, Jung Hae In", afis: "" },
-    { title: "Bloodhounds", year: "2023", cast: "Woo Do Hwan", afis: "" },
-    { title: "Blue Birthday", year: "2021", cast: "Yang Hong Seok", afis: "" },
-    { title: "Bo-ra! Deborah", year: "2023", cast: "Yoon Hyun Min", afis: "" },
-    { title: "Boss-dol Mart", year: "2023", cast: "Kim Min Seok", afis: "" },
-    { title: "Boyfriend Milk", year: "2017", cast: "ASTRO", afis: "" },
-    { title: "Boys Over Flowers", year: "2009", cast: "Lee Min Ho, Kim Bum", afis: "" },
-    { title: "Business Proposal", year: "2022", cast: "Ahn Yeo Seop, Kim Min Gyu", afis: "https://i.pinimg.com/736x/98/de/3d/98de3dc7cffa6f88c36d0ca0640b3f6f.jpg" },
-    { title: "Busted", year: "2018", cast: "Oh Sehun, Lee Seung Gi", afis: "" },
-    { title: "Castaway Diva", year: "2023", cast: "Chae Jong Hyeop", afis: "" },
-    { title: "Casting a Spell to You", year: "2021", cast: "Sung Joon", afis: "" },
-    { title: "Catch the Ghost", year: "2019", cast: "Kim Seon Ho", afis: "" },
-    { title: "Celebrity", year: "2023", cast: "Kang Min Hyuk", afis: "" },
-    { title: "Cheer Up", year: "2022", cast: "Bae In Hyuk", afis: "" },
-    { title: "Cheese in the Trap", year: "2016", cast: "Park Hae Jin, Seo Kang Joon", afis: "" },
-    { title: "Choco Bank", year: "2016", cast: "Kim Jong In", afis: "" },
-    { title: "Cinderella and the Four Knights", year: "2016", cast: "Jung Il Woo", afis: "" },
-    { title: "Clean With Passion For Now", year: "2018", cast: "Yoon Kyun Sang", afis: "" },
-    { title: "Click Your Heart", year: "2016", cast: "Rowoon", afis: "" },
-    { title: "Coffee Prince", year: "2007", cast: "Gong Yoo", afis: "" },
-    { title: "Come and Hug Me", year: "2018", cast: "Jang Ki Young", afis: "" },
-    { title: "Crash Landing On You", year: "2019", cast: "Hyun Bin", afis: "" },
-    { title: "Crazy Love", year: "2022", cast: "Lee Jae Wook", afis: "" },
-    { title: "D-Day", year: "2015", cast: "Kim Young Kwang, Ha Seok Jin", afis: "" },
-    { title: "Daily Dose of Sunshine", year: "2023", cast: "Yeon Woo Jin, Jang Dong Yoon", afis: "" },
-    { title: "Dali and Cocky Prince", year: "2021", cast: "Kim Min Jae", afis: "" },
-    { title: "Descendants of the Sun", year: "2016", cast: "Song Joong Ki, Ahn Bo Hyun", afis: "" },
-    { title: "Destined with You", year: "2023", cast: "Rowoon", afis: "" },
-    { title: "Devilish Joy", year: "2018", cast: "Choi Jin Hyuk", afis: "" },
-    { title: "Devil's Diary", year: "2016", cast: "Han Joo Wan", afis: "" },
-    { title: "Do Do Sol Sol La La Sol", year: "2020", cast: "Lee Jae Wook", afis: "" },
-    { title: "Doctor Stranger", year: "2014", cast: "Lee Jong Seok, Park Hae Jin", afis: "https://i.pinimg.com/736x/24/af/a1/24afa1e69715ff961c772b4197ea150d.jpg" },
-    { title: "Doctors", year: "2016", cast: "Kim Rae Won", afis: "https://i.pinimg.com/736x/7a/ec/7a/7aec7a4cbb8a89860c42ea326fc17902.jpg" },
-    { title: "Dokgo Rewind", year: "2018", cast: "Oh Sehun, Ahn Bo Hyun", afis: "" },
-    { title: "Don't Dare to Dream", year: "2016", cast: "Jo Jung Seok", afis: "" },
-    { title: "Doom at Your Service", year: "2021", cast: "Seo In Guk, Kang Tae Oh", afis: "https://i.pinimg.com/736x/5f/aa/71/5faa7178e1c4cb3a482c43797f9c3509.jpg" },
-    { title: "Dr. lan", year: "2015", cast: "Kim Young Kwang", afis: "" },
-    { title: "Dream Knight", year: "2015", cast: "GOT7", afis: "" },
-    { title: "Dreaming of a Freaking Fairytale", year: "2024", cast: "Lee Jun Young", afis: "" },
-    { title: "Emergency Couple", year: "2014", cast: "Choi Jin Hyuk", afis: "" },
-    { title: "Ending Again", year: "2020", cast: "Kim Geon Won", afis: "https://i.pinimg.com/736x/4c/63/4f/4c634f138aa43eb74311e16c9571b761.jpg" },
-    { title: "Eulachacha Waikiki", year: "2018", cast: "Kim Jong Hyun, Lee Yi Kyung", afis: "" },
-    { title: "EXO Next Door", year: "2015", cast: "EXO", afis: "https://i.pinimg.com/736x/80/24/6c/80246c52b56c583a696095da827565b6.jpg" },
-    { title: "Extraordinary Attorney Woo", year: "2022", cast: "Kang Tae Oh", afis: "https://i.pinimg.com/736x/7f/43/7d/7f437d98f70472be2ea8a0d17bfb5af4.jpg" },
-    { title: "Extraordinary You", year: "2019", cast: "Rowoon", afis: "" },
-    { title: "Falling For Challenge", year: "2015", cast: "Kim Min Seok", afis: "" },
-    { title: "Family by Choice", year: "2024", cast: "Hwang In Yeop", afis: "https://i.pinimg.com/736x/aa/ed/ed/aaeded43727bd604fbe39c600514da82.jpg" },
-    { title: "Fated to Love You", year: "2014", cast: "Jang Hyuk", afis: "" },
-    { title: "Fight For My Way", year: "2017", cast: "Park Seo Joon", afis: "" },
-    { title: "Forecasting Love and Weather", year: "2022", cast: "Song Kang", afis: "" },
-    { title: "Forest", year: "2020", cast: "Park Hae Jin", afis: "" },
-    { title: "Frankly Speaking", year: "2024", cast: "Ko Kyung Pyo", afis: "" },
-    { title: "Freshman", year: "2019", cast: "Hwang In Yeop", afis: "" },
-    { title: "From Now, Showtime!", year: "2022", cast: "Park Hae Jin", afis: "" },
-    { title: "Ga Doo Ri's Sushi Restaurant", year: "2020", cast: "Hyuk", afis: "" },
-    { title: "Gaus Electronics", year: "2022", cast: "Kwak Dong Yeon", afis: "" },
-    { title: "Ghost Doctor", year: "2022", cast: "Rain, Kim Bum", afis: "https://i.pinimg.com/736x/dd/e1/9b/dde19baeb2553fb4a3c5a56206c43465.jpg" },
-    { title: "Go Back Couple", year: "2017", cast: "Son Ho Jun, Jang Ki Yong", afis: "" },
-    { title: "Go Back Diary", year: "2018", cast: "Lee Jong Won", afis: "" },
-    { title: "Gogh The Starry Night", year: "2016", cast: "Kim Young Kwang", afis: "" },
-    { title: "Good Boy", year: "2025", cast: "Park Bo Gum", afis: "" },
-    { title: "Happiness", year: "2021", cast: "Park Hyung Sik", afis: "https://i.pinimg.com/736x/df/5c/ad/df5cad58fe2c9a2d69923c70053d1576.jpg" },
-    { title: "He is Psychometric", year: "2019", cast: "Park Jin Young", afis: "https://i.pinimg.com/736x/e9/c4/33/e9c433628f9ecdd3396d24e84c142066.jpg" },
-    { title: "Head Over Heels", year: "2025", cast: "Choo Young Woo", afis: "" },
-    { title: "Healer", year: "2014", cast: "Ji Chang Wook", afis: "" },
-    { title: "Heartbeat", year: "2023", cast: "Taecyeon", afis: "" },
-    { title: "Heavenly Idol", year: "2023", cast: "Kim Min Gyu", afis: "https://i.pinimg.com/736x/14/c6/21/14c6212081a43f2d6dbdff9e1a08197c.jpg" },
-    { title: "Her Lovely Heels", year: "2014", cast: "Hong Jong Hyun", afis: "" },
-    { title: "Her Private Life", year: "2019", cast: "Kim Jae Wook, Ahn Bo Hyun", afis: "" },
-    { title: "High And Crush", year: "2015", cast: "Jung Il Woo", afis: "" },
-    { title: "Hit The Spot", year: "2022", cast: "Park Sun Ho", afis: "" },
-    { title: "Hometown Cha Cha Cha", year: "2021", cast: "Kim Seon Ho, Lee Sang Yi", afis: "https://i.pinimg.com/736x/2b/27/60/2b2760111d5902232fd5ec0bb55fa98f.jpg" },
-    { title: "Hospital Playlist", year: "2020", cast: "Yoo Yeon Seok, Jo Jung Seok", afis: "" },
-    { title: "Hot and Sweet", year: "2016", cast: "Choi Min Hwan", afis: "" },
-    { title: "Hotel Del Luna", year: "2019", cast: "Yeo Jin Goo", afis: "" },
-    { title: "How Are You Bread", year: "2020", cast: "Kim Jun Myeon", afis: "" },
-    { title: "Hyde, Jekyll, Me", year: "2015", cast: "Hyun Bin, Sung Joon", afis: "" },
-    { title: "I Can See Your MBTI", year: "2021", cast: "Hyunjae", afis: "" },
-    { title: "If You Wish Upon Me", year: "2022", cast: "Ji Chang Wook", afis: "" },
-    { title: "I'm not a Robot", year: "2017", cast: "Yoo Seung Ho", afis: "https://i.pinimg.com/736x/e2/c3/83/e2c383972beb2d3fdf5e4923367ef7b3.jpg" },
-    { title: "Imitation", year: "2021", cast: "Lee Jun Young, Yun Ho", afis: "https://i.pinimg.com/736x/7e/2b/ff/7e2bff70cf077749a8dc6c7f33498f17.jpg" },
-    { title: "Iron Family", year: "2024", cast: "Kim Jung Hyun", afis: "" },
-    { title: "Itaewon Class", year: "2020", cast: "Park Seo Joon, Ahn Bo Hyun", afis: "" },
-    { title: "It's Okay That's Love", year: "2014", cast: "Jo In Sung, Doh Kyung Soo", afis: "" },
-    { title: "It's Okay to Not Be Okay", year: "2020", cast: "Kim Soo Hyun", afis: "" },
-    { title: "Jugglers", year: "2017", cast: "Choi Daniel", afis: "" },
-    { title: "Jumping Girl", year: "2015", cast: "U-Kwon", afis: "" },
-    { title: "Just Between Lovers", year: "2017", cast: "Lee Jun Ho", afis: "" },
-    { title: "Kara: Secret Love - Missing You", year: "2014", cast: "Yeon Woo Jin", afis: "" },
-    { title: "Kara: Secret Love - 13th Bucket List", year: "2014", cast: "Kim Young Kwang", afis: "" },
-    { title: "Kara: Secret Love - Lilac", year: "2014", cast: "Bae Soo Bin", afis: "" },
-    { title: "Kara: Secret Love - A Seven Day Summer", year: "2014", cast: "Lee Kwang Soo", afis: "" },
-    { title: "Kara: Secret Love - Coffee With An Angel?", year: "2014", cast: "Ji Chang Wook", afis: "" },
-    { title: "Kill Me, Heal Me", year: "2015", cast: "Ji Sung, Park Seo Joon", afis: "" },
-    { title: "King the Land", year: "2023", cast: "Lee Jun Ho", afis: "https://i.pinimg.com/736x/b5/ce/5c/b5ce5c0e6e1e6e5def56e5f09f5edae4.jpg" },
-    { title: "Kiss Goblin", year: "2020", cast: "Bae In Hyuk", afis: "https://i.pinimg.com/736x/f2/15/25/f215258d6538d4eddbf5a8d312bfa7cc.jpg" },
-    { title: "Kiss Sixth Sense", year: "2022", cast: "Yoon Gye Sang", afis: "" },
-    { title: "Last Minute Romance", year: "2017", cast: "Lee Seo-won", afis: "" },
-    { title: "LCDP: Korea", year: "2022", cast: "Lee Hyun Woo", afis: "" },
-    { title: "Legally Dad", year: "2020", cast: "Choi Kyung Hoon", afis: "" },
-    { title: "Let's Eat", year: "2018", cast: "Yoon Doo Joon", afis: "" },
-    { title: "Let's Fight Ghost", year: "2016", cast: "Taecyeon", afis: "https://i.pinimg.com/1200x/2a/a8/89/2aa889d7527793443dcbccd54bab7b8b.jpg" },
-    { title: "Level Up!", year: "2019", cast: "Sung Hoon", afis: "" },
-    { title: "Lie to Me", year: "2011", cast: "Kang Ji Hwan, Sung Joon", afis: "" },
-    { title: "Line Romance", year: "2014", cast: "Lee Min Ho", afis: "" },
-    { title: "Link: Eat, Love, Die", year: "2022", cast: "Yeo Jin Goo, Hong Jung Hyun", afis: "" },
-    { title: "Live On", year: "2020", cast: "Hwang Minhyun", afis: "" },
-    { title: "Longing for Spring", year: "2014", cast: "Lee Won Geun", afis: "" },
-    { title: "Love & Wish", year: "2021", cast: "Youngjae", afis: "" },
-    { title: "Love Alarm", year: "2019", cast: "Song Kang", afis: "https://i.pinimg.com/736x/0f/32/86/0f328682e1961f57bdb8351bdf41f3e2.jpg" },
-    { title: "Love All Play", year: "2022", cast: "Chae Jong Hyeop", afis: "" },
-    { title: "Love in Contract", year: "2022", cast: "Ko Kyung Pyo, Kim Jae Young", afis: "https://i.pinimg.com/736x/20/61/ca/2061cac2fbb33da097fb8186a16b1533.jpg" },
-    { title: "Love in the Moonlight", year: "2016", cast: "Park Bo Gum", afis: "" },
-    { title: "Love is for Suckers", year: "2022", cast: "Choi Siwon", afis: "" },
-    { title: "Love Next Door", year: "2024", cast: "Jung Hae In", afis: "https://i.pinimg.com/736x/4e/b0/cc/4eb0cca0421cfbc83cf808125551f1d4.jpg" },
-    { title: "Love Playlist", year: "2017", cast: "Kim Hyung Suk", afis: "" },
-    { title: "Love Scout", year: "2025", cast: "Lee Jun Hyuk", afis: "" },
-    { title: "Love to Hate You", year: "2023", cast: "Tae Yoo", afis: "" },
-    { title: "Love with Flaws", year: "2019", cast: "Ahn Jae Hyun", afis: "" },
-    { title: "Love Your Enemy", year: "2024", cast: "Ju Ji Hoon", afis: "" },
-    { title: "Lovely Runner", year: "2024", cast: "Byeon Woo Seok", afis: "https://i.pinimg.com/1200x/a8/9a/c7/a89ac7afb079b8744cab52e52c0c89ab.jpg" },
-    { title: "Lovers of the Red Sky", year: "2021", cast: "Ahn Hyo Seop", afis: "" },
-    { title: "Lovestruck in the City", year: "2020", cast: "Ji Chang Wook", afis: "" },
-    { title: "Lunch Box", year: "2015", cast: "Ji Soo", afis: "" },
-    { title: "Mad For Each Other", year: "2021", cast: "Jung Woo", afis: "" },
-    { title: "Magic Phone", year: "2016", cast: "Kim Jin Woo", afis: "" },
-    { title: "Man to Man", year: "2017", cast: "Park Hae Jin", afis: "" },
-    { title: "Marriage Contract", year: "2016", cast: "Lee Seo Jin", afis: "" },
-    { title: "Marriage, not Dating!", year: "2014", cast: "Yeon Woo Jin", afis: "" },
-    { title: "Marry My Husband", year: "2024", cast: "Na In Woo, Lee Yi Kyung", afis: "" },
-    { title: "May I Help You?", year: "2022", cast: "Lee Jun Young", afis: "" },
-    { title: "Melting Me Softly", year: "2019", cast: "Ji Chang Wook", afis: "" },
-    { title: "Meow, the Secret Boy", year: "2020", cast: "Kim Myung Soo", afis: "" },
-    { title: "Mine", year: "2021", cast: "Cha Hakyeon", afis: "" },
-    { title: "Miss Independent Ji Eun", year: "2018", cast: "Cha In Ha", afis: "" },
-    { title: "Moment of Eighteen", year: "2019", cast: "Ong Seung Woo", afis: "" },
-    { title: "Moon Lovers: Scarlet Heart Ryeo", year: "2016", cast: "Byun Baekhyun, Lee Jung Gi", afis: "https://i.pinimg.com/736x/7a/c8/84/7ac8847bf3ddb37bd135511489de047b.jpg" },
-    { title: "More Than Friends", year: "2020", cast: "Ong Seong Wu", afis: "" },
-    { title: "Mouse", year: "2021", cast: "Lee Seung Gi", afis: "" },
-    { title: "Mr. Plankton", year: "2024", cast: "Woo Do Hwan", afis: "https://i.pinimg.com/736x/a7/6e/e3/a76ee31ebaf723f0625b06c77dd68ae3.jpg" },
-    { title: "Mr. Queen", year: "2020", cast: "Kim Jung Hyun", afis: "" },
-    { title: "My Absolute Boyfriend", year: "2019", cast: "Yoo Jin Goo, Hong Jong Hyun", afis: "" },
-    { title: "My Dearest Nemesis", year: "2025", cast: "Choi Hyun Wook", afis: "" },
-    { title: "My Demon", year: "2023", cast: "Song Kang, Lee Sang Yi", afis: "https://i.pinimg.com/736x/7c/ba/96/7cba96fcad222149ca352b7aa9d3e5b9.jpg" },
-    { title: "My First First Love", year: "2019", cast: "Ji Soo", afis: "" },
-    { title: "My Girlfriend is a Gumiho", year: "2010", cast: "Lee Seung Gi", afis: "" },
-    { title: "My Holo Love", year: "2020", cast: "Yoon Hyun Min", afis: "https://i.pinimg.com/1200x/65/4f/f5/654ff530119a8d9d920e7e7ded695801.jpg" },
-    { title: "My ID is Gangnam Beauty", year: "2018", cast: "Cha Eun Woo", afis: "" },
-    { title: "My Love From The Star", year: "2013", cast: "Kim Soo Hyun, Park Hae Jin", afis: "" },
-    { title: "My Lovely Liar", year: "2023", cast: "Hwang Min Hyun", afis: "https://i.pinimg.com/736x/e0/b1/79/e0b179599a4c15b1790ba8eb668dccb1.jpg" },
-    { title: "My Name", year: "2021", cast: "Ahn Bo Hyun", afis: "" },
-    { title: "My Roommate is a Gumiho", year: "2021", cast: "Jang Ki Young, Bae In Hyuk", afis: "https://i.pinimg.com/736x/43/24/bf/4324bf4c1765085fda4fce921dbefe1b.jpg" },
-    { title: "My Secret Romance", year: "2017", cast: "Sung Hoon, Kim Jae Young", afis: "" },
-    { title: "My Shy Boss", year: "2017", cast: "Yeon Woo Jin", afis: "" },
-    { title: "My Strange Hero", year: "2018", cast: "Yoo Seung Ho", afis: "" },
-    { title: "My Sweet Mobster", year: "2024", cast: "Uhm Tae Goo", afis: "https://i.pinimg.com/736x/34/08/9e/34089e7c36f5caf1d4a08cf0fe1a587b.jpg" },
-    { title: "Nevertheless", year: "2021", cast: "Song Kang", afis: "" },
-    { title: "No Gain No Love", year: "2024", cast: "Kim Young Dae", afis: "" },
-    { title: "Noble, My Love", year: "2015", cast: "Sung Hoon", afis: "" },
-    { title: "Not Yet Thirty", year: "2021", cast: "Kang Min Hyuk", afis: "" },
-    { title: "Office Watch", year: "2017", cast: "Kang Hoon", afis: "" },
-    { title: "Oh My Ghost!", year: "2015", cast: "Jo Jung Seok", afis: "" },
-    { title: "Oh My Venus!", year: "2015", cast: "So Ji Sub", afis: "" },
-    { title: "Oh! Master", year: "2021", cast: "Lee Min Ki", afis: "" },
-    { title: "Once Upon a Small Town", year: "2022", cast: "Choo Young Woo", afis: "" },
-    { title: "One Spring Night", year: "2019", cast: "Jung Hae In", afis: "" },
-    { title: "Our Beloved Summer", year: "2021", cast: "Choi Woo Sik", afis: "" },
-    { title: "Perfect Marriage Revenge", year: "2023", cast: "Sung Hoon", afis: "" },
-    { title: "Perfume", year: "2019", cast: "Shin Sung Rok, Kim Min Gyu", afis: "" },
-    { title: "Persona", year: "2019", cast: "Park Hae Soo", afis: "" },
-    { title: "Personal Taste", year: "2010", cast: "Lee Min Ho", afis: "" },
-    { title: "Playfull Kiss", year: "2010", cast: "Kim Hyun Joong", afis: "" },
-    { title: "Please Don't Date Him", year: "2020", cast: "Lee Jun Young", afis: "" },
-    { title: "Please, Summer!", year: "2020", cast: "Kim Kang Min", afis: "" },
-    { title: "Plus Nine Boys", year: "2014", cast: "Kim Young Kwang", afis: "" },
-    { title: "Pool Ha-Woo-Seu", year: "2004", cast: "Rain", afis: "" },
-    { title: "Pop Out Boy!", year: "2020", cast: "Kim Min Kyu", afis: "" },
-    { title: "Princess Hours", year: "2006", cast: "Ju Ji Hoon", afis: "" },
-    { title: "Private Lives", year: "2020", cast: "Ko Kyung Pyo", afis: "" },
-    { title: "Queen of Tears", year: "2024", cast: "Kim Soo Hyun", afis: "https://i.pinimg.com/736x/52/18/63/5218639607d02b25218501c270020574.jpg" },
-    { title: "Queen of the Ring", year: "2017", cast: "Ahn Hyo Seop", afis: "" },
-    { title: "Radio Romance", year: "2018", cast: "Yoon Doo Joon", afis: "" },
-    { title: "Record of Youth", year: "2020", cast: "Park Bo Gum, Byeon Woo Seok", afis: "" },
-    { title: "Revenge of Others", year: "2022", cast: "Park Solomon", afis: "https://i.pinimg.com/736x/a5/71/1f/a5711f08241a1b36154e5b42e8f6b488.jpg" },
-    { title: "Rich Man Poor Woman", year: "2018", cast: "Kim Jun Myeon", afis: "" },
-    { title: "Risky Romance", year: "2018", cast: "Ji Hyun Woo", afis: "" },
-    { title: "Romance is a Bonus Book", year: "2019", cast: "Lee Jong Seok, Wi Ha Joon", afis: "" },
-    { title: "Romance Special Law", year: "2017", cast: "Kim Min Gyu", afis: "" },
-    { title: "Romance Talking", year: "2020", cast: "Choi Kyung Hoon", afis: "" },
-    { title: "Romantic Doctor, Teacher Kim", year: "2016", cast: "Yoo Yeon Seok, Ahn Hyo Seop", afis: "" },
-    { title: "Rookie Cops", year: "2022", cast: "Kang Daniel", afis: "" },
-    { title: "Run On", year: "2020", cast: "Im Siwan, Kang Tae Oh", afis: "" },
-    { title: "S Line", year: "2025", cast: "Lee Soo Hyuk", afis: "" },
-    { title: "Sassy Go Go!", year: "2015", cast: "Lee Won Geun", afis: "" },
-    { title: "School 2017", year: "2017", cast: "Kim Jung Hyun, Jang Dong Yoon", afis: "" },
-    { title: "School 2021", year: "2021", cast: "Kim Yohan, Choo Young Woo", afis: "" },
-    { title: "Search WWW", year: "2019", cast: "Jang Ki Yong, Lee Jae Wook", afis: "" },
-    { title: "Secret Garden", year: "2010", cast: "Hyun Bin", afis: "" },
-    { title: "Secret Queen Makers", year: "2018", cast: "My Loves", afis: "" },
-    { title: "See You in My 19th Life", year: "2023", cast: "Ahn Bo Hyun", afis: "" },
-    { title: "Serendipity's Embrace", year: "2024", cast: "Chae Jong Hyeop", afis: "" },
-    { title: "Seven First Kisses", year: "2016", cast: "My Loves", afis: "" },
-    { title: "Seventeen", year: "2017", cast: "Kim Do Wan", afis: "" },
-    { title: "Sh**ting Stars", year: "2022", cast: "Kim Young Dae, Shin Hyun Seung", afis: "" },
-    { title: "She Was Pretty", year: "2015", cast: "Park Seo Joon, Choi Siwon", afis: "" },
-    { title: "She Would Never Know", year: "2021", cast: "Rowoon", afis: "" },
-    { title: "Shine Go Back", year: "2018", cast: "Park Hae Jin", afis: "" },
-    { title: "Shopping King Louis", year: "2016", cast: "Seo In Guk", afis: "" },
-    { title: "Single's Inferno", year: "2021", cast: "program", afis: "" },
-    { title: "Snowdrop", year: "2021", cast: "Jung Hae In, Jang Seung Jo", afis: "" },
-    { title: "So I Married An Anti Fan", year: "2021", cast: "Choi Tae Joon, Kim Min Gyu", afis: "" },
-    { title: "So Not Worth It", year: "2021", cast: "Youngjae, Shin Hyun Seung", afis: "" },
-    { title: "Society Obsessed with Love", year: "2018", cast: "Kim Young Jae", afis: "" },
-    { title: "Something About 1%", year: "2016", cast: "Ha Seok Jin", afis: "" },
-    { title: "Something in the Rain", year: "2018", cast: "Jung Hae In, Wi Ha Joon", afis: "" },
-    { title: "Soundtrack #1", year: "2022", cast: "Park Hyung Sik", afis: "" },
-    { title: "Spice Up Our Love", year: "2024", cast: "Lee Sang Yi", afis: "" },
-    { title: "Splash Splash Love", year: "2015", cast: "Yoon Doo Joon", afis: "" },
-    { title: "Squid Game", year: "2021", cast: "Wi Ha Joon, Kang Ha Neul", afis: "https://i.pinimg.com/736x/69/24/d4/6924d4d4a7fab170daeda8a36eab5030.jpg" },
-    { title: "Start Love", year: "2015", cast: "Kim Kyu Jong", afis: "" },
-    { title: "Start Up", year: "2020", cast: "Nam Joo Hyuk, Kim Seon Ho", afis: "" },
-    { title: "Still 17", year: "2018", cast: "Yang Se Jong, Ahn Hyo Seop", afis: "" },
-    { title: "Strangers Again", year: "2023", cast: "Jang Seung Jo", afis: "" },
-    { title: "Strangers from Hell", year: "2019", cast: "Im Siwan, Lee Dong Wook", afis: "" },
-    { title: "Strong Girl Nam-soon", year: "2023", cast: "Ong Seong Wu, Byeon Woo Seok", afis: "https://i.pinimg.com/736x/76/87/f1/7687f1e274269e8de559573e2cc5918b.jpg" },
-    { title: "Strong Woman Do Bong Soon", year: "2017", cast: "Park Hyung Sik, Ji Soo", afis: "https://i.pinimg.com/1200x/fa/2f/32/fa2f32972bb0b687f76d56472a666328.jpg" },
-    { title: "Strongest Deliveryman", year: "2017", cast: "Ko Kyung Pyo, Kim Seon Ho", afis: "" },
-    { title: "Summer Love", year: "2015", cast: "Lee Min Ho", afis: "" },
-    { title: "Summer Strike", year: "2022", cast: "Im Siwan", afis: "" },
-    { title: "Suspicious Partner", year: "2017", cast: "Ji Chang Wook, Choi Tae Joon", afis: "" },
-    { title: "Tale of the Nine Tailed", year: "2020", cast: "Lee Dong Wook, Kim Bum", afis: "https://i.pinimg.com/1200x/c7/23/44/c72344ddf235dc9c4dca9b95530dbbea.jpg" },
-    { title: "Taste of Cat", year: "2018", cast: "Kim Wook", afis: "" },
-    { title: "Tastefully Yours", year: "2025", cast: "Kang Ha Neul", afis: "" },
-    { title: "Temperature of Love", year: "2017", cast: "Yang Se Jong, Lee Jae Wook", afis: "" },
-    { title: "Tempted", year: "2018", cast: "Woo Do Hwan, Kim Min Jae", afis: "" },
-    { title: "That Man Oh Soo", year: "2018", cast: "Lee Jung Hyun, Kang Tae Oh", afis: "" },
-    { title: "That Winter, The Wind Blows", year: "2013", cast: "Jo In Sung", afis: "" },
-    { title: "The Alchemist", year: "2015", cast: "Han Ki Woong", afis: "" },
-    { title: "The Beauty Inside", year: "2018", cast: "Lee Min Ki, Ahn Jae Hyun", afis: "" },
-    { title: "The Best Hit", year: "2017", cast: "Yoon Shi Yoon, Kim Min Jae", afis: "" },
-    { title: "The Bride of Habaek", year: "2017", cast: "Nam Joo Hyuk", afis: "" },
-    { title: "The Day After We Broke Up", year: "2016", cast: "Kim Myung Soo", afis: "" },
-    { title: "The Fabulous", year: "2022", cast: "Choi Min Ho", afis: "" },
-    { title: "The Girl Who Sees Scents", year: "2015", cast: "Park Yoo Chun", afis: "https://i.pinimg.com/736x/1d/f5/6d/1df56db893bb35cf06b7167bf9eb95ae.jpg" },
-    { title: "The Good Bad Mother", year: "2023", cast: "Lee Do Hyun", afis: "" },
-    { title: "The Heirs", year: "2013", cast: "Lee Min Ho, Kim Woo Bin", afis: "" },
-    { title: "The Interest of Love", year: "2022", cast: "Yoo Yeon Seok", afis: "" },
-    { title: "The K2", year: "2016", cast: "Ji Chang Wook", afis: "" },
-    { title: "The King: Eternal Monarch", year: "2020", cast: "Lee Min Ho, Woo Do Hwan", afis: "" },
-    { title: "The Law Café", year: "2022", cast: "Lee Seung Gi", afis: "" },
-    { title: "The Legend of the Blue Sea", year: "2016", cast: "Lee Min Ho", afis: "" },
-    { title: "The Liar and His Lover", year: "2017", cast: "Lee Hyun Woo", afis: "" },
-    { title: "The Man's Voice", year: "2021", cast: "Choi Tae Joon", afis: "" },
-    { title: "The Mermaid Prince: Begining", year: "2020", cast: "Moonbin", afis: "" },
-    { title: "The Potat Lab", year: "2025", cast: "", afis: "" },
-    { title: "The School Nurse Files", year: "2020", cast: "Nam Joo Hyuk", afis: "" },
-    { title: "The Secret Life Of My Secretary", year: "2019", cast: "Kim Young Kwang", afis: "" },
-    { title: "The Smile Has Left Your Eyes", year: "2018", cast: "Seo In Guk", afis: "" },
-    { title: "The Sound of Your Heart: Reboot", year: "2018", cast: "Sung Hoon", afis: "" },
-    { title: "The Story of Park's Marriage Contract", year: "2023", cast: "Bae In Hyuk", afis: "https://i.pinimg.com/736x/b2/c3/9d/b2c39dbc4da6ada9cac96b0d4c56287b.jpg" },
-    { title: "The Tale of Nokdu", year: "2019", cast: "Jang Dong Yoon, Kang Tae Oh", afis: "" },
-    { title: "The Trauma Code: Heroes on Call", year: "2025", cast: "Ju Ji Hoon, Choo Young Wo0", afis: "" },
-    { title: "The Trunk", year: "2024", cast: "Gong Yoo", afis: "" },
-    { title: "The Universe's Star", year: "2017", cast: "Kim Jun Myeon", afis: "" },
-    { title: "The Way I Hate You", year: "2019", cast: "Jaemin", afis: "" },
-    { title: "Third Charm", year: "2018", cast: "Seo Kang Joon", afis: "" },
-    { title: "Thumpink Spike", year: "2016", cast: "Song Jae Rim", afis: "" },
-    { title: "To Be Continued", year: "2015", cast: "ASTRO", afis: "" },
-    { title: "To World of My 17", year: "2020", cast: "Ryeo Un", afis: "" },
-    { title: "Touch", year: "2020", cast: "Joo Sang Wook", afis: "" },
-    { title: "Touch Me If You Can", year: "2020", cast: "Yoon Seo Bin", afis: "" },
-    { title: "Touch Your Heart", year: "2019", cast: "Lee Dong Wook", afis: "" },
-    { title: "Touching You", year: "2016", cast: "Taecyeon", afis: "" },
-    { title: "Trap", year: "2020", cast: "Choi Kyung Hoon", afis: "" },
-    { title: "True Beauty", year: "2020", cast: "Cha Eun Woo, Hwang In Yeop", afis: "https://i.pinimg.com/736x/59/e5/d3/59e5d3c798b935b1464bbdfb7c4ca655.jpg" },
-    { title: "Twenty-Five, Twenty-One", year: "2022", cast: "Nam Joo Hyuk", afis: "https://i.pinimg.com/1200x/cb/7c/f7/cb7cf7b704132eb19fa29a5749ab4b8e.jpg" },
-    { title: "Uncontrollably Fond", year: "2016", cast: "Kim Woo Bin", afis: "" },
-    { title: "Vagabond", year: "2019", cast: "Lee Seung Gi", afis: "" },
-    { title: "Vampire Flower", year: "2014", cast: "Seo Jae Hyung", afis: "" },
-    { title: "Vincenzo", year: "2021", cast: "Song Joong Ki, Taecyeon", afis: "https://i.pinimg.com/736x/e5/94/43/e59443f3677fc7d3acae07c63a6a77a7.jpg" },
-    { title: "W-Two Wordls", year: "2016", cast: "Lee Jong Seok", afis: "" },
-    { title: "Want More 19", year: "2018", cast: "Nam Yoon Soo", afis: "" },
-    { title: "Weak Hero Class", year: "2022", cast: "Park Ji Hoon", afis: "https://i.pinimg.com/1200x/fe/80/aa/fe80aaa415c7ad6a7e715bd4807517b0.jpg" },
-    { title: "Wedding Impossible", year: "2024", cast: "Moon Sang Min, Kim Do Wan", afis: "" },
-    { title: "Wednesday 3.30 PM", year: "2017", cast: "Hongbin, Ahn Bo Hyun", afis: "" },
-    { title: "Weightlifting Fairy Kim Bok Joo", year: "2016", cast: "Nam Joo Hyuk", afis: "" },
-    { title: "Welcome to Samdal-ri", year: "2023", cast: "Ji Chang Wook", afis: "" },
-    { title: "When Life Gives You Tangerines", year: "2025", cast: "Park Bu Gum", afis: "" },
-    { title: "When the Camellia Blooms", year: "2019", cast: "Kang Ha Neul", afis: "" },
-    { title: "When the Phone Rings", year: "2024", cast: "Yoo Yeon Seok", afis: "https://i.pinimg.com/736x/e4/26/04/e426040780b99c38208a4b229abe3dbe.jpg" },
-    { title: "When the Weather is Fine", year: "2020", cast: "Seo Kang Joon", afis: "" },
-    { title: "Where Stars Land", year: "2018", cast: "Lee Je Hoon", afis: "" },
-    { title: "While You Were Sleeping", year: "2017", cast: "Lee Jong Seok, Jung Hae In", afis: "" },
-    { title: "Who Kissed Me?", year: "2019", cast: "Bae In Hyuk", afis: "" },
-    { title: "Why Secretary Kim", year: "2018", cast: "Park Seo Joon", afis: "" },
-    { title: "Will Be Okay, Never Die", year: "2019", cast: "Kang Yul", afis: "" },
-    { title: "Witch's Love", year: "2018", cast: "Hyun Woo", afis: "" },
-    { title: "Wok of Love", year: "2018", cast: "Lee Jun Ho, Jung Hyuk", afis: "" },
-    { title: "Woori The Virgin", year: "2022", cast: "Sung Hoon", afis: "" },
-    { title: "Work Later, Drink Now", year: "2021", cast: "Siwon", afis: "" },
-    { title: "Yes or No", year: "2019", cast: "Kim Kang Min", afis: "" },
-    { title: "You Are My Spring", year: "2021", cast: "Kim Dong Wook", afis: "" },
-    { title: "You Drive Me Crazy", year: "2018", cast: "Kim Seon Ho", afis: "" },
-    { title: "Youth MT", year: "2022", cast: "My Loves", afis: "" },
-    { title: "Youth of May", year: "2021", cast: "Lee Do Hyun, Lee Sang Yi", afis: "" },
-    { title: "Yumi's Cell", year: "2021", cast: "Ahn Bo Hyun, Park Jin Young", afis: "https://i.pinimg.com/1200x/0c/44/f3/0c44f318576e75afcdc1c0d534ab023e.jpg" }
+    { title: "100 Days My Prince", year: "2018", cast: "Doh Kyung Soo, Kim Seon Ho", episodes: "16", afis: "https://i.pinimg.com/1200x/05/a1/fc/05a1fce7ed90507db5e5424d3e097b3d.jpg" },
+    { title: "109 Strange Things", year: "2017", cast: "Choi Tae Joon", episodes: "6", afis: "https://i.pinimg.com/736x/d7/ba/50/d7ba50712112f84c62045828b5435e2f.jpg" },
+    { title: "28 Moons", year: "2016", cast: "Kim Kyu Jong", episodes: "8", afis: "https://i.pinimg.com/1200x/ce/b4/ae/ceb4ae0591d5e93d61d0c99202c36f41.jpg" },
+    { title: "7 Days Of Romance", year: "2019", cast: "Shin Joon Seop", episodes: "10", afis: "https://i.pinimg.com/736x/f4/3d/8b/f43d8b0cc3857fd7f3b704607d4845e3.jpg" },
+    { title: "A Good Day to Be a Dog", year: "2023", cast: "Cha Eun Woo, Lee Hyun Woo", episodes: "14", afis: "https://i.pinimg.com/736x/24/f6/8d/24f68d6f2d211ab0009e73c05630f2dd.jpg" },
+    { title: "A Korean Odyssey", year: "2017", cast: "Lee Seung Gi", episodes: "20", afis: "https://i.pinimg.com/736x/c0/20/b8/c020b8ac24cd70404dd5a895e3331747.jpg" },
+    { title: "A Love so Beautiful", year: "2020", cast: "Kim Yohan", episodes: "24", afis: "https://i.pinimg.com/736x/76/5b/c6/765bc6a0e983b4331feb59e5c2e7db50.jpg" },
+    { title: "A Poem A Day", year: "2018", cast: "Lee Joon Hyuk, Jang Dong Yoon", episodes: "16", afis: "https://i.pinimg.com/736x/24/a2/7a/24a27a4e290e85f245f988db08348719.jpg" },
+    { title: "Abyss", year: "2019", cast: "Ahn Yeo Seop", episodes: "16", afis: "https://i.pinimg.com/736x/b3/6e/0b/b36e0b0559728fc22c56e62b19a8f891.jpg" },
+    { title: "Adult Trainee", year: "2021", cast: "Ryeo Un", episodes: "7", afis: "https://i.pinimg.com/1200x/75/b0/75/75b0757a8d3c268a0888ae12caa9c83b.jpg" },
+    { title: "All That We Loved", year: "2023", cast: "Oh Sehun", episodes: "8", afis: "https://i.pinimg.com/736x/87/bd/c7/87bdc7654110ec34548dca6efec08795.jpg" },
+    { title: "Angels Last Mission Love", year: "2019", cast: "Kim Myung Soo", episodes: "32", afis: "https://i.pinimg.com/736x/18/86/f0/1886f0fbc4722969372413622fb918ec.jpg" },
+    { title: "Another Miss Oh", year: "2016", cast: "Eric Nam", episodes: "18", afis: "https://i.pinimg.com/736x/c6/cc/1c/c6cc1c61f3e2af0686ed03e24c5f4c96.jpg" },
+    { title: "Are You Human Too?", year: "2018", cast: "Seo Kang Joon, Leen Jun Hyuk", episodes: "36", afis: "https://i.pinimg.com/1200x/3b/90/dd/3b90ddba3ff755a7b343e499a1840dc0.jpg" },
+    { title: "At a Distance, Spring is Green", year: "2021", cast: "Park Ji Hoon, Bae In Hyuk", episodes: "12", afis: "https://i.pinimg.com/736x/8c/c6/d4/8cc6d4b1929b3a3fbe625541649d6c9a.jpg" },
+    { title: "Backstreet Rookie", year: "2020", cast: "Ji Chang Wook", episodes: "16", afis: "https://i.pinimg.com/1200x/68/6a/0d/686a0dce54a538fcac5c910ba46357af.jpg" },
+    { title: "Bad and Crazy", year: "2021", cast: "Lee Dong Wook, Wi Ha Joon", episodes: "12", afis: "https://i.pinimg.com/736x/12/f2/d7/12f2d786d8fb03ddfcf274ab836fa39c.jpg" },
+    { title: "Bad Guys", year: "2014", cast: "Park Hae Jin", episodes: "11", afis: "https://i.pinimg.com/1200x/4f/0d/09/4f0d095d2a9d11dec602d6ed93cef9e0.jpg" },
+    { title: "Be My Boyfriend", year: "2021", cast: "Shin Hyun Seung", episodes: "15", afis: "https://i.pinimg.com/1200x/de/95/66/de95668952dd46fcc32805ebb2c1ca74.jpg" },
+    { title: "Be Positive", year: "2016", cast: "Doh Kyung Soo", episodes: "6", afis: "https://i.pinimg.com/736x/ae/90/b4/ae90b481846bf79ebf9279568577b410.jpg" },
+    { title: "Beating Again", year: "2015", cast: "Jung Kyung Ho", episodes: "16", afis: "https://i.pinimg.com/736x/75/50/6e/75506e76a4b88c6ce64ecb2c1512ffb8.jpg" },
+    { title: "Beautiful Gong Shim", year: "2016", cast: "Namkoong Min", episodes: "20", afis: "https://i.pinimg.com/736x/4c/db/44/4cdb44e59aefec0d8f7fb820711b9bee.jpg" },
+    { title: "Beautiology 101", year: "2016", cast: "Kim Jae Young", episodes: "10", afis: "https://i.pinimg.com/736x/5f/a8/29/5fa8298f393a4f140c9f6806f8bf681c.jpg" },
+    { title: "Because This is My First Life", year: "2017", cast: "Lee Min Ki, Kim Min Gyu", episodes: "16", afis: "https://i.pinimg.com/736x/c0/e6/68/c0e668cfc4b22ce1185a9974d6ab336a.jpg" },
+    { title: "Behind Your Touch", year: "2023", cast: "Kim Jun Myeon, Lee Min Ki", episodes: "16", afis: "https://i.pinimg.com/736x/21/65/dc/2165dcfc520354add7d4cce5a43938aa.jpg" },
+    { title: "Black Knight: The Man Who Guards Me", year: "2018", cast: "Kim Rae Won", episodes: "20", afis: "https://i.pinimg.com/736x/ab/b8/7e/abb87e0ff2672fdc772dfc8b8bbec32a.jpg" },
+    { title: "Blood", year: "2015", cast: "Ahn Jae Hyun, Jung Hae In", episodes: "20", afis: "https://i.pinimg.com/1200x/5b/07/c6/5b07c649dcae52e56c371219beea16c4.jpg" },
+    { title: "Bloodhounds", year: "2023", cast: "Woo Do Hwan", episodes: "8", afis: "https://i.pinimg.com/736x/f7/22/1b/f7221beb2a83e130fea5b08b68776470.jpg" },
+    { title: "Blue Birthday", year: "2021", cast: "Yang Hong Seok", episodes: "16", afis: "https://i.pinimg.com/736x/e1/a2/f8/e1a2f817594787316177507449254927.jpg" },
+    { title: "Bo-ra! Deborah", year: "2023", cast: "Yoon Hyun Min", episodes: "14", afis: "https://i.pinimg.com/736x/a9/c5/7e/a9c57e9bff06e8c699c48ede3ef2cfcc.jpg" },
+    { title: "Boss-dol Mart", year: "2023", cast: "Kim Min Seok", episodes: "10", afis: "https://i.pinimg.com/1200x/29/92/b7/2992b72c40b30098e2a9234ce13f84cf.jpg" },
+    { title: "Boyfriend Milk", year: "2017", cast: "ASTRO", episodes: "12", afis: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRErdAAeAr5Tbw-mRGv4pBm_cV9MWsoN-B6vA&s" },
+    { title: "Boys Over Flowers", year: "2009", cast: "Lee Min Ho, Kim Bum", episodes: "25", afis: "https://i.pinimg.com/736x/f0/11/e3/f011e3f3d480b3f0c530e40d554ef713.jpg" },
+    { title: "Business Proposal", year: "2022", cast: "Ahn Yeo Seop, Kim Min Gyu", episodes: "12", afis: "https://i.pinimg.com/736x/98/de/3d/98de3dc7cffa6f88c36d0ca0640b3f6f.jpg" },
+    { title: "Busted", year: "2018", cast: "Oh Sehun, Lee Seung Gi", episodes: "10", afis: "https://i.pinimg.com/736x/95/3d/2d/953d2dd669a71a8c8aa20f6d050ef5a7.jpg" },
+    { title: "Castaway Diva", year: "2023", cast: "Chae Jong Hyeop", episodes: "12", afis: "https://i.pinimg.com/736x/00/9f/6c/009f6cdeaa5e91b5353700de1c863de8.jpg" },
+    { title: "Casting a Spell to You", year: "2021", cast: "Sung Joon", episodes: "16", afis: "https://i.pinimg.com/1200x/d7/33/28/d7332874340d5c7168a2623163884903.jpg" },
+    { title: "Catch the Ghost", year: "2019", cast: "Kim Seon Ho", episodes: "16", afis: "https://i.pinimg.com/1200x/1f/9a/8f/1f9a8f1a28dce409ab45716a39e694c7.jpg" },
+    { title: "Celebrity", year: "2023", cast: "Kang Min Hyuk", episodes: "12", afis: "https://i.pinimg.com/1200x/27/27/6f/27276f8fc55e49b865a86fdc5da1c866.jpg" },
+    { title: "Cheer Up", year: "2022", cast: "Bae In Hyuk", episodes: "16", afis: "https://i.pinimg.com/736x/00/97/04/009704305b1a0098af1f122b42f5d543.jpg" },
+    { title: "Cheese in the Trap", year: "2016", cast: "Park Hae Jin, Seo Kang Joon", episodes: "16", afis: "https://i.pinimg.com/736x/af/dc/58/afdc58d0b8b5f4602226676c1ce8c068.jpg" },
+    { title: "Choco Bank", year: "2016", cast: "Kim Jong In", episodes: "6", afis: "https://i.pinimg.com/736x/46/12/fe/4612fec4a59cf21b85e6ab438d514200.jpg" },
+    { title: "Cinderella and the Four Knights", year: "2016", cast: "Jung Il Woo", episodes: "16", afis: "https://i.pinimg.com/736x/29/4b/d2/294bd201eeb81727e225ecc67b7d08f2.jpg" },
+    { title: "Clean With Passion For Now", year: "2018", cast: "Yoon Kyun Sang", episodes: "16", afis: "https://i.pinimg.com/1200x/16/c4/7d/16c47d4d20af67fb73d0a508f8039790.jpg" },
+    { title: "Click Your Heart", year: "2016", cast: "Rowoon", episodes: "7", afis: "https://i.pinimg.com/736x/e7/eb/89/e7eb899d94b768880d077cadbe0f9f78.jpg" },
+    { title: "Coffee Prince", year: "2007", cast: "Gong Yoo", episodes: "17", afis: "https://i.pinimg.com/736x/3f/60/9f/3f609f7ac35d9757186b4decb0391647.jpg" },
+    { title: "Come and Hug Me", year: "2018", cast: "Jang Ki Young", episodes: "32", afis: "https://i.pinimg.com/736x/8c/7d/be/8c7dbec6b062f1bf86700dbf13b540af.jpg" },
+    { title: "Crash Landing On You", year: "2019", cast: "Hyun Bin", episodes: "16", afis: "https://i.pinimg.com/736x/2b/42/3e/2b423ea93b604079246f915bc70f7faf.jpg" },
+    { title: "Crazy Love", year: "2022", cast: "Lee Jae Wook", episodes: "16", afis: "https://i.pinimg.com/736x/e2/56/9c/e2569c09e8e9a521762cb6c10f550999.jpg" },
+    { title: "D-Day", year: "2015", cast: "Kim Young Kwang, Ha Seok Jin", episodes: "20", afis: "https://i.pinimg.com/736x/80/17/91/801791ad179547549da4b524ade0ed38.jpg" },
+    { title: "Daily Dose of Sunshine", year: "2023", cast: "Yeon Woo Jin, Jang Dong Yoon", episodes: "12", afis: "https://i.pinimg.com/736x/ed/08/f7/ed08f79db8c61e5d290ce5fbb735ddb4.jpg" },
+    { title: "Dali and Cocky Prince", year: "2021", cast: "Kim Min Jae", episodes: "16", afis: "https://i.pinimg.com/736x/34/08/98/340898f580d9d785f0ae93f9ac2034ea.jpg" },
+    { title: "Descendants of the Sun", year: "2016", cast: "Song Joong Ki, Ahn Bo Hyun", episodes: "16", afis: "https://i.pinimg.com/1200x/6b/64/d8/6b64d8795b7f13f08593260bf45db97d.jpg" },
+    { title: "Destined with You", year: "2023", cast: "Rowoon", episodes: "16", afis: "https://i.pinimg.com/736x/b3/a3/f4/b3a3f4d1047ed2305b99fd9eab0ca579.jpg" },
+    { title: "Devilish Joy", year: "2018", cast: "Choi Jin Hyuk", episodes: "16", afis: "https://i.pinimg.com/736x/8c/60/cb/8c60cb232cae2878bbf1ed74576878ad.jpg" },
+    { title: "Devil's Diary", year: "2016", cast: "Han Joo Wan", episodes: "4", afis: "https://i.pinimg.com/736x/2f/fa/ab/2ffaaba2040fa96c7b2d6b0ce6715d16.jpg" },
+    { title: "Do Do Sol Sol La La Sol", year: "2020", cast: "Lee Jae Wook", episodes: "16", afis: "https://i.pinimg.com/736x/f9/a8/fa/f9a8fab22760cd8c9e48306b5546eb8f.jpg" },
+    { title: "Doctor Stranger", year: "2014", cast: "Lee Jong Seok, Park Hae Jin", episodes: "20", afis: "https://i.pinimg.com/736x/24/af/a1/24afa1e69715ff961c772b4197ea150d.jpg" },
+    { title: "Doctors", year: "2016", cast: "Kim Rae Won", episodes: "20", afis: "https://i.pinimg.com/736x/7a/ec/7a/7aec7a4cbb8a89860c42ea326fc17902.jpg" },
+    { title: "Dokgo Rewind", year: "2018", cast: "Oh Sehun, Ahn Bo Hyun", episodes: "20", afis: "https://i.pinimg.com/1200x/6f/93/9d/6f939daeda3691642415b825921482f1.jpg" },
+    { title: "Don't Dare to Dream", year: "2016", cast: "Jo Jung Seok", episodes: "24", afis: "https://i.pinimg.com/736x/e6/c2/94/e6c2946dee3deb1158727388461e5f31.jpg" },
+    { title: "Doom at Your Service", year: "2021", cast: "Seo In Guk, Kang Tae Oh", episodes: "16", afis: "https://i.pinimg.com/736x/5f/aa/71/5faa7178e1c4cb3a482c43797f9c3509.jpg" },
+    { title: "Dr. lan", year: "2015", cast: "Kim Young Kwang", episodes: "9", afis: "https://i.pinimg.com/736x/30/dc/84/30dc8477f8126f80fea0aaa423cb0a0c.jpg" },
+    { title: "Dream Knight", year: "2015", cast: "GOT7", episodes: "12", afis: "https://i.pinimg.com/1200x/b9/ad/9c/b9ad9c03070bf29b6ba1647e0c08ce87.jpg" },
+    { title: "Dreaming of a Freaking Fairytale", year: "2024", cast: "Lee Jun Young", episodes: "10", afis: "https://i.pinimg.com/736x/6b/2a/0b/6b2a0b9f9ea9bb0b9e947298ecda4812.jpg" },
+    { title: "Dynamite Kiss", year: "2026", cast: "Jang Ki Yong", episodes: "1", afis: "https://i.pinimg.com/736x/83/00/a7/8300a75137437da2630e92d71f4f53e1.jpg" },
+    { title: "Emergency Couple", year: "2014", cast: "Choi Jin Hyuk", episodes: "21", afis: "https://i.pinimg.com/736x/16/c7/61/16c7610eca3a0a632a08b067f1000717.jpg" },
+    { title: "Ending Again", year: "2020", cast: "Kim Geon Won", episodes: "12", afis: "https://i.pinimg.com/1200x/c9/51/fa/c951fa10611fe63f818469de76426625.jpg" },
+    { title: "Eulachacha Waikiki", year: "2018", cast: "Kim Jong Hyun, Lee Yi Kyung", episodes: "20", afis: "https://i.pinimg.com/736x/fe/7e/e5/fe7ee579c245c2497ad1a7e879623de0.jpg" },
+    { title: "EXO Next Door", year: "2015", cast: "EXO", episodes: "16", afis: "https://i.pinimg.com/736x/80/24/6c/80246c52b56c583a696095da827565b6.jpg" },
+    { title: "Extraordinary Attorney Woo", year: "2022", cast: "Kang Tae Oh", episodes: "16", afis: "https://i.pinimg.com/736x/7f/43/7d/7f437d98f70472be2ea8a0d17bfb5af4.jpg" },
+    { title: "Extraordinary You", year: "2019", cast: "Rowoon", episodes: "32", afis: "https://i.pinimg.com/736x/99/95/58/999558773dfe1d376ceddde81c41224d.jpg" },
+    { title: "Falling For Challenge", year: "2015", cast: "Kim Min Seok", episodes: "6", afis: "https://i.pinimg.com/1200x/9a/b6/b7/9ab6b75698cbb6762215829b150644f8.jpg" },
+    { title: "Family by Choice", year: "2024", cast: "Hwang In Yeop", episodes: "16", afis: "https://i.pinimg.com/736x/aa/ed/ed/aaeded43727bd604fbe39c600514da82.jpg" },
+    { title: "Fated to Love You", year: "2014", cast: "Jang Hyuk", episodes: "20", afis: "https://i.pinimg.com/736x/35/5f/05/355f0548ed7461eb98bb1be6c78f061d.jpg" },
+    { title: "Fight For My Way", year: "2017", cast: "Park Seo Joon", episodes: "16", afis: "https://i.pinimg.com/1200x/bf/19/7a/bf197a694e75baf2b8ac950db39a7cbe.jpg" },
+    { title: "Forecasting Love and Weather", year: "2022", cast: "Song Kang", episodes: "16", afis: "https://i.pinimg.com/736x/5d/a8/95/5da895534268cc4c34deac76e6191c56.jpg" },
+    { title: "Forest", year: "2020", cast: "Park Hae Jin", episodes: "32", afis: "https://i.pinimg.com/736x/89/e0/e3/89e0e37cc464155f97126f282bb6f19d.jpg" },
+    { title: "Frankly Speaking", year: "2024", cast: "Ko Kyung Pyo", episodes: "12", afis: "https://i.pinimg.com/1200x/23/d9/21/23d921c1502f0d413071f8ec00bb344c.jpg" },
+    { title: "Freshman", year: "2019", cast: "Hwang In Yeop", episodes: "12", afis: "https://i.pinimg.com/1200x/32/9b/d9/329bd9ab546ea0b27730ee1a7374112e.jpg" },
+    { title: "From Now On, Showtime!", year: "2022", cast: "Park Hae Jin", episodes: "16", afis: "https://i.pinimg.com/736x/55/2e/d4/552ed405cc4114ac8b762c440671bed7.jpg" },
+    { title: "Ga Doo Ri's Sushi Restaurant", year: "2020", cast: "Hyuk", episodes: "12", afis: "https://i.pinimg.com/736x/e4/24/c3/e424c3ab17764f71aa87b14810613360.jpg" },
+    { title: "Gaus Electronics", year: "2022", cast: "Kwak Dong Yeon", episodes: "12", afis: "https://i.pinimg.com/736x/ef/f9/52/eff9529a3c169b938e7ef71e8fab8a8c.jpg" },
+    { title: "Ghost Doctor", year: "2022", cast: "Rain, Kim Bum", episodes: "16", afis: "https://i.pinimg.com/736x/dd/e1/9b/dde19baeb2553fb4a3c5a56206c43465.jpg" },
+    { title: "Go Back Couple", year: "2017", cast: "Son Ho Jun, Jang Ki Yong", episodes: "12", afis: "https://i.pinimg.com/1200x/fe/a5/4c/fea54c3112948e3953799b28390f00fd.jpg" },
+    { title: "Go Back Diary", year: "2018", cast: "Lee Jong Won", episodes: "4", afis: "https://i.pinimg.com/736x/31/6d/d0/316dd00e82ac661439553b8f15b73447.jpg" },
+    { title: "Gogh The Starry Night", year: "2016", cast: "Kim Young Kwang", episodes: "20", afis: "https://i.pinimg.com/736x/e2/c7/07/e2c707217082d2443f53dcae4658f500.jpg" },
+    { title: "Good Boy", year: "2025", cast: "Park Bo Gum", episodes: "16", afis: "https://i.pinimg.com/736x/a4/75/0e/a4750ebeb87156e2f61a2aee82974fde.jpg" },
+    { title: "Happiness", year: "2021", cast: "Park Hyung Sik", episodes: "12", afis: "https://i.pinimg.com/736x/df/5c/ad/df5cad58fe2c9a2d69923c70053d1576.jpg" },
+    { title: "He is Psychometric", year: "2019", cast: "Park Jin Young", episodes: "16", afis: "https://i.pinimg.com/736x/e9/c4/33/e9c433628f9ecdd3396d24e84c142066.jpg" },
+    { title: "Head Over Heels", year: "2025", cast: "Choo Young Woo", episodes: "12", afis: "https://i.pinimg.com/736x/ba/a5/3d/baa53d84e35d7dcc97f35948fe9893f7.jpg" },
+    { title: "Healer", year: "2014", cast: "Ji Chang Wook", episodes: "20", afis: "https://i.pinimg.com/736x/47/7b/b9/477bb96720a2c68aae7dd180dd639e4f.jpg" },
+    { title: "Heartbeat", year: "2023", cast: "Taecyeon", episodes: "16", afis: "https://i.pinimg.com/736x/b6/49/81/b64981ae32ce3237576e63f3b8ad2389.jpg" },
+    { title: "Heavenly Idol", year: "2023", cast: "Kim Min Gyu", episodes: "12", afis: "https://i.pinimg.com/736x/79/08/b6/7908b6490040c39f771b0a00ee962f10.jpg" },
+    { title: "Her Lovely Heels", year: "2014", cast: "Hong Jong Hyun", episodes: "10", afis: "https://i.pinimg.com/736x/1a/60/de/1a60de244963b6a97055c5c6b57f20bc.jpg" },
+    { title: "Her Private Life", year: "2019", cast: "Kim Jae Wook, Ahn Bo Hyun", episodes: "16", afis: "https://i.pinimg.com/736x/30/91/7b/30917b31db591b856b752ad5c8d59dac.jpg" },
+    { title: "High And Crush", year: "2015", cast: "Jung Il Woo", episodes: "20", afis: "https://i.pinimg.com/736x/49/48/95/494895a95ccf8100bd1bd341613c91d1.jpg" },
+    { title: "Hit The Spot", year: "2022", cast: "Park Sun Ho", episodes: "8", afis: "https://i.pinimg.com/736x/75/6d/35/756d3547d31aa2951cba0b3d8dffd076.jpg" },
+    { title: "Hometown Cha Cha Cha", year: "2021", cast: "Kim Seon Ho, Lee Sang Yi", episodes: "16", afis: "https://i.pinimg.com/736x/c6/ae/67/c6ae67383729372df4cb6682c5d3a889.jpg" },
+    { title: "Hospital Playlist", year: "2020", cast: "Yoo Yeon Seok, Jo Jung Seok", episodes: "12", afis: "https://i.pinimg.com/736x/e0/e1/95/e0e195650caa961f5d381fc97234ef70.jpg" },
+    { title: "Hot and Sweet", year: "2016", cast: "Choi Min Hwan", episodes: "8", afis: "https://i.pinimg.com/736x/48/83/93/48839304048aad31a433bfd778c89067.jpg" },
+    { title: "Hotel Del Luna", year: "2019", cast: "Yeo Jin Goo", episodes: "16", afis: "https://i.pinimg.com/736x/2c/c6/95/2cc6955515ffadd504323ca2c009f26d.jpg" },
+    { title: "How Are You Bread", year: "2020", cast: "Kim Jun Myeon", episodes: "5", afis: "https://i.pinimg.com/1200x/76/3b/41/763b41e7014d5910c6cf92d0b4f4830c.jpg" },
+    { title: "Hyde, Jekyll, Me", year: "2015", cast: "Hyun Bin, Sung Joon", episodes: "20", afis: "https://i.pinimg.com/736x/7b/60/9e/7b609eacf167eac27deb066762d311d4.jpg" },
+    { title: "I Can See Your MBTI", year: "2021", cast: "Hyunjae", episodes: "5", afis: "https://i.pinimg.com/736x/c7/f7/52/c7f752fc7bac169941c2a866356c13d5.jpg" },
+    { title: "If You Wish Upon Me", year: "2022", cast: "Ji Chang Wook", episodes: "16", afis: "https://i.pinimg.com/736x/14/5d/dc/145ddc2a8432b408737ac202a13040bd.jpg" },
+    { title: "I'm not a Robot", year: "2017", cast: "Yoo Seung Ho", episodes: "32", afis: "https://i.pinimg.com/736x/e2/c3/83/e2c383972beb2d3fdf5e4923367ef7b3.jpg" },
+    { title: "Imitation", year: "2021", cast: "Lee Jun Young, Yun Ho", episodes: "12", afis: "https://i.pinimg.com/736x/7e/2b/ff/7e2bff70cf077749a8dc6c7f33498f17.jpg" },
+    { title: "Iron Family", year: "2024", cast: "Kim Jung Hyun", episodes: "36", afis: "https://i.pinimg.com/736x/8c/e4/bd/8ce4bd77c7040795f14d63effd978d58.jpg" },
+    { title: "Itaewon Class", year: "2020", cast: "Park Seo Joon, Ahn Bo Hyun", episodes: "16", afis: "https://i.pinimg.com/736x/2c/3f/0e/2c3f0e45247927c15b71cd4fd277e3ac.jpg" },
+    { title: "It's Okay That's Love", year: "2014", cast: "Jo In Sung, Doh Kyung Soo", episodes: "16", afis: "https://i.pinimg.com/736x/b9/29/14/b92914c9b3d694477ad409beff400123.jpg" },
+    { title: "It's Okay to Not Be Okay", year: "2020", cast: "Kim Soo Hyun", episodes: "16", afis: "https://i.pinimg.com/736x/77/03/4a/77034afa58e5d1af7f0a10a6cbc0ab7d.jpg" },
+    { title: "Jugglers", year: "2017", cast: "Choi Daniel", episodes: "16", afis: "https://i.pinimg.com/736x/30/49/05/30490536624ff4131e9ed6a2b93ba76f.jpg" },
+    { title: "Jumping Girl", year: "2015", cast: "U-Kwon", episodes: "15", afis: "https://i.pinimg.com/736x/09/7c/0a/097c0a2484ea2fae98d3a17760fde373.jpg" },
+    { title: "Just Between Lovers", year: "2017", cast: "Lee Jun Ho", episodes: "16", afis: "https://i.pinimg.com/1200x/ab/e5/f1/abe5f1f6345e6a65ae751531fc8364f0.jpg" },
+    { title: "Kara: Secret Love - Missing You", year: "2014", cast: "Yeon Woo Jin", episodes: "2", afis: "https://i.pinimg.com/736x/e2/49/0b/e2490bf3f3b6f458b780c8c20397e2fe.jpg" },
+    { title: "Kara: Secret Love - 13th Bucket List", year: "2014", cast: "Kim Young Kwang", episodes: "2", afis: "https://i.pinimg.com/736x/ad/e3/12/ade3121a2cb9503b6775ae5143a8fa1a.jpg" },
+    { title: "Kara: Secret Love - Lilac", year: "2014", cast: "Bae Soo Bin", episodes: "2", afis: "https://i.pinimg.com/1200x/23/20/7e/23207eeeab6c8ad5b43c718daf42dd66.jpg" },
+    { title: "Kara: Secret Love - A Seven Day Summer", year: "2014", cast: "Lee Kwang Soo", episodes: "2", afis: "https://i.pinimg.com/736x/52/69/ec/5269ec292b62b0b5f6f0f45a7306a708.jpg" },
+    { title: "Kara: Secret Love - Coffee With An Angel?", year: "2014", cast: "Ji Chang Wook", episodes: "2", afis: "https://i.pinimg.com/1200x/2a/7c/44/2a7c4400a67caa4cabf4d5b86fdd0687.jpg" },
+    { title: "Kill Me, Heal Me", year: "2015", cast: "Ji Sung, Park Seo Joon", episodes: "20", afis: "https://i.pinimg.com/736x/b5/dc/30/b5dc300ccc72acc4da1a13d866af4c3c.jpg" },
+    { title: "King the Land", year: "2023", cast: "Lee Jun Ho", episodes: "16", afis: "https://i.pinimg.com/736x/21/70/2b/21702b734301b565c9d456fc803e7ef3.jpg" },
+    { title: "Kiss Goblin", year: "2020", cast: "Bae In Hyuk", episodes: "12", afis: "https://i.pinimg.com/736x/f2/15/25/f215258d6538d4eddbf5a8d312bfa7cc.jpg" },
+    { title: "Kiss Sixth Sense", year: "2022", cast: "Yoon Gye Sang", episodes: "12", afis: "https://i.pinimg.com/736x/5f/19/25/5f192517da14083dfd366f7d7123de80.jpg" },
+    { title: "Last Minute Romance", year: "2017", cast: "Lee Seo-won", episodes: "10", afis: "https://i.pinimg.com/736x/1a/d6/dc/1ad6dc5c49261ad7c5a65ca24689e604.jpg" },
+    { title: "LCDP: Korea", year: "2022", cast: "Lee Hyun Woo", episodes: "12", afis: "https://i.pinimg.com/1200x/a4/36/87/a43687720e45b077f7176d77584862cf.jpg" },
+    { title: "Legally Dad", year: "2020", cast: "Choi Kyung Hoon", episodes: "6", afis: "https://i.pinimg.com/736x/7f/0f/fd/7f0ffd2e6d1048b6710346c4a9da6f26.jpg" },
+    { title: "Let's Eat", year: "2018", cast: "Yoon Doo Joon", episodes: "14", afis: "https://i.pinimg.com/1200x/06/2e/28/062e28ef281d65b391139d3119ff85d9.jpg" },
+    { title: "Let's Fight Ghost", year: "2016", cast: "Taecyeon", episodes: "16", afis: "https://i.pinimg.com/1200x/2a/a8/89/2aa889d7527793443dcbccd54bab7b8b.jpg" },
+    { title: "Level Up!", year: "2019", cast: "Sung Hoon", episodes: "12", afis: "https://i.pinimg.com/736x/85/c4/44/85c444f577b9987927a90fa5376720cb.jpg" },
+    { title: "Lie to Me", year: "2011", cast: "Kang Ji Hwan, Sung Joon", episodes: "16", afis: "https://i.pinimg.com/736x/9e/71/9f/9e719f27445d7c8a88a1670b599985d3.jpg" },
+    { title: "Line Romance", year: "2014", cast: "Lee Min Ho", episodes: "3", afis: "https://i.pinimg.com/736x/d3/c5/72/d3c57273c2b57aa54df8786d9489b527.jpg" },
+    { title: "Link: Eat, Love, Die", year: "2022", cast: "Yeo Jin Goo, Hong Jung Hyun", episodes: "16", afis: "https://i.pinimg.com/1200x/85/28/18/852818cc5b6cdda08bef5a22b4792725.jpg" },
+    { title: "Live On", year: "2020", cast: "Hwang Minhyun", episodes: "8", afis: "https://i.pinimg.com/736x/1e/b8/06/1eb806551b12cc8c526049c6d8add83e.jpg" },
+    { title: "Longing for Spring", year: "2014", cast: "Lee Won Geun", episodes: "12", afis: "https://i.pinimg.com/736x/47/e8/43/47e843d40fb863ff22618b4e130114c6.jpg" },
+    { title: "Love & Wish", year: "2021", cast: "Youngjae", episodes: "9", afis: "https://i.pinimg.com/1200x/8f/0c/b2/8f0cb2a9005f24fc01b0ab16cf07528a.jpg" },
+    { title: "Love Alarm", year: "2019", cast: "Song Kang", episodes: "14", afis: "https://i.pinimg.com/736x/0f/32/86/0f328682e1961f57bdb8351bdf41f3e2.jpg" },
+    { title: "Love All Play", year: "2022", cast: "Chae Jong Hyeop", episodes: "16", afis: "https://i.pinimg.com/736x/fa/9d/13/fa9d1340ec6d6c01ad44e0420dc7aa1f.jpg" },
+    { title: "Love in Contract", year: "2022", cast: "Ko Kyung Pyo, Kim Jae Young", episodes: "16", afis: "https://i.pinimg.com/736x/20/61/ca/2061cac2fbb33da097fb8186a16b1533.jpg" },
+    { title: "Love in the Moonlight", year: "2016", cast: "Park Bo Gum", episodes: "18", afis: "https://i.pinimg.com/736x/36/81/2b/36812bd032665f971f2ad52d847be841.jpg" },
+    { title: "Love is for Suckers", year: "2022", cast: "Choi Siwon", episodes: "16", afis: "https://i.pinimg.com/736x/9f/7d/19/9f7d1939659ef65b50c7a5f42fd6141e.jpg" },
+    { title: "Love Next Door", year: "2024", cast: "Jung Hae In", episodes: "16", afis: "https://i.pinimg.com/736x/4e/b0/cc/4eb0cca0421cfbc83cf808125551f1d4.jpg" },
+    { title: "Love Playlist", year: "2017", cast: "Kim Hyung Suk", episodes: "45", afis: "https://i.pinimg.com/1200x/6b/c6/75/6bc6759a333107c08cf8f6a87a786714.jpg" },
+    { title: "Love Scout", year: "2025", cast: "Lee Jun Hyuk", episodes: "16", afis: "https://i.pinimg.com/1200x/cd/24/e0/cd24e0f297ff34a78fb191160303da06.jpg" },
+    { title: "Love to Hate You", year: "2023", cast: "Tae Yoo", episodes: "10", afis: "https://i.pinimg.com/736x/e8/77/7c/e8777ce56e1f0e3c8766d3474ff53885.jpg" },
+    { title: "Love with Flaws", year: "2019", cast: "Ahn Jae Hyun", episodes: "32", afis: "https://i.pinimg.com/736x/30/d5/0c/30d50c1455a188f65628411303841591.jpg" },
+    { title: "Love Your Enemy", year: "2024", cast: "Ju Ji Hoon", episodes: "12", afis: "https://i.pinimg.com/736x/fe/fe/5f/fefe5f0c7335146ed691b0a0f60e916f.jpg" },
+    { title: "Lovely Runner", year: "2024", cast: "Byeon Woo Seok", episodes: "16", afis: "https://i.pinimg.com/1200x/a8/9a/c7/a89ac7afb079b8744cab52e52c0c89ab.jpg" },
+    { title: "Lovers of the Red Sky", year: "2021", cast: "Ahn Hyo Seop", episodes: "16", afis: "https://i.pinimg.com/736x/3e/0b/2c/3e0b2c9da2b4f5eeda270e8006705190.jpg" },
+    { title: "Lovestruck in the City", year: "2020", cast: "Ji Chang Wook", episodes: "17", afis: "https://i.pinimg.com/1200x/85/74/05/857405f8f38434a5f9e62bde9c89f234.jpg" },
+    { title: "Lunch Box", year: "2015", cast: "Ji Soo", episodes: "3", afis: "https://i.pinimg.com/736x/a7/0d/1a/a70d1a58944d8589bfc21c57c886c4c2.jpg" },
+    { title: "Mad For Each Other", year: "2021", cast: "Jung Woo", episodes: "13", afis: "https://i.pinimg.com/736x/b3/bd/1d/b3bd1d372b1aacbecb6473c0babe2691.jpg" },
+    { title: "Magic Phone", year: "2016", cast: "Kim Jin Woo", episodes: "10", afis: "https://i.pinimg.com/736x/0b/0b/59/0b0b59e7739f470d2612f3fb9cfdd8f9.jpg" },
+    { title: "Man to Man", year: "2017", cast: "Park Hae Jin", episodes: "16", afis: "https://i.pinimg.com/1200x/17/01/f3/1701f3cee350db4715ae419596c443fe.jpg" },
+    { title: "Marriage Contract", year: "2016", cast: "Lee Seo Jin", episodes: "16", afis: "https://i.pinimg.com/736x/6f/ec/08/6fec08b86ce5780c34b6afc4e3bb7048.jpg" },
+    { title: "Marriage, not Dating!", year: "2014", cast: "Yeon Woo Jin", episodes: "16", afis: "https://i.pinimg.com/736x/68/bd/d6/68bdd608b5db454ba17833ffbea10ec1.jpg" },
+    { title: "Marry My Husband", year: "2024", cast: "Na In Woo, Lee Yi Kyung", episodes: "16", afis: "https://i.pinimg.com/736x/87/ff/1b/87ff1b164d0f98232eae29d6c05fadd6.jpg" },
+    { title: "May I Help You?", year: "2022", cast: "Lee Jun Young", episodes: "16", afis: "https://i.pinimg.com/736x/a1/55/bc/a155bca194d361b289d132d8b94bf134.jpg" },
+    { title: "Melting Me Softly", year: "2019", cast: "Ji Chang Wook", episodes: "16", afis: "https://i.pinimg.com/1200x/b3/d1/75/b3d1750304594688d2875eb6c6cd20c4.jpg" },
+    { title: "Meow, the Secret Boy", year: "2020", cast: "Kim Myung Soo", episodes: "24", afis: "https://i.pinimg.com/736x/b7/57/82/b75782d3f1b1999992516842afec5a3f.jpg" },
+    { title: "Mine", year: "2021", cast: "Cha Hakyeon", episodes: "16", afis: "https://i.pinimg.com/736x/55/8f/5e/558f5e6ce7a4aac37df383a08286446c.jpg" },
+    { title: "Miss Independent Ji Eun", year: "2018", cast: "Cha In Ha", episodes: "8", afis: "https://i.pinimg.com/736x/93/9d/cf/939dcfbfd0fe7662d2c3491c05de0820.jpg" },
+    { title: "Moment of Eighteen", year: "2019", cast: "Ong Seung Woo", episodes: "16", afis: "https://i.pinimg.com/1200x/db/9b/d1/db9bd1840dc7c4b5600786a3cee3aa26.jpg" },
+    { title: "Moon Lovers: Scarlet Heart Ryeo", year: "2016", cast: "Byun Baekhyun, Lee Jung Gi", episodes: "20", afis: "https://i.pinimg.com/736x/7a/c8/84/7ac8847bf3ddb37bd135511489de047b.jpg" },
+    { title: "More Than Friends", year: "2020", cast: "Ong Seong Wu", episodes: "16", afis: "https://i.pinimg.com/1200x/43/bb/ec/43bbeca203e4ec1ca846546ddc71e44c.jpg" },
+    { title: "Mouse", year: "2021", cast: "Lee Seung Gi", episodes: "20", afis: "https://i.pinimg.com/736x/8e/4f/0c/8e4f0cd1350438c142632cadfa28ad47.jpg" },
+    { title: "Mr. Plankton", year: "2024", cast: "Woo Do Hwan", episodes: "10", afis: "https://i.pinimg.com/736x/a7/6e/e3/a76ee31ebaf723f0625b06c77dd68ae3.jpg" },
+    { title: "Mr. Queen", year: "2020", cast: "Kim Jung Hyun", episodes: "20", afis: "https://i.pinimg.com/736x/ed/4c/22/ed4c22eff28e645bf9dee7edcff50b1c.jpg" },
+    { title: "My Absolute Boyfriend", year: "2019", cast: "Yoo Jin Goo, Hong Jong Hyun", episodes: "36", afis: "https://i.pinimg.com/736x/d3/8e/ee/d38eeee6700f0734306b1b3b7d539e4d.jpg" },
+    { title: "My Dearest Nemesis", year: "2025", cast: "Choi Hyun Wook", episodes: "12", afis: "https://i.pinimg.com/736x/8ec39eacfe987fe8ed17f1655c58b396.jpg" },
+    { title: "My Demon", year: "2023", cast: "Song Kang, Lee Sang Yi", episodes: "16", afis: "https://i.pinimg.com/736x/7c/ba/96/7cba96fcad222149ca352b7aa9d3e5b9.jpg" },
+    { title: "My First First Love", year: "2019", cast: "Ji Soo", episodes: "16", afis: "https://i.pinimg.com/736x/f2/1f/df/f21fdf6a0f72f1b8c2edf2d1e49e2c50.jpg" },
+    { title: "My Girlfriend is a Gumiho", year: "2010", cast: "Lee Seung Gi", episodes: "16", afis: "https://i.pinimg.com/736x/c7/d0/04/c7d0049b6e4bbb7fb3d8bdbb2db801d7.jpg" },
+    { title: "My Holo Love", year: "2020", cast: "Yoon Hyun Min", episodes: "12", afis: "https://i.pinimg.com/1200x/65/4f/f5/654ff530119a8d9d920e7e7ded695801.jpg" },
+    { title: "My ID is Gangnam Beauty", year: "2018", cast: "Cha Eun Woo", episodes: "16", afis: "https://i.pinimg.com/736x/ca/1e/79/ca1e797332be678b762ca28ef9abe60c.jpg" },
+    { title: "My Love From The Star", year: "2013", cast: "Kim Soo Hyun, Park Hae Jin", episodes: "21", afis: "https://i.pinimg.com/736x/69/ab/3e/69ab3ee64ad8736d2896e345fc3c2f4b.jpg" },
+    { title: "My Lovely Liar", year: "2023", cast: "Hwang Min Hyun", episodes: "16", afis: "https://i.pinimg.com/736x/e0/b1/79/e0b179599a4c15b1790ba8eb668dccb1.jpg" },
+    { title: "My Name", year: "2021", cast: "Ahn Bo Hyun", episodes: "8", afis: "https://i.pinimg.com/736x/46/ad/2c/46ad2c8b2590859aaf47c8d43e1dddeb.jpg" },
+    { title: "My Roommate is a Gumiho", year: "2021", cast: "Jang Ki Young, Bae In Hyuk", episodes: "16", afis: "https://i.pinimg.com/1200x/26/f7/ca/26f7cac3a1c438707f0383c8f6353fff.jpg" },
+    { title: "My Secret Romance", year: "2017", cast: "Sung Hoon, Kim Jae Young", episodes: "13", afis: "https://i.pinimg.com/736x/ec/aa/a6/ecaaa67dbb257dd58c7d33b4243f155e.jpg" },
+    { title: "My Shy Boss", year: "2017", cast: "Yeon Woo Jin", episodes: "16", afis: "https://i.pinimg.com/736x/0f/1a/05/0f1a059f2ee58c0cac4173259c00fd45.jpg" },
+    { title: "My Strange Hero", year: "2018", cast: "Yoo Seung Ho", episodes: "32", afis: "https://i.pinimg.com/736x/f5/c3/99/f5c399bdf47d97ee42eb3c0c52e633d1.jpg" },
+    { title: "My Sweet Mobster", year: "2024", cast: "Uhm Tae Goo", episodes: "16", afis: "https://i.pinimg.com/736x/34/08/9e/34089e7c36f5caf1d4a08cf0fe1a587b.jpg" },
+    { title: "Nevertheless", year: "2021", cast: "Song Kang", episodes: "10", afis: "https://i.pinimg.com/736x/d9/a8/d9/d9a8d9451cfc5dc7451ae4af777bca23.jpg" },
+    { title: "No Gain No Love", year: "2024", cast: "Kim Young Dae", episodes: "12", afis: "https://i.pinimg.com/736x/cf/7a/3e/cf7a3e9f7f5f8464db7383a8cd8cce51.jpg" },
+    { title: "Noble, My Love", year: "2015", cast: "Sung Hoon", episodes: "20", afis: "https://i.pinimg.com/1200x/3f/09/0d/3f090d409cb50047ec8fb3642b845a91.jpg" },
+    { title: "Not Yet Thirty", year: "2021", cast: "Kang Min Hyuk", episodes: "15", afis: "https://i.pinimg.com/1200x/b5/56/e0/b556e0288d7c1a84371bb3f1465a3555.jpg" },
+    { title: "Office Watch", year: "2017", cast: "Kang Hoon", episodes: "14", afis: "https://i.pinimg.com/1200x/14/18/5b/14185bc2207947ac440bed86db555228.jpg" },
+    { title: "Oh My Ghost!", year: "2015", cast: "Jo Jung Seok", episodes: "16", afis: "https://i.pinimg.com/736x/8a/53/19/8a5319254ee1219172d6cc4cb40d714c.jpg" },
+    { title: "Oh My Venus!", year: "2015", cast: "So Ji Sub", episodes: "16", afis: "https://i.pinimg.com/736x/ca/88/e5/ca88e56db3574be2ec241d27d695330a.jpg" },
+    { title: "Oh! Master", year: "2021", cast: "Lee Min Ki", episodes: "16", afis: "https://i.pinimg.com/736x/c3/4d/18/c34d18fbe63a8557444cee7f191c9ab4.jpg" },
+    { title: "Once Upon a Small Town", year: "2022", cast: "Choo Young Woo", episodes: "12", afis: "https://i.pinimg.com/736x/0f/70/eb/0f70eb7910b6613675c29a08502311c3.jpg" },
+    { title: "One Spring Night", year: "2019", cast: "Jung Hae In", episodes: "32", afis: "https://i.pinimg.com/736x/c3/34/50/c33450b9626d2f8cdc2e54dea156d62d.jpg" },
+    { title: "Our Beloved Summer", year: "2021", cast: "Choi Woo Sik", episodes: "16", afis: "https://i.pinimg.com/736x/b6/91/bf/b691bfdb4bbc0a4790801092b38ae9fa.jpg" },
+    { title: "Our Universe", year: "2026", cast: "Bae In Hyuk", episodes: "12", afis: "https://i.pinimg.com/736x/48/6e/c4/486ec4d0d30980f619c5b7960eb11576.jpg" },
+    { title: "Perfect Marriage Revenge", year: "2023", cast: "Sung Hoon", episodes: "12", afis: "https://i.pinimg.com/736x/12/e8/c2/12e8c2754a967d893ffc46ccd370b861.jpg" },
+    { title: "Perfume", year: "2019", cast: "Shin Sung Rok, Kim Min Gyu", episodes: "32", afis: "https://i.pinimg.com/736x/61/c8/dd/61c8dd71a841c661bead0839b19b46a2.jpg" },
+    { title: "Persona", year: "2019", cast: "Park Hae Soo", episodes: "4", afis: "https://i.pinimg.com/736x/a4/54/d7/a454d7eb7872867ba146562bb40d3e1b.jpg" },
+    { title: "Personal Taste", year: "2010", cast: "Lee Min Ho", episodes: "16", afis: "https://i.pinimg.com/1200x/04/8b/2a/048b2a31b912d4bf02fe14b608af6953.jpg" },
+    { title: "Playfull Kiss", year: "2010", cast: "Kim Hyun Joong", episodes: "16", afis: "https://i.pinimg.com/736x/b3/6c/e0/b36ce0bb43badbc422046c8f28670d0b.jpg" },
+    { title: "Please Don't Date Him", year: "2020", cast: "Lee Jun Young", episodes: "10", afis: "https://i.pinimg.com/736x/d4/13/a1/d413a1043c605a902a595450223ce9cb.jpg" },
+    { title: "Please, Summer!", year: "2020", cast: "Kim Kang Min", episodes: "1", afis: "https://i.pinimg.com/1200x/5a/c2/36/5ac236a3a7a9afe6d898044658c8b082.jpg" },
+    { title: "Plus Nine Boys", year: "2014", cast: "Kim Young Kwang", episodes: "14", afis: "https://media.themoviedb.org/t/p/w116_and_h174_face/lAxxKor23HEWwpJ17N0WtRJxLSh.jpg" },
+    { title: "Pool Ha-Woo-Seu", year: "2004", cast: "Rain", episodes: "16", afis: "https://i.pinimg.com/736x/51/06/3ba74ce22b193f7ff41a766924b2.jpg" },
+    { title: "Pop Out Boy!", year: "2020", cast: "Kim Min Kyu", episodes: "10", afis: "https://i.pinimg.com/736x/39/79/bb/3979bbf95c25b795a7f3363f7cd8549c.jpg" },
+    { title: "Princess Hours", year: "2006", cast: "Ju Ji Hoon", episodes: "24", afis: "https://i.pinimg.com/736x/ce/c9/46/cec946dca1fdc9c2f0ed72a5a157ffd3.jpg" },
+    { title: "Private Lives", year: "2020", cast: "Ko Kyung Pyo", episodes: "16", afis: "https://i.pinimg.com/736x/b4/dc/26/b4dc264d3fb70bab77a05ba42b45c899.jpg" },
+    { title: "Queen of Tears", year: "2024", cast: "Kim Soo Hyun", episodes: "16", afis: "https://i.pinimg.com/736x/33/1b/38/331b386440a747673dcf651bdd656a07.jpg" },
+    { title: "Queen of the Ring", year: "2017", cast: "Ahn Hyo Seop", episodes: "21", afis: "https://i.pinimg.com/1200x/8b/f8/57/8bf857f4cf9313ac1ad4bf94b8539422.jpg" },
+    { title: "Radio Romance", year: "2018", cast: "Yoon Doo Joon", episodes: "16", afis: "https://i.pinimg.com/1200x/96/4f/c0/964fc06510fde63bf898855d9670613d.jpg" },
+    { title: "Record of Youth", year: "2020", cast: "Park Bo Gum, Byeon Woo Seok", episodes: "16", afis: "https://i.pinimg.com/736x/51/58/f7/5158f7b6157a47284da4bb2ad134c43b.jpg" },
+    { title: "Revenge of Others", year: "2022", cast: "Park Solomon", episodes: "12", afis: "https://i.pinimg.com/736x/a5/71/1f/a5711f08241a1b36154e5b42e8f6b488.jpg" },
+    { title: "Rich Man Poor Woman", year: "2018", cast: "Kim Jun Myeon", episodes: "16", afis: "https://i.pinimg.com/736x/fb/2f/40/fb2f4026b1771a8bf4a94e63a9a7321a.jpg" },
+    { title: "Risky Romance", year: "2018", cast: "Ji Hyun Woo", episodes: "32", afis: "https://i.pinimg.com/736x/69/9c/61/699c61d987c2441e0c64ab528b3987e5.jpg" },
+    { title: "Romance is a Bonus Book", year: "2019", cast: "Lee Jong Seok, Wi Ha Joon", episodes: "16", afis: "https://i.pinimg.com/1200x/a1/42/eb/a142eb82fdd0664eb0f5079b1f4c98f3.jpg" },
+    { title: "Romance Special Law", year: "2017", cast: "Kim Min Gyu", episodes: "6", afis: "https://i.pinimg.com/1200x/62/c9/b4/62c9b44d4f163a8c7204f44a8b878672.jpg" },
+    { title: "Romance Talking", year: "2020", cast: "Choi Kyung Hoon", episodes: "8", afis: "https://i.pinimg.com/1200x/d1/ab/2e/d1ab2ea55a21c238b0f281c55d15443e.jpg" },
+    { title: "Romantic Doctor, Teacher Kim", year: "2016", cast: "Yoo Yeon Seok, Ahn Hyo Seop", episodes: "20", afis: "https://i.pinimg.com/736x/4d/3f/3e/4d3f3eee75f815ef9bcf676d3468826f.jpg" },
+    { title: "Rookie Cops", year: "2022", cast: "Kang Daniel", episodes: "16", afis: "https://i.pinimg.com/736x/fb/fa/27/fbfa274863d2aca5d9e137f6551a30c2.jpg" },
+    { title: "Run On", year: "2020", cast: "Im Siwan, Kang Tae Oh", episodes: "16", afis: "https://i.pinimg.com/1200x/55/72/20/557220a015ef03a7f492baf9ac90df10.jpg" },
+    { title: "S Line", year: "2025", cast: "Lee Soo Hyuk", episodes: "6", afis: "https://i.pinimg.com/736x/f7/4c/5d/f74c5d396db5aa216f3366b7b3ac586c.jpg" },
+    { title: "Sassy Go Go!", year: "2015", cast: "Lee Won Geun", episodes: "12", afis: "https://i.pinimg.com/1200x/ca/5e/d2/ca5ed250d4a285574629173c92842d99.jpg" },
+    { title: "School 2017", year: "2017", cast: "Kim Jung Hyun, Jang Dong Yoon", episodes: "16", afis: "https://i.pinimg.com/736x/e0/c4/e5/e0c4e55008da24558b93eb50724de4dc.jpg" },
+    { title: "School 2021", year: "2021", cast: "Kim Yohan, Choo Young Woo", episodes: "16", afis: "https://i.pinimg.com/736x/f4/4b/e9/f44be92e6a0d5ed34b27b51f8cde0928.jpg" },
+    { title: "Search WWW", year: "2019", cast: "Jang Ki Yong, Lee Jae Wook", episodes: "16", afis: "https://i.pinimg.com/1200x/e5/39/ee/e539ee0d2273da7b07fbf192dad95d13.jpg" },
+    { title: "Second Shot At Love", year: "2025", cast: "Gong Myung", episodes: "12", afis: "https://i.pinimg.com/1200x/3b/c5/c2/3bc5c228509b3bcb2d9fa0c8dee65c2a.jpg" },
+    { title: "Secret Garden", year: "2010", cast: "Hyun Bin", episodes: "20", afis: "https://i.pinimg.com/736x/44/5a/e8/445ae8f31e8b48a8953595610c5d1af4.jpg" },
+    { title: "Secret Queen Makers", year: "2018", cast: "My Loves", episodes: "7", afis: "https://i.pinimg.com/1200x/3f/48/82/3f4882a06d16f40a96598b91407244ce.jpg" },
+    { title: "See You in My 19th Life", year: "2023", cast: "Ahn Bo Hyun", episodes: "12", afis: "https://i.pinimg.com/736x/d3/90/3f/d3903f32fb604ada377056d1d5ad7413.jpg" },
+    { title: "Serendipity's Embrace", year: "2024", cast: "Chae Jong Hyeop", episodes: "8", afis: "https://i.pinimg.com/736x/f8/05/be/f805be2997c22c404d453ee4f36d075d.jpg" },
+    { title: "Seven First Kisses", year: "2016", cast: "My Loves", episodes: "8", afis: "https://i.pinimg.com/736x/79/a8/82/79a882ea72880ec17b5769a4da4495a2.jpg" },
+    { title: "Seventeen", year: "2017", cast: "Kim Do Wan", episodes: "8", afis: "https://i.pinimg.com/736x/86/97/a7/8697a73a4a7b1595d2bdf688acf34261.jpg" },
+    { title: "Sh**ting Stars", year: "2022", cast: "Kim Young Dae, Shin Hyun Seung", episodes: "16", afis: "https://i.pinimg.com/736x/a7/98/5f/a7985fe72291fb602079cf3b6a4cf3e7.jpg" },
+    { title: "She Was Pretty", year: "2015", cast: "Park Seo Joon, Choi Siwon", episodes: "16", afis: "https://i.pinimg.com/736x/ce/4d/ce/ce4dce5c7290601290d4d86dbdd27608.jpg" },
+    { title: "She Would Never Know", year: "2021", cast: "Rowoon", episodes: "16", afis: "https://i.pinimg.com/736x/eb/e1/8d/ebe18d9084b9d5a69ab9539a64443677.jpg" },
+    { title: "Shine Go Back", year: "2018", cast: "Park Hae Jin", episodes: "12", afis: "https://i.mydramalist.com/66nKW_3s.jpg" },
+    { title: "Shopping King Louis", year: "2016", cast: "Seo In Guk", episodes: "16", afis: "https://i.pinimg.com/736x/71/46/0d/71460d66059f5520333f5b97d952e309.jpg" },
+    { title: "Single's Inferno", year: "2021", cast: "program", episodes: "8", afis: "https://i.pinimg.com/736x/89/ee/5c/89ee5c27bef85b4c00d1fa646f65814a.jpg" },
+    { title: "Snowdrop", year: "2021", cast: "Jung Hae In, Jang Seung Jo", episodes: "16", afis: "https://i.pinimg.com/1200x/0e/73/b4/0e73b4f377772e3a6ef0e083febac3f4.jpg" },
+    { title: "So I Married An Anti Fan", year: "2021", cast: "Choi Tae Joon, Kim Min Gyu", episodes: "16", afis: "https://i.pinimg.com/736x/a4/97/87/a49787986b5f0728e842010c75c2f9ae.jpg" },
+    { title: "So Not Worth It", year: "2021", cast: "Youngjae, Shin Hyun Seung", episodes: "12", afis: "https://i.pinimg.com/736x/10/ed/18/10ed18a81a650aab1d5334e094724907.jpg" },
+    { title: "Society Obsessed with Love", year: "2018", cast: "Kim Young Jae", episodes: "6", afis: "https://i.pinimg.com/736x/2f/40/bf/2f40bfae94c1b11b3c3be53d222b93c8.jpg" },
+    { title: "Something About 1%", year: "2016", cast: "Ha Seok Jin", episodes: "16", afis: "https://i.pinimg.com/736x/c0/52/38/c0523824bf19db267e8f980bfadac133.jpg" },
+    { title: "Something in the Rain", year: "2018", cast: "Jung Hae In, Wi Ha Joon", episodes: "16", afis: "https://i.pinimg.com/1200x/6e/a5/1c/6ea51c60700a944394331f558b3c1bfa.jpg" },
+    { title: "Soundtrack #1", year: "2022", cast: "Park Hyung Sik", episodes: "4", afis: "https://i.pinimg.com/1200x/7c/70/d2/7c70d2cceb381d6667599119bc1290f0.jpg" },
+    { title: "Spice Up Our Love", year: "2024", cast: "Lee Sang Yi", episodes: "2", afis: "https://i.pinimg.com/736x/30/be/d6/30bed67edb4afc97bd758e318e79d07e.jpg" },
+    { title: "Splash Splash Love", year: "2015", cast: "Yoon Doo Joon", episodes: "2", afis: "https://i.pinimg.com/736x/3e/2d/06/3e2d06ac17b94157b54fd8aeb0588cf1.jpg" },
+    { title: "Spring Fever", year: "2026", cast: "Ahn Bo Hyun", episodes: "16", afis: "https://i.pinimg.com/1200x/f2/ab/ea/f2abea79d8e4c404968589179e44d99c.jpg" },
+    { title: "Squid Game", year: "2021", cast: "Wi Ha Joon, Kang Ha Neul", episodes: "9", afis: "https://i.pinimg.com/1200x/8a/e5/d5/8ae5d52e094e80483c2fc2786a21c5c1.jpg" },
+    { title: "Start Love", year: "2015", cast: "Kim Kyu Jong", episodes: "5", afis: "https://media.themoviedb.org/t/p/w116_and_h174_face/huxo9iaZsSggXs1HACuhAKuGwF9.jpg" },
+    { title: "Start Up", year: "2020", cast: "Nam Joo Hyuk, Kim Seon Ho", episodes: "16", afis: "https://i.pinimg.com/736x/6c/55/f4/6c55f46612f1b6f83e0f2671c1f1d6fe.jpg" },
+    { title: "Still 17", year: "2018", cast: "Yang Se Jong, Ahn Hyo Seop", episodes: "32", afis: "https://i.pinimg.com/736x/63/dd/be/63ddbe9fcaa4e17c8392bf4c3ce5263b.jpg" },
+    { title: "Strangers Again", year: "2023", cast: "Jang Seung Jo", episodes: "12", afis: "https://i.pinimg.com/736x/13/f5/b2/13f5b250c340c94b93feca54001a85b7.jpg" },
+    { title: "Strangers from Hell", year: "2019", cast: "Im Siwan, Lee Dong Wook", episodes: "10", afis: "https://i.pinimg.com/736x/97/02/b7/9702b7ea5db58b557d7645bde7ca1e15.jpg" },
+    { title: "Strong Girl Nam-soon", year: "2023", cast: "Ong Seong Wu, Byeon Woo Seok", episodes: "16", afis: "https://i.pinimg.com/736x/76/87/f1/7687f1e274269e8de559573e2cc5918b.jpg" },
+    { title: "Strong Woman Do Bong Soon", year: "2017", cast: "Park Hyung Sik, Ji Soo", episodes: "16", afis: "https://i.pinimg.com/1200x/fa/2f/32/fa2f32972bb0b687f76d56472a666328.jpg" },
+    { title: "Strongest Deliveryman", year: "2017", cast: "Ko Kyung Pyo, Kim Seon Ho", episodes: "16", afis: "https://i.pinimg.com/736x/52/2e/9b/522e9befe8eb4b00ac371b42e4d28df2.jpg" },
+    { title: "Summer Love", year: "2015", cast: "Lee Min Ho", episodes: "2", afis: "https://i.pinimg.com/736x/4c/26/7c/4c267c85671a9c267b31f4e21822fd05.jpg" },
+    { title: "Summer Strike", year: "2022", cast: "Im Siwan", episodes: "12", afis: "https://i.pinimg.com/736x/ef/33/fd/ef33fd6ba1fc469377cd3775fd61d518.jpg" },
+    { title: "Suspicious Partner", year: "2017", cast: "Ji Chang Wook, Choi Tae Joon", episodes: "40", afis: "https://i.pinimg.com/736x/26/07/5f/26075f46b59b9e3ad0241d0a1ecf15d3.jpg" },
+    { title: "Tale of the Nine Tailed", year: "2020", cast: "Lee Dong Wook, Kim Bum", episodes: "16", afis: "https://i.pinimg.com/1200x/c7/23/44/c72344ddf235dc9c4dca9b95530dbbea.jpg" },
+    { title: "Taste of Cat", year: "2018", cast: "Kim Wook", episodes: "4", afis: "https://i.pinimg.com/1200x/33/86/b5/3386b510c5068b0c9e0044aded2a59d8.jpg" },
+    { title: "Tastefully Yours", year: "2025", cast: "Kang Ha Neul", episodes: "16", afis: "https://i.pinimg.com/736x/6a/78/9d/6a789d783db03e1160a9a12a149a51c2.jpg" },
+    { title: "Temperature of Love", year: "2017", cast: "Yang Se Jong, Lee Jae Wook", episodes: "40", afis: "https://i.pinimg.com/736x/9e/23/52/9e2352f60cf0a9aaa528343f0b881ee0.jpg" },
+    { title: "Tempted", year: "2018", cast: "Woo Do Hwan, Kim Min Jae", episodes: "32", afis: "https://i.pinimg.com/736x/a7/f8/50/a7f850df61597245d65be566026a0ce7.jpg" },
+    { title: "That Man Oh Soo", year: "2018", cast: "Lee Jung Hyun, Kang Tae Oh", episodes: "16", afis: "https://i.pinimg.com/736x/c4/3d/16/c43d1608adb8d8c872c35628877777a0.jpg" },
+    { title: "That Winter, The Wind Blows", year: "2013", cast: "Jo In Sung", episodes: "16", afis: "https://i.pinimg.com/736x/74/4c/98/744c989b185b8977893cadce8423a3ca.jpg" },
+    { title: "The Alchemist", year: "2015", cast: "Han Ki Woong", episodes: "12", afis: "https://i.mydramalist.com/85qEbc.jpg?v=1" },
+    { title: "The Beauty Inside", year: "2018", cast: "Lee Min Ki, Ahn Jae Hyun", episodes: "16", afis: "https://i.pinimg.com/736x/ad/31/73/ad3173a4fff9370c07df13c1e57d194b.jpg" },
+    { title: "The Best Hit", year: "2017", cast: "Yoon Shi Yoon, Kim Min Jae", episodes: "32", afis: "https://i.pinimg.com/736x/58/8f/68/588f681b4f75c315215247a3c1b74116.jpg" },
+    { title: "The Bride of Habaek", year: "2017", cast: "Nam Joo Hyuk", episodes: "16", afis: "https://i.pinimg.com/736x/dd/5c/68/dd5c688ac48623d674473c7b8d48c873.jpg" },
+    { title: "The Day After We Broke Up", year: "2016", cast: "Kim Myung Soo", episodes: "8", afis: "https://i.pinimg.com/736x/84/57/e1/8457e19d2584043e155c572eed7aa39c.jpg" },
+    { title: "The Fabulous", year: "2022", cast: "Choi Min Ho", episodes: "8", afis: "https://i.pinimg.com/736x/d0/89/f6/d089f6962865a30f659e97f22c9a2984.jpg" },
+    { title: "The Girl Who Sees Scents", year: "2015", cast: "Park Yoo Chun", episodes: "16", afis: "https://i.pinimg.com/736x/1d/f5/6d/1df56db893bb35cf06b7167bf9eb95ae.jpg" },
+    { title: "The Good Bad Mother", year: "2023", cast: "Lee Do Hyun", episodes: "14", afis: "https://i.pinimg.com/736x/45/b1/c2/45b1c23cca8e95bc5c530e56344670fb.jpg" },
+    { title: "The Heirs", year: "2013", cast: "Lee Min Ho, Kim Woo Bin", episodes: "20", afis: "https://i.pinimg.com/736x/4d/bf/c5/4dbfc5c213030a75e28d6b7bd9409030.jpg" },
+    { title: "The Interest of Love", year: "2022", cast: "Yoo Yeon Seok", episodes: "16", afis: "https://i.pinimg.com/736x/e6/69/41/e6694156fe57f6f6b1ada4b48fcaacd0.jpg" },
+    { title: "The K2", year: "2016", cast: "Ji Chang Wook", episodes: "16", afis: "https://i.pinimg.com/736x/5e/4a/e1/5e4ae13ebea6219768339ca38471f949.jpg" },
+    { title: "The King: Eternal Monarch", year: "2020", cast: "Lee Min Ho, Woo Do Hwan", episodes: "16", afis: "https://i.pinimg.com/736x/ab/31/16/ab31169b5d17c9980fa949bc5367da83.jpg" },
+    { title: "The Law Café", year: "2022", cast: "Lee Seung Gi", episodes: "16", afis: "https://i.pinimg.com/736x/08/2e/53/082e538a00c7d964cf5b0074e7ae9ea9.jpg" },
+    { title: "The Legend of the Blue Sea", year: "2016", cast: "Lee Min Ho", episodes: "20", afis: "https://i.pinimg.com/736x/77/b1/28/77b128b440a689980831edc92fed1ad5.jpg" },
+    { title: "The Liar and His Lover", year: "2017", cast: "Lee Hyun Woo", episodes: "16", afis: "https://i.pinimg.com/736x/e9/92/84/e992846a7dba0aea4aed30b6b343ce97.jpg" },
+    { title: "The Man's Voice", year: "2021", cast: "Choi Tae Joon", episodes: "8", afis: "https://i.pinimg.com/1200x/b9/8e/12/b98e1227a7e1aeab464952e8970bfa98.jpg" },
+    { title: "The Mermaid Prince: Begining", year: "2020", cast: "Moonbin", episodes: "10", afis: "https://i.pinimg.com/1200x/7a/b9/3a/7ab93a7c4daec8b12f8e956a228d4552.jpg" },
+    { title: "The Potato Lab", year: "2025", cast: "N/A", episodes: "16", afis: "https://i.pinimg.com/736x/2d/14/b7/2d14b7a095a568736f3a036a26177c47.jpg" },
+    { title: "The School Nurse Files", year: "2020", cast: "Nam Joo Hyuk", episodes: "6", afis: "https://i.pinimg.com/736x/20/5d/2c/205d2cb5ca5ded1c7e345d2d147fe6e1.jpg" },
+    { title: "The Secret Life Of My Secretary", year: "2019", cast: "Kim Young Kwang", episodes: "32", afis: "https://i.pinimg.com/736x/24/aa/90/24aa90027db3a7ce7278f1ff6a25059d.jpg" },
+    { title: "The Smile Has Left Your Eyes", year: "2018", cast: "Seo In Guk", episodes: "16", afis: "https://i.pinimg.com/736x/07/2b/74/072b744d16dbf44ea538a31eb7d780c5.jpg" },
+    { title: "The Sound of Your Heart: Reboot", year: "2018", cast: "Sung Hoon", episodes: "20", afis: "https://i.pinimg.com/1200x/99/f7/61/99f7613b737a5b682a2c8157741b97b3.jpg" },
+    { title: "The Story of Park's Marriage Contract", year: "2023", cast: "Bae In Hyuk", episodes: "12", afis: "https://i.pinimg.com/736x/b2/c3/9d/b2c39dbc4da6ada9cac96b0d4c56287b.jpg" },
+    { title: "The Tale of Nokdu", year: "2019", cast: "Jang Dong Yoon, Kang Tae Oh", episodes: "32", afis: "https://i.pinimg.com/736x/69/c8/c2/69c8c2d440a1f3638fa65d04695694bc.jpg" },
+    { title: "The Trauma Code: Heroes on Call", year: "2025", cast: "Ju Ji Hoon, Choo Young Woo", episodes: "12", afis: "https://i.pinimg.com/736x/1e/13/2d/1e132d24b922f7e5c5d87efc4a6ba583.jpg" },
+    { title: "The Trunk", year: "2024", cast: "Gong Yoo", episodes: "8", afis: "https://i.pinimg.com/736x/8d/e0/0d/8de00d72b493de3afeb206d32a089c59.jpg" },
+    { title: "The Universe's Star", year: "2017", cast: "Kim Jun Myeon", episodes: "21", afis: "https://i.pinimg.com/736x/65/f7/6a/65f76a015c7edb86f824ce51ccf95b13.jpg" },
+    { title: "The Way I Hate You", year: "2019", cast: "Jaemin", episodes: "6", afis: "https://m.media-amazon.com/images/M/MV5BMWVlZmVhZjEtZmQ2MS00YTQxLTk4MjUtNmFiMWQwYzBkM2E1XkEyXkFqcGc@._V1_.jpg" },
+    { title: "Third Charm", year: "2018", cast: "Seo Kang Joon", episodes: "16", afis: "https://i.pinimg.com/736x/c2/11/76/c21176126fd6592130c51494d0fd0d15.jpg" },
+    { title: "Thumpink Spike", year: "2016", cast: "Song Jae Rim", episodes: "20", afis: "https://i.pinimg.com/736x/64/43/ce/6443cebec80e04f07f9dd7e992ba9293.jpg" },
+    { title: "To Be Continued", year: "2015", cast: "ASTRO", episodes: "12", afis: "https://i.pinimg.com/736x/6c/48/43/6c4843500db06e6a4eac07feb6f61131.jpg" },
+    { title: "To World of My 17", year: "2020", cast: "Ryeo Un", episodes: "10", afis: "https://i.pinimg.com/1200x/18/f5/85/18f58532ba22e914e3abe76dafc51d90.jpg" },
+    { title: "Touch", year: "2020", cast: "Joo Sang Wook", episodes: "16", afis: "https://i.pinimg.com/1200x/f7/db/86/f7db86045a11b87b6f14b45c8d227794.jpg" },
+    { title: "Touch Me If You Can", year: "2020", cast: "Yoon Seo Bin", episodes: "10", afis: "https://m.media-amazon.com/images/M/MV5BZmI3ZWJiZGMtYzFlNy00NDAwLThmMWQtODhjZGIyZjYyOTE2XkEyXkFqcGc@._V1_.jpg" },
+    { title: "Touch Your Heart", year: "2019", cast: "Lee Dong Wook", episodes: "16", afis: "https://i.pinimg.com/736x/c5/ed/7f/c5ed7fa853cb9f3e6451b8be7c203f3b.jpg" },
+    { title: "Touching You", year: "2016", cast: "Taecyeon", episodes: "12", afis: "https://i.pinimg.com/736x/f5/2c/26/f52c2633fda73310c127685725cd145d.jpg" },
+    { title: "Trap", year: "2020", cast: "Choi Kyung Hoon", episodes: "12", afis: "https://i.pinimg.com/1200x/4c/47/c3/4c47c3645ecc87f14ab229e0a56c7194.jpg" },
+    { title: "True Beauty", year: "2020", cast: "Cha Eun Woo, Hwang In Yeop", episodes: "16", afis: "https://i.pinimg.com/736x/14/b1/49/14b149247aca2d3b62c77a9b80a87928.jpg" },
+    { title: "Twenty-Five, Twenty-One", year: "2022", cast: "Nam Joo Hyuk", episodes: "16", afis: "https://i.pinimg.com/1200x/cb/7c/f7/cb7cf7b704132eb19fa29a5749ab4b8e.jpg" },
+    { title: "Uncontrollably Fond", year: "2016", cast: "Kim Woo Bin", episodes: "20", afis: "https://i.pinimg.com/736x/5c/f3/a5/5cf3a506a70ddb4021022bba38d2ed77.jpg" },
+    { title: "Vagabond", year: "2019", cast: "Lee Seung Gi", episodes: "16", afis: "https://i.pinimg.com/1200x/ff/93/dd/ff93dded895ac9078a9bf8bb33490ea6.jpg" },
+    { title: "Vampire Flower", year: "2014", cast: "Seo Jae Hyung", episodes: "6", afis: "https://m.media-amazon.com/images/M/MV5BM2Y5NWNiMmEtZjgwMS00M2E3LWEzNjktN2M0MjEzNTgxODI0XkEyXkFqcGc@._V1_.jpg" },
+    { title: "Vincenzo", year: "2021", cast: "Song Joong Ki, Taecyeon", episodes: "20", afis: "https://i.pinimg.com/736x/e5/94/43/e59443f3677fc7d3acae07c63a6a77a7.jpg" },
+    { title: "W-Two Worlds", year: "2016", cast: "Lee Jong Seok", episodes: "16", afis: "https://i.pinimg.com/736x/9e/23/99/9e2399e156b8716110cb10ea182f8f04.jpg" },
+    { title: "Want More 19", year: "2018", cast: "Nam Yoon Soo", episodes: "7", afis: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjjarx4oLeb0-Uu-a-E7zvNQatAuIIXbl-Wg&s" },
+    { title: "Weak Hero Class", year: "2022", cast: "Park Ji Hoon", episodes: "8", afis: "https://i.pinimg.com/1200x/fe/80/aa/fe80aaa415c7ad6a7e715bd4807517b0.jpg" },
+    { title: "Wedding Impossible", year: "2024", cast: "Moon Sang Min, Kim Do Wan", episodes: "12", afis: "https://i.pinimg.com/1200x/e1/20/b9/e120b98b6e44fb04366f33d1fb26b82a.jpg" },
+    { title: "Wednesday 3.30 PM", year: "2017", cast: "Hongbin, Ahn Bo Hyun", episodes: "10", afis: "https://i.pinimg.com/736x/64/00/75/6400759dc24c4ec7ffad4999cb8f45d0.jpg" },
+    { title: "Weightlifting Fairy Kim Bok Joo", year: "2016", cast: "Nam Joo Hyuk", episodes: "16", afis: "https://i.pinimg.com/736x/6c/94/0a/6c940af1236b43e94bd2de2d82940311.jpg" },
+    { title: "Welcome to Samdal-ri", year: "2023", cast: "Ji Chang Wook", episodes: "16", afis: "https://i.pinimg.com/736x/f1/e6/95/f1e69550e76052d37fd0cc1cffdb11a2.jpg" },
+    { title: "When Life Gives You Tangerines", year: "2025", cast: "Park Bo Gum", episodes: "16", afis: "https://i.pinimg.com/736x/ae/90/77/ae9077abc63d4fb8f3be89c4344ebec4.jpg" },
+    { title: "When the Camellia Blooms", year: "2019", cast: "Kang Ha Neul", episodes: "40", afis: "https://i.pinimg.com/736x/2d/88/23/2d8823f4e336b94109f6a19f5c4b19dd.jpg" },
+    { title: "When the Phone Rings", year: "2024", cast: "Yoo Yeon Seok", episodes: "12", afis: "https://i.pinimg.com/736x/e4/26/04/e426040780b99c38208a4b229abe3dbe.jpg" },
+    { title: "When the Weather is Fine", year: "2020", cast: "Seo Kang Joon", episodes: "16", afis: "https://i.pinimg.com/736x/3d/a7/41/3da741b9b9f822cbde85980921ac745d.jpg" },
+    { title: "Where Stars Land", year: "2018", cast: "Lee Je Hoon", episodes: "32", afis: "https://i.pinimg.com/736x/f3/47/81/f34781ddd8547c747217db4a635a38a4.jpg" },
+    { title: "While You Were Sleeping", year: "2017", cast: "Lee Jong Seok, Jung Hae In", episodes: "32", afis: "https://i.pinimg.com/736x/2e/4c/e5/2e4ce5fa578d5b66fd9d3a119d31c177.jpg" },
+    { title: "Who Kissed Me?", year: "2019", cast: "Bae In Hyuk", episodes: "12", afis: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvjLl85zd-NmRVBNmtOgUGD5DO84Rf96yNfA&s" },
+    { title: "Why Secretary Kim", year: "2018", cast: "Park Seo Joon", episodes: "16", afis: "https://i.pinimg.com/1200x/d0/bf/37/d0bf3752806bec41666d1db6233a2034.jpg" },
+    { title: "Will Be Okay, Never Die", year: "2019", cast: "Kang Yul", episodes: "12", afis: "https://m.media-amazon.com/images/M/MV5BODY4ZDQ2ZjQtOTczNS00YjhhLWEyOTAtYjZiNGRmNzY4NzlkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+    { title: "Witch's Love", year: "2018", cast: "Hyun Woo", episodes: "12", afis: "https://i.pinimg.com/736x/5a/e1/59/5ae1595768f63dfd4c82adb725eae7d5.jpg" },
+    { title: "Wok of Love", year: "2018", cast: "Lee Jun Ho, Jung Hyuk", episodes: "38", afis: "https://i.pinimg.com/736x/40/de/50/40de500383bdc3941358d0cbd0be7d7f.jpg" },
+    { title: "Woori The Virgin", year: "2022", cast: "Sung Hoon", episodes: "14", afis: "https://i.pinimg.com/1200x/46/d9/50/46d9506e1c9a2e6fea803739c5d630e8.jpg" },
+    { title: "Work Later, Drink Now", year: "2021", cast: "Siwon", episodes: "12", afis: "https://i.pinimg.com/736x/c7/6f/68/c76f68d9c7fe8c635b627a1d24629725.jpg" },
+    { title: "Yes or No", year: "2019", cast: "Kim Kang Min", episodes: "8", afis: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn9wPQmLDhXS-MUr_jmUlrRtcykjz4tFcd4Q&s" },
+    { title: "You Are My Spring", year: "2021", cast: "Kim Dong Wook", episodes: "16", afis: "https://i.pinimg.com/1200x/bf/b8/d7/bfb8d75c59b631b92601648c44b1001c.jpg" },
+    { title: "You Drive Me Crazy", year: "2018", cast: "Kim Seon Ho", episodes: "4", afis: "https://i.pinimg.com/736x/80/b8/33/80b8334c5582a095b5f30a1d63462339.jpg" },
+    { title: "Youth MT", year: "2022", cast: "My Loves", episodes: "8", afis: "https://i.pinimg.com/1200x/fc/d8/ba/fcd8ba837882fc66e54aaf3231d32c05.jpg" },
+    { title: "Youth of May", year: "2021", cast: "Lee Do Hyun, Lee Sang Yi", episodes: "12", afis: "https://i.pinimg.com/736x/c7/62/6c/c7626cdc7e0bc74139b9df9ce6ce0262.jpg" },
+    { title: "Yumi's Cell", year: "2021", cast: "Ahn Bo Hyun, Park Jin Young", episodes: "14", afis: "https://i.pinimg.com/1200x/0c/44/f3/0c44f318576e75afcdc1c0d534ab023e.jpg" }
 ];
+
+const actorDetails = {
+    "Ji Chang Wook": {
+        photo: "https://i.pinimg.com/736x/21/f0/5c/21f05c48698188179261a868f075d9e5.jpg",
+        bio: "1987 doğumlu yetenekli oyuncu, aksiyon ve romantik komedi dizilerinin aranan yüzüdür. Healer ve The K2 ile dünya çapında ün kazanmıştır.",
+        insta: "@jichangwook"
+    },
+    "Rowoon": {
+        photo: "https://i.pinimg.com/736x/88/5b/4b/885b4b1a8d0b284799042b32f9136e05.jpg",
+        bio: "Eski SF9 üyesi, model ve oyuncu. Extraordinary You ve Destined With You gibi dizilerdeki başarısıyla tanınır.",
+        insta: "@ewsbdi"
+    },
+    "Doh Kyung Soo": {
+        photo: "https://i.pinimg.com/736x/7b/0a/6e/7b0a6e29780a8f89179261a868f075d9e5.jpg",
+        bio: "EXO üyesi (D.O.). Hem idol hem de çok başarılı bir aktördür. 100 Days My Prince dizisindeki performansı ikoniktir.",
+        insta: "@d.o.hkyungsoo"
+    }
+};
 
 document.addEventListener('DOMContentLoaded', () => {
     const wordGrid = document.getElementById('wordGrid');
@@ -911,23 +932,23 @@ document.addEventListener('DOMContentLoaded', () => {
     const categoryButtons = document.getElementById('categoryButtons');
     const mainMenu = document.getElementById('mainMenu');
 
-    // 1. MODÜL BAŞLATICI ✨
+    // --- 1. MODÜL BAŞLATICI ✨ ---
     window.startModule = function(moduleType) {
         mainMenu.style.display = "none";
-        // Arama çubuğunu 'words' ve 'kdrama' modüllerinde gösteriyoruz.
-        searchWrapper.style.display = (moduleType === 'words' || moduleType === 'kdrama') ? "flex" : "none";
+        // Arama çubuğunu sadece 'kelimeler' ve 'tüm diziler/oyuncular' kısmında gösteriyoruz
+        searchWrapper.style.display = (moduleType === 'words') ? "flex" : "none";
         wordGrid.innerHTML = "";
-        searchInput.value = ""; // Modül değişince aramayı temizle
+        searchInput.value = ""; 
         
         if (moduleType === 'alphabet') displayWords("", "🇰🇷 HANGUL ALFABESİ");
         else if (moduleType === 'words') displayCategoryMenu();
         else if (moduleType === 'numbers') displayWords("", "🔢 SAYILAR");
-        else if (moduleType === 'random') displayRandomWords();
-        else if (moduleType === 'kdrama') displayKdramas();
-        else if (moduleType === 'kpop') displayKpop(); // Eksik fonksiyon eklendi
+        else if (moduleType === 'random') displayRandomWords(); // Eğer bu fonksiyonunuz allWords içindeyse çalışır
+        else if (moduleType === 'kdrama') window.displayKdramas();
+        else if (moduleType === 'kpop') displayKpop();
     };
 
-    // 2. KATEGORİ SEÇİM MENÜSÜ ✨
+    // --- 2. KELİME KATEGORİ MENÜSÜ ✨ ---
     function displayCategoryMenu() {
         wordGrid.innerHTML = "";
         wordGrid.className = "category-grid-layout"; 
@@ -936,11 +957,8 @@ document.addEventListener('DOMContentLoaded', () => {
         for (const cat in allWords) {
             if (cat === "🇰🇷 HANGUL ALFABESİ" || cat === "🔢 SAYILAR") continue;
             const catCard = document.createElement('div');
-            catCard.className = 'category-item-card animate-in';
-            catCard.innerHTML = `
-                <h3>${cat}</h3>
-                <p style="font-size:0.8rem; opacity:0.7; margin-top:5px;">${allWords[cat].length} Kelime</p>
-            `;
+            catCard.className = 'menu-card animate-in';
+            catCard.innerHTML = `<h3>${cat}</h3><p style="font-size:0.8rem; opacity:0.7; margin-top:5px;">${allWords[cat].length} Kelime</p>`;
             catCard.onclick = () => {
                 wordGrid.className = "word-grid";
                 displayWords("", cat);
@@ -949,14 +967,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // 3. KELİME GÖSTERİMİ VE FİLTRELEME ✨
+    // --- 3. KELİME GÖSTERİMİ ✨ ---
     window.displayWords = function(searchTerm = "", selectedCategory) {
         wordGrid.innerHTML = "";
+        wordGrid.className = "word-grid";
+        searchWrapper.style.display = "flex";
         const term = searchTerm.toLowerCase().trim();
-        
         const backAction = (selectedCategory === "🇰🇷 HANGUL ALFABESİ" || selectedCategory === "🔢 SAYILAR") ? "goHome()" : "startModule('words')";
         
-        // Başlık ve butonu sadece ilk yüklemede veya arama çubuğu boşken güncellemek performansı artırır
         categoryButtons.innerHTML = `
             <button class="cat-btn" onclick="${backAction}">⬅️ Geri Dön</button>
             <h2>${selectedCategory}</h2>
@@ -964,79 +982,209 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const words = allWords[selectedCategory] || [];
         words.forEach(item => {
-            const isMatch = item.turkce.toLowerCase().includes(term) || item.korece.includes(term);
-            if (term === "" || isMatch) {
+            if (term === "" || item.turkce.toLowerCase().includes(term) || item.korece.includes(term)) {
                 createCard(item);
             }
         });
-
-        if (wordGrid.innerHTML === "" && term !== "") {
-            wordGrid.innerHTML = `<p style="text-align:center; width:100%; padding:20px;">Kelime bulunamadı... ✨</p>`;
-        }
     };
 
-    // 4. HIZLI PRATİK (RANDOM MODE) ✨
-    window.displayRandomWords = function() {
+    // --- 4. KDRAMA ANA MENÜSÜ ✨ ---
+    // --- 4. KDRAMA ANA MENÜSÜ ✨ ---
+    window.displayKdramas = function() {
         wordGrid.innerHTML = "";
-        wordGrid.className = "word-grid"; 
-        window.scrollTo(0, 0);
+        wordGrid.className = "category-grid-layout"; 
+        searchWrapper.style.display = "none";
         
+        // İstatistikler (Dinamik)
+        const totalDramas = kdramaData.length;
         categoryButtons.innerHTML = `
             <button class="cat-btn" onclick="goHome()">⬅️ Ana Menü</button>
-            <h2>🎲 HIZLI PRATİK</h2>
-            <p style="text-align:center; color:var(--secondary-color); margin-bottom:10px;">Kelimeler senin için karıştırıldı! ✨</p>
-            <button class="cat-btn" style="background:var(--primary-color); border: 2px solid white;" onclick="displayRandomWords()">🔄 Yeniden Karıştır</button>
+            <h2>🎬 KDRAMA DÜNYASI</h2>
+            <div class="stats-bar animate-in">📊 <b>${totalDramas}</b> Dizi Kayıtlı</div>
         `;
 
-        let allPool = [];
-        for (const cat in allWords) {
-            if (cat !== "🇰🇷 HANGUL ALFABESİ") {
-                allWords[cat].forEach(item => allPool.push(item));
-            }
-        }
+        const subCategories = [
+            { id: 'all_dramas', title: '🎬 Tüm Diziler', icon: '📺' },
+            { id: 'actors', title: '👤 Koreli Oyuncular', icon: '🌟' },
+            { id: 'years', title: '📅 Yıllara Göre', icon: '⏳' },
+            { id: 'favs', title: '❤️ Favorilerim', icon: '💖' } // Buton burada
+        ];
 
-        for (let i = allPool.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [allPool[i], allPool[j]] = [allPool[j], allPool[i]];
-        }
-
-        allPool.slice(0, 12).forEach(item => createCard(item));
+        subCategories.forEach(sub => {
+            const card = document.createElement('div');
+            card.className = 'menu-card animate-in';
+            card.innerHTML = `<div style="font-size: 3rem; margin-bottom: 15px;">${sub.icon}</div><h3 style="color: var(--primary-color);">${sub.title}</h3>`;
+            
+            // TIKLAMA OLAYI BURADA ✨
+            card.onclick = () => {
+                if (sub.id === 'all_dramas') window.showAllDramas();
+                else if (sub.id === 'actors') window.showActorsMenu();
+                else if (sub.id === 'years') window.showYearsMenu();
+                else if (sub.id === 'favs') window.showFavorites(); // Favorileri çağıran satır
+            };
+            wordGrid.appendChild(card);
+        });
     };
 
-    // 5. KART OLUŞTURUCU ✨
+    // --- 5. KDRAMA ALT MODÜLLERİ ✨ ---
+    window.showAllDramas = function(searchTerm = "") {
+        wordGrid.innerHTML = "";
+        wordGrid.className = "category-grid-layout";
+        searchWrapper.style.display = "flex";
+        categoryButtons.innerHTML = `<button class="cat-btn" onclick="window.displayKdramas()">⬅️ Geri Dön</button><h2>📺 TÜM DİZİLER</h2>`;
+
+        const term = searchTerm.toLowerCase().trim();
+        kdramaData.filter(d => (d.title || "").toLowerCase().includes(term) || (d.cast || "").toLowerCase().includes(term))
+                  .forEach(drama => window.createDramaCard(drama));
+    };
+
+    window.showActorsMenu = function(searchTerm = "") {
+        wordGrid.innerHTML = "";
+        wordGrid.className = "category-grid-layout";
+        searchWrapper.style.display = "flex";
+        categoryButtons.innerHTML = `<button class="cat-btn" onclick="window.displayKdramas()">⬅️ Geri Dön</button><h2>🌟 KORELİ OYUNCULAR</h2>`;
+
+        let allActors = [];
+        kdramaData.forEach(d => { if(d.cast) allActors.push(...d.cast.split(',').map(a => a.trim())); });
+        const uniqueActors = [...new Set(allActors)].sort();
+        const term = searchTerm.toLowerCase().trim();
+
+        uniqueActors.filter(a => a.toLowerCase().includes(term)).forEach(actor => {
+            const card = document.createElement('div');
+            card.className = 'menu-card animate-in';
+            card.style.padding = "20px";
+            card.innerHTML = `<div style="font-size:1.5rem;">👤</div><h3>${actor}</h3>`;
+            card.onclick = () => window.showFilteredDramas(actor, 'actor');
+            wordGrid.appendChild(card);
+        });
+    };
+
+    window.showYearsMenu = function() {
+        wordGrid.innerHTML = "";
+        wordGrid.className = "category-grid-layout";
+        searchWrapper.style.display = "none";
+        categoryButtons.innerHTML = `<button class="cat-btn" onclick="window.displayKdramas()">⬅️ Geri Dön</button><h2>📅 YILLARA GÖRE DİZİLER</h2>`;
+
+        const years = [...new Set(kdramaData.map(d => d.year))].sort((a,b) => b - a);
+        years.forEach(year => {
+            const card = document.createElement('div');
+            card.className = 'menu-card animate-in';
+            card.style.padding = "20px";
+            card.innerHTML = `<div style="font-size:1.5rem;">📅</div><h3 style="font-size: 1.5rem;">${year}</h3>`;
+            card.onclick = () => window.showFilteredDramas(year, 'year');
+            wordGrid.appendChild(card);
+        });
+    };
+
+    window.showFilteredDramas = function(value, type) {
+    wordGrid.innerHTML = "";
+    wordGrid.className = "category-grid-layout";
+    searchWrapper.style.display = "none";
+    
+    const backFunc = type === 'actor' ? "window.showActorsMenu()" : "window.showYearsMenu()";
+    
+    // Eğer oyuncuysa profil bilgilerini hazırla ✨
+    let actorHeaderHTML = "";
+    if (type === 'actor' && actorDetails[value]) {
+        const actor = actorDetails[value];
+        actorHeaderHTML = `
+            <div class="actor-profile-card animate-in">
+                <img src="${actor.photo}" alt="${value}">
+                <div class="actor-info-text">
+                    <h2>${value}</h2>
+                    <p>${actor.bio}</p>
+                    <span class="insta-tag">📱 ${actor.insta}</span>
+                </div>
+            </div>
+            <h3 style="margin: 30px 0 15px 0; color: var(--primary-color);">Dizileri (${kdramaData.filter(d => d.cast.includes(value)).length})</h3>
+        `;
+    } else {
+        actorHeaderHTML = `<h2>✨ ${value} DİZİLERİ</h2>`;
+    }
+
+    categoryButtons.innerHTML = `
+        <button class="cat-btn" onclick="${backFunc}">⬅️ Geri Dön</button>
+        ${actorHeaderHTML}
+    `;
+
+    kdramaData.filter(d => type === 'year' ? d.year === value : d.cast.includes(value))
+              .forEach(drama => window.createDramaCard(drama));
+};
+
+    // --- 6. YARDIMCI KART OLUŞTURUCULAR ---
+    window.createDramaCard = function(drama) {
+    const card = document.createElement('div');
+    card.className = 'category-item-card animate-in';
+    const imageSrc = drama.afis || "https://via.placeholder.com/300x450?text=No+Image";
+    
+    // Favori kontrolü
+    let favorites = JSON.parse(localStorage.getItem('kdramaFavs')) || [];
+    const isFav = favorites.includes(drama.title);
+
+    card.innerHTML = `
+        <div class="poster-container">
+            <span class="episode-badge">${drama.episodes || "?"} Bölüm</span>
+            <button class="fav-btn ${isFav ? 'active' : ''}" onclick="event.stopPropagation(); window.toggleFavorite('${drama.title}')">
+                ${isFav ? '❤️' : '🤍'}
+            </button>
+            <img src="${imageSrc}" alt="${drama.title}">
+        </div>
+        <div class="card-info">
+            <h3>${drama.title}</h3>
+            <p>${drama.year} - ${drama.cast}</p>
+        </div>
+    `;
+    wordGrid.appendChild(card);
+};
+
+// Favori Ekleme/Çıkarma Mantığı ✨
+    window.toggleFavorite = function(title) {
+    let favorites = JSON.parse(localStorage.getItem('kdramaFavs')) || [];
+    if (favorites.includes(title)) {
+        favorites = favorites.filter(f => f !== title);
+    } else {
+        favorites.push(title);
+    }
+    localStorage.setItem('kdramaFavs', JSON.stringify(favorites));
+    
+    // Hangi sayfadaysak orayı yenile ✨
+    const currentTitle = categoryButtons.querySelector('h2').innerText;
+    if (currentTitle === "💖 FAVORİ DİZİLERİM") {
+        window.showFavorites();
+    } else if (currentTitle === "📺 TÜM DİZİLER") {
+        window.showAllDramas(searchInput.value);
+    } else {
+        // Diğer durumlarda (Oyuncu/Yıl alt sayfaları gibi)
+        // Mevcut görünümü korumak için ilgili fonksiyonu tekrar çağırabilirsin
+    }
+};
+
     function createCard(item) {
         const card = document.createElement('div');
         card.className = 'word-card animate-in';
-        
         const korH = item.ornek ? item.ornek.replace(new RegExp(`(${item.korece.replace(/[^\uAC00-\uD7A3]/g, '')})`, 'g'), `<span class="highlight-white">$1</span>`) : "";
-        
         let okunusH = item.ornekOkunus || "";
         if (item.okunus && okunusH) {
             const root = item.okunus.toLowerCase().split('/')[0].trim().substring(0, 2);
             okunusH = okunusH.replace(new RegExp(`(${root}[a-z-]*)`, 'gi'), `<span class="highlight-pink-soft">$1</span>`);
         }
-
-        card.innerHTML = `
-            <div class="card-inner">
-                <div class="card-front">
-                    <h3 style="font-size:2.2rem; color:var(--primary-color);">${item.korece}</h3>
-                    <div class="pronunciation">[${item.okunus}]</div>
-                    <span style="font-weight:800; border-top:1px dashed var(--accent-color); padding-top:10px; width:85%;">${item.turkce}</span>
-                </div>
-                <div class="card-back">
-                    <p style="font-weight:900; font-size:1.4rem; font-style: normal;">${korH}</p>
-                    <p style="font-size:1.1rem; color: #fff; background:rgba(255,255,255,0.2); padding:5px 12px; border-radius:10px; font-style: normal;">
-                        [${okunusH}]
-                    </p>
-                    <p class="sentence-tr" style="font-style: normal;">${item.ornekTr}</p>
-                </div>
-            </div>`;
-            
+        card.innerHTML = `<div class="card-inner"><div class="card-front"><h3 style="font-size:2.2rem; color:var(--primary-color);">${item.korece}</h3><div class="pronunciation">[${item.okunus}]</div><span style="font-weight:800; border-top:1px dashed var(--accent-color); padding-top:10px; width:85%;">${item.turkce}</span></div><div class="card-back"><p style="font-weight:900; font-size:1.4rem;">${korH}</p><p style="font-size:1.1rem; color:#fff; background:rgba(255,255,255,0.2); padding:5px 12px; border-radius:10px;">[${okunusH}]</p><p class="sentence-tr">${item.ornekTr}</p></div></div>`;
         card.onclick = () => card.classList.toggle('is-flipped');
         wordGrid.appendChild(card);
     }
 
-    // 6. ANA SAYFAYA DÖNÜŞ ✨
+    // --- 7. ARAMA VE NAVİGASYON ---
+    searchInput.addEventListener('input', (e) => {
+        const val = e.target.value;
+        const h2 = categoryButtons.querySelector('h2');
+        if (!h2) return;
+        const title = h2.innerText;
+        
+        if (title === "📺 TÜM DİZİLER") window.showAllDramas(val);
+        else if (title === "🌟 KORELİ OYUNCULAR") window.showActorsMenu(val);
+        else if (title !== "🎬 KDRAMA DÜNYASI") window.displayWords(val, title);
+    });
+
     window.goHome = function() {
         mainMenu.style.display = "block";
         searchWrapper.style.display = "none";
@@ -1046,85 +1194,52 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.value = "";
     };
 
-    // 7. ARAMA DİNLEYİCİSİ (DÜZELTİLDİ) ✨
-    searchInput.addEventListener('input', (e) => {
-        const val = e.target.value;
-        const currentTitleElement = categoryButtons.querySelector('h2');
-        const currentCatTitle = currentTitleElement ? currentTitleElement.innerText : "";
-
-        if (currentCatTitle === "🎬 KDRAMA DATABASE") {
-            displayKdramas(val);
-        } else if (currentCatTitle !== "") {
-            // Aktif olan kategoriye göre kelime filtreleme yapar
-            displayWords(val, currentCatTitle);
-        }
-    });
-
-    // 8. KDRAMA MODÜLÜ ✨
-    window.displayKdramas = function(searchTerm = "") {
-    wordGrid.innerHTML = "";
-    wordGrid.className = "category-grid-layout"; 
-    const term = searchTerm.toLowerCase().trim();
-    
-    categoryButtons.innerHTML = `
-        <button class="cat-btn" onclick="goHome()">⬅️ Ana Menü</button>
-        <h2>🎬 KDRAMA DATABASE</h2>
-    `;
-
-    // Filtreleme mantığını güvenli hale getirdik (title kontrolü eklendi) ✨
-    const filteredDramas = kdramaData.filter(drama => {
-        const titleMatch = drama.title && drama.title.toLowerCase().includes(term);
-        const castMatch = drama.cast && drama.cast.toLowerCase().includes(term);
-        return titleMatch || castMatch;
-    });
-
-    filteredDramas.forEach(drama => {
-        const card = document.createElement('div');
-        card.className = 'category-item-card animate-in';
-        card.style.padding = "0";
-        card.style.overflow = "hidden";
-        
-        // Eğer afiş yoksa varsayılan bir görsel koyar
-        const imageSrc = drama.afis || "https://via.placeholder.com/300x450?text=No+Image";
-        
-        card.innerHTML = `
-            <img src="${imageSrc}" alt="${drama.title}" style="width:100%; height:250px; object-fit:cover;">
-            <div style="padding:15px;">
-                <h3 style="color: var(--primary-color); font-size:1.1rem; margin-bottom:5px;">${drama.title || "Adsız Dizi"}</h3>
-                <p style="font-size: 0.9rem; font-weight:700; color: var(--secondary-color);">${drama.year || ""}</p>
-                <p style="font-size: 0.8rem; margin-top:8px; opacity:0.9;"><b>Cast:</b> ${drama.cast || "Bilinmiyor"}</p>
-            </div>
-        `;
-        wordGrid.appendChild(card);
-    });
-};
-
-    // 9. K-POP MODÜLÜ (YENİ) ✨
     window.displayKpop = function() {
         wordGrid.innerHTML = `<p style="text-align:center; padding:20px;">🎤 K-Pop modülü yakında eklenecek!</p>`;
         categoryButtons.innerHTML = `<button class="cat-btn" onclick="goHome()">⬅️ Geri Dön</button><h2>🎵 K-POP AREA</h2>`;
     };
 
-    // --- GECE MODU YÖNETİCİSİ ---
+    // --- 8. GECE MODU ---
     const themeToggle = document.getElementById('themeToggle');
-    const currentTheme = localStorage.getItem('theme');
-
-    if (currentTheme) {
-        document.documentElement.setAttribute('data-theme', currentTheme);
-        themeToggle.textContent = (currentTheme === 'dark') ? '☀️' : '🌙';
-    }
+    const currentTheme = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', currentTheme);
+    themeToggle.textContent = (currentTheme === 'dark') ? '☀️' : '🌙';
 
     themeToggle.addEventListener('click', () => {
         let theme = document.documentElement.getAttribute('data-theme');
-        if (theme === 'dark') {
-            document.documentElement.setAttribute('data-theme', 'light');
-            localStorage.setItem('theme', 'light');
-            themeToggle.textContent = '🌙';
-        } else {
-            document.documentElement.setAttribute('data-theme', 'dark');
-            localStorage.setItem('theme', 'dark');
-            themeToggle.textContent = '☀️';
-        }
+        let newTheme = theme === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+        themeToggle.textContent = newTheme === 'dark' ? '☀️' : '🌙';
     });
-});
 
+    // --- FAVORİ DİZİLERİ GÖSTEREN FONKSİYON ✨ ---
+    window.showFavorites = function() {
+        wordGrid.innerHTML = "";
+        wordGrid.className = "category-grid-layout";
+        searchWrapper.style.display = "none"; 
+        
+        categoryButtons.innerHTML = `
+            <button class="cat-btn" onclick="window.displayKdramas()">⬅️ Geri Dön</button>
+            <h2>💖 FAVORİ DİZİLERİM</h2>
+        `;
+
+        // Hafızadan çek
+        const favorites = JSON.parse(localStorage.getItem('kdramaFavs')) || [];
+
+        if (favorites.length === 0) {
+            wordGrid.innerHTML = `
+                <div style="grid-column: 1/-1; text-align: center; padding: 50px;">
+                    <p style="font-size: 1.2rem; opacity: 0.7;">Henüz hiçbir diziyi kalplemedin... ❤️</p>
+                </div>
+            `;
+            return;
+        }
+
+        // Favorileri kdramaData içinden bul ve kartlarını oluştur
+        const favList = kdramaData.filter(drama => favorites.includes(drama.title));
+        favList.forEach(drama => window.createDramaCard(drama));
+    };
+
+
+});
