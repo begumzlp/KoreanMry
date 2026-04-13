@@ -50,253 +50,174 @@ header {
 /* --- 3. ANA MENÜ VE IZGARA YAPISI ✨ --- */
 .menu-grid { text-align: center; padding: 40px 20px; }
 .menu-welcome { font-size: 2rem; margin-bottom: 30px; font-weight: 800; }
-.menu-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px; max-width: 1000px; margin: 0 auto; }
+.menu-cards { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 25px; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+}
 
 .menu-card {
-    background: var(--card-bg); border-radius: 30px; padding: 30px; cursor: pointer;
-    transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); box-shadow: var(--shadow);
-    text-align: center;
+    background: var(--card-bg); 
+    border-radius: 35px; 
+    padding: 30px; 
+    cursor: pointer;
+    transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+    box-shadow: var(--shadow);
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 200px; 
 }
 
 .menu-card:hover { 
     transform: translateY(-12px) scale(1.03); border: 2px solid var(--primary-color);
 }
 
-/* --- 4. ARAMA ÇUBUĞU 🔍 --- */
-.search-container { display: flex; justify-content: center; align-items: center; margin: 20px 0 40px 0; padding: 0 20px; width: 100%; }
+/* --- 4. ARAMA VE NAVİGASYON 🔍 --- */
+.search-container { display: flex; justify-content: center; align-items: center; margin: 10px 0 30px 0; padding: 0 20px; width: 100%; }
+
 #searchInput {
-    width: 100%; max-width: 550px; padding: 16px 30px; font-size: 1.1rem;
-    border: 2px solid var(--accent-color); border-radius: 50px;
-    box-shadow: var(--shadow); outline: none; transition: 0.3s ease;
+    width: 100%; max-width: 500px; padding: 14px 25px; font-size: 1rem;
+    border: 2px solid var(--accent-color); border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(255, 133, 161, 0.1); outline: none; transition: 0.3s ease;
 }
 #searchInput:focus { border-color: var(--primary-color); transform: scale(1.02); }
 
 [data-theme="dark"] #searchInput { background: #24243e; color: white; border-color: var(--secondary-color); }
 
-/* --- 5. KELİME KARTI (FLIP) 🃏 --- */
-.word-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; padding: 20px; }
-.word-card { perspective: 1500px; height: 320px; cursor: pointer; background: transparent !important; }
+.cat-btn { 
+    background: white; color: var(--text-deep-pink); border: 2px solid var(--primary-color); 
+    padding: 10px 25px; border-radius: 50px; font-weight: 800; cursor: pointer; 
+    transition: 0.3s; margin-bottom: 15px; box-shadow: 0 4px 10px rgba(255, 133, 161, 0.1);
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+}
+.cat-btn:hover { background: var(--primary-color); color: white; transform: translateX(-5px); }
+
+/* --- 5. KELİME KARTLARI (BÜYÜK YAPI) 🃏 --- */
+.word-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 25px; padding: 20px; }
+.word-card { perspective: 1500px; height: 420px; cursor: pointer; }
 .card-inner { position: relative; width: 100%; height: 100%; transition: transform 0.6s; transform-style: preserve-3d; }
-.word-card.is-flipped .card-inner { transform: rotateY(180deg); }
+.is-flipped .card-inner { transform: rotateY(180deg); }
 
 .card-front, .card-back {
     position: absolute; width: 100%; height: 100%; backface-visibility: hidden;
-    border-radius: 25px; padding: 25px; display: flex; flex-direction: column; 
+    border-radius: 45px; padding: 35px; display: flex; flex-direction: column; 
     justify-content: center; align-items: center; text-align: center;
+    box-shadow: 0 20px 40px rgba(255, 133, 161, 0.25);
 }
 
-.card-front { background: var(--card-bg); box-shadow: var(--shadow); }
-[data-theme="dark"] .card-front { color: white !important; }
+.word-card .card-front { background: #ffffff; border: 10px solid white; }
+.card-main-word { font-size: 3.1rem !important; font-weight: 900; color: var(--primary-color); margin-bottom: 10px; }
+.card-pronunciation { font-size: 2.0rem !important; opacity: 0.8; font-weight: 600; margin-bottom: 15px; }
+.card-divider { width: 100%; border-top: 3px dashed var(--accent-color); margin: 20px 0; }
+.card-meaning { font-size: 2.2rem !important; font-weight: 900; color: var(--text-deep-pink); }
 
 .card-back { 
-    background: linear-gradient(135deg, var(--secondary-color), var(--primary-color)); 
-    transform: rotateY(180deg); color: white !important; justify-content: space-evenly;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); 
+    transform: rotateY(180deg); color: #ffffff !important; 
 }
 
-[data-theme="dark"] .card-back {
-    background: linear-gradient(135deg, #1b1b3a, #0f0c29) !important;
-}
-
-/* --- 6. KDRAMA ÖZEL KART VE POSTER AYARLARI 🎬 --- */
-.category-item-card {
-    width: 100%; 
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    background: var(--card-bg);
-    border-radius: 30px;
-    overflow: hidden;
-    box-shadow: var(--shadow);
-    cursor: pointer;
-    transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.category-item-card:hover {
-    transform: translateY(-10px);
-    border: 2px solid var(--primary-color);
-}
-
-.poster-container {
-    position: relative;
-    width: 100%;
-}
-
-.category-item-card img {
-    width: 100%;
-    aspect-ratio: 2 / 3; 
-    object-fit: contain;
-    background-color: #000; /* Sinematik görünüm için siyah */
-    display: block;
-    transition: transform 0.5s ease;
-}
-
-.episode-badge {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: var(--primary-color);
-    color: white;
-    padding: 4px 10px;
-    border-radius: 50px;
-    font-size: 0.7rem;
-    font-weight: 800;
-    z-index: 5;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-}
-
-.card-info {
-    padding: 15px !important;
-    text-align: center;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.card-info h3 {
-    font-size: 1.1rem;
-    line-height: 1.3;
-    color: var(--primary-color);
-    margin-bottom: 5px;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-}
-
-.card-info p {
-    font-size: 0.85rem;
-    opacity: 0.8;
-}
-
-/* --- 7. VURGULAMALAR VE IZGARA DÜZENLERİ 📏 --- */
 .category-grid-layout {
     display: grid; 
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
-    gap: 25px; padding: 20px; max-width: 1250px; margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)) !important; 
+    gap: 20px; 
+    padding: 30px; 
+    max-width: 1250px; 
+    margin: 0 auto;
     align-items: stretch;
 }
 
-#categoryButtons { display: flex; flex-direction: column; align-items: center; text-align: center; margin: 20px 0; }
-#categoryButtons h2 {
-    font-size: 2.5rem; font-weight: 800; text-align: center; width: 100%;
-    margin: 10px auto; text-transform: uppercase;
+/* --- 6. KDRAMA KARTLARI (AFİŞ ODAKLI) 🎬 --- */
+.kdrama-card { perspective: 1500px; height: 450px; cursor: pointer; }
+.kdrama-card .card-front, .kdrama-card .card-back {
+    position: absolute; width: 100%; height: 100%; backface-visibility: hidden;
+    border-radius: 30px; overflow: hidden; border: none !important; 
+    box-shadow: 0 15px 35px rgba(255, 133, 161, 0.2); display: flex; flex-direction: column;
 }
 
-.highlight-white, .highlight-pink-soft { color: #df1aae !important; font-weight: 900; }
+.kdrama-card .poster-container { position: relative; width: 100%; height: 82%; background-color: #000; overflow: hidden; }
+.kdrama-card img { width: 100%; height: 100%; object-fit: cover !important; display: block; }
+.kdrama-card .card-info { padding: 15px !important; background: white; flex-grow: 1; display: flex; justify-content: center; align-items: center; }
+.kdrama-card .card-info h3 { font-size: 1.15rem !important; font-weight: 800; color: var(--text-deep-pink); text-align: center; }
 
-[data-theme="dark"] .highlight-white, 
-[data-theme="dark"] .highlight-pink-soft { 
-    color: #ff85a1 !important; 
-    text-shadow: 0 0 10px rgba(255, 133, 161, 0.6);
+.kdrama-card .card-back {
+    background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+    transform: rotateY(180deg); padding: 25px; color: white !important;
 }
 
-.sentence-tr {
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
-    padding-top: 10px; font-size: 1.1rem; width: 100%; color: #fff0f5;
+.back-description {
+    font-size: 0.95rem; line-height: 1.5; opacity: 0.95; margin: 15px 0;
+    flex-grow: 1; display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; overflow: hidden;
+    text-align: justify;
 }
 
-/* --- 8. BUTONLAR VE TEMA GEÇİŞİ 🌙 --- */
-.cat-btn { 
-    background: var(--primary-color); color: white; border: none; padding: 12px 30px; 
-    border-radius: 50px; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); 
+.back-details {
+    font-size: 0.85rem; background: rgba(0, 0, 0, 0.15); padding: 12px 18px; 
+    border-radius: 20px; margin-top: auto; text-align: left; width: 100%;
 }
+.back-details p { margin-bottom: 5px; line-height: 1.4; }
+.back-details strong { color: white; border-bottom: 1px solid rgba(255, 255, 255, 0.2); margin-right: 5px; }
 
-.theme-btn {
-    position: absolute; right: 20px; top: 20px;
-    background: #030b5b; border: 2px solid #ff85a1; color: #ff85a1;
-    cursor: pointer; padding: 10px; border-radius: 50%; z-index: 1000;
-    transition: all 0.4s ease;
-}
-
-[data-theme="dark"] .theme-btn {
-    background: #ffffff; border: 1px solid #ffb7ce; color: #1a1a2e;
-    box-shadow: 0 0 15px rgba(255, 220, 19, 0.5);
-}
-.stats-bar {
-    background: var(--card-bg);
-    padding: 10px 25px;
-    border-radius: 50px;
-    margin: 15px auto;
-    display: inline-block;
-    font-size: 0.9rem;
-    box-shadow: var(--shadow);
-    color: var(--text-deep-pink);
-    border: 1px solid var(--accent-color);
+.episode-badge {
+    position: absolute; top: 15px; right: 15px; background: var(--primary-color);
+    color: white; padding: 6px 14px; border-radius: 50px; font-weight: 800; z-index: 5;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 .fav-btn {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    background: rgba(255,255,255,0.8);
-    border: none;
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    font-size: 1.2rem;
-    z-index: 10;
+    position: absolute; bottom: 15px; right: 15px; background: rgba(255, 255, 255, 0.95);
+    border: none; border-radius: 50%; width: 45px; height: 45px; cursor: pointer;
+    font-size: 1.4rem; z-index: 10; display: flex; align-items: center; justify-content: center;
     transition: 0.3s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.fav-btn.active { background: white; }
 .fav-btn:hover { transform: scale(1.2); }
 
-
-
-/* Oyuncu Profil Kartı ✨ */
-.actor-profile-card {
-    display: flex;
-    align-items: center;
-    background: var(--card-bg);
-    padding: 25px;
-    border-radius: 30px;
+/* Fotoğraf kapsayıcısı (Yuvarlak çerçeve) */
+.actor-photo-container {
+    width: 190px;
+    height: 250px;
+    border-radius: 9%; 
+    overflow: hidden;
+    border: 3px solid var(--primary-color); 
     box-shadow: var(--shadow);
-    max-width: 800px;
-    margin: 20px auto;
-    text-align: left;
-    gap: 30px;
-    border: 2px solid var(--accent-color);
+    margin: 0 auto 15px auto; /* Merkeze al ve alttan boşluk bırak */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color); /* Fotoğraf yüklenene kadar arka plan rengi */
 }
 
-.actor-profile-card img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+/* Gerçek fotoğraf ayarı (Sihirli dokunuş burada) 🪄 */
+.actor-menu-photo {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; -> Resmi bozmadan kutuya sığdırır, dışarı taşanı keser. */
+    object-fit: cover !important; 
+    /* object-position: center; -> Resmin her zaman ortasını gösterir. */
+    object-position: center top; 
+    display: block;
+}
+/* Lee Yi-kyung Özel Görsel Düzeni */
+.special-photo-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.actor-menu-photo.half {
+    width: 50% !important; /* İki resim olduğu için genişliği yarıya böldük */
+    height: 100%;
     object-fit: cover;
-    border: 4px solid var(--primary-color);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-right: 2px solid var(--primary-color);
 }
 
-.actor-info-text h2 {
-    font-size: 1.8rem !important;
-    margin: 0 0 10px 0 !important;
-    text-align: left !important;
-    color: var(--primary-color);
+.actor-menu-photo.half:last-child {
+    border-right: none;
 }
 
-.actor-info-text p {
-    font-size: 0.95rem;
-    line-height: 1.5;
-    opacity: 0.9;
-    margin-bottom: 10px;
-}
-
-.insta-tag {
-    font-weight: 800;
-    color: var(--secondary-color);
-    font-size: 0.85rem;
-}
-
-/* Mobil uyum */
-@media (max-width: 600px) {
-    .actor-profile-card {
-        flex-direction: column;
-        text-align: center;
-    }
-    .actor-info-text h2 { text-align: center !important; }
-}
+/* Eğer alt alta istersen "flex-direction: column" ekleyebilirsin */
 
