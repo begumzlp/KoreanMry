@@ -577,12 +577,12 @@ const kdramaData = [
     { title: "A Korean Odyssey", year: "2017", cast: "Lee Seung Gi", episodes: "20", afis: "https://i.pinimg.com/736x/c0/20/b8/c020b8ac24cd70404dd5a895e3331747.jpg" },
     { title: "A Love so Beautiful", year: "2020", cast: "Kim Yohan", episodes: "24", afis: "https://i.pinimg.com/736x/76/5b/c6/765bc6a0e983b4331feb59e5c2e7db50.jpg" },
     { title: "A Poem A Day", year: "2018", cast: "Lee Joon Hyuk, Jang Dong Yoon", episodes: "16", afis: "https://i.pinimg.com/736x/24/a2/7a/24a27a4e290e85f245f988db08348719.jpg" },
-    { title: "Abyss", year: "2019", cast: "Ahn Yeo Seop", episodes: "16", afis: "https://i.pinimg.com/736x/b3/6e/0b/b36e0b0559728fc22c56e62b19a8f891.jpg" },
+    { title: "Abyss", year: "2019", cast: "Ahn Hyo Seop", episodes: "16", afis: "https://i.pinimg.com/736x/b3/6e/0b/b36e0b0559728fc22c56e62b19a8f891.jpg" },
     { title: "Adult Trainee", year: "2021", cast: "Ryeo Un", episodes: "7", afis: "https://i.pinimg.com/1200x/75/b0/75/75b0757a8d3c268a0888ae12caa9c83b.jpg" },
     { title: "All That We Loved", year: "2023", cast: "Oh Sehun", episodes: "8", afis: "https://i.pinimg.com/736x/87/bd/c7/87bdc7654110ec34548dca6efec08795.jpg" },
     { title: "Angels Last Mission Love", year: "2019", cast: "Kim Myung Soo", episodes: "32", afis: "https://i.pinimg.com/736x/18/86/f0/1886f0fbc4722969372413622fb918ec.jpg" },
-    { title: "Another Miss Oh", year: "2016", cast: "Eric Nam", episodes: "18", afis: "https://i.pinimg.com/736x/c6/cc/1c/c6cc1c61f3e2af0686ed03e24c5f4c96.jpg" },
-    { title: "Are You Human Too?", year: "2018", cast: "Seo Kang Joon, Leen Jun Hyuk", episodes: "36", afis: "https://i.pinimg.com/1200x/3b/90/dd/3b90ddba3ff755a7b343e499a1840dc0.jpg" },
+    { title: "Another Miss Oh", year: "2016", cast: "Eric Moon", episodes: "18", afis: "https://i.pinimg.com/736x/c6/cc/1c/c6cc1c61f3e2af0686ed03e24c5f4c96.jpg" },
+    { title: "Are You Human Too?", year: "2018", cast: "Seo Kang Joon, Lee Jun Hyuk", episodes: "36", afis: "https://i.pinimg.com/1200x/3b/90/dd/3b90ddba3ff755a7b343e499a1840dc0.jpg" },
     { title: "At a Distance, Spring is Green", year: "2021", cast: "Park Ji Hoon, Bae In Hyuk", episodes: "12", afis: "https://i.pinimg.com/736x/8c/c6/d4/8cc6d4b1929b3a3fbe625541649d6c9a.jpg" },
     { title: "Backstreet Rookie", year: "2020", cast: "Ji Chang Wook", episodes: "16", afis: "https://i.pinimg.com/1200x/68/6a/0d/686a0dce54a538fcac5c910ba46357af.jpg" },
     { title: "Bad and Crazy", year: "2021", cast: "Lee Dong Wook, Wi Ha Joon", episodes: "12", afis: "https://i.pinimg.com/736x/12/f2/d7/12f2d786d8fb03ddfcf274ab836fa39c.jpg" },
@@ -600,9 +600,9 @@ const kdramaData = [
     { title: "Blue Birthday", year: "2021", cast: "Yang Hong Seok", episodes: "16", afis: "https://i.pinimg.com/736x/e1/a2/f8/e1a2f817594787316177507449254927.jpg" },
     { title: "Bo-ra! Deborah", year: "2023", cast: "Yoon Hyun Min", episodes: "14", afis: "https://i.pinimg.com/736x/a9/c5/7e/a9c57e9bff06e8c699c48ede3ef2cfcc.jpg" },
     { title: "Boss-dol Mart", year: "2023", cast: "Kim Min Seok", episodes: "10", afis: "https://i.pinimg.com/1200x/29/92/b7/2992b72c40b30098e2a9234ce13f84cf.jpg" },
-    { title: "Boyfriend Milk", year: "2017", cast: "ASTRO", episodes: "12", afis: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRErdAAeAr5Tbw-mRGv4pBm_cV9MWsoN-B6vA&s" },
+    { title: "Boyfriend Milk", year: "2017", cast: "Cha Eun Woo, Moonbin", episodes: "12", afis: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRErdAAeAr5Tbw-mRGv4pBm_cV9MWsoN-B6vA&s" },
     { title: "Boys Over Flowers", year: "2009", cast: "Lee Min Ho, Kim Bum", episodes: "25", afis: "https://i.pinimg.com/736x/f0/11/e3/f011e3f3d480b3f0c530e40d554ef713.jpg" },
-    { title: "Business Proposal", year: "2022", cast: "Ahn Yeo Seop, Kim Min Gyu", episodes: "12", afis: "https://i.pinimg.com/736x/98/de/3d/98de3dc7cffa6f88c36d0ca0640b3f6f.jpg" },
+    { title: "Business Proposal", year: "2022", cast: "Ahn Hyo Seop, Kim Min Gyu", episodes: "12", afis: "https://i.pinimg.com/736x/98/de/3d/98de3dc7cffa6f88c36d0ca0640b3f6f.jpg" },
     { title: "Busted", year: "2018", cast: "Oh Sehun, Lee Seung Gi", episodes: "10", afis: "https://i.pinimg.com/736x/95/3d/2d/953d2dd669a71a8c8aa20f6d050ef5a7.jpg" },
     { title: "Castaway Diva", year: "2023", cast: "Chae Jong Hyeop", episodes: "12", afis: "https://i.pinimg.com/736x/00/9f/6c/009f6cdeaa5e91b5353700de1c863de8.jpg" },
     { title: "Casting a Spell to You", year: "2021", cast: "Sung Joon", episodes: "16", afis: "https://i.pinimg.com/1200x/d7/33/28/d7332874340d5c7168a2623163884903.jpg" },
@@ -615,8 +615,8 @@ const kdramaData = [
     { title: "Clean With Passion For Now", year: "2018", cast: "Yoon Kyun Sang", episodes: "16", afis: "https://i.pinimg.com/1200x/16/c4/7d/16c47d4d20af67fb73d0a508f8039790.jpg" },
     { title: "Click Your Heart", year: "2016", cast: "Rowoon", episodes: "7", afis: "https://i.pinimg.com/736x/e7/eb/89/e7eb899d94b768880d077cadbe0f9f78.jpg" },
     { title: "Coffee Prince", year: "2007", cast: "Gong Yoo", episodes: "17", afis: "https://i.pinimg.com/736x/3f/60/9f/3f609f7ac35d9757186b4decb0391647.jpg" },
-    { title: "Come and Hug Me", year: "2018", cast: "Jang Ki Young", episodes: "32", afis: "https://i.pinimg.com/736x/8c/7d/be/8c7dbec6b062f1bf86700dbf13b540af.jpg" },
-    { title: "Crash Landing On You", year: "2019", cast: "Hyun Bin", episodes: "16", afis: "https://i.pinimg.com/736x/2b/42/3e/2b423ea93b604079246f915bc70f7faf.jpg" },
+    { title: "Come and Hug Me", year: "2018", cast: "Jang Ki Yong", episodes: "32", afis: "https://i.pinimg.com/736x/8c/7d/be/8c7dbec6b062f1bf86700dbf13b540af.jpg" },
+    { title: "Crash Landing On You", year: "2019", cast: "Hyun Bin, Kim Jung Hyun", episodes: "16", afis: "https://i.pinimg.com/736x/2b/42/3e/2b423ea93b604079246f915bc70f7faf.jpg" },
     { title: "Crazy Love", year: "2022", cast: "Lee Jae Wook", episodes: "16", afis: "https://i.pinimg.com/736x/e2/56/9c/e2569c09e8e9a521762cb6c10f550999.jpg" },
     { title: "D-Day", year: "2015", cast: "Kim Young Kwang, Ha Seok Jin", episodes: "20", afis: "https://i.pinimg.com/736x/80/17/91/801791ad179547549da4b524ade0ed38.jpg" },
     { title: "Daily Dose of Sunshine", year: "2023", cast: "Yeon Woo Jin, Jang Dong Yoon", episodes: "12", afis: "https://i.pinimg.com/736x/ed/08/f7/ed08f79db8c61e5d290ce5fbb735ddb4.jpg" },
@@ -631,24 +631,24 @@ const kdramaData = [
     { title: "Dokgo Rewind", year: "2018", cast: "Oh Sehun, Ahn Bo Hyun", episodes: "20", afis: "https://i.pinimg.com/1200x/6f/93/9d/6f939daeda3691642415b825921482f1.jpg" },
     { title: "Don't Dare to Dream", year: "2016", cast: "Jo Jung Seok", episodes: "24", afis: "https://i.pinimg.com/736x/e6/c2/94/e6c2946dee3deb1158727388461e5f31.jpg" },
     { title: "Doom at Your Service", year: "2021", cast: "Seo In Guk, Kang Tae Oh", episodes: "16", afis: "https://i.pinimg.com/736x/5f/aa/71/5faa7178e1c4cb3a482c43797f9c3509.jpg" },
-    { title: "Dr. lan", year: "2015", cast: "Kim Young Kwang", episodes: "9", afis: "https://i.pinimg.com/736x/30/dc/84/30dc8477f8126f80fea0aaa423cb0a0c.jpg" },
+    { title: "Dr. Ian", year: "2015", cast: "Kim Young Kwang", episodes: "9", afis: "https://i.pinimg.com/736x/30/dc/84/30dc8477f8126f80fea0aaa423cb0a0c.jpg" },
     { title: "Dream Knight", year: "2015", cast: "GOT7", episodes: "12", afis: "https://i.pinimg.com/1200x/b9/ad/9c/b9ad9c03070bf29b6ba1647e0c08ce87.jpg" },
     { title: "Dreaming of a Freaking Fairytale", year: "2024", cast: "Lee Jun Young", episodes: "10", afis: "https://i.pinimg.com/736x/6b/2a/0b/6b2a0b9f9ea9bb0b9e947298ecda4812.jpg" },
     { title: "Dynamite Kiss", year: "2026", cast: "Jang Ki Yong", episodes: "1", afis: "https://i.pinimg.com/736x/83/00/a7/8300a75137437da2630e92d71f4f53e1.jpg" },
     { title: "Emergency Couple", year: "2014", cast: "Choi Jin Hyuk", episodes: "21", afis: "https://i.pinimg.com/736x/16/c7/61/16c7610eca3a0a632a08b067f1000717.jpg" },
     { title: "Ending Again", year: "2020", cast: "Kim Geon Won", episodes: "12", afis: "https://i.pinimg.com/1200x/c9/51/fa/c951fa10611fe63f818469de76426625.jpg" },
-    { title: "Eulachacha Waikiki", year: "2018", cast: "Kim Jong Hyun, Lee Yi Kyung", episodes: "20", afis: "https://i.pinimg.com/736x/fe/7e/e5/fe7ee579c245c2497ad1a7e879623de0.jpg" },
+    { title: "Eulachacha Waikiki", year: "2018", cast: "Kim Jung Hyun, Lee Yi Kyung", episodes: "20", afis: "https://i.pinimg.com/736x/fe/7e/e5/fe7ee579c245c2497ad1a7e879623de0.jpg" },
     { title: "EXO Next Door", year: "2015", cast: "EXO", episodes: "16", afis: "https://i.pinimg.com/736x/80/24/6c/80246c52b56c583a696095da827565b6.jpg" },
     { title: "Extraordinary Attorney Woo", year: "2022", cast: "Kang Tae Oh", episodes: "16", afis: "https://i.pinimg.com/736x/7f/43/7d/7f437d98f70472be2ea8a0d17bfb5af4.jpg" },
     { title: "Extraordinary You", year: "2019", cast: "Rowoon", episodes: "32", afis: "https://i.pinimg.com/736x/99/95/58/999558773dfe1d376ceddde81c41224d.jpg" },
     { title: "Falling For Challenge", year: "2015", cast: "Kim Min Seok", episodes: "6", afis: "https://i.pinimg.com/1200x/9a/b6/b7/9ab6b75698cbb6762215829b150644f8.jpg" },
-    { title: "Family by Choice", year: "2024", cast: "Hwang In Yeop", episodes: "16", afis: "https://i.pinimg.com/736x/aa/ed/ed/aaeded43727bd604fbe39c600514da82.jpg" },
+    { title: "Family by Choice", year: "2024", cast: "Hwang In Youp", episodes: "16", afis: "https://i.pinimg.com/736x/aa/ed/ed/aaeded43727bd604fbe39c600514da82.jpg" },
     { title: "Fated to Love You", year: "2014", cast: "Jang Hyuk", episodes: "20", afis: "https://i.pinimg.com/736x/35/5f/05/355f0548ed7461eb98bb1be6c78f061d.jpg" },
     { title: "Fight For My Way", year: "2017", cast: "Park Seo Joon", episodes: "16", afis: "https://i.pinimg.com/1200x/bf/19/7a/bf197a694e75baf2b8ac950db39a7cbe.jpg" },
     { title: "Forecasting Love and Weather", year: "2022", cast: "Song Kang", episodes: "16", afis: "https://i.pinimg.com/736x/5d/a8/95/5da895534268cc4c34deac76e6191c56.jpg" },
     { title: "Forest", year: "2020", cast: "Park Hae Jin", episodes: "32", afis: "https://i.pinimg.com/736x/89/e0/e3/89e0e37cc464155f97126f282bb6f19d.jpg" },
     { title: "Frankly Speaking", year: "2024", cast: "Ko Kyung Pyo", episodes: "12", afis: "https://i.pinimg.com/1200x/23/d9/21/23d921c1502f0d413071f8ec00bb344c.jpg" },
-    { title: "Freshman", year: "2019", cast: "Hwang In Yeop", episodes: "12", afis: "https://i.pinimg.com/1200x/32/9b/d9/329bd9ab546ea0b27730ee1a7374112e.jpg" },
+    { title: "Freshman", year: "2019", cast: "Hwang In Youp", episodes: "12", afis: "https://i.pinimg.com/1200x/32/9b/d9/329bd9ab546ea0b27730ee1a7374112e.jpg" },
     { title: "From Now On, Showtime!", year: "2022", cast: "Park Hae Jin", episodes: "16", afis: "https://i.pinimg.com/736x/55/2e/d4/552ed405cc4114ac8b762c440671bed7.jpg" },
     { title: "Ga Doo Ri's Sushi Restaurant", year: "2020", cast: "Hyuk", episodes: "12", afis: "https://i.pinimg.com/736x/e4/24/c3/e424c3ab17764f71aa87b14810613360.jpg" },
     { title: "Gaus Electronics", year: "2022", cast: "Kwak Dong Yeon", episodes: "12", afis: "https://i.pinimg.com/736x/ef/f9/52/eff9529a3c169b938e7ef71e8fab8a8c.jpg" },
@@ -693,7 +693,7 @@ const kdramaData = [
     { title: "King the Land", year: "2023", cast: "Lee Jun Ho", episodes: "16", afis: "https://i.pinimg.com/736x/21/70/2b/21702b734301b565c9d456fc803e7ef3.jpg" },
     { title: "Kiss Goblin", year: "2020", cast: "Bae In Hyuk", episodes: "12", afis: "https://i.pinimg.com/736x/f2/15/25/f215258d6538d4eddbf5a8d312bfa7cc.jpg" },
     { title: "Kiss Sixth Sense", year: "2022", cast: "Yoon Gye Sang", episodes: "12", afis: "https://i.pinimg.com/736x/5f/19/25/5f192517da14083dfd366f7d7123de80.jpg" },
-    { title: "Last Minute Romance", year: "2017", cast: "Lee Seo-won", episodes: "10", afis: "https://i.pinimg.com/736x/1a/d6/dc/1ad6dc5c49261ad7c5a65ca24689e604.jpg" },
+    { title: "Last Minute Romance", year: "2017", cast: "Lee Seo Won", episodes: "10", afis: "https://i.pinimg.com/736x/1a/d6/dc/1ad6dc5c49261ad7c5a65ca24689e604.jpg" },
     { title: "LCDP: Korea", year: "2022", cast: "Lee Hyun Woo", episodes: "12", afis: "https://i.pinimg.com/1200x/a4/36/87/a43687720e45b077f7176d77584862cf.jpg" },
     { title: "Legally Dad", year: "2020", cast: "Choi Kyung Hoon", episodes: "6", afis: "https://i.pinimg.com/736x/7f/0f/fd/7f0ffd2e6d1048b6710346c4a9da6f26.jpg" },
     { title: "Let's Eat", year: "2018", cast: "Yoon Doo Joon", episodes: "14", afis: "https://i.pinimg.com/1200x/06/2e/28/062e28ef281d65b391139d3119ff85d9.jpg" },
@@ -731,13 +731,13 @@ const kdramaData = [
     { title: "Meow, the Secret Boy", year: "2020", cast: "Kim Myung Soo", episodes: "24", afis: "https://i.pinimg.com/736x/b7/57/82/b75782d3f1b1999992516842afec5a3f.jpg" },
     { title: "Mine", year: "2021", cast: "Cha Hakyeon", episodes: "16", afis: "https://i.pinimg.com/736x/55/8f/5e/558f5e6ce7a4aac37df383a08286446c.jpg" },
     { title: "Miss Independent Ji Eun", year: "2018", cast: "Cha In Ha", episodes: "8", afis: "https://i.pinimg.com/736x/93/9d/cf/939dcfbfd0fe7662d2c3491c05de0820.jpg" },
-    { title: "Moment of Eighteen", year: "2019", cast: "Ong Seung Woo", episodes: "16", afis: "https://i.pinimg.com/1200x/db/9b/d1/db9bd1840dc7c4b5600786a3cee3aa26.jpg" },
-    { title: "Moon Lovers: Scarlet Heart Ryeo", year: "2016", cast: "Byun Baekhyun, Lee Jung Gi", episodes: "20", afis: "https://i.pinimg.com/736x/7a/c8/84/7ac8847bf3ddb37bd135511489de047b.jpg" },
+    { title: "Moment of Eighteen", year: "2019", cast: "Ong Seung Wu", episodes: "16", afis: "https://i.pinimg.com/1200x/db/9b/d1/db9bd1840dc7c4b5600786a3cee3aa26.jpg" },
+    { title: "Moon Lovers: Scarlet Heart Ryeo", year: "2016", cast: "Byun Baekhyun, Lee Joon Gi", episodes: "20", afis: "https://i.pinimg.com/736x/7a/c8/84/7ac8847bf3ddb37bd135511489de047b.jpg" },
     { title: "More Than Friends", year: "2020", cast: "Ong Seong Wu", episodes: "16", afis: "https://i.pinimg.com/1200x/43/bb/ec/43bbeca203e4ec1ca846546ddc71e44c.jpg" },
     { title: "Mouse", year: "2021", cast: "Lee Seung Gi", episodes: "20", afis: "https://i.pinimg.com/736x/8e/4f/0c/8e4f0cd1350438c142632cadfa28ad47.jpg" },
     { title: "Mr. Plankton", year: "2024", cast: "Woo Do Hwan", episodes: "10", afis: "https://i.pinimg.com/736x/a7/6e/e3/a76ee31ebaf723f0625b06c77dd68ae3.jpg" },
     { title: "Mr. Queen", year: "2020", cast: "Kim Jung Hyun", episodes: "20", afis: "https://i.pinimg.com/736x/ed/4c/22/ed4c22eff28e645bf9dee7edcff50b1c.jpg" },
-    { title: "My Absolute Boyfriend", year: "2019", cast: "Yoo Jin Goo, Hong Jong Hyun", episodes: "36", afis: "https://i.pinimg.com/736x/d3/8e/ee/d38eeee6700f0734306b1b3b7d539e4d.jpg" },
+    { title: "My Absolute Boyfriend", year: "2019", cast: "Yeo Jin Goo, Hong Jong Hyun", episodes: "36", afis: "https://i.pinimg.com/736x/d3/8e/ee/d38eeee6700f0734306b1b3b7d539e4d.jpg" },
     { title: "My Dearest Nemesis", year: "2025", cast: "Choi Hyun Wook", episodes: "12", afis: "https://i.pinimg.com/736x/8ec39eacfe987fe8ed17f1655c58b396.jpg" },
     { title: "My Demon", year: "2023", cast: "Song Kang, Lee Sang Yi", episodes: "16", afis: "https://i.pinimg.com/736x/7c/ba/96/7cba96fcad222149ca352b7aa9d3e5b9.jpg" },
     { title: "My First First Love", year: "2019", cast: "Ji Soo", episodes: "16", afis: "https://i.pinimg.com/736x/f2/1f/df/f21fdf6a0f72f1b8c2edf2d1e49e2c50.jpg" },
@@ -747,7 +747,7 @@ const kdramaData = [
     { title: "My Love From The Star", year: "2013", cast: "Kim Soo Hyun, Park Hae Jin", episodes: "21", afis: "https://i.pinimg.com/736x/69/ab/3e/69ab3ee64ad8736d2896e345fc3c2f4b.jpg" },
     { title: "My Lovely Liar", year: "2023", cast: "Hwang Min Hyun", episodes: "16", afis: "https://i.pinimg.com/736x/e0/b1/79/e0b179599a4c15b1790ba8eb668dccb1.jpg" },
     { title: "My Name", year: "2021", cast: "Ahn Bo Hyun", episodes: "8", afis: "https://i.pinimg.com/736x/46/ad/2c/46ad2c8b2590859aaf47c8d43e1dddeb.jpg" },
-    { title: "My Roommate is a Gumiho", year: "2021", cast: "Jang Ki Young, Bae In Hyuk", episodes: "16", afis: "https://i.pinimg.com/1200x/26/f7/ca/26f7cac3a1c438707f0383c8f6353fff.jpg" },
+    { title: "My Roommate is a Gumiho", year: "2021", cast: "Jang Ki Yong, Bae In Hyuk", episodes: "16", afis: "https://i.pinimg.com/1200x/26/f7/ca/26f7cac3a1c438707f0383c8f6353fff.jpg" },
     { title: "My Secret Romance", year: "2017", cast: "Sung Hoon, Kim Jae Young", episodes: "13", afis: "https://i.pinimg.com/736x/ec/aa/a6/ecaaa67dbb257dd58c7d33b4243f155e.jpg" },
     { title: "My Shy Boss", year: "2017", cast: "Yeon Woo Jin", episodes: "16", afis: "https://i.pinimg.com/736x/0f/1a/05/0f1a059f2ee58c0cac4173259c00fd45.jpg" },
     { title: "My Strange Hero", year: "2018", cast: "Yoo Seung Ho", episodes: "32", afis: "https://i.pinimg.com/736x/f5/c3/99/f5c399bdf47d97ee42eb3c0c52e633d1.jpg" },
@@ -866,14 +866,14 @@ const kdramaData = [
     { title: "The Way I Hate You", year: "2019", cast: "Jaemin", episodes: "6", afis: "https://m.media-amazon.com/images/M/MV5BMWVlZmVhZjEtZmQ2MS00YTQxLTk4MjUtNmFiMWQwYzBkM2E1XkEyXkFqcGc@._V1_.jpg" },
     { title: "Third Charm", year: "2018", cast: "Seo Kang Joon", episodes: "16", afis: "https://i.pinimg.com/736x/c2/11/76/c21176126fd6592130c51494d0fd0d15.jpg" },
     { title: "Thumpink Spike", year: "2016", cast: "Song Jae Rim", episodes: "20", afis: "https://i.pinimg.com/736x/64/43/ce/6443cebec80e04f07f9dd7e992ba9293.jpg" },
-    { title: "To Be Continued", year: "2015", cast: "ASTRO", episodes: "12", afis: "https://i.pinimg.com/736x/6c/48/43/6c4843500db06e6a4eac07feb6f61131.jpg" },
+    { title: "To Be Continued", year: "2015", cast: "Cha Eun Woo, Moonbin", episodes: "12", afis: "https://i.pinimg.com/736x/6c/48/43/6c4843500db06e6a4eac07feb6f61131.jpg" },
     { title: "To World of My 17", year: "2020", cast: "Ryeo Un", episodes: "10", afis: "https://i.pinimg.com/1200x/18/f5/85/18f58532ba22e914e3abe76dafc51d90.jpg" },
     { title: "Touch", year: "2020", cast: "Joo Sang Wook", episodes: "16", afis: "https://i.pinimg.com/1200x/f7/db/86/f7db86045a11b87b6f14b45c8d227794.jpg" },
     { title: "Touch Me If You Can", year: "2020", cast: "Yoon Seo Bin", episodes: "10", afis: "https://m.media-amazon.com/images/M/MV5BZmI3ZWJiZGMtYzFlNy00NDAwLThmMWQtODhjZGIyZjYyOTE2XkEyXkFqcGc@._V1_.jpg" },
     { title: "Touch Your Heart", year: "2019", cast: "Lee Dong Wook", episodes: "16", afis: "https://i.pinimg.com/736x/c5/ed/7f/c5ed7fa853cb9f3e6451b8be7c203f3b.jpg" },
     { title: "Touching You", year: "2016", cast: "Taecyeon", episodes: "12", afis: "https://i.pinimg.com/736x/f5/2c/26/f52c2633fda73310c127685725cd145d.jpg" },
     { title: "Trap", year: "2020", cast: "Choi Kyung Hoon", episodes: "12", afis: "https://i.pinimg.com/1200x/4c/47/c3/4c47c3645ecc87f14ab229e0a56c7194.jpg" },
-    { title: "True Beauty", year: "2020", cast: "Cha Eun Woo, Hwang In Yeop", episodes: "16", afis: "https://i.pinimg.com/736x/14/b1/49/14b149247aca2d3b62c77a9b80a87928.jpg" },
+    { title: "True Beauty", year: "2020", cast: "Cha Eun Woo, Hwang In Youp", episodes: "16", afis: "https://i.pinimg.com/736x/14/b1/49/14b149247aca2d3b62c77a9b80a87928.jpg" },
     { title: "Twenty-Five, Twenty-One", year: "2022", cast: "Nam Joo Hyuk", episodes: "16", afis: "https://i.pinimg.com/1200x/cb/7c/f7/cb7cf7b704132eb19fa29a5749ab4b8e.jpg" },
     { title: "Uncontrollably Fond", year: "2016", cast: "Kim Woo Bin", episodes: "20", afis: "https://i.pinimg.com/736x/5c/f3/a5/5cf3a506a70ddb4021022bba38d2ed77.jpg" },
     { title: "Vagabond", year: "2019", cast: "Lee Seung Gi", episodes: "16", afis: "https://i.pinimg.com/1200x/ff/93/dd/ff93dded895ac9078a9bf8bb33490ea6.jpg" },
@@ -902,10 +902,263 @@ const kdramaData = [
     { title: "Yes or No", year: "2019", cast: "Kim Kang Min", episodes: "8", afis: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn9wPQmLDhXS-MUr_jmUlrRtcykjz4tFcd4Q&s" },
     { title: "You Are My Spring", year: "2021", cast: "Kim Dong Wook", episodes: "16", afis: "https://i.pinimg.com/1200x/bf/b8/d7/bfb8d75c59b631b92601648c44b1001c.jpg" },
     { title: "You Drive Me Crazy", year: "2018", cast: "Kim Seon Ho", episodes: "4", afis: "https://i.pinimg.com/736x/80/b8/33/80b8334c5582a095b5f30a1d63462339.jpg" },
-    { title: "Youth MT", year: "2022", cast: "My Loves", episodes: "8", afis: "https://i.pinimg.com/1200x/fc/d8/ba/fcd8ba837882fc66e54aaf3231d32c05.jpg" },
+    { title: "Youth MT", year: "2022", cast: "Park Bo Gum, Kwak Dong Yeon, Park Seo Joon, Ahn Bo Hyun, Hwang In Youp, Ji Chang Wook, Jung Jin Young", episodes: "8", afis: "https://i.pinimg.com/1200x/fc/d8/ba/fcd8ba837882fc66e54aaf3231d32c05.jpg" },
     { title: "Youth of May", year: "2021", cast: "Lee Do Hyun, Lee Sang Yi", episodes: "12", afis: "https://i.pinimg.com/736x/c7/62/6c/c7626cdc7e0bc74139b9df9ce6ce0262.jpg" },
     { title: "Yumi's Cell", year: "2021", cast: "Ahn Bo Hyun, Park Jin Young", episodes: "14", afis: "https://i.pinimg.com/1200x/0c/44/f3/0c44f318576e75afcdc1c0d534ab023e.jpg" }
 ];
+
+const actorPhotos = {
+
+    "Ahn Bo-hyun": { photo: "https://i.pinimg.com/736x/10/df/e8/10dfe8369735bceaee2b5994869900a7.jpg", bday: "16 Mayıs 1988" },
+    "Ahn Dong-goo": { photo: "https://i.pinimg.com/736x/37/6b/55/376b5548b831058af23888ad1e0d702e.jpg", bday: "2 Kasım 1993" },
+    "Ahn Jae-hong": { photo: "https://i.pinimg.com/736x/bf/08/b3/bf08b3e6913440b3dd974986a7ea8e34.jpg", bday: "31 Mart 1986" },
+    "Ahn Jae-hyun": { photo: "https://i.pinimg.com/736x/35/61/36/35613690a8c218ab62e71f5b7e02bfe6.jpg", bday: "1 Temmuz 1987" },
+    "Ahn Jae-wook": { photo: "https://i.pinimg.com/1200x/40/15/d3/4015d3f5ed6661f75d6d207517b3caef.jpg", bday: "12 Eylül 1971" },
+    "Ahn Ji-hwan": { photo: "https://i.pinimg.com/736x/0c/09/31/0c0931a135938371a1289d5ba18ebeb1.jpg", bday: "6 Ağustos 1969" },
+    "Ahn Seung-gyun": { photo: "https://i.pinimg.com/1200x/8e/a9/57/8ea957eb900ac5c62109f6d7d45b3ea5.jpg", bday: "18 Ocak 1994" },
+    "Ahn Woo-yeon": { photo: "https://tr.pinterest.com/pin/1082693566676656859/", bday: "7 Ocak 1991" },
+    "Bae Hyun-sung": { photo: "https://i.pinimg.com/736x/bc/97/88/bc9788afef750917b297d8541a1656b5.jpg", bday: "20 Ekim 1999" },
+    "Bae In-hyuk": { photo: "https://i.pinimg.com/736x/10/19/ef/1019ef7338943c58b14716eb0ed8043c.jpg", bday: "4 Nisan 1998" },
+    "Baek Seo-hoo": { photo: "https://i.pinimg.com/736x/b3/c1/9f/b3c19f37ea03856fdffab425967e4423.jpg", bday: "22 Şubat 1996" },
+    "Baek Sung-chul": { photo: "https://i.pinimg.com/736x/ca/e4/d2/cae4d220cfb8917e35ec34f98fd9aea3.jpg", bday: "10 Mart 1999" },
+    "Byun Baekhyun": { photo: "https://i.pinimg.com/736x/d1/29/d8/d129d8616c4e43c5a4fb4430299da134.jpg", bday: "6 Mayıs 1992" },
+    "Sung-joon": { photo: "https://i.pinimg.com/736x/f5/fc/c6/f5fcc6136e74b59a9888fba55b2ef662.jpg", bday: "10 Temmuz 1990" },
+    "Baro": { photo: "https://i.pinimg.com/736x/ec/f5/18/ecf5180bb503b51379af94127741ba66.jpg", bday: "5 Eylül 1992" },
+    "Byeon Woo-seok": { photo: "https://i.pinimg.com/1200x/e2/72/f0/e272f05bc68eddea431a6c0644f7c398.jpg", bday: "31 Ekim 1991" },
+    "Byun Yo-han": { photo: "https://i.pinimg.com/1200x/77/f0/14/77f014e7c1b25b62a3e39799c49274ff.jpg", bday: "29 Nisan 1986" },
+    "Cha Eun-woo": { photo: "https://i.pinimg.com/736x/bb/87/32/bb87320848bfb9b98e10b54e2a5625b3.jpg", bday: "30 Mart 1997" },
+    "Chae Hyung-won": { photo: "https://i.pinimg.com/1200x/36/b2/f2/36b2f285ee6eb12998dfc3b5abaedbfa.jpg", bday: "15 Ocak 1994" },
+    "Cha In-ha": { photo: "https://i.pinimg.com/1200x/04/bf/73/04bf73ce69dc551c240ddf89a0bea536.jpg", bday: "15 Temmuz 1992" },
+    "Chae Jong-hyeop": { photo: "https://i.pinimg.com/736x/61/c7/4b/61c74baf5df1dc29b368f228f3d5424a.jpg", bday: "19 Mayıs 1993" },
+    "Chanyeol": { photo: "https://i.pinimg.com/736x/07/44/ba/0744bae250e65bde0e8a380490fc0f8a.jpg", bday: "27 Kasım 1992" },
+    "Chen": { photo: "https://i.pinimg.com/736x/0c/2f/93/0c2f9389de2f252fe25fc87fa0713616.jpg", bday: "21 Eylül 1992" },
+    "Cho Jun-young": { photo: "https://i.pinimg.com/736x/56/36/91/563691902222b5b80f988545f4862aba.jpg", bday: "1 Kasım 2002" },
+    "Choo Young-woo": { photo: "https://i.pinimg.com/736x/f2/6e/5b/f26e5bf83490eb8b20b5e1c8c038488a.jpg", bday: "5 Haziran 1999" },
+    "Choi Bo-min": { photo: "https://i.pinimg.com/736x/37/fe/7b/37fe7bc24126368a4fd3615e8f96c656.jpg", bday: "24 Ağustos 2000" },
+    "Choi Byung-chan": { photo: "https://i.pinimg.com/1200x/7b/39/88/7b39880fbebf501e2e85f68790b61f82.jpg", bday: "12 Kasım 1997" },
+    "Choi Daniel": { photo: "https://i.pinimg.com/736x/3f/85/c2/3f85c241b5f3fd6fc45ad83c8e3f91b3.jpg", bday: "22 Şubat 1986" },
+    "Choi Hyun-wook": { photo: "https://i.pinimg.com/736x/7f/27/72/7f2772da1ae3c01563588e65f9ed3c93.jpg", bday: "30 Ocak 2002" },
+    "Choi Jin-hyuk": { photo: "https://i.pinimg.com/736x/5c/23/03/5c2303cfa18bf37b4f788503169cfd18.jpg", bday: "9 Şubat 1986" },
+    "Choi Min-ho": { photo: "https://i.pinimg.com/736x/36/ca/2b/36ca2bf70d7920aac2b749485e37a788.jpg", bday: "9 Aralık 1991" },
+    "Choi Min-sik": { photo: "https://i.pinimg.com/736x/7c/2f/fa/7c2ffab8d0943b88006dfd7025e02c1d.jpg", bday: "27 Nisan 1962" },
+    "Choi Si-won": { photo: "https://i.pinimg.com/736x/72/5a/29/725a294b518f7a5c5233c76f13326660.jpg", bday: "7 Nisan 1986" },
+    "Choi Tae-joon": { photo: "https://i.pinimg.com/236x/e1/98/c4/e198c40ae5a3abab037593b0a806e95b.jpg", bday: "7 Temmuz 1991" },
+    "Choi Woo-shik": { photo: "https://i.pinimg.com/736x/28/cc/05/28cc0589ea825e42cc56945e5cc40ad9.jpg", bday: "26 Mart 1990" },
+    "Doh Kyung Soo": { photo: "https://i.pinimg.com/736x/be/37/19/be3719e06067c20a56101384e788f3cb.jpg", bday: "12 Ocak 1993" },
+    "Gong Yoo": { photo: "https://i.pinimg.com/736x/d8/f6/aa/d8f6aa2255457bc953481055e6255a17.jpg", bday: "10 Temmuz 1979" },
+    "Ko Kyung-pyo": { photo: "https://i.pinimg.com/736x/15/b6/8e/15b68e66084f0b19c870ee144ac2c969.jpg", bday: "11 Haziran 1990" },
+    "Gong Myung": { photo: "https://i.pinimg.com/736x/7f/4e/b0/7f4eb0717bad0e13596253a0c075232b.jpg", bday: "26 Mayıs 1994" },
+    "Hong Jong-hyun": { photo: "https://i.pinimg.com/736x/aa/48/96/aa489679784b1d0ab6b2faea79bedfa0.jpg", bday: "2 Şubat 1990" },
+    "Hong Kyung": { photo: "https://i.pinimg.com/736x/6a/a9/1a/6aa91ab7295503b04e6e3b1afd0bbe91.jpg", bday: "14 Şubat 1996" },
+    "Hwang Chan-sung": { photo: "https://i.pinimg.com/736x/9c/7b/77/9c7b776af89b02739d01b367f6308b49.jpg", bday: "11 Şubat 1990" },
+    "Hwang In-youp": { photo: "https://i.pinimg.com/736x/1d/10/31/1d10312bad32bf3b96303f08677bb4f3.jpg", bday: "19 Ocak 1991" },
+    "Hwang Min-hyun": { photo: "https://i.pinimg.com/1200x/ae/98/db/ae98db49f1f59e891181dee2dab1dbe1.jpg", bday: "9 Ağustos 1995" },
+    "Hyun Bin": { photo: "https://i.pinimg.com/1200x/96/fc/f6/96fcf630d995d3af6e6c71668517e6d8.jpg", bday: "25 Eylül 1982" },
+    "Hyun Woo": { photo: "https://asianwiki.com/images/e/e7/Hyun_Woo-p02.jpg", bday: "18 Ocak 1985" },
+    "Im Si-wan": { photo: "https://i.pinimg.com/736x/a8/4a/30/a84a303c36e048faad7e3568a2fb5a51.jpg", bday: "1 Aralık 1988" },
+    "Jaehyun": { photo: "https://i.pinimg.com/736x/e6/93/fd/e693fdff3ebc30dfe73d5a4d7889fda4.jpg", bday: "14 Şubat 1997" },
+    "Jaemin": { photo: "https://i.pinimg.com/736x/54/60/8b/54608b7ed12443468837ae0e7280188a.jpg", bday: "13 Ağustos 2000" },
+    "Jang Dong-yoon": { photo: "https://i.pinimg.com/1200x/18/c4/01/18c4017b5d1edf054713dcabb82f87c0.jpg", bday: "12 Temmuz 1992" },
+    "Jang Hyuk": { photo: "https://i.pinimg.com/736x/b4/50/70/b4507057b015f2277b26bc1767793c7d.jpg", bday: "20 Aralık 1976" },
+    "Jang Keun-suk": { photo: "https://i.pinimg.com/736x/09/d8/1c/09d81c7e61e611e8343199dc7d705ee2.jpg", bday: "4 Ağustos 1987" },
+    "Jang Ki-yong": { photo: "https://i.pinimg.com/736x/a1/6f/ec/a16fec4355fea37c6a5bdcb740acf0ac.jpg", bday: "7 Ağustos 1992" },
+    "Jeno": { photo: "https://i.pinimg.com/736x/5a/62/42/5a624236ac2878a17f95a6a53eff67b9.jpg", bday: "23 Nisan 2000" },
+    "Ji Chang-wook": { photo: "https://i.pinimg.com/736x/e2/cc/39/e2cc39ca0a2b10bc61151992adcf7075.jpg", bday: "5 Temmuz 1987" },
+    "Ji Hyun-woo": { photo: "https://i.pinimg.com/736x/3c/8f/e1/3c8fe11d3b4c0a9655f10043cc10a7ac.jpg", bday: "29 Kasım 1984" },
+    "Ji Jin-hee": { photo: "https://i.pinimg.com/736x/87/a7/cb/87a7cb75abe865e9fdfef4161a66b44d.jpg", bday: "24 Haziran 1971" },
+    "Ji Soo": { photo: "https://i.pinimg.com/736x/a7/e8/82/a7e882101a5616470ea2f40fce4420c4.jpg", bday: "30 Mart 1993" },
+    "Ji Sung": { photo: "https://i.pinimg.com/1200x/bb/e6/4e/bbe64e3768c1c89f71226b652fc6575a.jpg", bday: "27 Şubat 1977" },
+    "Jin Goo": { photo: "https://i.pinimg.com/736x/cd/3d/a6/cd3da6bf65eafb5503938e987be972f5.jpg", bday: "20 Temmuz 1980" },
+    "Jo Byeong-kyu": { photo: "https://i.pinimg.com/1200x/d0/88/90/d08890393884c89aadf53507a9714346.jpg", bday: "23 Nisan 1996" },
+    "Jo Jung-seok": { photo: "https://i.pinimg.com/736x/2a/fd/17/2afd1744269d4f85c694a1da2d90b26e.jpg", bday: "26 Aralık 1980" },
+    "Jo In-sung": { photo: "https://i.pinimg.com/1200x/d7/e8/dc/d7e8dc67fa1f3ec4eca84c6826345dc6.jpg", bday: "28 Temmuz 1981" },
+    "Joo Won": { photo: "https://i.pinimg.com/1200x/1f/34/ce/1f34ce1171427ec2ef139a5721dd39f3.jpg", bday: "30 Eylül 1987" },
+    "Ju Ji-hoon": { photo: "https://i.pinimg.com/736x/9c/3a/78/9c3a7822e9c74d253d3714e276a18d86.jpg", bday: "16 Mayıs 1982" },
+    "Jung Gun-joo": { photo: "https://i.pinimg.com/1200x/56/11/7f/56117f34a4ed830d6acfdd1f09170c2a.jpg", bday: "26 Mayıs 1995" },
+    "Jung Hae-in": { photo: "https://i.pinimg.com/1200x/db/04/03/db0403f16cbba5c903931c196038d253.jpg", bday: "1 Nisan 1988" },
+    "Jung Il-woo": { photo: "https://i.pinimg.com/736x/76/d1/4c/76d14cc69adc2894a7a78104ce3d4efc.jpg", bday: "9 Eylül 1987" },
+    "Jung Kyung-ho": { photo: "https://i.pinimg.com/1200x/7e/f0/13/7ef01352ad81a6edc2a22738fb6ede38.jpg", bday: "31 Ağustos 1983" },
+    "Jung Woo-sung": { photo: "https://i.pinimg.com/736x/e0/8e/b4/e08eb49f3106366638edbff4cd28b952.jpg", bday: "22 Nisan 1973" },
+    "Jung Yong-hwa": { photo: "https://i.pinimg.com/736x/c0/a1/31/c0a131e00fb68cb1d18e06562a3fe845.jpg", bday: "22 Haziran 1989" },
+    "Kai": { photo: "https://i.pinimg.com/736x/7c/70/af/7c70af6a2686d6afeb9322134386440b.jpg", bday: "14 Ocak 1994" },
+    "Kang Ha-neul": { photo: "https://i.pinimg.com/736x/d5/72/62/d57262265bddf8a55f820866b00f02e8.jpg", bday: "21 Şubat 1990" },
+    "Kang Daniel": { photo: "https://i.pinimg.com/736x/14/cf/af/14cfaf3ca3ad3b1bec98e3d519a6a0a0.jpg", bday: "10 Aralık 1996" },
+    "Kang Min-hyuk": { photo: "https://i.pinimg.com/1200x/cc/a1/25/cca1255ced2b08b51ccc7f2c3e232eaf.jpg", bday: "28 Haziran 1991" },
+    "Kang Tae-oh": { photo: "https://i.pinimg.com/1200x/52/d7/34/52d734a3b0eed47c838651d3960853a5.jpg", bday: "20 Haziran 1994" },
+    "Kim Bum": { photo: "https://i.pinimg.com/736x/f0/5e/49/f05e49d27d14abc62b754f588df132be.jpg", bday: "7 Temmuz 1989" },
+    "Kim Byung-chul": { photo: "https://i.pinimg.com/1200x/4c/6e/d7/4c6ed7f73257b5c3dbfa591b728e5a32.jpg", bday: "5 Temmuz 1974" },
+    "Kim Dae-myung": { photo: "https://i.pinimg.com/736x/dd/09/66/dd09666dbc6cce487b16af5ad1124247.jpg", bday: "16 Aralık 1980" },
+    "Kim Dong-hee": { photo: "https://i.pinimg.com/1200x/5d/eb/f3/5debf35ebd2217ea4448d4d2656fdfaa.jpg", bday: "13 Haziran 1999" },
+    "Kim Dong-wook": { photo: "https://i.pinimg.com/1200x/84/54/07/845407cc671b35fd28b4ac777b530b7a.jpg", bday: "29 Temmuz 1983" },
+    "Kim Hee-chul": { photo: "https://i.pinimg.com/1200x/d5/81/50/d581501da7f5ab8052624a98e693353c.jpg", bday: "10 Temmuz 1983" },
+    "Kim Hyun-joong": { photo: "https://i.pinimg.com/1200x/4f/03/81/4f0381301d6b516d636f174df90f1ed4.jpg", bday: "6 Haziran 1986" },
+    "Kim Jae-joong": { photo: "https://i.pinimg.com/1200x/d9/66/9c/d9669c760fecca8d4927740adfd794bb.jpg", bday: "26 Ocak 1986" },
+    "Kim Jae-won": { photo: "https://i.pinimg.com/736x/92/24/5a/92245a268afe410c9356848b6803bf16.jpg", bday: "18 Şubat 1981" },
+    "Kim Jae-wook": { photo: "https://i.pinimg.com/1200x/f2/57/94/f25794f115f51495bd2418b494964f4c.jpg", bday: "2 Nisan 1983" },
+    "Kim Ji-seok": { photo: "https://i.pinimg.com/736x/57/89/c8/5789c8f8115752aff9e8f57f95427d0f.jpg", bday: "21 Nisan 1981" },
+    "Kim Jung-hyun": { photo: "https://i.pinimg.com/736x/4c/8e/a4/4c8ea46b6ad02aa684800c7f1489ae49.jpg", bday: "5 Nisan 1990" },
+    "Kim Kang-woo": { photo: "https://i.pinimg.com/736x/b2/a4/32/b2a4324a85436e20053ea45ef3be64ca.jpg", bday: "11 Temmuz 1978" },
+    "Kim Min-jae": { photo: "https://i.pinimg.com/1200x/af/7c/6f/af7c6fd5a6d7870a896da3e39d2eb628.jpg", bday: "1 Kasım 1996" },
+    "Kim Min-gyu": { photo: "https://i.pinimg.com/736x/73/3e/75/733e75ec2998738dfb3097289f19f4e7.jpg", bday: "25 Aralık 1994" },
+    "Kim Min-seok": { photo: "https://i.pinimg.com/1200x/67/27/9d/67279d4ad76778a7784a3b96fc86362e.jpg", bday: "24 Ocak 1990" },
+    "Kim Nam-gil": { photo: "https://i.pinimg.com/736x/f0/4e/60/f04e60e6610905ed906b5b5f769a27aa.jpg", bday: "13 Mart 1980" },
+    "Kim Rae-won": { photo: "https://i.pinimg.com/1200x/a1/3b/15/a13b15962eb0d2a5289e204dd33d09fe.jpg", bday: "19 Mart 1981" },
+    "Kim Seon-ho": { photo: "https://i.pinimg.com/1200x/bd/3f/09/bd3f09f399aabeeefb4f9c7f0d0c0d2a.jpg", bday: "8 Mayıs 1986" },
+    "Kim Soo-hyun": { photo: "https://i.pinimg.com/736x/1a/19/e5/1a19e5a341b918233e16ebec97c7d6b8.jpg", bday: "16 Şubat 1988" },
+    "Kim Woo-bin": { photo: "https://i.pinimg.com/736x/40/39/ee/4039eefe6303253c5c9d6145717d273c.jpg", bday: "16 Temmuz 1989" },
+    "Kim Young-dae": { photo: "https://i.pinimg.com/736x/b0/fd/65/b0fd657dbc5461b696ba7aca7f35338f.jpg", bday: "2 Mart 1996" },
+    "Kim Young-kwang": { photo: "https://i.pinimg.com/1200x/68/df/ef/68dfefa0e0259a5b34589dae1f2a9ca4.jpg", bday: "11 Ocak 1987" },
+    "Kim Yo-han": { photo: "https://i.pinimg.com/736x/4b/e0/64/4be064997bec0960a149111a848ef422.jpg", bday: "22 Eylül 1999" },
+    "Ko Soo": { photo: "https://i.pinimg.com/1200x/af/00/a3/af00a38bd0e19b2f0f952b3ec991df12.jpg", bday: "4 Ekim 1978" },
+    "Kwak Dong-yeon": { photo: "https://i.pinimg.com/736x/3b/66/6e/3b666eff37a1fda2890ba255e1a50085.jpg", bday: "19 Mart 1997" },
+    "Kwon Yul": { photo: "https://i.pinimg.com/736x/5f/b5/70/5fb570a12838e58160a3ba65085aadb5.jpg", bday: "29 Haziran 1982" },
+    "Lee Byung-hun": { photo: "https://i.pinimg.com/736x/14/2a/24/142a2484c0327f413c9a6d18cd62ba37.jpg", bday: "12 Temmuz 1970" },
+    "Lee Chae-min": { photo: "https://i.pinimg.com/1200x/b9/55/36/b9553625e4eefd88edc334784f841a2a.jpg", bday: "15 Eylül 2000" },
+    "Lee Do-hyun": { photo: "https://i.pinimg.com/1200x/4b/57/56/4b5756c27b809cebfa77811c8928ea11.jpg", bday: "11 Nisan 1995" },
+    "Lee Dong-gun": { photo: "https://i.pinimg.com/736x/c6/57/3a/c6573a600fd86871945db3254b923758.jpg", bday: "26 Temmuz 1980" },
+    "Lee Dong-wook": { photo: "https://i.pinimg.com/736x/e0/40/38/e04038ee4d059dd8518f687fb8fbb983.jpg", bday: "6 Kasım 1981" },
+    "Lee Donghae": { photo: "https://i.pinimg.com/736x/df/40/89/df40891e56eae8d20ffb21eec3dcd036.jpg", bday: "15 Ekim 1986" },
+    "Lee Gi-kwang": { photo: "https://i.pinimg.com/1200x/9e/0d/d7/9e0dd7bf8f16a3a2a33944bc22a45ee7.jpg", bday: "30 Mart 1990" },
+    "Lee Hee-joon": { photo: "https://i.pinimg.com/1200x/46/43/b9/4643b99837fa05c8c0eb15c16978f316.jpg", bday: "29 Haziran 1979" },
+    "Lee Hong-gi": { photo: "https://i.pinimg.com/1200x/d9/cf/d4/d9cfd4eae549315b4ad745212c7c3c20.jpg", bday: "2 Mart 1990" },
+    "Lee Hyun-woo": { photo: "https://i.pinimg.com/1200x/39/93/3a/39933a1b84cc9efc96f9dc887f3db965.jpg", bday: "23 Mart 1993" },
+    "Lee Jae-wook": { photo: "https://i.pinimg.com/1200x/92/d5/79/92d5798a1ba45ce239fe6228afedf0b7.jpg", bday: "10 Mayıs 1998" },
+    "Lee Je-hoon": { photo: "https://i.pinimg.com/736x/6c/88/20/6c8820020695d29a6e8f3385dc210f25.jpg", bday: "4 Temmuz 1984" },
+    "Lee Jin-wook": { photo: "https://i.pinimg.com/1200x/52/3a/32/523a32c7c4f4e0a4596911a969be5857.jpg", bday: "16 Eylül 1981" },
+    "Lee Jong-seok": { photo: "https://i.pinimg.com/1200x/77/96/51/779651c9395b0899a72f58fe5ac7ae74.jpg", bday: "14 Eylül 1989" },
+    "Lee Joon": { photo: "https://i.pinimg.com/1200x/6b/b9/4d/6bb94d706102dbd96929ce1f02192a40.jpg", bday: "7 Şubat 1988" },
+    "Lee Joon-gi": { photo: "https://i.pinimg.com/1200x/d3/85/7c/d3857cd90f22cc56ba622ad28eb71812.jpg", bday: "17 Nisan 1982" },
+    "Lee Jun-ho": { photo: "https://i.pinimg.com/736x/b9/94/98/b994989209b8c0ed265c6eab681af450.jpg", bday: "25 Ocak 1990" },
+    "Lee Jun-young": { photo: "https://i.pinimg.com/1200x/91/25/51/9125514cb814e5ff24986183bbe11b61.jpg", bday: "22 Ocak 1997" },
+    "Lee Jung-jae": { photo: "https://i.pinimg.com/736x/23/63/76/23637640a4ef2113614fcbbda5cf5e08.jpg", bday: "15 Aralık 1972" },
+    "Lee Kwang-soo": { photo: "https://i.pinimg.com/1200x/2c/00/61/2c0061b0e90d36c2927b7ec5f777bc44.jpg", bday: "14 Temmuz 1985" },
+    "Lee Min-ho": { photo: "https://i.pinimg.com/1200x/0c/d6/fe/0cd6fe2afc783d684259d1e601815d21.jpg", bday: "22 Haziran 1987" },
+    "Lee Min-ki": { photo: "https://i.pinimg.com/736x/a8/26/7a/a8267ada1c551f8c7a045bb5638fb9b6.jpg", bday: "16 Ocak 1985" },
+    "Lee Pil-mo": { photo: "https://i.pinimg.com/736x/96/4f/5b/964f5b2d47d2419a69e6f4e117a51b70.jpg", bday: "26 Haziran 1974" },
+    "Lee Sang-woo": { photo: "https://i.pinimg.com/736x/ef/8a/b0/ef8ab01afd748a1ebf388a851c4bc442.jpg", bday: "13 Şubat 1980" },
+    "Lee Sang-yeob": { photo: "https://i.pinimg.com/736x/d6/ca/84/d6ca84c8a9cb745d01fb6546bfd30457.jpg", bday: "8 Mayıs 1983" },
+    "Lee Sang-yi": { photo: "https://i.pinimg.com/736x/e5/3b/e5/e53be5db1fc7ecf31f97806c166450a6.jpg", bday: "27 Kasım 1991" },
+    "Lee Sang-yoon": { photo: "https://i.pinimg.com/236x/a2/62/b4/a262b4073febdf4d22398ccac4e5f045.jpg", bday: "15 Ağustos 1981" },
+    "Lee Seo-jin": { photo: "https://i.pinimg.com/736x/ae/ae/96/aeae96ac66110f8c70d19de85db6ebed.jpg", bday: "30 Ocak 1971" },
+    "Lee Seung-gi": { photo: "https://i.pinimg.com/736x/1b/df/42/1bdf4281e60539b295864945d760cc03.jpg", bday: "13 Ocak 1987" },
+    "Lee Soo-hyuk": { photo: "https://i.pinimg.com/736x/7b/c3/d5/7bc3d5ed3c06358c6854f8102f7e5896.jpg", bday: "31 Mayıs 1988" },
+    "Lee Sun-kyun": { photo: "https://i.pinimg.com/736x/a9/48/17/a9481704b860d03e9f0b123eb35592b6.jpg", bday: "2 Mart 1975" },
+    "Lee Tae-ri": { photo: "https://i.pinimg.com/736x/26/db/8b/26db8b853d35e1299cc68d8a64932fdd.jpg", bday: "28 Haziran 1993" },
+    "Lee Won-keun": { photo: "https://i.pinimg.com/1200x/4e/37/ff/4e37ff76748aed0e4b1c965f0c31ef39.jpg", bday: "27 Haziran 1991" },
+    "Lee Yi-kyung": { photo: "https://i.pinimg.com/1200x/c8/c3/5c/c8c35cb68e6b52cb86bebee28cf58754.jpg", bday: "8 Ocak 1989" },
+    "Lim Ju-hwan": { photo: "https://i.pinimg.com/736x/fb/5d/21/fb5d21bf756523e315b4d55ba7c5a87b.jpg", bday: "18 Mayıs 1982" },
+    "Ma Dong-seok": { photo: "https://i.pinimg.com/736x/18/2b/29/182b2939673823db56077ee023a3aaa1.jpg", bday: "1 Mart 1971" },
+    "Cha Hak-yeon": { photo: "https://i.pinimg.com/736x/0f/7e/ad/0f7eada970c972a300dfdba2546a92b6.jpg", bday: "30 Haziran 1990" },
+    "Na In-woo": { photo: "https://i.pinimg.com/736x/3b/4a/dd/3b4addf7849a769f2d82afdd5d333322.jpg", bday: "17 Eylül 1994" },
+    "Namkoong Min": { photo: "https://i.pinimg.com/736x/bc/2a/11/bc2a11dd1ae02764a59bdca2cfeef89c.jpg", bday: "12 Mart 1978" },
+    "Nam Da-reum": { photo: "https://i.pinimg.com/736x/f3/ff/34/f3ff347d242666811a5a826713e76751.jpg", bday: "13 Haziran 2002" },
+    "Nam Joo-hyuk": { photo: "https://i.pinimg.com/736x/f6/14/d6/f614d6484a54a4e28e164babcbe20eb2.jpg", bday: "22 Şubat 1994" },
+    "Nam Yoon-su": { photo: "https://i.pinimg.com/236x/db/db/a8/dbdba8eb7701d7c424d57c29e155b5ac.jpg", bday: "14 Temmuz 1997" },
+    "Taec-yeon": { photo: "https://i.pinimg.com/736x/12/1b/fe/121bfea1d12670985ffe7d869820fa74.jpg", bday: "27 Aralık 1988" },
+    "Park Bo-gum": { photo: "https://i.pinimg.com/1200x/3d/0c/99/3d0c992b9a64fa7e052656b06d401e63.jpg", bday: "16 Haziran 1993" },
+    "Park Hae-jin": { photo: "https://i.pinimg.com/1200x/37/31/64/3731643d1bf260d60688f9c3d7fb4b7b.jpg", bday: "1 Mayıs 1983" },
+    "Park Hyung-sik": { photo: "https://i.pinimg.com/736x/0a/5e/5a/0a5e5a6ec31088b3077a2f6fabe6378c.jpg", bday: "16 Kasım 1991" },
+    "Park Ji-hoon": { photo: "https://i.pinimg.com/736x/ae/21/96/ae21963754035a8f02398a0fb21e49a0.jpg", bday: "29 Mayıs 1999" },
+    "Park Seo-joon": { photo: "https://i.pinimg.com/736x/6c/62/ab/6c62abbea32f1d05ad70129f23c25272.jpg", bday: "16 Aralık 1988" },
+    "Park Sung-woong": { photo: "https://i.pinimg.com/736x/f4/c1/26/f4c1263aaa24f71958b7cd2c228b8952.jpg", bday: "9 Ocak 1973" },
+    "Rowoon": { photo: "https://i.pinimg.com/736x/1f/01/d0/1f01d0d610ac24213e09b4c7e3786344.jpg", bday: "7 Ağustos 1996" },
+    "Ryu Jun-yeol": { photo: "https://i.pinimg.com/1200x/c1/41/6a/c1416a30c5790878b68f2d1acb7f2fed.jpg", bday: "25 Eylül 1986" },
+    "Oh Sehun": { photo: "https://i.pinimg.com/1200x/80/1a/e1/801ae1153dd54267e973df164835fb5f.jpg", bday: "12 Nisan 1994" },
+    "Seo In-guk": { photo: "https://i.pinimg.com/736x/ee/86/1c/ee861cd741f1e4e3934855cb4a5d70b7.jpg", bday: "23 Ekim 1987" },
+    "Seo Kang-joon": { photo: "https://i.pinimg.com/736x/6f/c7/8b/6fc78b5158891af95c5002b99e183b01.jpg", bday: "12 Ekim 1993" },
+    "Shin Sung-rok": { photo: "https://i.pinimg.com/736x/0f/7d/2b/0f7d2b34f7dbcb3b0c0b60bb0a8b0250.jpg", bday: "23 Kasım 1982" },
+    "So Ji-sub": { photo: "https://i.pinimg.com/1200x/7c/03/2e/7c032e780bd97ccd85e638f18498bdf7.jpg", bday: "4 Kasım 1977" },
+    "Song Joong-ki": { photo: "https://i.pinimg.com/1200x/db/ca/ec/dbcaecbcce5b2c0ba998727445e7a439.jpg", bday: "19 Eylül 1985" },
+    "Song Kang": { photo: "https://i.pinimg.com/736x/8a/c1/8a/8ac18abd08cf4610546abe90b3f144f9.jpg", bday: "23 Nisan 1994" },
+    "Song Seung-heon": { photo: "https://i.pinimg.com/736x/66/5c/b3/665cb31dff1f0ac262c07cba3eb3316a.jpg", bday: "5 Ekim 1976" },
+    "Kim Jun-myeon": { photo: "https://i.pinimg.com/736x/90/61/be/9061be221a3ee865f7005fff0af5ee61.jpg", bday: "22 Mayıs 1991" },
+    "Sung Hoon": { photo: "https://i.pinimg.com/1200x/27/6f/77/276f7752050de97fb4ffcff871a076e1.jpg", bday: "14 Şubat 1983" },
+    "T.O.P": { photo: "https://i.pinimg.com/1200x/ad/76/91/ad769159b98d75bc100c343bb3a525cf.jpg", bday: "4 Kasım 1987" },
+    "Tang Jun-sang": { photo: "https://i.pinimg.com/736x/2b/8d/86/2b8d8634c837b858140da266973aa5c9.jpg", bday: "13 Ağustos 2003" },
+    "Wi Ha-joon": { photo: "https://i.pinimg.com/1200x/16/d7/86/16d78679a6ab8c7b794e5a2773555d9a.jpg", bday: "5 Ağustos 1991" },
+    "Woo Do-hwan": { photo: "https://i.pinimg.com/736x/f1/ce/5f/f1ce5f8af7006e73f39f39bb2279f692.jpg", bday: "12 Temmuz 1992" },
+    "Xiumin": { photo: "https://i.pinimg.com/736x/03/e4/a9/03e4a9b55dec603e1a6cc5c1b049dbeb.jpg", bday: "26 Mart 1990" },
+    "Yeo Jin-goo": { photo: "https://i.pinimg.com/1200x/6e/a2/e5/6ea2e57e5444162450fbc725f2b3440b.jpg", bday: "13 Ağustos 1997" },
+    "Yeon Woo-jin": { photo: "https://i.pinimg.com/736x/02/16/cf/0216cf41978a2f9587e345a9bd9a23bf.jpg", bday: "5 Temmuz 1984" },
+    "Yoo Ah-in": { photo: "https://i.pinimg.com/736x/52/0b/35/520b3568ac4cd701961e7db9b8f69560.jpg", bday: "6 Ekim 1986" },
+    "Yoo Ji-tae": { photo: "https://i.pinimg.com/736x/a3/55/32/a355328db796e7c2b58887cc7d2802af.jpg", bday: "13 Nisan 1976" },
+    "Yoo Seung-ho": { photo: "https://i.pinimg.com/736x/82/40/01/824001cdac64c1a0176fbe9b13a2c071.jpg", bday: "17 Ağustos 1993" },
+    "Yoo Yeon-seok": { photo: "https://i.pinimg.com/736x/ef/88/56/ef88564473069893aaaf82bb5cc6266b.jpg", bday: "11 Nisan 1984" },
+    "Yook Sung-jae": { photo: "https://i.pinimg.com/1200x/04/36/40/043640091044ba42599155525618a381.jpg", bday: "2 Mayıs 1995" },
+    "Yoon Doo-joon": { photo: "https://i.pinimg.com/1200x/43/76/46/4376468014382a2d2b3da7a9d9568ceb.jpg", bday: "4 Temmuz 1989" },
+    "Yoon Hyun-min": { photo: "https://i.pinimg.com/1200x/3a/93/f4/3a93f4b4144ed2cc9b02f55c98ca8671.jpg", bday: "15 Nisan 1985" },
+    "Yoon Kye-sang": { photo: "https://i.pinimg.com/1200x/e1/79/a3/e179a3adbeb78d754f5894b436071c53.jpg", bday: "20 Aralık 1978" },
+    "Yoon Shi-yoon": { photo: "https://i.pinimg.com/1200x/2b/56/30/2b56308a9021f6a612c1365a78b660ed.jpg", bday: "26 Eylül 1986" },
+    "Ahn Hyo-seop": { photo: "https://i.pinimg.com/1200x/5d/4f/5b/5d4f5b1bb8957d0adc466a0a32c03f8d.jpg", bday: "17 Nisan 1995" },
+    "Kim Myung-soo": { photo: "https://i.pinimg.com/736x/0f/c7/47/0fc7477a8697014eab8353aac5585635.jpg", bday: "13 Mart 1992" },
+    "Yang Se-jong": { photo: "https://i.pinimg.com/1200x/ee/49/22/ee492285b849d67633e0e56e7c42da63.jpg", bday: "23 Aralık 1992" },
+    "Shin Hyun-seung": { photo: "https://i.pinimg.com/736x/c1/b2/fe/c1b2fe2893c4da18dd08322ba0a2e36c.jpg", bday: "15 Temmuz 1998" },
+    "Kim Jae-young": { photo: "https://i.pinimg.com/736x/62/07/7e/62077eb0d7fa63a4436ea06bfa004967.jpg", bday: "30 Eylül 1988" },
+    "Choi Kyung-hoon": { photo: "https://i.pinimg.com/736x/20/92/9f/20929f071c4fb184c5e3570b79990469.jpg", bday: "9 Nisan 1993" },
+    "Jung Jin-young": { photo: "https://i.pinimg.com/736x/37/5d/ce/375dcedf045ff13c1bb7c86f38d96beb.jpg", bday: "18 Kasım 1991" },
+    "Kim Kyu-jong": { photo: "https://i.pinimg.com/736x/68/f4/a6/68f4a61b89d8855bd20a4bb5446aeb1d.jpg", bday: "24 Şubat 1987" },
+    "Ryeoun": { photo: "https://i.pinimg.com/736x/d8/fa/a0/d8faa0c175c0cca8f66642c1e291209b.jpg", bday: "26 Ağustos 1998" },
+    "Moon Bin": { photo: "https://i.pinimg.com/736x/7b/7d/0b/7b7d0b30d5d221268d6f6dc15beeeadc.jpg", bday: "26 Ocak 1998" },
+    "Ha Seok-jin": { photo: "https://i.pinimg.com/736x/9d/a6/eb/9da6eba65739d9ef3a13aeeb5b489539.jpg", bday: "5 Mart 1982" },
+    "Rain": { photo: "https://i.pinimg.com/1200x/98/40/a3/9840a37e70ac325776bed8954b2ba0e0.jpg", bday: "25 Haziran 1982" },
+    "Lee Won-geun": { photo: "", bday: "27 Haziran 1991" },
+    "Youngjae": { photo: "", bday: "17 Eylül 1996" },
+    "Jang Seung-jo": { photo: "", bday: "13 Aralık 1981" },
+    "Ong Seong-wu": { photo: "", bday: "25 Ağustos 1995" },
+    "Kim Kang-min": { photo: "", bday: "2 Aralık 1998" },
+    "Kim Do-wan": { photo: "", bday: "8 Mart 1995" },
+    "Shin Joon-seop": { photo: "", bday: "15 Ağustos 1998" },
+    "Lee Joon-hyuk": { photo: "", bday: "30 Ekim 1984" },
+    "Eric Moon": { photo: "", bday: "17 Kasım 1988" },
+    "Lee Jun-hyuk": { photo: "", bday: "15 Mart 1984" },
+    "Kim Jong-in": { photo: "", bday: "14 Ocak 1994" },
+    "Yang Hong-seok": { photo: "", bday: "17 Nisan 1994" },
+    "Yoon Kyun-sang": { photo: "", bday: "31 Mart 1987" },
+    "Han Joo-wan": { photo: "", bday: "10 Ocak 1984" },
+    "GOT7": { photo: "", bday: "16 Ocak 2014" },
+    "Kim Geon-won": { photo: "", bday: "4 Ağustos 1994" },
+    "Lim Jong-hyun": { photo: "", bday: "Bilinmiyor" },
+    "EXO": { photo: "", bday: "8 Nisan 2012" },
+    "Hyuk": { photo: "", bday: "5 Temmuz 1995" },
+    "Son Ho-jun": { photo: "", bday: "27 Haziran 1984" },
+    "Lee Jong-won": { photo: "", bday: "31 Aralık 1994" },
+    "Park Sun-ho": { photo: "", bday: "9 Mayıs 1993" },
+    "Choi Min-hwan": { photo: "", bday: "11 Kasım 1992" },
+    "Hyunjae": { photo: "", bday: "13 Eylül 1997" },
+    "Yunho": { photo: "", bday: "23 Mart 1999" },
+    "U-Kwon": { photo: "", bday: "9 Nisan 1992" },
+    "Bae Soo-bin": { photo: "", bday: "9 Aralık 1976" },
+    "Yoon Kye-sang": { photo: "", bday: "20 Aralık 1978" },
+    "Lee Seo-won": { photo: "", bday: "17 Şubat 1997" },
+    "Kang Ji-hwan": { photo: "", bday: "20 Mart 1977" },
+    "Hong Jung-hyun": { photo: "", bday: "2 Şubat 1990" },
+    "Kim Hyung-suk": { photo: "", bday: "Bilinmiyor" },
+    "Tae Yoo": { photo: "", bday: "20 Ocak 1981" },
+    "Jung Woo": { photo: "", bday: "14 Ocak 1981" },
+    "Kim Jin-woo": { photo: "", bday: "17 Temmuz 1983" },
+    "Lee Joon-gi": { photo: "", bday: "17 Nisan 1982" },
+    "Yoo Jin-goo": { photo: "", bday: "13 Ağustos 1997" },
+    "Uhm Tae-goo": { photo: "", bday: "9 Kasım 1983" },
+    "Kang Hoon": { photo: "", bday: "23 Mayıs 1991" },
+    "Choi Woo-sik": { photo: "", bday: "26 Mart 1990" },
+    "Park Hae-soo": { photo: "", bday: "21 Kasım 1981" },
+    "Park Solomon": { photo: "", bday: "11 Kasım 1999" },
+    "Kim Young-jae": { photo: "", bday: "5 Ekim 1975" },
+    "Kim Wook": { photo: "", bday: "10 Nisan 1992" },
+    "Lee Jung-hyun": { photo: "", bday: "7 Şubat 1980" },
+    "Han Ki-woong": { photo: "", bday: "30 Aralık 1987" },
+    "Park Yoo-chun": { photo: "", bday: "4 Haziran 1986" },
+    "Song Jae-rim": { photo: "", bday: "18 Şubat 1985" },
+    "Seo Jae-hyung": { photo: "", bday: "2 Nisan 1990" },
+    "Yoon Seo-bin": { photo: "", bday: "14 Aralık 1999" },
+    "Nam Yoon-su": { photo: "", bday: "14 Temmuz 1997" },
+    "Moon Sang-min": { photo: "", bday: "14 Nisan 2000" },
+    "Hongbin": { photo: "", bday: "29 Eylül 1993" },
+    "Kang Yul": { photo: "", bday: "9 Temmuz 1993" },
+    "Jung Hyuk": { photo: "", bday: "20 Eylül 1991" },
+    "Park Jin-young": { photo: "https://i.pinimg.com/1200x/b7/38/57/b7385718b43ce76f7bae045e80c40f91.jpg", bday: "22 Eylül 1994" }
+
+};
 
 const actorDetails = {
     "Ji Chang Wook": {
@@ -925,6 +1178,129 @@ const actorDetails = {
     }
 };
 
+const kpopData = [
+    {
+        group: "EXO",
+        debut: "2012",
+        fandom: "EXO-L",
+        color: "#000000",
+        logo: "https://i.pinimg.com/736x/2c/31/5d/2c315d18e8a8b12f8e956a228d4552.jpg",
+        members: ["Suho", "Xiumin", "Lay", "Baekhyun", "Chen", "Chanyeol", "D.O. (Kyungsoo)", "Kai", "Sehun"],
+        songs: [
+            { title: "Growl", year: "2013", youtubeId: "I3quezXDa3M" },
+            { title: "Love Shot", year: "2018", youtubeId: "pSudEWBKNRE" }
+        ]
+    },
+    {
+        group: "Stray Kids (SKZ)",
+        debut: "2018",
+        fandom: "STAY",
+        color: "#E30022",
+        logo: "https://i.pinimg.com/736x/8c/d7/8a/8cd78a8f1b6352011116123456789012.jpg",
+        members: ["Bang Chan", "Lee Know (Minho)", "Changbin", "Hyunjin", "Han", "Felix", "Seungmin", "I.N"],
+        songs: [{ title: "God's Menu", year: "2020", youtubeId: "TQTlCHxyuu8" }]
+    },
+    {
+        group: "BTS",
+        debut: "2013",
+        fandom: "ARMY",
+        color: "#A020F0",
+        logo: "https://i.pinimg.com/736x/b2/12/34/b21234567890abcdef1234567890abcd.jpg",
+        members: ["RM", "Jin", "Suga", "J-Hope", "Jimin", "V (Taehyung)", "Jungkook (JK)"],
+        songs: [{ title: "Dynamite", year: "2020", youtubeId: "gdZLi9hzHmM" }]
+    },
+    {
+        group: "GOT7",
+        debut: "2014",
+        fandom: "IGOT7 (Ahgase)",
+        color: "#00FF00",
+        logo: "https://i.pinimg.com/736x/g7/12/34/g71234567890abcdef1234567890abcd.jpg",
+        members: ["Jay B (Jaebom)", "Mark Tuan", "Jackson Wang", "Jinyoung", "Youngjae", "BamBam", "Yugyeom"],
+        songs: [{ title: "Just Right", year: "2015", youtubeId: "vrdk3M5fS" }]
+    },
+    {
+        group: "ATEEZ",
+        debut: "2018",
+        fandom: "ATINY",
+        color: "#DAA520",
+        logo: "https://i.pinimg.com/736x/a8/12/34/a81234567890abcdef1234567890abcd.jpg",
+        members: ["Hongjoong", "Seonghwa", "Yunho", "Yeosang", "San", "Mingi", "Wooyoung", "Jongho"],
+        songs: [{ title: "Bouncy", year: "2023", youtubeId: "PNU03U9S" }]
+    },
+    {
+        group: "SHINee",
+        debut: "2008",
+        fandom: "Shawol",
+        color: "#7FFFD4",
+        logo: "https://i.pinimg.com/736x/s1/12/34/s11234567890abcdef1234567890abcd.jpg",
+        members: ["Onew", "Jonghyun", "Key", "Minho", "Taemin"],
+        songs: [{ title: "Lucifer", year: "2010", youtubeId: "Dww9UjJ4Dt8" }]
+    },
+    {
+        group: "MONSTA X",
+        debut: "2015",
+        fandom: "Monbebe",
+        color: "#FF4500",
+        logo: "https://i.pinimg.com/736x/m1/12/34/m11234567890abcdef1234567890abcd.jpg",
+        members: ["Shownu", "Minhyuk", "Kihyun", "Hyungwon", "Joohoney", "I.M"],
+        songs: [{ title: "Hero", year: "2015", youtubeId: "FZ9lJ5ctd0s" }]
+    },
+    {
+        group: "TXT",
+        debut: "2019",
+        fandom: "MOA",
+        color: "#00CED1",
+        logo: "https://i.pinimg.com/736x/t1/12/34/t11234567890abcdef1234567890abcd.jpg",
+        members: ["Soobin", "Yeonjun", "Beomgyu", "Taehyun", "Huening Kai"],
+        songs: [{ title: "Blue Hour", year: "2020", youtubeId: "Vd9QWKu9S" }]
+    },
+    {
+        group: "ENHYPEN",
+        debut: "2020",
+        fandom: "ENGENE",
+        color: "#FFFFFF",
+        logo: "https://i.pinimg.com/736x/e1/12/34/e11234567890abcdef1234567890abcd.jpg",
+        members: ["Heeseung", "Jay", "Jake", "Sunghoon", "Sunoo", "Jungwon", "Ni-ki"],
+        songs: [{ title: "Bite Me", year: "2023", youtubeId: "wXFLzOTZ" }]
+    },
+    {
+        group: "2PM",
+        debut: "2008",
+        fandom: "Hottest",
+        color: "#808080",
+        logo: "https://i.pinimg.com/736x/p2/12/34/p21234567890abcdef1234567890abcd.jpg",
+        members: ["Jun. K", "Nichkhun", "Taecyeon", "Wooyoung", "Junho", "Chansung"],
+        songs: [{ title: "My House", year: "2015", youtubeId: "u2pFB1d" }]
+    },
+    {
+        group: "THE BOYZ",
+        debut: "2017",
+        fandom: "THE B",
+        color: "#FF0000",
+        logo: "https://i.pinimg.com/736x/tb/12/34/tb1234567890abcdef1234567890abcd.jpg",
+        members: ["Sangyeon", "Jacob", "Younghoon", "Hyunjae", "Juyeon", "Kevin", "New", "Q", "Juhaknyeon", "Sunwoo", "Eric"],
+        songs: [{ title: "The Stealer", year: "2020", youtubeId: "c_u0" }]
+    },
+    {
+        group: "NCT (All Units)",
+        debut: "2016",
+        fandom: "NCTzen",
+        color: "#CCFF00",
+        logo: "https://i.pinimg.com/736x/n1/12/34/n11234567890abcdef1234567890abcd.jpg",
+        members: ["Taeyong", "Taeil", "Johnny", "Yuta", "Kun", "Doyoung", "Ten", "Jaehyun", "Winwin", "Jungwoo", "Lucas", "Mark", "Xiaojun", "Hendery", "Renjun", "Jeno", "Haechan", "Jaemin", "Yangyang", "Chenle", "Jisung", "Shotaro", "Sungchan"],
+        songs: [{ title: "Kick It", year: "2020", youtubeId: "2OvyA2__Lan" }]
+    },
+    {
+        group: "SEVENTEEN",
+        debut: "2015",
+        fandom: "CARAT",
+        color: "#F7CAC9",
+        logo: "https://i.pinimg.com/736x/sv/12/34/sv1234567890abcdef1234567890abcd.jpg",
+        members: ["S.Coups", "Jeonghan", "Joshua", "Jun", "Hoshi", "Wonwoo", "Woozi", "The8", "Mingyu", "DK (Deokyeom)", "Seungkwan", "Vernon", "Dino"],
+        songs: [{ title: "Super", year: "2023", youtubeId: "-HQreV-EP" }]
+    }
+];
+
 document.addEventListener('DOMContentLoaded', () => {
     const wordGrid = document.getElementById('wordGrid');
     const searchWrapper = document.getElementById('searchWrapper');
@@ -935,17 +1311,17 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- 1. MODÜL BAŞLATICI ✨ ---
     window.startModule = function(moduleType) {
         mainMenu.style.display = "none";
-        // Arama çubuğunu sadece 'kelimeler' ve 'tüm diziler/oyuncular' kısmında gösteriyoruz
         searchWrapper.style.display = (moduleType === 'words') ? "flex" : "none";
         wordGrid.innerHTML = "";
+        wordGrid.className = "word-grid";
         searchInput.value = ""; 
         
-        if (moduleType === 'alphabet') displayWords("", "🇰🇷 HANGUL ALFABESİ");
+        if (moduleType === 'alphabet') window.displayWords("", "🇰🇷 HANGUL ALFABESİ");
         else if (moduleType === 'words') displayCategoryMenu();
-        else if (moduleType === 'numbers') displayWords("", "🔢 SAYILAR");
-        else if (moduleType === 'random') displayRandomWords(); // Eğer bu fonksiyonunuz allWords içindeyse çalışır
+        else if (moduleType === 'numbers') window.displayWords("", "🔢 SAYILAR");
+        else if (moduleType === 'random') window.displayRandomWords(); 
         else if (moduleType === 'kdrama') window.displayKdramas();
-        else if (moduleType === 'kpop') displayKpop();
+        else if (moduleType === 'kpop') window.displayKpop();
     };
 
     // --- 2. KELİME KATEGORİ MENÜSÜ ✨ ---
@@ -961,66 +1337,103 @@ document.addEventListener('DOMContentLoaded', () => {
             catCard.innerHTML = `<h3>${cat}</h3><p style="font-size:0.8rem; opacity:0.7; margin-top:5px;">${allWords[cat].length} Kelime</p>`;
             catCard.onclick = () => {
                 wordGrid.className = "word-grid";
-                displayWords("", cat);
+                window.displayWords("", cat);
             };
             wordGrid.appendChild(catCard);
         }
     }
 
-    // --- 3. KELİME GÖSTERİMİ ✨ ---
+    // --- 3. KELİME GÖSTERİMİ VE KART OLUŞTURUCU ✨ ---
     window.displayWords = function(searchTerm = "", selectedCategory) {
-        wordGrid.innerHTML = "";
-        wordGrid.className = "word-grid";
-        searchWrapper.style.display = "flex";
-        const term = searchTerm.toLowerCase().trim();
-        const backAction = (selectedCategory === "🇰🇷 HANGUL ALFABESİ" || selectedCategory === "🔢 SAYILAR") ? "goHome()" : "startModule('words')";
+    wordGrid.innerHTML = "";
+    wordGrid.className = "word-grid";
+    searchWrapper.style.display = "flex";
+    
+    const term = searchTerm.toLowerCase().trim();
+    
+    // Koşul ve geri dönüş aksiyonu doğru
+    const backAction = (selectedCategory === "🇰🇷 HANGUL ALFABESİ" || selectedCategory === "🔢 SAYILAR") 
+        ? "goHome()" 
+        : "startModule('words')";
+    
+    // Tırnak çakışmasını önlemek için onclick='${backAction}' yapısı daha güvenli
+    categoryButtons.innerHTML = `
+        <button class="cat-btn" onclick='${backAction}'>⬅️ Geri Dön</button>
+        <h2>${selectedCategory}</h2>
+    `;
+
+    const words = allWords[selectedCategory] || [];
+    
+    words.forEach(item => {
+        // null/undefined kontrolü eklemek çökmeleri önler
+        const trMatch = item.turkce && item.turkce.toLowerCase().includes(term);
+        const korMatch = item.korece && item.korece.includes(term);
         
-        categoryButtons.innerHTML = `
-            <button class="cat-btn" onclick="${backAction}">⬅️ Geri Dön</button>
-            <h2>${selectedCategory}</h2>
-        `;
+        if (term === "" || trMatch || korMatch) {
+            createCard(item);
+        }
+    });
+};
 
-        const words = allWords[selectedCategory] || [];
-        words.forEach(item => {
-            if (term === "" || item.turkce.toLowerCase().includes(term) || item.korece.includes(term)) {
-                createCard(item);
+    function createCard(item) {
+        const card = document.createElement('div');
+        card.className = 'word-card animate-in';
+        const cleanKor = item.korece.replace(/[^\uAC00-\uD7A3]/g, '');
+        const korH = item.ornek ? item.ornek.replace(new RegExp(`(${cleanKor})`, 'g'), `<span class="highlight-white">$1</span>`) : "";
+        let okunusH = item.ornekOkunus || "";
+        if (item.okunus && okunusH) {
+            const root = item.okunus.toLowerCase().replace(/[^a-z]/g, '').substring(0, 3);
+            if (root.length >= 2) {
+                okunusH = okunusH.replace(new RegExp(`(${root}[a-z]*)`, 'gi'), `<span class="highlight-pink-soft">$1</span>`);
             }
-        });
-    };
+        }
+        card.innerHTML = `
+            <div class="card-inner">
+                <div class="card-front">
+                    <h3 style="font-size:2.2rem; color:var(--primary-color);">${item.korece}</h3>
+                    <div class="pronunciation">[${item.okunus}]</div>
+                    <span style="font-weight:800; border-top:1px dashed var(--accent-color); padding-top:10px; width:85%;">${item.turkce}</span>
+                </div>
+                <div class="card-back">
+                    <p style="font-weight:900; font-size:1.4rem;">${korH}</p>
+                    <p style="font-size:1.1rem; color:#fff; background:rgba(255,255,255,0.2); padding:5px 12px; border-radius:10px;">[${okunusH}]</p>
+                    <p class="sentence-tr">${item.ornekTr}</p>
+                </div>
+            </div>`;
+        card.onclick = () => card.classList.toggle('is-flipped');
+        wordGrid.appendChild(card);
+    }
 
-    // --- 4. KDRAMA ANA MENÜSÜ ✨ ---
     // --- 4. KDRAMA ANA MENÜSÜ ✨ ---
     window.displayKdramas = function() {
         wordGrid.innerHTML = "";
         wordGrid.className = "category-grid-layout"; 
         searchWrapper.style.display = "none";
-        
-        // İstatistikler (Dinamik)
         const totalDramas = kdramaData.length;
+        
         categoryButtons.innerHTML = `
             <button class="cat-btn" onclick="goHome()">⬅️ Ana Menü</button>
             <h2>🎬 KDRAMA DÜNYASI</h2>
             <div class="stats-bar animate-in">📊 <b>${totalDramas}</b> Dizi Kayıtlı</div>
         `;
-
         const subCategories = [
             { id: 'all_dramas', title: '🎬 Tüm Diziler', icon: '📺' },
+            { id: 'genres', title: '🎭 Türlere Göre', icon: '🏷️' },
             { id: 'actors', title: '👤 Koreli Oyuncular', icon: '🌟' },
             { id: 'years', title: '📅 Yıllara Göre', icon: '⏳' },
-            { id: 'favs', title: '❤️ Favorilerim', icon: '💖' } // Buton burada
+            { id: 'favs', title: '❤️ Favorilerim', icon: '💖' }
         ];
 
         subCategories.forEach(sub => {
             const card = document.createElement('div');
             card.className = 'menu-card animate-in';
-            card.innerHTML = `<div style="font-size: 3rem; margin-bottom: 15px;">${sub.icon}</div><h3 style="color: var(--primary-color);">${sub.title}</h3>`;
-            
-            // TIKLAMA OLAYI BURADA ✨
+            card.innerHTML = `<div style="font-size: 3rem; margin-bottom: 15px;">${sub.icon}</div><h3>${sub.title}</h3>`;
             card.onclick = () => {
                 if (sub.id === 'all_dramas') window.showAllDramas();
+                else if (sub.id === 'genres') window.showGenresMenu();
                 else if (sub.id === 'actors') window.showActorsMenu();
                 else if (sub.id === 'years') window.showYearsMenu();
-                else if (sub.id === 'favs') window.showFavorites(); // Favorileri çağıran satır
+                else if (sub.id === 'favs') window.showFavorites();
             };
             wordGrid.appendChild(card);
         });
@@ -1032,28 +1445,91 @@ document.addEventListener('DOMContentLoaded', () => {
         wordGrid.className = "category-grid-layout";
         searchWrapper.style.display = "flex";
         categoryButtons.innerHTML = `<button class="cat-btn" onclick="window.displayKdramas()">⬅️ Geri Dön</button><h2>📺 TÜM DİZİLER</h2>`;
-
         const term = searchTerm.toLowerCase().trim();
         kdramaData.filter(d => (d.title || "").toLowerCase().includes(term) || (d.cast || "").toLowerCase().includes(term))
                   .forEach(drama => window.createDramaCard(drama));
     };
 
+    // --- OYUNCULAR MENÜSÜ ✨ ---
     window.showActorsMenu = function(searchTerm = "") {
         wordGrid.innerHTML = "";
-        wordGrid.className = "category-grid-layout";
+        wordGrid.className = "category-grid-layout"; 
         searchWrapper.style.display = "flex";
         categoryButtons.innerHTML = `<button class="cat-btn" onclick="window.displayKdramas()">⬅️ Geri Dön</button><h2>🌟 KORELİ OYUNCULAR</h2>`;
 
+        const calculateAge = (birthdayStr) => {
+            if (!birthdayStr || birthdayStr === "Bilinmiyor" || birthdayStr === "") return "??";
+            try {
+                const monthMap = {"Ocak":0,"Şubat":1,"Mart":2,"Nisan":3,"Mayıs":4,"Haziran":5,"Temmuz":6,"Ağustos":7,"Eylül":8,"Ekim":9,"Kasım":10,"Aralık":11};
+                const parts = birthdayStr.trim().split(" ");
+                if (parts.length < 3) return "??";
+                const day = parseInt(parts[0]);
+                const month = monthMap[parts[1]];
+                const year = parseInt(parts[2]);
+                const birthDate = new Date(year, month, day);
+                const today = new Date();
+                let age = today.getFullYear() - birthDate.getFullYear();
+                const m = today.getMonth() - birthDate.getMonth();
+                if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) { age--; }
+                return isNaN(age) ? "??" : age;
+            } catch (e) { return "??"; }
+        };
+
         let allActors = [];
         kdramaData.forEach(d => { if(d.cast) allActors.push(...d.cast.split(',').map(a => a.trim())); });
-        const uniqueActors = [...new Set(allActors)].sort();
+        let actorCounts = {};
+        allActors.forEach(actor => { actorCounts[actor] = (actorCounts[actor] || 0) + 1; });
+        const sortedActors = Object.keys(actorCounts).sort((a, b) => actorCounts[b] - actorCounts[a]);
         const term = searchTerm.toLowerCase().trim();
+        const defaultPhoto = "https://via.placeholder.com/150/fff0f5/d81b60?text=👤";
 
-        uniqueActors.filter(a => a.toLowerCase().includes(term)).forEach(actor => {
+        sortedActors.filter(a => a.toLowerCase().includes(term)).forEach(actor => {
             const card = document.createElement('div');
-            card.className = 'menu-card animate-in';
-            card.style.padding = "20px";
-            card.innerHTML = `<div style="font-size:1.5rem;">👤</div><h3>${actor}</h3>`;
+            card.className = 'menu-card actor-card animate-in';
+            
+            const normalize = (name) => name.toLowerCase().replace(/[\s-]/g, '');
+            const actorKey = Object.keys(actorPhotos).find(key => normalize(key) === normalize(actor));
+            
+            const info = actorKey ? actorPhotos[actorKey] : { photo: "", bday: "Bilinmiyor" };
+            const age = calculateAge(info.bday);
+            const finalImg = (info.photo && info.photo.trim() !== "") ? info.photo : defaultPhoto;
+            
+            let photoHTML = `<img src="${finalImg}" alt="${actor}" class="actor-menu-photo">`;
+
+            if (actor === "Lee Yi-kyung") {
+    photoHTML = `
+        <div class="special-photo-wrapper">
+            <img src="https://asianwiki.com/images/a/a2/Lee_Yi-Kyung-p1.jpg" class="actor-menu-photo half">
+            <img src="https://64.media.tumblr.com/f0490b63e80d44005b4a92964b971a81/tumblr_p4v7e9D9vM1w6nkeoo1_400.gif" class="actor-menu-photo half">
+        </div>
+    `;
+}card.innerHTML = `
+    <div class="actor-photo-container">
+        ${photoHTML}
+    </div>
+    <h3 style="color:var(--text-deep-pink); font-size:1.5rem; font-weight:900; margin-bottom:5px;">${actor}</h3>
+    <div style="width:100%; margin-top:5px; padding:12px; background:rgba(255,133,161,0.15); border-radius:20px;">
+        <p style="font-size:1rem; color:var(--text-deep-pink); font-weight:800; margin:0;">🎂 ${info.bday}</p>
+        <p style="font-size:0.95rem; color:var(--primary-color); font-weight:bold; margin-top:3px;">(${age} Yaşında)</p>
+    </div>
+    <p style="font-size:0.85rem; opacity:0.7; margin-top:12px; font-weight:600;">🎬 ${actorCounts[actor]} Dizi Kayıtlı</p>
+`;
+
+            card.innerHTML = `
+                <div class="actor-photo-container">
+                    <img src="${finalImg}" alt="${actor}" class="actor-menu-photo">
+                </div>
+                <h3 style="color:var(--text-deep-pink); font-size:1.5rem; font-weight:900; margin-bottom:5px;">${actor}</h3>
+                <div style="width:100%; margin-top:5px; padding:12px; background:rgba(255,133,161,0.15); border-radius:20px;">
+                    <p style="font-size:1rem; color:var(--text-deep-pink); font-weight:800; margin:0;">
+                        🎂 ${info.bday}
+                    </p>
+                    <p style="font-size:0.95rem; color:var(--primary-color); font-weight:bold; margin-top:3px;">
+                        (${age} Yaşında)
+                    </p>
+                </div>
+                <p style="font-size:0.85rem; opacity:0.7; margin-top:12px; font-weight:600;">🎬 ${actorCounts[actor]} Dizi Kayıtlı</p>
+            `;
             card.onclick = () => window.showFilteredDramas(actor, 'actor');
             wordGrid.appendChild(card);
         });
@@ -1064,126 +1540,133 @@ document.addEventListener('DOMContentLoaded', () => {
         wordGrid.className = "category-grid-layout";
         searchWrapper.style.display = "none";
         categoryButtons.innerHTML = `<button class="cat-btn" onclick="window.displayKdramas()">⬅️ Geri Dön</button><h2>📅 YILLARA GÖRE DİZİLER</h2>`;
-
         const years = [...new Set(kdramaData.map(d => d.year))].sort((a,b) => b - a);
         years.forEach(year => {
             const card = document.createElement('div');
             card.className = 'menu-card animate-in';
-            card.style.padding = "20px";
-            card.innerHTML = `<div style="font-size:1.5rem;">📅</div><h3 style="font-size: 1.5rem;">${year}</h3>`;
+            card.innerHTML = `<div style="font-size:1.5rem;">📅</div><h3>${year}</h3>`;
             card.onclick = () => window.showFilteredDramas(year, 'year');
             wordGrid.appendChild(card);
         });
     };
 
-    window.showFilteredDramas = function(value, type) {
-    wordGrid.innerHTML = "";
-    wordGrid.className = "category-grid-layout";
-    searchWrapper.style.display = "none";
-    
-    const backFunc = type === 'actor' ? "window.showActorsMenu()" : "window.showYearsMenu()";
-    
-    // Eğer oyuncuysa profil bilgilerini hazırla ✨
-    let actorHeaderHTML = "";
-    if (type === 'actor' && actorDetails[value]) {
-        const actor = actorDetails[value];
-        actorHeaderHTML = `
-            <div class="actor-profile-card animate-in">
-                <img src="${actor.photo}" alt="${value}">
-                <div class="actor-info-text">
-                    <h2>${value}</h2>
-                    <p>${actor.bio}</p>
-                    <span class="insta-tag">📱 ${actor.insta}</span>
-                </div>
-            </div>
-            <h3 style="margin: 30px 0 15px 0; color: var(--primary-color);">Dizileri (${kdramaData.filter(d => d.cast.includes(value)).length})</h3>
-        `;
-    } else {
-        actorHeaderHTML = `<h2>✨ ${value} DİZİLERİ</h2>`;
-    }
-
-    categoryButtons.innerHTML = `
-        <button class="cat-btn" onclick="${backFunc}">⬅️ Geri Dön</button>
-        ${actorHeaderHTML}
-    `;
-
-    kdramaData.filter(d => type === 'year' ? d.year === value : d.cast.includes(value))
-              .forEach(drama => window.createDramaCard(drama));
-};
-
-    // --- 6. YARDIMCI KART OLUŞTURUCULAR ---
-    window.createDramaCard = function(drama) {
-    const card = document.createElement('div');
-    card.className = 'category-item-card animate-in';
-    const imageSrc = drama.afis || "https://via.placeholder.com/300x450?text=No+Image";
-    
-    // Favori kontrolü
-    let favorites = JSON.parse(localStorage.getItem('kdramaFavs')) || [];
-    const isFav = favorites.includes(drama.title);
-
-    card.innerHTML = `
-        <div class="poster-container">
-            <span class="episode-badge">${drama.episodes || "?"} Bölüm</span>
-            <button class="fav-btn ${isFav ? 'active' : ''}" onclick="event.stopPropagation(); window.toggleFavorite('${drama.title}')">
-                ${isFav ? '❤️' : '🤍'}
-            </button>
-            <img src="${imageSrc}" alt="${drama.title}">
-        </div>
-        <div class="card-info">
-            <h3>${drama.title}</h3>
-            <p>${drama.year} - ${drama.cast}</p>
-        </div>
-    `;
-    wordGrid.appendChild(card);
-};
-
-// Favori Ekleme/Çıkarma Mantığı ✨
-    window.toggleFavorite = function(title) {
-    let favorites = JSON.parse(localStorage.getItem('kdramaFavs')) || [];
-    if (favorites.includes(title)) {
-        favorites = favorites.filter(f => f !== title);
-    } else {
-        favorites.push(title);
-    }
-    localStorage.setItem('kdramaFavs', JSON.stringify(favorites));
-    
-    // Hangi sayfadaysak orayı yenile ✨
-    const currentTitle = categoryButtons.querySelector('h2').innerText;
-    if (currentTitle === "💖 FAVORİ DİZİLERİM") {
-        window.showFavorites();
-    } else if (currentTitle === "📺 TÜM DİZİLER") {
-        window.showAllDramas(searchInput.value);
-    } else {
-        // Diğer durumlarda (Oyuncu/Yıl alt sayfaları gibi)
-        // Mevcut görünümü korumak için ilgili fonksiyonu tekrar çağırabilirsin
-    }
-};
-
-    function createCard(item) {
-        const card = document.createElement('div');
-        card.className = 'word-card animate-in';
-        const korH = item.ornek ? item.ornek.replace(new RegExp(`(${item.korece.replace(/[^\uAC00-\uD7A3]/g, '')})`, 'g'), `<span class="highlight-white">$1</span>`) : "";
-        let okunusH = item.ornekOkunus || "";
-        if (item.okunus && okunusH) {
-            const root = item.okunus.toLowerCase().split('/')[0].trim().substring(0, 2);
-            okunusH = okunusH.replace(new RegExp(`(${root}[a-z-]*)`, 'gi'), `<span class="highlight-pink-soft">$1</span>`);
-        }
-        card.innerHTML = `<div class="card-inner"><div class="card-front"><h3 style="font-size:2.2rem; color:var(--primary-color);">${item.korece}</h3><div class="pronunciation">[${item.okunus}]</div><span style="font-weight:800; border-top:1px dashed var(--accent-color); padding-top:10px; width:85%;">${item.turkce}</span></div><div class="card-back"><p style="font-weight:900; font-size:1.4rem;">${korH}</p><p style="font-size:1.1rem; color:#fff; background:rgba(255,255,255,0.2); padding:5px 12px; border-radius:10px;">[${okunusH}]</p><p class="sentence-tr">${item.ornekTr}</p></div></div>`;
-        card.onclick = () => card.classList.toggle('is-flipped');
-        wordGrid.appendChild(card);
-    }
-
-    // --- 7. ARAMA VE NAVİGASYON ---
-    searchInput.addEventListener('input', (e) => {
-        const val = e.target.value;
-        const h2 = categoryButtons.querySelector('h2');
-        if (!h2) return;
-        const title = h2.innerText;
+    window.showGenresMenu = function() {
+        wordGrid.innerHTML = "";
+        wordGrid.className = "category-grid-layout";
+        searchWrapper.style.display = "none";
+        categoryButtons.innerHTML = `<button class="cat-btn" onclick="window.displayKdramas()">⬅️ Geri Dön</button><h2>🎭 TÜRLERE GÖRE</h2>`;
         
-        if (title === "📺 TÜM DİZİLER") window.showAllDramas(val);
-        else if (title === "🌟 KORELİ OYUNCULAR") window.showActorsMenu(val);
-        else if (title !== "🎬 KDRAMA DÜNYASI") window.displayWords(val, title);
-    });
+        let allGenres = [];
+        kdramaData.forEach(d => { if(d.genre) allGenres.push(...d.genre.split(',').map(g => g.trim())); });
+        const uniqueGenres = [...new Set(allGenres)].sort();
+        
+        uniqueGenres.forEach(genre => {
+            const card = document.createElement('div');
+            card.className = 'menu-card animate-in';
+            card.innerHTML = `<div style="font-size:1.5rem;">🏷️</div><h3>${genre}</h3>`;
+            card.onclick = () => window.showFilteredDramas(genre, 'genre');
+            wordGrid.appendChild(card);
+        });
+    };
+
+    window.showFilteredDramas = function(value, type) {
+        wordGrid.innerHTML = "";
+        wordGrid.className = "category-grid-layout";
+        searchWrapper.style.display = "none";
+        
+        const backFunc = type === 'actor' ? "window.showActorsMenu()" : 
+                        type === 'genre' ? "window.showGenresMenu()" : "window.showYearsMenu()";
+        
+        let headerHTML = "";
+        if (type === 'actor' && window.actorDetails && actorDetails[value]) {
+            const actor = actorDetails[value];
+            headerHTML = `<div class="actor-profile-card animate-in"><img src="${actor.photo}" alt="${value}"><div class="actor-info-text"><h2>${value}</h2><p>${actor.bio}</p><span class="insta-tag">📱 ${actor.insta}</span></div></div>`;
+        } else {
+            headerHTML = `<h2>✨ ${value} DİZİLERİ</h2>`;
+        }
+
+        categoryButtons.innerHTML = `<button class="cat-btn" onclick="${backFunc}">⬅️ Geri Dön</button>${headerHTML}`;
+        kdramaData.filter(d => {
+            if(type === 'year') return d.year === value;
+            if(type === 'genre') return d.genre && d.genre.includes(value);
+            return d.cast && d.cast.includes(value);
+        }).forEach(drama => window.createDramaCard(drama));
+    };
+
+    // --- 6. DİZİ KARTI VE FAVORİ SİSTEMİ ✨ ---
+    window.createDramaCard = function(drama) {
+        const card = document.createElement('div');
+        card.className = 'kdrama-card animate-in'; 
+        let favorites = JSON.parse(localStorage.getItem('kdramaFavs')) || [];
+        const isFav = favorites.includes(drama.title);
+        card.innerHTML = `
+            <div class="card-inner">
+                <div class="card-front">
+                    <div class="poster-container">
+                        <img src="${drama.afis || 'https://via.placeholder.com/300x450'}" alt="${drama.title}">
+                        <span class="episode-badge">${drama.episodes || "?"} Bölüm</span>
+                        <button class="fav-btn ${isFav ? 'active' : ''}" onclick="event.stopPropagation(); window.toggleFavorite('${drama.title}')">
+                            ${isFav ? '❤️' : '🤍'}
+                        </button>
+                    </div>
+                    <div class="card-info"><h3>${drama.title}</h3></div>
+                </div>
+                <div class="card-back">
+                    <div class="back-content">
+                        <h3 class="back-title">${drama.title}</h3>
+                        <div class="card-divider"></div>
+                        <p class="back-description">${drama.ozet || "Konu eklenmemiş."}</p>
+                        <div class="card-divider"></div>
+                        <div class="back-details">
+                            <p><strong>Puan:</strong> 💖 ${drama.puan || '?'}</p>
+                            <p><strong>Kadro:</strong> ${drama.cast}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>`;
+        card.onclick = (e) => {
+            if (!e.target.closest('.fav-btn')) card.classList.toggle('is-flipped');
+        };
+        wordGrid.appendChild(card);
+    };
+
+    window.toggleFavorite = function(title) {
+        let favorites = JSON.parse(localStorage.getItem('kdramaFavs')) || [];
+        if (favorites.includes(title)) {
+            favorites = favorites.filter(f => f !== title);
+        } else {
+            favorites.push(title);
+        }
+        localStorage.setItem('kdramaFavs', JSON.stringify(favorites));
+        const currentHeader = categoryButtons.querySelector('h2');
+        if (currentHeader) {
+            if (currentHeader.innerText === "💖 FAVORİ DİZİLERİM") window.showFavorites();
+            else if (currentHeader.innerText === "📺 TÜM DİZİLER") window.showAllDramas(searchInput.value);
+        }
+    };
+
+    window.showFavorites = function() {
+        wordGrid.innerHTML = "";
+        wordGrid.className = "category-grid-layout";
+        searchWrapper.style.display = "none"; 
+        categoryButtons.innerHTML = `<button class="cat-btn" onclick="window.displayKdramas()">⬅️ Geri Dön</button><h2>💖 FAVORİ DİZİLERİM</h2>`;
+        const favorites = JSON.parse(localStorage.getItem('kdramaFavs')) || [];
+        if (favorites.length === 0) {
+            wordGrid.innerHTML = `<div style="grid-column: 1/-1; text-align: center; padding: 50px;"><p style="font-size: 1.2rem; opacity: 0.7;">Henüz hiçbir diziyi kalplemedin... ❤️</p></div>`;
+            return;
+        }
+        kdramaData.filter(d => favorites.includes(d.title)).forEach(d => window.createDramaCard(d));
+    };
+
+    // --- 7. DİĞER FONKSİYONLAR ---
+    window.displayRandomWords = function() {
+        wordGrid.innerHTML = "";
+        wordGrid.className = "word-grid";
+        categoryButtons.innerHTML = `<button class="cat-btn" onclick="goHome()">⬅️ Ana Menü</button><h2>🎲 HIZLI PRATİK</h2><button class="cat-btn" style="background:var(--secondary-color); margin-top:10px;" onclick="window.displayRandomWords()">🔄 Yeniden Karıştır</button>`;
+        let pool = [];
+        for (const cat in allWords) { if (cat !== "🇰🇷 HANGUL ALFABESİ") pool.push(...allWords[cat]); }
+        pool.sort(() => Math.random() - 0.5).slice(0, 12).forEach(item => createCard(item));
+    };
 
     window.goHome = function() {
         mainMenu.style.display = "block";
@@ -1199,7 +1682,16 @@ document.addEventListener('DOMContentLoaded', () => {
         categoryButtons.innerHTML = `<button class="cat-btn" onclick="goHome()">⬅️ Geri Dön</button><h2>🎵 K-POP AREA</h2>`;
     };
 
-    // --- 8. GECE MODU ---
+    searchInput.addEventListener('input', (e) => {
+        const val = e.target.value;
+        const h2 = categoryButtons.querySelector('h2');
+        if (!h2) return;
+        const title = h2.innerText;
+        if (title === "📺 TÜM DİZİLER") window.showAllDramas(val);
+        else if (title === "🌟 KORELİ OYUNCULAR") window.showActorsMenu(val);
+        else if (mainMenu.style.display === "none") window.displayWords(val, title);
+    });
+
     const themeToggle = document.getElementById('themeToggle');
     const currentTheme = localStorage.getItem('theme') || 'light';
     document.documentElement.setAttribute('data-theme', currentTheme);
@@ -1212,34 +1704,4 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('theme', newTheme);
         themeToggle.textContent = newTheme === 'dark' ? '☀️' : '🌙';
     });
-
-    // --- FAVORİ DİZİLERİ GÖSTEREN FONKSİYON ✨ ---
-    window.showFavorites = function() {
-        wordGrid.innerHTML = "";
-        wordGrid.className = "category-grid-layout";
-        searchWrapper.style.display = "none"; 
-        
-        categoryButtons.innerHTML = `
-            <button class="cat-btn" onclick="window.displayKdramas()">⬅️ Geri Dön</button>
-            <h2>💖 FAVORİ DİZİLERİM</h2>
-        `;
-
-        // Hafızadan çek
-        const favorites = JSON.parse(localStorage.getItem('kdramaFavs')) || [];
-
-        if (favorites.length === 0) {
-            wordGrid.innerHTML = `
-                <div style="grid-column: 1/-1; text-align: center; padding: 50px;">
-                    <p style="font-size: 1.2rem; opacity: 0.7;">Henüz hiçbir diziyi kalplemedin... ❤️</p>
-                </div>
-            `;
-            return;
-        }
-
-        // Favorileri kdramaData içinden bul ve kartlarını oluştur
-        const favList = kdramaData.filter(drama => favorites.includes(drama.title));
-        favList.forEach(drama => window.createDramaCard(drama));
-    };
-
-
 });
