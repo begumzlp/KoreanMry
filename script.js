@@ -1323,7 +1323,8 @@ const kpopData = [
     }
 ];
 
-document.addEventListener('DOMContentLoaded', () => {
+
+        document.addEventListener('DOMContentLoaded', () => {
     const wordGrid = document.getElementById('wordGrid');
     const searchWrapper = document.getElementById('searchWrapper');
     const searchInput = document.getElementById('searchInput');
@@ -1367,35 +1368,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- 3. KELİME GÖSTERİMİ VE KART OLUŞTURUCU ✨ ---
     window.displayWords = function(searchTerm = "", selectedCategory) {
-    wordGrid.innerHTML = "";
-    wordGrid.className = "word-grid";
-    searchWrapper.style.display = "flex";
-    
-    const term = searchTerm.toLowerCase().trim();
-    
-    // Koşul ve geri dönüş aksiyonu doğru
-    const backAction = (selectedCategory === "🇰🇷 HANGUL ALFABESİ" || selectedCategory === "🔢 SAYILAR") 
-        ? "goHome()" 
-        : "startModule('words')";
-    
-    // Tırnak çakışmasını önlemek için onclick='${backAction}' yapısı daha güvenli
-    categoryButtons.innerHTML = `
-        <button class="cat-btn" onclick='${backAction}'>⬅️ Geri Dön</button>
-        <h2>${selectedCategory}</h2>
-    `;
-
-    const words = allWords[selectedCategory] || [];
-    
-    words.forEach(item => {
-        // null/undefined kontrolü eklemek çökmeleri önler
-        const trMatch = item.turkce && item.turkce.toLowerCase().includes(term);
-        const korMatch = item.korece && item.korece.includes(term);
+        wordGrid.innerHTML = "";
+        wordGrid.className = "word-grid";
+        searchWrapper.style.display = "flex";
+        const term = searchTerm.toLowerCase().trim();
+        const backAction = (selectedCategory === "🇰🇷 HANGUL ALFABESİ" || selectedCategory === "🔢 SAYILAR") ? "goHome()" : "startModule('words')";
         
-        if (term === "" || trMatch || korMatch) {
-            createCard(item);
-        }
-    });
-};
+        categoryButtons.innerHTML = `
+            <button class="cat-btn" onclick="${backAction}">⬅️ Geri Dön</button>
+            <h2>${selectedCategory}</h2>
+        `;
+
+        const words = allWords[selectedCategory] || [];
+        words.forEach(item => {
+            const trMatch = item.turkce && item.turkce.toLowerCase().includes(term);
+            const korMatch = item.korece && item.korece.includes(term);
+            if (term === "" || trMatch || korMatch) {
+                createCard(item);
+            }
+        });
+    };
 
     function createCard(item) {
         const card = document.createElement('div');
@@ -1472,7 +1464,6 @@ document.addEventListener('DOMContentLoaded', () => {
                   .forEach(drama => window.createDramaCard(drama));
     };
 
-    // --- OYUNCULAR MENÜSÜ ✨ ---
     window.showActorsMenu = function(searchTerm = "") {
         wordGrid.innerHTML = "";
         wordGrid.className = "category-grid-layout"; 
@@ -1519,39 +1510,25 @@ document.addEventListener('DOMContentLoaded', () => {
             let photoHTML = `<img src="${finalImg}" alt="${actor}" class="actor-menu-photo">`;
 
             if (actor === "Lee Yi-kyung") {
-    photoHTML = `
-        <div class="special-photo-wrapper">
-            <img src="https://asianwiki.com/images/a/a2/Lee_Yi-Kyung-p1.jpg" class="actor-menu-photo half">
-            <img src="https://64.media.tumblr.com/f0490b63e80d44005b4a92964b971a81/tumblr_p4v7e9D9vM1w6nkeoo1_400.gif" class="actor-menu-photo half">
-        </div>
-    `;
-}card.innerHTML = `
-    <div class="actor-photo-container">
-        ${photoHTML}
-    </div>
-    <h3 style="color:var(--text-deep-pink); font-size:1.5rem; font-weight:900; margin-bottom:5px;">${actor}</h3>
-    <div style="width:100%; margin-top:5px; padding:12px; background:rgba(255,133,161,0.15); border-radius:20px;">
-        <p style="font-size:1rem; color:var(--text-deep-pink); font-weight:800; margin:0;">🎂 ${info.bday}</p>
-        <p style="font-size:0.95rem; color:var(--primary-color); font-weight:bold; margin-top:3px;">(${age} Yaşında)</p>
-    </div>
-    <p style="font-size:0.85rem; opacity:0.7; margin-top:12px; font-weight:600;">🎬 ${actorCounts[actor]} Dizi Kayıtlı</p>
-`;
+                photoHTML = `
+                    <div class="special-photo-wrapper">
+                        <img src="https://asianwiki.com/images/a/a2/Lee_Yi-Kyung-p1.jpg" class="actor-menu-photo half">
+                        <img src="https://64.media.tumblr.com/f0490b63e80d44005b4a92964b971a81/tumblr_p4v7e9D9vM1w6nkeoo1_400.gif" class="actor-menu-photo half">
+                    </div>`;
+            }
 
             card.innerHTML = `
                 <div class="actor-photo-container">
-                    <img src="${finalImg}" alt="${actor}" class="actor-menu-photo">
+                    ${photoHTML}
                 </div>
                 <h3 style="color:var(--text-deep-pink); font-size:1.5rem; font-weight:900; margin-bottom:5px;">${actor}</h3>
                 <div style="width:100%; margin-top:5px; padding:12px; background:rgba(255,133,161,0.15); border-radius:20px;">
-                    <p style="font-size:1rem; color:var(--text-deep-pink); font-weight:800; margin:0;">
-                        🎂 ${info.bday}
-                    </p>
-                    <p style="font-size:0.95rem; color:var(--primary-color); font-weight:bold; margin-top:3px;">
-                        (${age} Yaşında)
-                    </p>
+                    <p style="font-size:1rem; color:var(--text-deep-pink); font-weight:800; margin:0;">🎂 ${info.bday}</p>
+                    <p style="font-size:0.95rem; color:var(--primary-color); font-weight:bold; margin-top:3px;">(${age} Yaşında)</p>
                 </div>
                 <p style="font-size:0.85rem; opacity:0.7; margin-top:12px; font-weight:600;">🎬 ${actorCounts[actor]} Dizi Kayıtlı</p>
             `;
+
             card.onclick = () => window.showFilteredDramas(actor, 'actor');
             wordGrid.appendChild(card);
         });
@@ -1577,11 +1554,9 @@ document.addEventListener('DOMContentLoaded', () => {
         wordGrid.className = "category-grid-layout";
         searchWrapper.style.display = "none";
         categoryButtons.innerHTML = `<button class="cat-btn" onclick="window.displayKdramas()">⬅️ Geri Dön</button><h2>🎭 TÜRLERE GÖRE</h2>`;
-        
         let allGenres = [];
         kdramaData.forEach(d => { if(d.genre) allGenres.push(...d.genre.split(',').map(g => g.trim())); });
         const uniqueGenres = [...new Set(allGenres)].sort();
-        
         uniqueGenres.forEach(genre => {
             const card = document.createElement('div');
             card.className = 'menu-card animate-in';
@@ -1727,3 +1702,4 @@ document.addEventListener('DOMContentLoaded', () => {
         themeToggle.textContent = newTheme === 'dark' ? '☀️' : '🌙';
     });
 });
+
