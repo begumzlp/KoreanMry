@@ -904,8 +904,8 @@ const kdramaData = [
     { title: "You Drive Me Crazy", year: "2018", cast: "Kim Seon Ho", episodes: "4", afis: "https://i.pinimg.com/736x/80/b8/33/80b8334c5582a095b5f30a1d63462339.jpg" },
     { title: "Youth MT", year: "2022", cast: "Park Bo Gum, Kwak Dong Yeon, Park Seo Joon, Ahn Bo Hyun, Hwang In Youp, Ji Chang Wook, Jung Jin Young", episodes: "8", afis: "https://i.pinimg.com/1200x/fc/d8/ba/fcd8ba837882fc66e54aaf3231d32c05.jpg" },
     { title: "Youth of May", year: "2021", cast: "Lee Do Hyun, Lee Sang Yi", episodes: "12", afis: "https://i.pinimg.com/736x/c7/62/6c/c7626cdc7e0bc74139b9df9ce6ce0262.jpg" },
-    { title: "Yumi's Cell", year: "2021", cast: "Ahn Bo Hyun, Park Jin Young", episodes: "14", afis: "https://i.pinimg.com/1200x/0c/44/f3/0c44f318576e75afcdc1c0d534ab023e.jpg" }
-        { title: "Empress Ki", year: "2013", cast: "Ji Chang Wook, Ha Ji Won", episodes: "51", afis: "https://i.pinimg.com/736x/8a/5a/8b/8a5a8b7c2a1c0d534ab023e4ec1ca846.jpg" },
+    { title: "Yumi's Cell", year: "2021", cast: "Ahn Bo Hyun, Park Jin Young", episodes: "14", afis: "https://i.pinimg.com/1200x/0c/44/f3/0c44f318576e75afcdc1c0d534ab023e.jpg" },
+    { title: "Empress Ki", year: "2013", cast: "Ji Chang Wook, Ha Ji Won", episodes: "51", afis: "https://i.pinimg.com/736x/8a/5a/8b/8a5a8b7c2a1c0d534ab023e4ec1ca846.jpg" },
     { title: "The King's Affection", year: "2021", cast: "Rowoon, Park Eun Bin", episodes: "20", afis: "https://i.pinimg.com/736x/2b/3d/4e/2b3d4e5f6g7h8i9j0k1l2m3n4o5p6q7.jpg" },
     { title: "Military Prosecutor Doberman", year: "2022", cast: "Ahn Bo Hyun", episodes: "16", afis: "https://i.pinimg.com/736x/1a/2b/3c/1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6.jpg" },
     { title: "Island", year: "2022", cast: "Cha Eun Woo, Kim Nam Gil", episodes: "12", afis: "https://i.pinimg.com/736x/3c/4d/5e/3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8.jpg" },
