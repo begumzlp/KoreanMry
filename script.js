@@ -905,6 +905,40 @@ const kdramaData = [
     { title: "Youth MT", year: "2022", cast: "Park Bo Gum, Kwak Dong Yeon, Park Seo Joon, Ahn Bo Hyun, Hwang In Youp, Ji Chang Wook, Jung Jin Young", episodes: "8", afis: "https://i.pinimg.com/1200x/fc/d8/ba/fcd8ba837882fc66e54aaf3231d32c05.jpg" },
     { title: "Youth of May", year: "2021", cast: "Lee Do Hyun, Lee Sang Yi", episodes: "12", afis: "https://i.pinimg.com/736x/c7/62/6c/c7626cdc7e0bc74139b9df9ce6ce0262.jpg" },
     { title: "Yumi's Cell", year: "2021", cast: "Ahn Bo Hyun, Park Jin Young", episodes: "14", afis: "https://i.pinimg.com/1200x/0c/44/f3/0c44f318576e75afcdc1c0d534ab023e.jpg" }
+        { title: "Empress Ki", year: "2013", cast: "Ji Chang Wook, Ha Ji Won", episodes: "51", afis: "https://i.pinimg.com/736x/8a/5a/8b/8a5a8b7c2a1c0d534ab023e4ec1ca846.jpg" },
+    { title: "The King's Affection", year: "2021", cast: "Rowoon, Park Eun Bin", episodes: "20", afis: "https://i.pinimg.com/736x/2b/3d/4e/2b3d4e5f6g7h8i9j0k1l2m3n4o5p6q7.jpg" },
+    { title: "Military Prosecutor Doberman", year: "2022", cast: "Ahn Bo Hyun", episodes: "16", afis: "https://i.pinimg.com/736x/1a/2b/3c/1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6.jpg" },
+    { title: "Island", year: "2022", cast: "Cha Eun Woo, Kim Nam Gil", episodes: "12", afis: "https://i.pinimg.com/736x/3c/4d/5e/3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8.jpg" },
+    { title: "Flex X Cop", year: "2024", cast: "Ahn Bo Hyun", episodes: "16", afis: "https://i.pinimg.com/736x/4d/5e/6f/4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9.jpg" },
+    { title: "Tomorrow", year: "2022", cast: "Rowoon, Lee Soo Hyuk", episodes: "16", afis: "https://i.pinimg.com/736x/5e/6f/7g/5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0.jpg" },
+    { title: "The Sound of Magic", year: "2022", cast: "Ji Chang Wook, Hwang In Youp", episodes: "6", afis: "https://i.pinimg.com/736x/6f/7g/8h/6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1.jpg" },
+    { title: "Sweet Home", year: "2020", cast: "Song Kang, Lee Do Hyun", episodes: "10", afis: "https://i.pinimg.com/736x/7g/8h/9i/7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2.jpg" },
+    { title: "Alchemy of Souls", year: "2022", cast: "Lee Jae Wook, Hwang Min Hyun", episodes: "30", afis: "https://i.pinimg.com/736x/8h/9i/0j/8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3.jpg" },
+    { title: "Weak Hero Class 1", year: "2022", cast: "Park Ji Hoon, Choi Hyun Wook", episodes: "8", afis: "https://i.pinimg.com/736x/9i/0j/1k/9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4.jpg" },
+    { title: "Vincenzo", year: "2021", cast: "Song Joong Ki, Taecyeon", episodes: "20", afis: "https://i.pinimg.com/736x/0j/1k/2l/0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5.jpg" },
+    { title: "Twinkling Watermelon", year: "2023", cast: "Ryeo Un, Choi Hyun Wook", episodes: "16", afis: "https://i.pinimg.com/736x/1k/2l/3m/1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6.jpg" },
+    { title: "The Worst of Evil", year: "2023", cast: "Ji Chang Wook, Wi Ha Joon", episodes: "12", afis: "https://i.pinimg.com/736x/2l/3m/4n/2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7.jpg" },
+    { title: "Death's Game", year: "2023", cast: "Seo In Guk, Lee Do Hyun, Lee Jae Wook", episodes: "8", afis: "https://i.pinimg.com/736x/3m/4n/5o/3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a8.jpg" },
+    { title: "Wonderful World", year: "2024", cast: "Cha Eun Woo", episodes: "14", afis: "https://i.pinimg.com/736x/4n/5o/6p/4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b9.jpg" },
+    { title: "Moonshine", year: "2021", cast: "Yoo Seung Ho, Byeon Woo Seok", episodes: "16", afis: "https://i.pinimg.com/736x/5o/6p/7q/5o6p7q8r9s0t1u2v3w4x5y6z7a8b9c0.jpg" },
+    { title: "Flower of Evil", year: "2020", cast: "Lee Joon Gi", episodes: "16", afis: "https://i.pinimg.com/736x/6p/7q/8r/6p7q8r9s0t1u2v3w4x5y6z7a8b9c0d1.jpg" },
+    { title: "My Liberation Notes", year: "2022", cast: "Lee Min Ki", episodes: "16", afis: "https://i.pinimg.com/736x/7q/8r/9s/7q8r9s0t1u2v3w4x5y6z7a8b9c0d1e2.jpg" },
+    { title: "Reborn Rich", year: "2022", cast: "Song Joong Ki", episodes: "16", afis: "https://i.pinimg.com/736x/8r/9s/0t/8r9s0t1u2v3w4x5y6z7a8b9c0d1e2f3.jpg" },
+    { title: "The Glory", year: "2022", cast: "Lee Do Hyun", episodes: "16", afis: "https://i.pinimg.com/736x/9s/0t/1u/9s0t1u2v3w4x5y6z7a8b9c0d1e2f3g4.jpg" },
+    { title: "Moving", year: "2023", cast: "Jo In Sung, Lee Jung Ha", episodes: "20", afis: "https://i.pinimg.com/736x/0t/1u/2v/0t1u2v3w4x5y6z7a8b9c0d1e2f3g4h5.jpg" },
+    { title: "Big Mouth", year: "2022", cast: "Lee Jong Suk", episodes: "16", afis: "https://i.pinimg.com/736x/1u/2v/3w/1u2v3w4x5y6z7a8b9c0d1e2f3g4h5i6.jpg" },
+    { title: "Beyond Evil", year: "2021", cast: "Yeo Jin Goo", episodes: "16", afis: "https://i.pinimg.com/736x/2v/3w/4x/2v3w4x5y6z7a8b9c0d1e2f3g4h5i6j7.jpg" },
+    { title: "Taxi Driver", year: "2021", cast: "Lee Je Hoon", episodes: "32", afis: "https://i.pinimg.com/736x/3w/4x/5y/3w4x5y6z7a8b9c0d1e2f3g4h5i6j7k8.jpg" },
+    { title: "Our Blues", year: "2022", cast: "Kim Woo Bin", episodes: "20", afis: "https://i.pinimg.com/736x/4x/5y/6z/4x5y6z7a8b9c0d1e2f3g4h5i6j7k8l9.jpg" },
+    { title: "Squid Game", year: "2021", cast: "Lee Jung Jae, Wi Ha Joon", episodes: "9", afis: "https://i.pinimg.com/736x/5y/6z/7a/5y6z7a8b9c0d1e2f3g4h5i6j7k8l9m0.jpg" },
+    { title: "Hospital Playlist", year: "2020", cast: "Yoo Yeon Seok, Jung Kyung Ho", episodes: "24", afis: "https://i.pinimg.com/736x/6z/7a/8b/6z7a8b9c0d1e2f3g4h5i6j7k8l9m0n1.jpg" },
+    { title: "Mr. Sunshine", year: "2018", cast: "Lee Byung Hun, Yoo Yeon Seok", episodes: "24", afis: "https://i.pinimg.com/736x/7a/8b/9c/7a8b9c0d1e2f3g4h5i6j7k8l9m0n1o2.jpg" },
+    { title: "The Penthouse", year: "2020", cast: "Kim Young Dae", episodes: "48", afis: "https://i.pinimg.com/736x/8b/9c/0d/8b9c0d1e2f3g4h5i6j7k8l9m0n1o2p3.jpg" },
+    { title: "Signal", year: "2016", cast: "Lee Je Hoon", episodes: "16", afis: "https://i.pinimg.com/736x/9c/0d/1e/9c0d1e2f3g4h5i6j7k8l9m0n1o2p3q4.jpg" },
+    { title: "Prison Playbook", year: "2017", cast: "Jung Kyung Ho, Lee Do Hyun", episodes: "16", afis: "https://i.pinimg.com/736x/0d/1e/2f/0d1e2f3g4h5i6j7k8l9m0n1o2p3q4r5.jpg" },
+    { title: "Stranger (Secret Forest)", year: "2017", cast: "Cho Seung Woo", episodes: "32", afis: "https://i.pinimg.com/736x/1e/2f/3g/1e2f3g4h5i6j7k8l9m0n1o2p3q4r5s6.jpg" }
+
+
 ];
 
 const actorPhotos = {
