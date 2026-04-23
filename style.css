@@ -1,4 +1,6 @@
-/* --- 1. DEĞİŞKENLER VE TEMA SİSTEMİ ✨ --- */
+/* ================================
+🎨 THEME VARIABLES
+================================ */
 :root {
     --primary-color: #ff85a1;
     --secondary-color: #fca3cc;
@@ -17,207 +19,364 @@
     --shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
 }
 
-/* --- 2. TEMEL AYARLAR --- */
-* { 
-    margin: 0; padding: 0; box-sizing: border-box; 
-    font-style: normal !important; 
+/* ================================
+🧱 BASE
+================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body { 
-    font-family: 'Poppins', sans-serif; 
-    background-color: var(--bg-color); 
-    color: var(--text-deep-pink); 
-    overflow-x: hidden;
-    transition: background-color 0.4s ease, color 0.4s ease;
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--bg-color);
+    color: var(--text-deep-pink);
+    transition: 0.3s;
 }
 
 [data-theme="dark"] body {
     background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
 }
 
+/* ================================
+HEADER
+================================ */
 header {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    color: white; text-align: center; padding: 40px 20px; 
+    color: white;
+    text-align: center;
+    padding: 35px;
     border-bottom: 5px solid var(--accent-color);
-    position: relative;
 }
 
-[data-theme="dark"] header {
-    background: linear-gradient(135deg, #302b63, #24243e);
-    border-bottom: 5px solid var(--secondary-color);
+/* ================================
+MENU
+================================ */
+.menu-grid {
+    text-align: center;
+    padding: 40px;
 }
 
-/* --- 3. ANA MENÜ VE IZGARA YAPISI ✨ --- */
-.menu-grid { text-align: center; padding: 40px 20px; }
-.menu-welcome { font-size: 2rem; margin-bottom: 30px; font-weight: 800; }
-.menu-cards { 
-    display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
-    gap: 25px; 
-    max-width: 1000px; 
-    margin: 0 auto; 
+.menu-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
 }
 
 .menu-card {
-    background: var(--card-bg); 
-    border-radius: 35px; 
-    padding: 30px; 
+    background: var(--card-bg);
+    padding: 25px;
+    border-radius: 25px;
     cursor: pointer;
-    transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
-    box-shadow: var(--shadow);
-    text-align: center; 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    min-height: 200px; 
-}
-
-.menu-card:hover { 
-    transform: translateY(-12px) scale(1.03); border: 2px solid var(--primary-color);
-}
-
-/* --- 4. ARAMA VE NAVİGASYON 🔍 --- */
-.search-container { display: flex; justify-content: center; align-items: center; margin: 10px 0 30px 0; padding: 0 20px; width: 100%; }
-
-#searchInput {
-    width: 100%; max-width: 500px; padding: 14px 25px; font-size: 1rem;
-    border: 2px solid var(--accent-color); border-radius: 30px;
-    box-shadow: 0 5px 15px rgba(255, 133, 161, 0.1); outline: none; transition: 0.3s ease;
-}
-#searchInput:focus { border-color: var(--primary-color); transform: scale(1.02); }
-
-[data-theme="dark"] #searchInput { background: #24243e; color: white; border-color: var(--secondary-color); }
-
-.cat-btn { 
-    background: white; color: var(--text-deep-pink); border: 2px solid var(--primary-color); 
-    padding: 10px 25px; border-radius: 50px; font-weight: 800; cursor: pointer; 
-    transition: 0.3s; margin-bottom: 15px; box-shadow: 0 4px 10px rgba(255, 133, 161, 0.1);
-    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
-}
-.cat-btn:hover { background: var(--primary-color); color: white; transform: translateX(-5px); }
-
-/* --- 5. KELİME KARTLARI (BÜYÜK YAPI) 🃏 --- */
-.word-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 25px; padding: 20px; }
-.word-card { perspective: 1500px; height: 420px; cursor: pointer; }
-.card-inner { position: relative; width: 100%; height: 100%; transition: transform 0.6s; transform-style: preserve-3d; }
-.is-flipped .card-inner { transform: rotateY(180deg); }
-
-.card-front, .card-back {
-    position: absolute; width: 100%; height: 100%; backface-visibility: hidden;
-    border-radius: 45px; padding: 35px; display: flex; flex-direction: column; 
-    justify-content: center; align-items: center; text-align: center;
-    box-shadow: 0 20px 40px rgba(255, 133, 161, 0.25);
-}
-
-.word-card .card-front { background: #ffffff; border: 10px solid white; }
-.card-main-word { font-size: 3.1rem !important; font-weight: 900; color: var(--primary-color); margin-bottom: 10px; }
-.card-pronunciation { font-size: 2.0rem !important; opacity: 0.8; font-weight: 600; margin-bottom: 15px; }
-.card-divider { width: 100%; border-top: 3px dashed var(--accent-color); margin: 20px 0; }
-.card-meaning { font-size: 2.2rem !important; font-weight: 900; color: var(--text-deep-pink); }
-
-.card-back { 
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); 
-    transform: rotateY(180deg); color: #ffffff !important; 
-}
-
-.category-grid-layout {
-    display: grid; 
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)) !important; 
-    gap: 20px; 
-    padding: 30px; 
-    max-width: 1250px; 
-    margin: 0 auto;
-    align-items: stretch;
-}
-
-/* --- 6. KDRAMA KARTLARI (AFİŞ ODAKLI) 🎬 --- */
-.kdrama-card { perspective: 1500px; height: 450px; cursor: pointer; }
-.kdrama-card .card-front, .kdrama-card .card-back {
-    position: absolute; width: 100%; height: 100%; backface-visibility: hidden;
-    border-radius: 30px; overflow: hidden; border: none !important; 
-    box-shadow: 0 15px 35px rgba(255, 133, 161, 0.2); display: flex; flex-direction: column;
-}
-
-.kdrama-card .poster-container { position: relative; width: 100%; height: 82%; background-color: #000; overflow: hidden; }
-.kdrama-card img { width: 100%; height: 100%; object-fit: cover !important; display: block; }
-.kdrama-card .card-info { padding: 15px !important; background: white; flex-grow: 1; display: flex; justify-content: center; align-items: center; }
-.kdrama-card .card-info h3 { font-size: 1.15rem !important; font-weight: 800; color: var(--text-deep-pink); text-align: center; }
-
-.kdrama-card .card-back {
-    background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
-    transform: rotateY(180deg); padding: 25px; color: white !important;
-}
-
-.back-description {
-    font-size: 0.95rem; line-height: 1.5; opacity: 0.95; margin: 15px 0;
-    flex-grow: 1; display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; overflow: hidden;
-    text-align: justify;
-}
-
-.back-details {
-    font-size: 0.85rem; background: rgba(0, 0, 0, 0.15); padding: 12px 18px; 
-    border-radius: 20px; margin-top: auto; text-align: left; width: 100%;
-}
-.back-details p { margin-bottom: 5px; line-height: 1.4; }
-.back-details strong { color: white; border-bottom: 1px solid rgba(255, 255, 255, 0.2); margin-right: 5px; }
-
-.episode-badge {
-    position: absolute; top: 15px; right: 15px; background: var(--primary-color);
-    color: white; padding: 6px 14px; border-radius: 50px; font-weight: 800; z-index: 5;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-}
-
-.fav-btn {
-    position: absolute; bottom: 15px; right: 15px; background: rgba(255, 255, 255, 0.95);
-    border: none; border-radius: 50%; width: 45px; height: 45px; cursor: pointer;
-    font-size: 1.4rem; z-index: 10; display: flex; align-items: center; justify-content: center;
     transition: 0.3s;
-}
-.fav-btn:hover { transform: scale(1.2); }
-
-/* Fotoğraf kapsayıcısı (Yuvarlak çerçeve) */
-.actor-photo-container {
-    width: 190px;
-    height: 250px;
-    border-radius: 9%; 
-    overflow: hidden;
-    border: 3px solid var(--primary-color); 
     box-shadow: var(--shadow);
-    margin: 0 auto 15px auto; /* Merkeze al ve alttan boşluk bırak */
+}
+
+.menu-card:hover {
+    transform: translateY(-8px) scale(1.02);
+}
+
+/* ================================
+SEARCH
+================================ */
+.search-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: var(--bg-color); /* Fotoğraf yüklenene kadar arka plan rengi */
+    margin: 20px;
 }
 
-/* Gerçek fotoğraf ayarı (Sihirli dokunuş burada) 🪄 */
-.actor-menu-photo {
+#searchInput {
+    padding: 12px;
+    border-radius: 30px;
+    border: 2px solid var(--accent-color);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* ================================
+BUTTON
+================================ */
+.cat-btn {
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 2px solid var(--primary-color);
+    background: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px;
+}
+
+/* ================================
+WORD GRID
+================================ */
+.word-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* ================================
+FLASHCARD
+================================ */
+.flashcard {
+    perspective: 1000px;
+    height: 320px;
+}
+
+.card-inner {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
     width: 100%;
     height: 100%;
-    /* object-fit: cover; -> Resmi bozmadan kutuya sığdırır, dışarı taşanı keser. */
-    object-fit: cover !important; 
-    /* object-position: center; -> Resmin her zaman ortasını gösterir. */
-    object-position: center top; 
-    display: block;
 }
-/* Lee Yi-kyung Özel Görsel Düzeni */
-.special-photo-wrapper {
+
+.flashcard.is-flipped .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    backface-visibility: hidden;
     display: flex;
-    width: 100%;
-    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--shadow);
 }
 
-.actor-menu-photo.half {
-    width: 50% !important; /* İki resim olduğu için genişliği yarıya böldük */
+.card-front {
+    background: white;
+}
+
+.card-back {
+    background: var(--primary-color);
+    color: white;
+    transform: rotateY(180deg);
+}
+
+/* ================================
+KDRAMA
+================================ */
+.kdrama-card {
+    perspective: 1000px;
+    height: 400px;
+}
+
+.poster-container img {
+    width: 100%;
     height: 100%;
     object-fit: cover;
-    border-right: 2px solid var(--primary-color);
 }
 
-.actor-menu-photo.half:last-child {
-    border-right: none;
+/* ================================
+THEME BUTTON
+================================ */
+.theme-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #302b63;
+    color: white;
+    cursor: pointer;
 }
 
-/* Eğer alt alta istersen "flex-direction: column" ekleyebilirsin */
+/* ================================
+FOOTER
+================================ */
+footer {
+    text-align: center;
+    padding: 20px;
+    opacity: 0.7;
+}
 
+/* ✅ KATEGORİ GRID FIX */
+.category-grid-layout {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)) !important;
+    gap: 50px;
+    padding: 30px;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+/* Menü kartlarının eski boyutunu koru */
+.menu-card {
+    min-height: 150px;
+    padding: 30px;
+}
+
+/* Kelime kartları ayrı kalsın */
+.word-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+} 
+/* =========================
+   ✨ MENU CARD HOVER FIX
+========================= */
+.menu-card {
+    transition: all 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    overflow: hidden;
+}
+
+.menu-card:hover {
+    transform: translateY(-12px) scale(1.05);
+    border: 2px solid var(--primary-color);
+    box-shadow: 0 20px 50px rgba(255, 133, 161, 0.4);
+}
+
+/* Glow efekti */
+.menu-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 35px;
+    background: radial-gradient(circle at top, rgba(255,255,255,0.4), transparent 60%);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.menu-card:hover::after {
+    opacity: 1;
+}
+
+
+/* =========================
+   🃏 WORD CARD HOVER FIX
+========================= */
+.flashcard {
+    transition: transform 0.3s ease;
+}
+
+.flashcard:hover {
+    transform: scale(1.03);
+}
+
+
+/* =========================
+   🎬 KDRAMA CARD HOVER FIX
+========================= */
+.kdrama-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kdrama-card:hover {
+    transform: scale(1.04);
+    box-shadow: 0 20px 50px rgba(255, 133, 161, 0.35);
+}
+
+
+/* =========================
+   🔥 TEXT HIGHLIGHT EFFECTS
+========================= */
+
+/* Beyaz highlight (Korece kelime) */
+.highlight-white {
+    background: rgba(255,255,255,0.9);
+    color: var(--text-deep-pink);
+    padding: 2px 6px;
+    border-radius: 6px;
+    font-weight: 800;
+}
+
+/* Pembe highlight (okunuş) */
+.highlight-pink-soft {
+    background: rgba(255, 133, 161, 0.25);
+    color: var(--primary-color);
+    padding: 2px 6px;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+
+/* =========================
+   💖 FAVORITE BUTTON HOVER
+========================= */
+.fav-btn:hover {
+    transform: scale(1.2) rotate(10deg);
+    box-shadow: 0 0 15px rgba(255, 71, 87, 0.5);
+}
+
+
+/* =========================
+   🌙 DARK MODE HOVER FIX
+========================= */
+[data-theme="dark"] .menu-card:hover {
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+}
+
+[data-theme="dark"] .kdrama-card:hover {
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
+} 
+.highlight-korean {
+    color: #ff2d75;
+    font-weight: 900;
+    background: rgba(255, 133, 161, 0.2);
+    padding: 2px 6px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 45, 117, 0.3);
+}
+
+/* =========================================
+   📚 KELİME KARTLARI İÇ TASARIMI (EKSİK OLAN KISIM)
+========================================= */
+
+.word-korean {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+.word-pronunciation {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    margin: 10px 0;
+}
+
+.front-divider {
+    width: 70%;
+    border-bottom: 2px dotted var(--secondary-color);
+    margin: 15px 0;
+}
+
+.word-turkish {
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: var(--text-deep-pink);
+}
+
+.kor-example {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.pron-example-box {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.tr-example {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    color: white;
+}
+
+.no-example {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+}
