@@ -1,5 +1,5 @@
 /* ================================
-🎨 THEME VARIABLES
+🎨 1. TEMA DEĞİŞKENLERİ (RENKLER)
 ================================ */
 :root {
     --primary-color: #ff85a1;
@@ -20,7 +20,7 @@
 }
 
 /* ================================
-🧱 BASE
+🧱 2. TEMEL YAPI (SAYFA İSKELETİ)
 ================================ */
 * {
     margin: 0;
@@ -32,53 +32,41 @@ body {
     font-family: 'Poppins', sans-serif;
     background: var(--bg-color);
     color: var(--text-deep-pink);
-    transition: 0.3s;
+    transition: background 0.3s, color 0.3s;
 }
 
 [data-theme="dark"] body {
     background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    background-attachment: fixed;
 }
 
-/* ================================
-HEADER
-================================ */
 header {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: white;
     text-align: center;
     padding: 35px;
     border-bottom: 5px solid var(--accent-color);
+    position: relative;
 }
 
-/* ================================
-MENU
-================================ */
-.menu-grid {
+footer {
     text-align: center;
-    padding: 40px;
+    padding: 20px;
+    opacity: 0.7;
+    margin-top: 40px;
 }
 
-.menu-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 25px;
+/* Animasyonlar */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
 }
-
-.menu-card {
-    background: var(--card-bg);
-    padding: 25px;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: 0.3s;
-    box-shadow: var(--shadow);
-}
-
-.menu-card:hover {
-    transform: translateY(-8px) scale(1.02);
+.animate-in {
+    animation: fadeIn 0.4s ease forwards;
 }
 
 /* ================================
-SEARCH
+🔍 3. BUTONLAR VE ARAMA ÇUBUĞU
 ================================ */
 .search-container {
     display: flex;
@@ -87,42 +75,162 @@ SEARCH
 }
 
 #searchInput {
-    padding: 12px;
+    padding: 12px 20px;
     border-radius: 30px;
     border: 2px solid var(--accent-color);
     width: 100%;
     max-width: 400px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    transition: 0.3s;
 }
 
-/* ================================
-BUTTON
-================================ */
+#searchInput:focus {
+    box-shadow: 0 0 15px var(--accent-color);
+    border-color: var(--primary-color);
+}
+
 .cat-btn {
     padding: 10px 20px;
     border-radius: 30px;
     border: 2px solid var(--primary-color);
     background: white;
+    color: var(--text-deep-pink);
     cursor: pointer;
     font-weight: bold;
     margin: 10px;
+    transition: 0.3s;
+}
+
+.cat-btn:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+.theme-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #302b63;
+    color: white;
+    cursor: pointer;
+    z-index: 9999;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+    font-size: 1.2rem;
+}
+
+.theme-btn:hover {
+    transform: scale(1.15) rotate(15deg);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.stats-bar {
+    background: var(--card-bg);
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    box-shadow: var(--shadow);
+    color: var(--text-deep-pink);
 }
 
 /* ================================
-WORD GRID
+🗂️ 4. MENÜ VE KATEGORİ DÜZENİ
+================================ */
+.menu-grid {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.menu-welcome {
+    margin-bottom: 30px;
+}
+
+.menu-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.category-grid-layout {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)) !important;
+    gap: 30px;
+    padding: 30px;
+    max-width: 1250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu-card {
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    transition: all 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    overflow: hidden;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-card:hover {
+    transform: translateY(-12px) scale(1.05);
+    border: 2px solid var(--primary-color);
+    box-shadow: 0 20px 50px rgba(255, 133, 161, 0.4);
+}
+
+[data-theme="dark"] .menu-card:hover {
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+}
+
+.menu-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 35px;
+    background: radial-gradient(circle at top, rgba(255,255,255,0.4), transparent 60%);
+    opacity: 0;
+    transition: 0.3s;
+    pointer-events: none;
+}
+
+.menu-card:hover::after {
+    opacity: 1;
+}
+
+/* ================================
+📚 5. KELİME KARTLARI (FLASHCARD SİSTEMİ)
 ================================ */
 .word-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 20px;
+    gap: 25px;
     padding: 20px;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
-/* ================================
-FLASHCARD
-================================ */
 .flashcard {
     perspective: 1000px;
-    height: 320px;
+    height: 350px; /* Kart boyu uzatıldı */
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.flashcard:hover {
+    transform: scale(1.03);
 }
 
 .card-inner {
@@ -149,124 +257,92 @@ FLASHCARD
     justify-content: center;
     align-items: center;
     box-shadow: var(--shadow);
+    padding: 25px; /* Yazıların kenarlara çarpmasını engeller */
+    text-align: center;
 }
 
 .card-front {
-    background: white;
+    background: var(--card-bg);
 }
 
 .card-back {
     background: var(--primary-color);
     color: white;
     transform: rotateY(180deg);
+    overflow-y: auto; /* Yazı uzunsa kaydırma çubuğu çıkarır */
+    justify-content: flex-start; /* Arkadaki yazılar tepeden başlar */
+}
+
+/* Kelime İçerik Detayları (Taşma Engelleyiciler Eklendi) */
+.word-korean {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--primary-color);
+    word-wrap: break-word;
+    max-width: 100%;
+}
+
+.word-pronunciation {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    margin: 10px 0;
+}
+
+.front-divider {
+    width: 80%;
+    border-bottom: 2px dotted var(--secondary-color);
+    margin: 15px 0;
+    flex-shrink: 0;
+}
+
+.word-turkish {
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: var(--text-deep-pink);
+    word-wrap: break-word;
+    max-width: 100%;
+}
+
+.kor-example {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.pron-example-box {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: white;
+    line-height: 1.4;
+    width: 100%;
+}
+
+.tr-example {
+    font-size: 1.1rem;
+    opacity: 0.95;
+    color: white;
+    line-height: 1.4;
+}
+
+.no-example {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 50px;
 }
 
 /* ================================
-KDRAMA
+🎬 6. KDRAMA VE AKTÖR KARTLARI
 ================================ */
 .kdrama-card {
     perspective: 1000px;
-    height: 400px;
-}
-
-.poster-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* ================================
-THEME BUTTON
-================================ */
-.theme-btn {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: #302b63;
-    color: white;
-    cursor: pointer;
-}
-
-/* ================================
-FOOTER
-================================ */
-footer {
-    text-align: center;
-    padding: 20px;
-    opacity: 0.7;
-}
-
-/* ✅ KATEGORİ GRID FIX */
-.category-grid-layout {
-    display: grid !important;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)) !important;
-    gap: 50px;
-    padding: 30px;
-    max-width: 1250px;
-    margin: 0 auto;
-}
-
-/* Menü kartlarının eski boyutunu koru */
-.menu-card {
-    min-height: 150px;
-    padding: 30px;
-}
-
-/* Kelime kartları ayrı kalsın */
-.word-grid {
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-} 
-/* =========================
-   ✨ MENU CARD HOVER FIX
-========================= */
-.menu-card {
-    transition: all 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    position: relative;
-    overflow: hidden;
-}
-
-.menu-card:hover {
-    transform: translateY(-12px) scale(1.05);
-    border: 2px solid var(--primary-color);
-    box-shadow: 0 20px 50px rgba(255, 133, 161, 0.4);
-}
-
-/* Glow efekti */
-.menu-card::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: 35px;
-    background: radial-gradient(circle at top, rgba(255,255,255,0.4), transparent 60%);
-    opacity: 0;
-    transition: 0.3s;
-}
-
-.menu-card:hover::after {
-    opacity: 1;
-}
-
-
-/* =========================
-   🃏 WORD CARD HOVER FIX
-========================= */
-.flashcard {
-    transition: transform 0.3s ease;
-}
-
-.flashcard:hover {
-    transform: scale(1.03);
-}
-
-
-/* =========================
-   🎬 KDRAMA CARD HOVER FIX
-========================= */
-.kdrama-card {
+    height: 420px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 .kdrama-card:hover {
@@ -274,12 +350,63 @@ footer {
     box-shadow: 0 20px 50px rgba(255, 133, 161, 0.35);
 }
 
+[data-theme="dark"] .kdrama-card:hover {
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
+}
 
-/* =========================
-   🔥 TEXT HIGHLIGHT EFFECTS
-========================= */
+.kdrama-card .card-front {
+    padding: 0; /* Resim tam otursun diye */
+}
 
-/* Beyaz highlight (Korece kelime) */
+.poster-container {
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+}
+
+.fav-btn {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fav-btn:hover {
+    transform: scale(1.2) rotate(10deg) !important;
+    box-shadow: 0 0 15px rgba(255, 71, 87, 0.6) !important;
+}
+
+/* Aktör Profil Ekranı */
+.actor-profile-card {
+    background: var(--card-bg);
+    padding: 25px;
+    border-radius: 25px;
+    margin: 20px auto;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--shadow);
+}
+
+.actor-info-text h2 {
+    color: var(--text-deep-pink);
+    margin-bottom: 10px;
+}
+
+.actor-info-text p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.insta-tag {
+    background: rgba(255, 133, 161, 0.15);
+    color: var(--primary-color);
+    padding: 5px 12px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* ================================
+🔥 7. FOSFORLU KALEM EFEKTLERİ (HIGHLIGHTS)
+================================ */
 .highlight-white {
     background: rgba(255,255,255,0.9);
     color: var(--text-deep-pink);
@@ -288,7 +415,6 @@ footer {
     font-weight: 800;
 }
 
-/* Pembe highlight (okunuş) */
 .highlight-pink-soft {
     background: rgba(255, 133, 161, 0.25);
     color: var(--primary-color);
@@ -297,26 +423,6 @@ footer {
     font-weight: 700;
 }
 
-
-/* =========================
-   💖 FAVORITE BUTTON HOVER
-========================= */
-.fav-btn:hover {
-    transform: scale(1.2) rotate(10deg);
-    box-shadow: 0 0 15px rgba(255, 71, 87, 0.5);
-}
-
-
-/* =========================
-   🌙 DARK MODE HOVER FIX
-========================= */
-[data-theme="dark"] .menu-card:hover {
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
-}
-
-[data-theme="dark"] .kdrama-card:hover {
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
-} 
 .highlight-korean {
     color: #ff2d75;
     font-weight: 900;
@@ -326,57 +432,7 @@ footer {
     box-shadow: 0 0 10px rgba(255, 45, 117, 0.3);
 }
 
-/* =========================================
-   📚 KELİME KARTLARI İÇ TASARIMI (EKSİK OLAN KISIM)
-========================================= */
-
-.word-korean {
-    font-size: 3rem;
-    font-weight: 800;
-    color: var(--primary-color);
-}
-
-.word-pronunciation {
-    font-size: 1.4rem;
-    color: var(--primary-color);
-    margin: 10px 0;
-}
-
-.front-divider {
-    width: 70%;
-    border-bottom: 2px dotted var(--secondary-color);
-    margin: 15px 0;
-}
-
-.word-turkish {
-    font-size: 1.6rem;
-    font-weight: 900;
-    color: var(--text-deep-pink);
-}
-
-.kor-example {
-    font-size: 1.6rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-    padding: 0 10px;
-}
-
-.pron-example-box {
-    background-color: rgba(255, 255, 255, 0.3);
-    padding: 10px 20px;
-    border-radius: 15px;
-    font-size: 1.1rem;
-    margin-bottom: 20px;
+[data-theme="dark"] .highlight-white {
+    background: rgba(255,255,255,0.2);
     color: white;
-}
-
-.tr-example {
-    font-size: 1.2rem;
-    opacity: 0.9;
-    color: white;
-}
-
-.no-example {
-    font-size: 1.2rem;
-    color: rgba(255, 255, 255, 0.8);
 }
