@@ -1,40 +1,4 @@
-// Bağlantı bilgilerini buraya yapıştır
-const SUPABASE_URL = 'https://xnmkiajbzhaadjffalop.supabase.co';
-const SUPABASE_KEY = 'sb_publishable_IQQQWkW4S_s1RhCOEekJ9Q_Gz55owey';
 
-// Veritabanından verileri çeken fonksiyon
-async function fetchKdramas() {
-    try {
-        const response = await fetch(`${SUPABASE_URL}/rest/v1/kdramas?select=*`, {
-            headers: {
-                'apikey': SUPABASE_KEY,
-                'Authorization': `Bearer ${SUPABASE_KEY}`
-            }
-        });
-
-        if (!response.ok) throw new Error('Veri çekilemedi!');
-
-        const data = await response.json();
-        
-        // SQL'de sütun adını 'actors' yapmıştık, kodun geri kalanı 'cast' bekliyor.
-        // Bu yüzden veriyi saniyeler içinde koda uyumlu hale getiriyoruz:
-        window.kdramaData = data.map(drama => ({
-            ...drama,
-            cast: drama.actors // SQL'deki actors kısmını cast olarak tanıtıyoruz
-        }));
-
-        // Veriler geldikten sonra ana menüyü veya dizileri başlat
-        if (typeof window.displayKdramas === 'function') {
-            // Eğer sayfa yüklendiğinde hemen diziler görünsün istersen burayı çağırabilirsin
-            console.log("Veriler SQL'den başarıyla yüklendi: ", window.kdramaData.length);
-        }
-    } catch (error) {
-        console.error('SQL Hatası:', error);
-    }
-}
-
-// Sayfa açılır açılmaz verileri çekmeye başla
-fetchKdramas();
 
 
 const allWords = {
