@@ -1,4 +1,9 @@
-
+{
+  "allWords": {},
+  "kdramaData": [],
+  "actorPhotos": {},
+  "actorDetails": {}
+}
 "🇰🇷 HANGUL ALFABESİ": [
     // 1. ÜNLÜLER (Vowels)
     { "korece": "ㅏ", "okunus": "a", "turkce": "A", "ornek": "아", "ornekOkunus": "a", "ornekTr": "Bildiğimiz 'A' sesi.", "subCat": "Ünlüler" },
