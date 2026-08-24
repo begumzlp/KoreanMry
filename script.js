@@ -212,9 +212,7 @@ await loadData();
     window.createDramaCard = function(drama) {
     const card = document.createElement('div');
     card.className = 'kdrama-card animate-in';
-
-    const imageSrc = drama.afis || "https://via.placeholder.com/300x450?text=No+Image";
-
+        
     let favorites = JSON.parse(localStorage.getItem('kdramaFavs')) || [];
     const isFav = favorites.includes(drama.title);
 
