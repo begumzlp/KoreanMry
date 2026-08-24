@@ -209,32 +209,36 @@ await loadData();
 };
 
     // --- 6. YARDIMCI KART OLUŞTURUCULAR ---
-    window.createDramaCard = function(drama) {
+window.createDramaCard = function(drama) {
     const card = document.createElement('div');
     card.className = 'kdrama-card animate-in';
+    
+    // Resim adresini kontrol ediyoruz
     const imageSrc = drama.afis || "https://via.placeholder.com/300x450?text=No+Image";
     let favorites = JSON.parse(localStorage.getItem('kdramaFavs')) || [];
     const isFav = favorites.includes(drama.title);
-     card.innerHTML = `
-    <div class="poster-container">
-        <span class="episode-badge">${drama.episodes || "?"} Bölüm</span>
 
-        <button class="fav-btn ${isFav ? 'active' : ''}"
-            onclick="event.stopPropagation(); window.toggleFavorite('${drama.title}')">
-            ${isFav ? '❤️' : '🤍'}
-        </button>
+    card.innerHTML = `
+        <div class="poster-container">
+            <span class="episode-badge">${drama.episodes || "?"} Bölüm</span>
 
-        ${imageSrc}
-    </div>
+            <button class="fav-btn ${isFav ? 'active' : ''}"
+                onclick="event.stopPropagation(); window.toggleFavorite('${drama.title}')">
+                ${isFav ? '❤️' : '🤍'}
+            </button>
 
-    <div class="card-info">
-        <h3>${drama.title}</h3>
-        <p>${drama.year} - ${drama.cast}</p>
-    </div>
-`;
+            <img src="${imageSrc}" alt="${drama.title}" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+
+        <div class="card-info">
+            <h3>${drama.title}</h3>
+            <p>${drama.year} - ${drama.cast}</p>
+        </div>
+    `;
+    
     wordGrid.appendChild(card);
 };
-
+    
 // Favori Ekleme/Çıkarma Mantığı ✨
     window.toggleFavorite = function(title) {
     let favorites = JSON.parse(localStorage.getItem('kdramaFavs')) || [];
