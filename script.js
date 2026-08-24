@@ -224,11 +224,12 @@ await loadData();
             <span class="episode-badge">${drama.episodes || "?"} Bölüm</span>
 
             <button class="fav-btn ${isFav ? 'active' : ''}"
-                onclick="event.stopPropagation(); window.toggleFavorite('${drama.title}')">
+                onclick="event.stopPropagation(); 
+                window.toggleFavorite('${drama.title}')">
                 ${isFav ? '❤️' : '🤍'}
             </button>
 
-            ${imageSrc}
+            ${imageSrc}="${drama.title}">
         </div>
 
         <div class="card-info">
