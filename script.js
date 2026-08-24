@@ -210,26 +210,24 @@ await loadData();
 
     // --- 6. YARDIMCI KART OLUŞTURUCULAR ---
     window.createDramaCard = function(drama) {
-
     const card = document.createElement('div');
     card.className = 'kdrama-card animate-in';
-
     const imageSrc = drama.afis || "https://via.placeholder.com/300x450?text=No+Image";
-
     let favorites = JSON.parse(localStorage.getItem('kdramaFavs')) || [];
     const isFav = favorites.includes(drama.title);
-
      card.innerHTML = `
     <div class="poster-container">
         <span class="episode-badge">${drama.episodes || "?"} Bölüm</span>
 
         <button class="fav-btn ${isFav ? 'active' : ''}"
-            onclick="event.stopPropagation(); 
-            window.toggleFavorite('${drama.title}')">
+            onclick="event.stopPropagation(); window.toggleFavorite('${drama.title}')">
             ${isFav ? '❤️' : '🤍'}
         </button>
-        
-        <img src="${imageSrc}" alt="${dramaass="card-info">
+
+        ${imageSrc}
+    </div>
+
+    <div class="card-info">
         <h3>${drama.title}</h3>
         <p>${drama.year} - ${drama.cast}</p>
     </div>
