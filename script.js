@@ -87,7 +87,6 @@ await loadData();
     };
 
     // --- 4. KDRAMA ANA MENÜSÜ ✨ ---
-    // --- 4. KDRAMA ANA MENÜSÜ ✨ ---
     window.displayKdramas = function() {
         wordGrid.innerHTML = "";
         wordGrid.className = "category-grid-layout"; 
@@ -211,6 +210,7 @@ await loadData();
 
     // --- 6. YARDIMCI KART OLUŞTURUCULAR ---
     window.createDramaCard = function(drama) {
+    const card = document.createElement('div');
     card.className = 'kdrama-card animate-in';
     const card = document.createElement('div');
     const imageSrc = drama.afis || "https://via.placeholder.com/300x450?text=No+Image";
