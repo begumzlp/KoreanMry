@@ -219,22 +219,23 @@ window.createDramaCard = function(drama) {
     const isFav = favorites.includes(drama.title);
 
     card.innerHTML = `
-        <div class="poster-container">
-            <span class="episode-badge">${drama.episodes || "?"} Bölüm</span>
+    <div class="poster-container">
+        <span class="episode-badge">${drama.episodes || "?"} Bölüm</span>
 
-            <button class="fav-btn ${isFav ? 'active' : ''}"
-                onclick="event.stopPropagation(); window.toggleFavorite('${drama.title}')">
-                ${isFav ? '❤️' : '🤍'}
-            </button>
+        <button class="fav-btn ${isFav ? 'active' : ''}"
+            onclick="event.stopPropagation(); window.toggleFavorite('${drama.title}')">
+            ${isFav ? '❤️' : '🤍'}
+        </button>
 
-            <img src="${imageSrc}" alt="${drama.title}" style="width: 100%; height: 100%; object-fit: cover;">
-        </div>
+        <img src="${imageSrc}" alt="${drama.title}" 
+        style="width:100%;height:100%;object-fit:cover;">
+    </div>
 
-        <div class="card-info">
-            <h3>${drama.title}</h3>
-            <p>${drama.year} - ${drama.cast}</p>
-        </div>
-    `;
+    <div class="card-info">
+        <h3>${drama.title}</h3>
+        <p>${drama.year} - ${drama.cast}</p>
+    </div>
+`;
     
     wordGrid.appendChild(card);
 };
