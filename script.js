@@ -219,24 +219,21 @@ await loadData();
     let favorites = JSON.parse(localStorage.getItem('kdramaFavs')) || [];
     const isFav = favorites.includes(drama.title);
 
-    card.innerHTML = `
+     card.innerHTML = `
     <div class="poster-container">
         <span class="episode-badge">${drama.episodes || "?"} Bölüm</span>
 
         <button class="fav-btn ${isFav ? 'active' : ''}"
-            onclick="event.stopPropagation(); window.toggleFavorite('${drama.title}')">
+            onclick="event.stopPropagation(); 
+            window.toggleFavorite('${drama.title}')">
             ${isFav ? '❤️' : '🤍'}
         </button>
-
-        ${imageSrc}
-    </div>
-
-    <div class="card-info">
+        
+        <img src="${imageSrc}" alt="${dramaass="card-info">
         <h3>${drama.title}</h3>
         <p>${drama.year} - ${drama.cast}</p>
     </div>
 `;
-
     wordGrid.appendChild(card);
 };
 
