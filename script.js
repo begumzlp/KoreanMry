@@ -2,7 +2,7 @@ let allWords = {};
 let kdramaData = [];
 let actorPhotos = {};
 let actorDetails = {};
-let kpopData = {};
+let kpopData = [];
 
 async function loadData() {
     try {
