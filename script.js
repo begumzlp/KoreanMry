@@ -214,29 +214,45 @@ window.createDramaCard = function(drama) {
     card.className = 'kdrama-card animate-in';
     
     // Resim adresini kontrol ediyoruz
-    const imageSrc = drama.afis || "https://via.placeholder.com/300x450?text=No+Image";
+    
     let favorites = JSON.parse(localStorage.getItem('kdramaFavs')) || [];
     const isFav = favorites.includes(drama.title);
-
     card.innerHTML = `
-    <div class="poster-container">
-        <span class="episode-badge">${drama.episodes || "?"} Bölüm</span>
+<div class="card-inner">
 
-        <button class="fav-btn ${isFav ? 'active' : ''}"
-            onclick="event.stopPropagation(); window.toggleFavorite('${drama.title}')">
-            ${isFav ? '❤️' : '🤍'}
-        </button>
+    <div class="card-front">
 
-        <img src="${imageSrc}" alt="${drama.title}" 
-        style="width:100%;height:100%;object-fit:cover;">
+        <div class="poster-container">
+
+            <span class="episode-badge">
+                ${drama.episodes || "?"} Bölüm
+            </span>
+
+            <button
+                class="fav-btn ${isFav ? 'active' : ''}"
+                onclick="event.stopPropagation(); window.toggleFavorite('${drama.title}')"
+            >
+                ${isFav ? '❤️' : '🤍'}
+            </button>
+
+            <img src="${imageSrc}" alt="${drama.title}" style="width:100%;           <h3>${drama.title}</h3>
+            <p>${drama.year}</p>
+        </div>
+
     </div>
 
-    <div class="card-info">
-        <h3>${drama.title}</h3>
-        <p>${drama.year} - ${drama.cast}</p>
+    <div class="card-back">
+        <h2>${drama.title}</h2>
+        <p>📅 ${drama.year}</p>
+        <p>🎭 ${drama.cast}</p>
+        <p>🎬 ${drama.episodes} Bölüm</p>
     </div>
+
+</div>
 `;
-    
+   card.onclick = () => {
+    card.classList.toggle('is-flipped');
+}; 
     wordGrid.appendChild(card);
 };
     
