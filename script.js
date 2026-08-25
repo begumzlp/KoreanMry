@@ -212,8 +212,7 @@ await loadData();
 window.createDramaCard = function(drama) {
     const card = document.createElement('div');
     card.className = 'kdrama-card animate-in';
-    
-    // Resim adresini kontrol ediyoruz
+    const imageSrc = drama.afis || "https://via.placeholder.com/300x450?text=No+Image";
     
     let favorites = JSON.parse(localStorage.getItem('kdramaFavs')) || [];
     const isFav = favorites.includes(drama.title);
@@ -227,11 +226,9 @@ window.createDramaCard = function(drama) {
             <span class="episode-badge">
                 ${drama.episodes || "?"} Bölüm
             </span>
-
             <button
                 class="fav-btn ${isFav ? 'active' : ''}"
-                onclick="event.stopPropagation(); window.toggleFavorite('${drama.title}')"
-            >
+                onclick="event.stopPropagation(); window.toggleFavorite('${drama.title}')">
                 ${isFav ? '❤️' : '🤍'}
             </button>
 
