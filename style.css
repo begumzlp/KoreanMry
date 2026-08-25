@@ -544,5 +544,28 @@ HIGHLIGHTLAR
     color: var(--primary-color);
 
     padding: 2px 6px;
+}
+.kdrama-card .card-inner{
+    width:100%;
+    height:100%;
+    position:relative;
+    transform-style:preserve-3d;
+    transition:transform .7s;
+}
 
+.kdrama-card .card-front,
+.kdrama-card .card-back{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+}
+
+.kdrama-card .card-back{
+    transform:rotateY(180deg);
+}
+
+.kdrama-card.is-flipped .card-inner{
+    transform:rotateY(180deg);
+}
    
