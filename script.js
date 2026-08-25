@@ -18,6 +18,8 @@ async function loadData() {
         kdramaData = data.kdramaData || [];
         actorPhotos = data.actorPhotos || {};
         actorDetails = data.actorDetails || {};
+        kpopData = data.kpopData || [];
+        
     } catch (error) {
         console.error(error);
     }
