@@ -2,6 +2,7 @@ let allWords = {};
 let kdramaData = [];
 let actorPhotos = {};
 let actorDetails = {};
+let kpopData = {};
 
 async function loadData() {
     try {
@@ -311,9 +312,30 @@ window.createDramaCard = function(drama) {
     };
 
     window.displayKpop = function() {
-        wordGrid.innerHTML = `<p style="text-align:center; padding:20px;">🎤 K-Pop modülü yakında eklenecek!</p>`;
-        categoryButtons.innerHTML = `<button class="cat-btn" onclick="goHome()">⬅️ Geri Dön</button><h2>🎵 K-POP AREA</h2>`;
-    };
+
+    wordGrid.innerHTML = "";
+    wordGrid.className = "category-grid-layout";
+
+    categoryButtons.innerHTML = `
+        <button class="cat-btn" onclick="goHome()">
+            ⬅️ Ana Menü
+        </button>
+        <h2>🎤 K-POP GROUPS</h2>
+    `;
+
+    kpopData.forEach(group => {
+        const card = document.createElement("div");
+        card.className = "menu-card animate-in";
+
+        card.innerHTML = `
+            <h3>${group.group}</h3>
+            <p>🎉 ${group.debut}</p>
+            <p>💜 ${group.fandom}</p>
+        `;
+
+        wordGrid.appendChild(card);
+    });
+};
 
     // --- 8. GECE MODU ---
     const themeToggle = document.getElementById('themeToggle');
