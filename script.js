@@ -174,7 +174,6 @@ card.innerHTML = `
         wordGrid.className = "category-grid-layout";
         searchWrapper.style.display = "none";
         categoryButtons.innerHTML = `<button class="cat-btn" onclick="window.displayKdramas()">⬅️ Geri Dön</button><h2>📅 YILLARA GÖRE DİZİLER</h2>`;
-
         const years = [...new Set(kdramaData.map(d => d.year))].sort((a,b) => b - a);
         years.forEach(year => {
             const card = document.createElement('div');
