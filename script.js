@@ -26,7 +26,7 @@ async function loadData() {
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
-await loadData();
+    await loadData();
     const wordGrid = document.getElementById('wordGrid');
     const searchWrapper = document.getElementById('searchWrapper');
     const searchInput = document.getElementById('searchInput');
@@ -36,7 +36,6 @@ await loadData();
     // --- 1. MODÜL BAŞLATICI ✨ ---
     window.startModule = function(moduleType) {
         mainMenu.style.display = "none";
-        // Arama çubuğunu sadece 'kelimeler' ve 'tüm diziler/oyuncular' kısmında gösteriyoruz
         searchWrapper.style.display = (moduleType === 'words') ? "flex" : "none";
         wordGrid.innerHTML = "";
         searchInput.value = ""; 
@@ -44,7 +43,7 @@ await loadData();
         if (moduleType === 'alphabet') displayWords("", "🇰🇷 HANGUL ALFABESİ");
         else if (moduleType === 'words') displayCategoryMenu();
         else if (moduleType === 'numbers') displayWords("", "🔢 SAYILAR");
-        else if (moduleType === 'random') displayRandomWords(); // Eğer bu fonksiyonunuz allWords içindeyse çalışır
+        else if (moduleType === 'random') displayRandomWords(); 
         else if (moduleType === 'kdrama') window.displayKdramas();
         else if (moduleType === 'kpop') displayKpop();
     };
@@ -95,7 +94,6 @@ await loadData();
         wordGrid.className = "category-grid-layout"; 
         searchWrapper.style.display = "none";
         
-        // İstatistikler (Dinamik)
         const totalDramas = kdramaData.length;
         categoryButtons.innerHTML = `
             <button class="cat-btn" onclick="goHome()">⬅️ Ana Menü</button>
@@ -107,7 +105,7 @@ await loadData();
             { id: 'all_dramas', title: '🎬 Tüm Diziler', icon: '📺' },
             { id: 'actors', title: '👤 Koreli Oyuncular', icon: '🌟' },
             { id: 'years', title: '📅 Yıllara Göre', icon: '⏳' },
-            { id: 'favs', title: '❤️ Favorilerim', icon: '💖' } // Buton burada
+            { id: 'favs', title: '❤️ Favorilerim', icon: '💖' }
         ];
 
         subCategories.forEach(sub => {
@@ -115,12 +113,11 @@ await loadData();
             card.className = 'menu-card animate-in';
             card.innerHTML = `<div style="font-size: 3rem; margin-bottom: 15px;">${sub.icon}</div><h3 style="color: var(--primary-color);">${sub.title}</h3>`;
             
-            // TIKLAMA OLAYI BURADA ✨
             card.onclick = () => {
                 if (sub.id === 'all_dramas') window.showAllDramas();
                 else if (sub.id === 'actors') window.showActorsMenu();
                 else if (sub.id === 'years') window.showYearsMenu();
-                else if (sub.id === 'favs') window.showFavorites(); // Favorileri çağıran satır
+                else if (sub.id === 'favs') window.showFavorites();
             };
             wordGrid.appendChild(card);
         });
@@ -149,26 +146,24 @@ await loadData();
         const uniqueActors = [...new Set(allActors)].sort();
         const term = searchTerm.toLowerCase().trim();
 
-       uniqueActors.filter(a => a.toLowerCase().includes(term)).forEach(actor => {
+        uniqueActors.filter(a => a.toLowerCase().includes(term)).forEach(actor => {
+            const card = document.createElement('div');
+            card.className = 'menu-card animate-in';
+            card.style.padding = "20px";
 
-    const card = document.createElement('div');
-    card.className = 'menu-card animate-in';
-    card.style.padding = "20px";
+            const actorPhoto = actorPhotos[actor]?.photo || "https://via.placeholder.com/150x150?text=Actor";
 
-    const actorPhoto =
-        actorPhotos[actor]?.photo ||
-        "https://via.placeholder.com/150x150?text=Actor";
-
-    card.innerHTML = `
-        <div class="actor-photo-container">
-            <img
-                src="${actorPhoto}"
-                alt="${actor}"
-         = () => window.showFilteredDramas(actor, 'actor');
-
-    wordGrid.appendChild(card);
-});
-    
+            card.innerHTML = `
+                <div class="actor-photo-container">
+                    <img src="${actorPhoto}" alt="${actor}" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 10px;">
+                </div>
+                <h3>${actor}</h3>
+            `;
+            
+            card.onclick = () => window.showFilteredDramas(actor, 'actor');
+            wordGrid.appendChild(card);
+        });
+    };
 
     window.showYearsMenu = function() {
         wordGrid.innerHTML = "";
@@ -187,117 +182,106 @@ await loadData();
     };
 
     window.showFilteredDramas = function(value, type) {
-    wordGrid.innerHTML = "";
-    wordGrid.className = "category-grid-layout";
-    searchWrapper.style.display = "none";
-    
-    const backFunc = type === 'actor' ? "window.showActorsMenu()" : "window.showYearsMenu()";
-    
-    let actorHeaderHTML = "";
-   if (type === 'actor') {
+        wordGrid.innerHTML = "";
+        wordGrid.className = "category-grid-layout";
+        searchWrapper.style.display = "none";
+        
+        const backFunc = type === 'actor' ? "window.showActorsMenu()" : "window.showYearsMenu()";
+        
+        let actorHeaderHTML = "";
+        if (type === 'actor') {
+            const actorInfo = actorDetails[value] || {};
+            const actorPhotoSrc = actorPhotos[value]?.photo || "https://via.placeholder.com/150x150?text=Actor";
 
-    const actorInfo = actorDetails[value] || {};
-    const actorPhoto = actorPhotos[value]?.photo || "";
-
-    actorHeaderHTML = `
-        <div class="actor-profile-card animate-in">
-            ${actorPhoto}
-            <div class="actor-info-text">
-                <h2>${value}</h2>
-                <p>${actorInfo.bio || ""}</p>
-                <span class="insta-tag">
-                    📱 ${actorInfo.insta || ""}
-                </span>
-            </div>
-        </div>
-
-        <h3 style="margin:30px 0 15px 0;color:var(--primary-color);">
-            Dizileri (${kdramaData.filter(d => d.cast.includes(value)).length})
-        </h3>
-    `;
-}
-
-    categoryButtons.innerHTML = `
-        <button class="cat-btn" onclick="${backFunc}">⬅️ Geri Dön</button>
-        ${actorHeaderHTML}
-    `;
-
-    kdramaData.filter(d => type === 'year' ? d.year === value : d.cast.includes(value))
-              .forEach(drama => window.createDramaCard(drama));
-};
-
-    // --- 6. YARDIMCI KART OLUŞTURUCULAR ---
-window.createDramaCard = function(drama) {
-
-    const card = document.createElement('div');
-    card.className = 'kdrama-card animate-in';
-    const imageSrc = drama.afis ||
-        "https://via.placeholder.com/300x450?text=No+Image";
-    const favorites =
-        JSON.parse(localStorage.getItem('kdramaFavs')) || [];
-
-    const isFav = favorites.includes(drama.title);
-
-    card.innerHTML = `
-        <div class="card-inner">
-            <div class="card-front">
-                <div class="poster-container">
-                    <img
-                        src="${imageSrc}"e">
-                        ${drama.episodes || "?"} Bölüm
-                    </span>
-
-                    <button
-                        class="fav-btn ${isFav ? 'active' : ''}"
-                        onclick="event.stopPropagation();
-                        window.toggleFavorite('${drama.title}')">
-                        ${isFav ? '❤️' : '🤍'}
-                    </button>
-
+            actorHeaderHTML = `
+                <div class="actor-profile-card animate-in" style="display: flex; gap: 20px; align-items: center; margin-bottom: 20px;">
+                    <img src="${actorPhotoSrc}" alt="${value}" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+                    <div class="actor-info-text">
+                        <h2>${value}</h2>
+                        <p>${actorInfo.bio || ""}</p>
+                        <span class="insta-tag">
+                            📱 ${actorInfo.insta || ""}
+                        </span>
+                    </div>
                 </div>
-                <div class="card-info">
-                    <h3>${drama.title}</h3>
-                    <p>📅 ${drama.year}</p>
-                </div>
-            </div>
-            <div class="card-back">
 
-                <h2>${drama.title}</h2>
-                <p>📅 ${drama.year}</p>
-                <p>🎭 ${drama.cast}</p>
-                <p>🎬 ${drama.episodes} Bölüm</p>
+                <h3 style="margin:30px 0 15px 0;color:var(--primary-color);">
+                    Dizileri (${kdramaData.filter(d => d.cast && d.cast.includes(value)).length})
+                </h3>
+            `;
+        }
 
-            </div>
-        </div>
-    `;
+        categoryButtons.innerHTML = `
+            <button class="cat-btn" onclick="${backFunc}">⬅️ Geri Dön</button>
+            ${actorHeaderHTML}
+        `;
 
-    card.onclick = () => {
-        card.classList.toggle('is-flipped');
+        kdramaData.filter(d => type === 'year' ? d.year === value : (d.cast && d.cast.includes(value)))
+                  .forEach(drama => window.createDramaCard(drama));
     };
 
-    wordGrid.appendChild(card);
-};
+    // --- 6. YARDIMCI KART OLUŞTURUCULAR ---
+    window.createDramaCard = function(drama) {
+        const card = document.createElement('div');
+        card.className = 'kdrama-card animate-in';
+        const imageSrc = drama.afis || "https://via.placeholder.com/300x450?text=No+Image";
+        const favorites = JSON.parse(localStorage.getItem('kdramaFavs')) || [];
+        const isFav = favorites.includes(drama.title);
+
+        card.innerHTML = `
+            <div class="card-inner">
+                <div class="card-front">
+                    <div class="poster-container" style="position: relative;">
+                        <img src="${imageSrc}" alt="${drama.title}" style="width: 100%; height: auto; border-radius: 8px;">
+                        <span class="episode-badge" style="position: absolute; top: 10px; left: 10px; background: rgba(0,0,0,0.6); color: #fff; padding: 4px 8px; border-radius: 4px;">
+                            ${drama.episodes || "?"} Bölüm
+                        </span>
+
+                        <button class="fav-btn ${isFav ? 'active' : ''}" style="position: absolute; top: 10px; right: 10px; background: none; border: none; font-size: 1.5rem; cursor: pointer;"
+                            onclick="event.stopPropagation(); window.toggleFavorite('${drama.title}')">
+                            ${isFav ? '❤️' : '🤍'}
+                        </button>
+                    </div>
+                    <div class="card-info">
+                        <h3>${drama.title}</h3>
+                        <p>📅 ${drama.year}</p>
+                    </div>
+                </div>
+                <div class="card-back">
+                    <h2>${drama.title}</h2>
+                    <p>📅 ${drama.year}</p>
+                    <p>🎭 ${drama.cast}</p>
+                    <p>🎬 ${drama.episodes} Bölüm</p>
+                </div>
+            </div>
+        `;
+
+        card.onclick = () => {
+            card.classList.toggle('is-flipped');
+        };
+
+        wordGrid.appendChild(card);
+    };
 
     window.toggleFavorite = function(title) {
-    let favorites = JSON.parse(localStorage.getItem('kdramaFavs')) || [];
-    if (favorites.includes(title)) {
-        favorites = favorites.filter(f => f !== title);
-    } else {
-        favorites.push(title);
-    }
-    localStorage.setItem('kdramaFavs', JSON.stringify(favorites));
-    
-    // Hangi sayfadaysak orayı yenile ✨
-    const currentTitle = categoryButtons.querySelector('h2').innerText;
-    if (currentTitle === "💖 FAVORİ DİZİLERİM") {
-        window.showFavorites();
-    } else if (currentTitle === "📺 TÜM DİZİLER") {
-        window.showAllDramas(searchInput.value);
-    } else {
-        // Diğer durumlarda (Oyuncu/Yıl alt sayfaları gibi)
-        // Mevcut görünümü korumak için ilgili fonksiyonu tekrar çağırabilirsin
-    }
-};
+        let favorites = JSON.parse(localStorage.getItem('kdramaFavs')) || [];
+        if (favorites.includes(title)) {
+            favorites = favorites.filter(f => f !== title);
+        } else {
+            favorites.push(title);
+        }
+        localStorage.setItem('kdramaFavs', JSON.stringify(favorites));
+        
+        const h2Elem = categoryButtons.querySelector('h2');
+        if (!h2Elem) return;
+        const currentTitle = h2Elem.innerText;
+        
+        if (currentTitle === "💖 FAVORİ DİZİLERİM") {
+            window.showFavorites();
+        } else if (currentTitle === "📺 TÜM DİZİLER") {
+            window.showAllDramas(searchInput.value);
+        }
+    };
 
     function createCard(item) {
         const card = document.createElement('div');
@@ -335,30 +319,29 @@ window.createDramaCard = function(drama) {
     };
 
     window.displayKpop = function() {
+        wordGrid.innerHTML = "";
+        wordGrid.className = "category-grid-layout";
 
-    wordGrid.innerHTML = "";
-    wordGrid.className = "category-grid-layout";
-
-    categoryButtons.innerHTML = `
-        <button class="cat-btn" onclick="goHome()">
-            ⬅️ Ana Menü
-        </button>
-        <h2>🎤 K-POP GROUPS</h2>
-    `;
-
-    kpopData.forEach(group => {
-        const card = document.createElement("div");
-        card.className = "menu-card animate-in";
-
-        card.innerHTML = `
-            <h3>${group.group}</h3>
-            <p>🎉 ${group.debut}</p>
-            <p>💜 ${group.fandom}</p>
+        categoryButtons.innerHTML = `
+            <button class="cat-btn" onclick="goHome()">
+                ⬅️ Ana Menü
+            </button>
+            <h2>🎤 K-POP GROUPS</h2>
         `;
 
-        wordGrid.appendChild(card);
-    });
-};
+        kpopData.forEach(group => {
+            const card = document.createElement("div");
+            card.className = "menu-card animate-in";
+
+            card.innerHTML = `
+                <h3>${group.group}</h3>
+                <p>🎉 ${group.debut}</p>
+                <p>💜 ${group.fandom}</p>
+            `;
+
+            wordGrid.appendChild(card);
+        });
+    };
 
     // --- 8. GECE MODU ---
     const themeToggle = document.getElementById('themeToggle');
@@ -385,7 +368,6 @@ window.createDramaCard = function(drama) {
             <h2>💖 FAVORİ DİZİLERİM</h2>
         `;
 
-        // Hafızadan çek
         const favorites = JSON.parse(localStorage.getItem('kdramaFavs')) || [];
 
         if (favorites.length === 0) {
@@ -397,10 +379,7 @@ window.createDramaCard = function(drama) {
             return;
         }
 
-        // Favorileri kdramaData içinden bul ve kartlarını oluştur
         const favList = kdramaData.filter(drama => favorites.includes(drama.title));
         favList.forEach(drama => window.createDramaCard(drama));
     };
-
-
 });
