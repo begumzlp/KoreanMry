@@ -162,7 +162,7 @@ card.innerHTML = `
         <img
             src="${actorPhoto}"
             alt="${actor}"
-            class="actor-menu-photo"
+            class="actor-menu-photo">
    </div>
             card.onclick = () => window.showFilteredDramas(actor, 'actor');
             wordGrid.appendChild(card);
