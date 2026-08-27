@@ -163,7 +163,7 @@ card.innerHTML = `
             src="${actorPhoto}"
             alt="${actor}"
             class="actor-menu-photo"
-   
+   </div>
             card.onclick = () => window.showFilteredDramas(actor, 'actor');
             wordGrid.appendChild(card);
         });
@@ -193,7 +193,6 @@ card.innerHTML = `
     
     const backFunc = type === 'actor' ? "window.showActorsMenu()" : "window.showYearsMenu()";
     
-    // Eğer oyuncuysa profil bilgilerini hazırla ✨
     let actorHeaderHTML = "";
    if (type === 'actor') {
 
@@ -279,9 +278,6 @@ window.createDramaCard = function(drama) {
     wordGrid.appendChild(card);
 };
 
-    
-    
-// Favori Ekleme/Çıkarma Mantığı ✨
     window.toggleFavorite = function(title) {
     let favorites = JSON.parse(localStorage.getItem('kdramaFavs')) || [];
     if (favorites.includes(title)) {
