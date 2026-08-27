@@ -149,23 +149,25 @@ await loadData();
         const uniqueActors = [...new Set(allActors)].sort();
         const term = searchTerm.toLowerCase().trim();
 
-        uniqueActors.filter(a => a.toLowerCase().includes(term)).forEach(actor => {
-            const card = document.createElement('div');
-            card.className = 'menu-card animate-in';
-            card.style.padding = "20px";
-            const actorPhoto =
-    actorPhotos[actor]?.photo ||
-    "https://via.placeholder.com/150x150?text=Actor";
+       uniqueActors.filter(a => a.toLowerCase().includes(term)).forEach(actor => {
 
-card.innerHTML = `
-    <div class="actor-photo-container">
-        ${actorPhoto}
-        </div>
-        
-        <h3>${actor}</h3>
-            card.onclick = () => window.showFilteredDramas(actor, 'actor');
-            wordGrid.appendChild(card);
-        });
+    const card = document.createElement('div');
+    card.className = 'menu-card animate-in';
+    card.style.padding = "20px";
+
+    const actorPhoto =
+        actorPhotos[actor]?.photo ||
+        "https://via.placeholder.com/150x150?text=Actor";
+
+    card.innerHTML = `
+        <div class="actor-photo-container">
+            <img
+                src="${actorPhoto}"
+                alt="${actor}"
+         = () => window.showFilteredDramas(actor, 'actor');
+
+    wordGrid.appendChild(card);
+});
     
 
     window.showYearsMenu = function() {
