@@ -354,35 +354,6 @@ KDRAMA
     cursor:pointer;
 }
 
-.kdrama-card .card-inner{
-    width:100%;
-    height:100%;
-    position:relative;
-    transform-style:preserve-3d;
-    transition:transform .6s;
-}
-
-.kdrama-card.is-flipped .card-inner{
-    transform:rotateY(180deg);
-}
-
-.kdrama-card .card-front,
-.kdrama-card .card-back{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-
-    border-radius:20px;
-    overflow:hidden;
-
-    backface-visibility:hidden;
-    -webkit-backface-visibility:hidden;
-
-    box-shadow:var(--shadow);
-}
-
 .kdrama-card .card-front{
     background:var(--card-bg);
 }
