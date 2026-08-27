@@ -185,22 +185,28 @@ await loadData();
     
     // Eğer oyuncuysa profil bilgilerini hazırla ✨
     let actorHeaderHTML = "";
-    if (type === 'actor' && actorDetails[value]) {
-        const actor = actorDetails[value];
-        actorHeaderHTML = `
-            <div class="actor-profile-card animate-in">
-                <img src="${actor.photo}" alt="${value}">
-                <div class="actor-info-text">
-                    <h2>${value}</h2>
-                    <p>${actor.bio}</p>
-                    <span class="insta-tag">📱 ${actor.insta}</span>
-                </div>
+   if (type === 'actor') {
+
+    const actorInfo = actorDetails[value] || {};
+    const actorPhoto = actorPhotos[value]?.photo || "";
+
+    actorHeaderHTML = `
+        <div class="actor-profile-card animate-in">
+            ${actorPhoto}
+            <div class="actor-info-text">
+                <h2>${value}</h2>
+                <p>${actorInfo.bio || ""}</p>
+                <span class="insta-tag">
+                    📱 ${actorInfo.insta || ""}
+                </span>
             </div>
-            <h3 style="margin: 30px 0 15px 0; color: var(--primary-color);">Dizileri (${kdramaData.filter(d => d.cast.includes(value)).length})</h3>
-        `;
-    } else {
-        actorHeaderHTML = `<h2>✨ ${value} DİZİLERİ</h2>`;
-    }
+        </div>
+
+        <h3 style="margin:30px 0 15px 0;color:var(--primary-color);">
+            Dizileri (${kdramaData.filter(d => d.cast.includes(value)).length})
+        </h3>
+    `;
+}
 
     categoryButtons.innerHTML = `
         <button class="cat-btn" onclick="${backFunc}">⬅️ Geri Dön</button>
