@@ -294,7 +294,6 @@ KELİME KARTLARI
     transform: rotateY(180deg);
 }
 
-.card-front,
 .card-back {
 
     position: absolute;
@@ -322,17 +321,6 @@ KELİME KARTLARI
     background: var(--card-bg);
 }
 
-.card-back {
-
-    background: var(--primary-color);
-
-    color: white;
-
-    transform: rotateY(180deg);
-
-    overflow-y: auto;
-}
-
 .pronunciation {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -355,11 +343,11 @@ KDRAMA
 }
 
 .kdrama-card .card-front{
-    background:var(--card-bg);
+    background:var(--primary-color);
 }
 
 .kdrama-card .card-back{
-    background:var(--card-bg);
+    background:var(--primary-color);
     color:white;
     transform:rotateY(180deg);
     display:flex;
