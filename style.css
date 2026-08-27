@@ -598,10 +598,6 @@ HIGHLIGHTLAR
 .kdrama-card.is-flipped .card-inner{
     transform:rotateY(180deg);
 }
-.kdrama-card {
-    height: 500px;
-    perspective: 1000px;
-    cursor: pointer;
-}
+
 
    
