@@ -159,11 +159,10 @@ await loadData();
 
 card.innerHTML = `
     <div class="actor-photo-container">
-        <img
-            src="${actorPhoto}"
-            alt="${actor}"
-            class="actor-menu-photo">
-   </div>
+        ${actorPhoto}
+        </div>
+        
+        <h3>${actor}</h3>
             card.onclick = () => window.showFilteredDramas(actor, 'actor');
             wordGrid.appendChild(card);
         });
