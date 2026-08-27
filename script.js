@@ -153,7 +153,17 @@ await loadData();
             const card = document.createElement('div');
             card.className = 'menu-card animate-in';
             card.style.padding = "20px";
-            card.innerHTML = `<div style="font-size:1.5rem;">👤</div><h3>${actor}</h3>`;
+            const actorPhoto =
+    actorPhotos[actor]?.photo ||
+    "https://via.placeholder.com/150x150?text=Actor";
+
+card.innerHTML = `
+    <div class="actor-photo-container">
+        <img
+            src="${actorPhoto}"
+            alt="${actor}"
+            class="actor-menu-photo"
+   
             card.onclick = () => window.showFilteredDramas(actor, 'actor');
             wordGrid.appendChild(card);
         });
