@@ -213,46 +213,61 @@ await loadData();
 
     // --- 6. YARDIMCI KART OLUŞTURUCULAR ---
 window.createDramaCard = function(drama) {
+
     const card = document.createElement('div');
     card.className = 'kdrama-card animate-in';
-    const imageSrc = drama.afis || "https://via.placeholder.com/300x450?text=No+Image";
-    
-    let favorites = JSON.parse(localStorage.getItem('kdramaFavs')) || [];
+
+    const imageSrc =
+        drama.afis ||
+        "https://via.placeholder.com/300x450?text=No+Image";
+
+    let favorites =
+        JSON.parse(localStorage.getItem('kdramaFavs')) || [];
+
     const isFav = favorites.includes(drama.title);
+
     card.innerHTML = `
-<div class="card-inner">
+        <div class="card-inner">
 
-    <div class="card-front">
+            <div class="card-front">
 
-        <div class="poster-container">
+                <div class="poster-container">
 
-            <span class="episode-badge">
-                ${drama.episodes || "?"} Bölüm
-            </span>
-            <button
-                class="fav-btn ${isFav ? 'active' : ''}"
-                onclick="event.stopPropagation(); window.toggleFavorite('${drama.title}')">
-                ${isFav ? '❤️' : '🤍'}
-            </button>
+                    <span class="episode-badge">
+                        ${drama.episodes || "?"} Bölüm
+                    </span>
 
-            <img src="${imageSrc}" alt="${drama.title}" style="width:100%;           <h3>${drama.title}</h3>
-            <p>${drama.year}</p>
+                    <button
+                        class="fav-btn ${isFav ? 'active' : ''}"
+                        onclick="event.stopPropagation(); window.toggleFavorite('${drama.title}')">
+                        ${isFav ? '❤️' : '🤍'}
+                    </button>
+
+                    <img
+                        src="${imageSrc}"
+                        alt="${                   <h3>${drama.title}</h3>
+                    <p>📅 ${drama.year}</p>
+                </div>
+
+            </div>
+
+            <div class="card-back">
+                <h2>${drama.title}</h2>
+
+                <p>📅 ${drama.year}</p>
+
+                <p>🎭 ${drama.cast}</p>
+
+                <p>🎬 ${drama.episodes} Bölüm</p>
+            </div>
+
         </div>
+    `;
 
-    </div>
+    card.onclick = () => {
+        card.classList.toggle('is-flipped');
+    };
 
-    <div class="card-back">
-        <h2>${drama.title}</h2>
-        <p>📅 ${drama.year}</p>
-        <p>🎭 ${drama.cast}</p>
-        <p>🎬 ${drama.episodes} Bölüm</p>
-    </div>
-
-</div>
-`;
-   card.onclick = () => {
-    card.classList.toggle('is-flipped');
-}; 
     wordGrid.appendChild(card);
 };
     
