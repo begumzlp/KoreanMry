@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     Dizileri (${kdramaData.filter(d => d.cast && d.cast.includes(value)).length})
                 </h3>
             `;
-        }
+        };
 
         categoryButtons.innerHTML = `
             <button class="cat-btn" onclick="${backFunc}">⬅️ Geri Dön</button>
