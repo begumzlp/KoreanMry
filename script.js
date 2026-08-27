@@ -216,51 +216,43 @@ window.createDramaCard = function(drama) {
 
     const card = document.createElement('div');
     card.className = 'kdrama-card animate-in';
-
-    const imageSrc =
-        drama.afis ||
+    const imageSrc = drama.afis ||
         "https://via.placeholder.com/300x450?text=No+Image";
-
-    let favorites =
+    const favorites =
         JSON.parse(localStorage.getItem('kdramaFavs')) || [];
 
     const isFav = favorites.includes(drama.title);
 
     card.innerHTML = `
         <div class="card-inner">
-
             <div class="card-front">
-
                 <div class="poster-container">
-
-                    <span class="episode-badge">
+                    <img
+                        src="${imageSrc}"e">
                         ${drama.episodes || "?"} Bölüm
                     </span>
 
                     <button
                         class="fav-btn ${isFav ? 'active' : ''}"
-                        onclick="event.stopPropagation(); window.toggleFavorite('${drama.title}')">
+                        onclick="event.stopPropagation();
+                        window.toggleFavorite('${drama.title}')">
                         ${isFav ? '❤️' : '🤍'}
                     </button>
 
-                    <img
-                        src="${imageSrc}"
-                        alt="${                   <h3>${drama.title}</h3>
+                </div>
+                <div class="card-info">
+                    <h3>${drama.title}</h3>
                     <p>📅 ${drama.year}</p>
                 </div>
-
             </div>
-
             <div class="card-back">
+
                 <h2>${drama.title}</h2>
-
                 <p>📅 ${drama.year}</p>
-
                 <p>🎭 ${drama.cast}</p>
-
                 <p>🎬 ${drama.episodes} Bölüm</p>
-            </div>
 
+            </div>
         </div>
     `;
 
@@ -270,6 +262,8 @@ window.createDramaCard = function(drama) {
 
     wordGrid.appendChild(card);
 };
+
+    
     
 // Favori Ekleme/Çıkarma Mantığı ✨
     window.toggleFavorite = function(title) {
