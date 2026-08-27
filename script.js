@@ -166,7 +166,7 @@ card.innerHTML = `
             card.onclick = () => window.showFilteredDramas(actor, 'actor');
             wordGrid.appendChild(card);
         });
-    };
+    
 
     window.showYearsMenu = function() {
         wordGrid.innerHTML = "";
